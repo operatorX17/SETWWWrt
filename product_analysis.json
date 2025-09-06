@@ -1,0 +1,293 @@
+{
+  "total_images": 84,
+  "categories": {
+    "PRODUCTS": {
+      "hats": {
+        "front_images": [
+          "WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg"
+        ],
+        "back_images": [
+          "WhatsApp Image 2025-08-31 at 8.55.48 AM (2).jpeg",
+          "WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg"
+        ],
+        "color_variants": [],
+        "total_images": 5
+      },
+      "slippers": {
+        "front_images": [
+          "WhatsApp Image 2025-08-31 at 8.55.46 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 8.55.46 AM.jpeg"
+        ],
+        "back_images": [
+          "WhatsApp Image 2025-08-31 at 8.55.47 AM (2).jpeg"
+        ],
+        "color_variants": [],
+        "total_images": 3
+      },
+      "HeadBand": {
+        "front_images": [],
+        "back_images": [],
+        "color_variants": [],
+        "total_images": 1
+      },
+      "wallet": {
+        "front_images": [],
+        "back_images": [],
+        "color_variants": [],
+        "total_images": 2
+      },
+      "teeshirt": {
+        "front_images": [
+          "WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg"
+        ],
+        "back_images": [
+          "WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg",
+          "WhatsApp Image 2025-08-31 at 8.59.07 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.18.35 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 8.59.06 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 8.59.07 AM (2).jpeg"
+        ],
+        "color_variants": [
+          {
+            "color": "black",
+            "images": [
+              "WhatsApp Image 2025-08-31 at 8.59.07 AM.jpeg",
+              "WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg"
+            ],
+            "path": "/app/PRODUCTS/teeshirt/Abstract Geometry/black"
+          },
+          {
+            "color": "blue",
+            "images": [
+              "WhatsApp Image 2025-08-31 at 10.49.02 AM.jpeg"
+            ],
+            "path": "/app/PRODUCTS/teeshirt/Abstract Geometry/blue"
+          },
+          {
+            "color": "Red",
+            "images": [
+              "WhatsApp Image 2025-08-31 at 10.48.57 AM (1).jpeg"
+            ],
+            "path": "/app/PRODUCTS/teeshirt/Friend Back Photos/Red"
+          },
+          {
+            "color": "black",
+            "images": [
+              "WhatsApp Image 2025-08-31 at 10.49.03 AM (1).jpeg"
+            ],
+            "path": "/app/PRODUCTS/teeshirt/Ocean Waves/black"
+          },
+          {
+            "color": "grey",
+            "images": [
+              "WhatsApp Image 2025-08-31 at 10.49.03 AM (2).jpeg"
+            ],
+            "path": "/app/PRODUCTS/teeshirt/Ocean Waves/grey"
+          }
+        ],
+        "total_images": 19
+      },
+      "full shirts": {
+        "front_images": [
+          "WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.09.11 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg"
+        ],
+        "back_images": [],
+        "color_variants": [],
+        "total_images": 3
+      },
+      "hoodies": {
+        "front_images": [
+          "WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+          "WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.18.36 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg"
+        ],
+        "back_images": [
+          "WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.43 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 10.49.01 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.42 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg",
+          "WhatsApp Image 2025-08-31 at 10.49.03 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.09.11 AM (1).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.09.11 AM (2).jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.49 AM (2).jpeg",
+          "WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg"
+        ],
+        "color_variants": [],
+        "total_images": 38
+      },
+      "posters": {
+        "front_images": [],
+        "back_images": [],
+        "color_variants": [],
+        "total_images": 10
+      },
+      "Sweatshirts": {
+        "front_images": [
+          "WhatsApp Image 2025-08-31 at 9.00.54 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 9.01.36 AM.jpeg"
+        ],
+        "back_images": [
+          "WhatsApp Image 2025-08-31 at 9.00.55 AM.jpeg"
+        ],
+        "color_variants": [],
+        "total_images": 3
+      }
+    }
+  },
+  "duplicates": [],
+  "color_variants": {
+    "PRODUCTS/teeshirt": [
+      {
+        "color": "black",
+        "images": [
+          "WhatsApp Image 2025-08-31 at 8.59.07 AM.jpeg",
+          "WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg"
+        ],
+        "path": "/app/PRODUCTS/teeshirt/Abstract Geometry/black"
+      },
+      {
+        "color": "blue",
+        "images": [
+          "WhatsApp Image 2025-08-31 at 10.49.02 AM.jpeg"
+        ],
+        "path": "/app/PRODUCTS/teeshirt/Abstract Geometry/blue"
+      },
+      {
+        "color": "Red",
+        "images": [
+          "WhatsApp Image 2025-08-31 at 10.48.57 AM (1).jpeg"
+        ],
+        "path": "/app/PRODUCTS/teeshirt/Friend Back Photos/Red"
+      },
+      {
+        "color": "black",
+        "images": [
+          "WhatsApp Image 2025-08-31 at 10.49.03 AM (1).jpeg"
+        ],
+        "path": "/app/PRODUCTS/teeshirt/Ocean Waves/black"
+      },
+      {
+        "color": "grey",
+        "images": [
+          "WhatsApp Image 2025-08-31 at 10.49.03 AM (2).jpeg"
+        ],
+        "path": "/app/PRODUCTS/teeshirt/Ocean Waves/grey"
+      }
+    ]
+  },
+  "back_images": [
+    "/app/PRODUCTS/hats/product1/back/WhatsApp Image 2025-08-31 at 8.55.48 AM (2).jpeg",
+    "/app/PRODUCTS/hats/product1/back/WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg",
+    "/app/PRODUCTS/hats/product2/back/WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg",
+    "/app/PRODUCTS/slippers/product1/back/WhatsApp Image 2025-08-31 at 8.55.47 AM (2).jpeg",
+    "/app/PRODUCTS/teeshirt/City Skyline/back/WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg",
+    "/app/PRODUCTS/teeshirt/Minimalist Design/back/WhatsApp Image 2025-08-31 at 8.59.07 AM (1).jpeg",
+    "/app/PRODUCTS/teeshirt/Mountain Adventure/back/WhatsApp Image 2025-08-31 at 9.18.35 AM.jpeg",
+    "/app/PRODUCTS/teeshirt/Music Festival Vibes/back/WhatsApp Image 2025-08-31 at 8.59.06 AM (1).jpeg",
+    "/app/PRODUCTS/teeshirt/Tropical Paradise/back/WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg",
+    "/app/PRODUCTS/teeshirt/Urban Street Art/back/WhatsApp Image 2025-08-31 at 8.59.07 AM (2).jpeg",
+    "/app/PRODUCTS/hoodies/product1/back/WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg",
+    "/app/PRODUCTS/hoodies/Product12/back/WhatsApp Image 2025-08-31 at 9.06.43 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product16/back/WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product20/back/WhatsApp Image 2025-08-31 at 10.49.01 AM.jpeg",
+    "/app/PRODUCTS/hoodies/Product11/back/WhatsApp Image 2025-08-31 at 9.06.42 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product5/back/WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product19/back/WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product3/back/WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg",
+    "/app/PRODUCTS/hoodies/product2/back/WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/product9/back/WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg",
+    "/app/PRODUCTS/hoodies/product21/back/WhatsApp Image 2025-08-31 at 10.49.03 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product7/back/WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product10/back/WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/product10/back/WhatsApp Image 2025-08-31 at 9.09.11 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/product10/back/WhatsApp Image 2025-08-31 at 9.09.11 AM (2).jpeg",
+    "/app/PRODUCTS/hoodies/product10/back/WhatsApp Image 2025-08-31 at 9.06.49 AM (2).jpeg",
+    "/app/PRODUCTS/hoodies/product18/back/WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product6/back/WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product4/back/WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product8/back/WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg",
+    "/app/PRODUCTS/Sweatshirts/product2/back/WhatsApp Image 2025-08-31 at 9.00.55 AM.jpeg"
+  ],
+  "front_images": [
+    "/app/PRODUCTS/hats/product1/front/WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+    "/app/PRODUCTS/hats/product2/front/WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
+    "/app/PRODUCTS/slippers/product1/front/WhatsApp Image 2025-08-31 at 8.55.46 AM (1).jpeg",
+    "/app/PRODUCTS/slippers/product2/front/WhatsApp Image 2025-08-31 at 8.55.46 AM.jpeg",
+    "/app/PRODUCTS/teeshirt/City Skyline/front/WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg",
+    "/app/PRODUCTS/teeshirt/Nature Photography/front/WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg",
+    "/app/PRODUCTS/teeshirt/Vintage Typography/front/WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg",
+    "/app/PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+    "/app/PRODUCTS/teeshirt/Tropical Paradise/front/WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg",
+    "/app/PRODUCTS/teeshirt/Neon Lights/front/WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg",
+    "/app/PRODUCTS/full shirts/product1/front/WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+    "/app/PRODUCTS/full shirts/product3/front/WhatsApp Image 2025-08-31 at 9.09.11 AM.jpeg",
+    "/app/PRODUCTS/full shirts/product2/front/WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product1/front/WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product17/front/WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/product14/front/WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+    "/app/PRODUCTS/hoodies/product16/front/WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/product5/front/WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/product19/front/WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
+    "/app/PRODUCTS/hoodies/product3/front/WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/product2/front/WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/product9/front/WhatsApp Image 2025-08-31 at 9.18.36 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product7/front/WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product10/front/WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/product18/front/WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/product6/front/WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/product4/front/WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+    "/app/PRODUCTS/hoodies/product8/front/WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+    "/app/PRODUCTS/hoodies/Product13/front/WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+    "/app/PRODUCTS/hoodies/product15/front/WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
+    "/app/PRODUCTS/Sweatshirts/product1/front/WhatsApp Image 2025-08-31 at 9.00.54 AM.jpeg",
+    "/app/PRODUCTS/Sweatshirts/product4/front/WhatsApp Image 2025-08-31 at 9.01.36 AM.jpeg"
+  ],
+  "recommended_consolidation": [
+    {
+      "product": "PRODUCTS/teeshirt",
+      "colors": [
+        "black",
+        "blue",
+        "Red",
+        "black",
+        "grey"
+      ],
+      "action": "Merge 5 color variants into single product with color options"
+    }
+  ]
+}

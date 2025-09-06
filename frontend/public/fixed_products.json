@@ -1,0 +1,980 @@
+[
+  {
+    "id": 2000,
+    "name": "Ocean Waves Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 OCEAN WAVES",
+    "category": "Teeshirt",
+    "price": 999,
+    "originalPrice": 1299,
+    "colors": [
+      "Blue",
+      "Black",
+      "Grey"
+    ],
+    "mood_code": "STORM",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Blue/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Blue/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Black/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Black/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Grey/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Grey/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Blue/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Blue/front.jpg",
+    "badges": [
+      "REBEL DROP",
+      "UNDER \u20b9999",
+      "MULTI-COLOR"
+    ],
+    "description": "Ocean Waves rebel tee - Available in 3 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "Blue",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Blue/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Blue/front.jpg"
+      },
+      {
+        "color": "Black",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Black/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Black/front.jpg"
+      },
+      {
+        "color": "Grey",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Grey/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Grey/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2001,
+    "name": "Abstract Geometry Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 ABSTRACT GEOMETRY",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "colors": [
+      "Black",
+      "Blue"
+    ],
+    "mood_code": "MONOLITH",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract Geometry/Black/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract Geometry/Black/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract Geometry/Blue/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract Geometry/Blue/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract Geometry/Black/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract Geometry/Black/front.jpg",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Abstract Geometry rebel tee - Available in 2 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "Black",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract Geometry/Black/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract Geometry/Black/front.jpg"
+      },
+      {
+        "color": "Blue",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract Geometry/Blue/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract Geometry/Blue/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2002,
+    "name": "Vintage Typography Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 VINTAGE TYPOGRAPHY",
+    "category": "Teeshirt",
+    "price": 1299,
+    "originalPrice": 1599,
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "mood_code": "MONOLITH",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage Typography/Black/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage Typography/Black/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage Typography/White/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage Typography/White/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage Typography/Black/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage Typography/Black/front.jpg",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Vintage Typography rebel tee - Available in 2 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "Black",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage Typography/Black/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage Typography/Black/front.jpg"
+      },
+      {
+        "color": "White",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage Typography/White/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage Typography/White/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2003,
+    "name": "Urban Street Art Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 URBAN STREET ART",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "colors": [
+      "Black",
+      "Red",
+      "Grey"
+    ],
+    "mood_code": "SHADOW",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Black/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Black/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Red/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Red/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Grey/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Grey/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Black/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Black/front.jpg",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Urban Street Art rebel tee - Available in 3 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "Black",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Black/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Black/front.jpg"
+      },
+      {
+        "color": "Red",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Red/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Red/front.jpg"
+      },
+      {
+        "color": "Grey",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Grey/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/Grey/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2004,
+    "name": "Music Festival Vibes Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 MUSIC FESTIVAL VIBES",
+    "category": "Teeshirt",
+    "price": 1299,
+    "originalPrice": 1599,
+    "colors": [
+      "Black",
+      "Navy"
+    ],
+    "mood_code": "EMBER",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Music Festival Vibes/Black/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Music Festival Vibes/Black/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Music Festival Vibes/Navy/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Music Festival Vibes/Navy/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Music Festival Vibes/Black/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Music Festival Vibes/Black/front.jpg",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Music Festival Vibes rebel tee - Available in 2 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "Black",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Music Festival Vibes/Black/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Music Festival Vibes/Black/front.jpg"
+      },
+      {
+        "color": "Navy",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Music Festival Vibes/Navy/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Music Festival Vibes/Navy/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2005,
+    "name": "City Skyline Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 CITY SKYLINE",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "colors": [
+      "Black"
+    ],
+    "mood_code": "SHADOW",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/City Skyline/Black/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/City Skyline/Black/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/City Skyline/Black/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/City Skyline/Black/front.jpg",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "City Skyline rebel tee - Available in 1 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "Black",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/City Skyline/Black/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/City Skyline/Black/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2006,
+    "name": "Nature Photography Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 NATURE PHOTOGRAPHY",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "colors": [
+      "Green",
+      "Black"
+    ],
+    "mood_code": "STORM",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature Photography/Green/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature Photography/Green/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature Photography/Black/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature Photography/Black/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature Photography/Green/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature Photography/Green/front.jpg",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Nature Photography rebel tee - Available in 2 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "Green",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature Photography/Green/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature Photography/Green/front.jpg"
+      },
+      {
+        "color": "Black",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature Photography/Black/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature Photography/Black/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2007,
+    "name": "Mountain Adventure Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 MOUNTAIN ADVENTURE",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "colors": [
+      "Black",
+      "Brown"
+    ],
+    "mood_code": "STORM",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain Adventure/Black/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain Adventure/Black/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain Adventure/Brown/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain Adventure/Brown/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain Adventure/Black/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain Adventure/Black/front.jpg",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Mountain Adventure rebel tee - Available in 2 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "Black",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain Adventure/Black/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain Adventure/Black/front.jpg"
+      },
+      {
+        "color": "Brown",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain Adventure/Brown/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain Adventure/Brown/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2008,
+    "name": "Space Exploration Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 SPACE EXPLORATION",
+    "category": "Teeshirt",
+    "price": 1399,
+    "originalPrice": 1699,
+    "colors": [
+      "Black",
+      "Navy"
+    ],
+    "mood_code": "SHADOW",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Space Exploration/Black/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Space Exploration/Black/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Space Exploration/Navy/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Space Exploration/Navy/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Space Exploration/Black/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Space Exploration/Black/front.jpg",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Space Exploration rebel tee - Available in 2 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "Black",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Space Exploration/Black/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Space Exploration/Black/front.jpg"
+      },
+      {
+        "color": "Navy",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Space Exploration/Navy/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Space Exploration/Navy/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2009,
+    "name": "Tropical Paradise Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 TROPICAL PARADISE",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "colors": [
+      "Green",
+      "Blue"
+    ],
+    "mood_code": "EMBER",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical Paradise/Green/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical Paradise/Green/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical Paradise/Blue/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical Paradise/Blue/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical Paradise/Green/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical Paradise/Green/front.jpg",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Tropical Paradise rebel tee - Available in 2 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "Green",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical Paradise/Green/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical Paradise/Green/front.jpg"
+      },
+      {
+        "color": "Blue",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical Paradise/Blue/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical Paradise/Blue/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2010,
+    "name": "Neon Lights Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 NEON LIGHTS",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "colors": [
+      "Black",
+      "Purple"
+    ],
+    "mood_code": "EMBER",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Neon Lights/Black/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Neon Lights/Black/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Neon Lights/Purple/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Neon Lights/Purple/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Neon Lights/Black/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Neon Lights/Black/front.jpg",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Neon Lights rebel tee - Available in 2 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "Black",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Neon Lights/Black/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Neon Lights/Black/front.jpg"
+      },
+      {
+        "color": "Purple",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Neon Lights/Purple/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Neon Lights/Purple/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2011,
+    "name": "Minimalist Design Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 MINIMALIST DESIGN",
+    "category": "Teeshirt",
+    "price": 899,
+    "originalPrice": 1199,
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "mood_code": "GHOST",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist Design/White/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist Design/White/front.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist Design/Black/back.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist Design/Black/front.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist Design/White/back.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist Design/White/front.jpg",
+    "badges": [
+      "REBEL DROP",
+      "UNDER \u20b9999",
+      "MULTI-COLOR"
+    ],
+    "description": "Minimalist Design rebel tee - Available in 2 colors. Back design prioritized for maximum impact.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true,
+    "colorVariants": [
+      {
+        "color": "White",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist Design/White/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist Design/White/front.jpg"
+      },
+      {
+        "color": "Black",
+        "backImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist Design/Black/back.jpg",
+        "frontImage": "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist Design/Black/front.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2012,
+    "name": "Shadow Beast Hoodie",
+    "title": "[ARMORY // SHADOW BEAST HOODIE] \u2014 PREMIUM",
+    "category": "Hoodies",
+    "price": 2499,
+    "originalPrice": 2999,
+    "mood_code": "SHADOW",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Shadow_Beast_Hoodie/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Shadow_Beast_Hoodie/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Shadow_Beast_Hoodie/side/main.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/hoodies/Shadow_Beast_Hoodie/back/main.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/hoodies/Shadow_Beast_Hoodie/front/main.jpg",
+    "badges": [
+      "PREDATOR DROP",
+      "PREMIUM"
+    ],
+    "description": "Shadow Beast Hoodie - Premium hoodie forged in shadow mode. Back design prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 2,
+      "S": 6,
+      "M": 10,
+      "L": 12,
+      "XL": 7,
+      "XXL": 3
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true
+  },
+  {
+    "id": 2013,
+    "name": "Predator Elite Hoodie",
+    "title": "[ARMORY // PREDATOR ELITE HOODIE] \u2014 PREMIUM",
+    "category": "Hoodies",
+    "price": 2799,
+    "originalPrice": 3299,
+    "mood_code": "SHADOW",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Predator_Elite_Hoodie/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Predator_Elite_Hoodie/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Predator_Elite_Hoodie/side/main.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/hoodies/Predator_Elite_Hoodie/back/main.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/hoodies/Predator_Elite_Hoodie/front/main.jpg",
+    "badges": [
+      "PREDATOR DROP",
+      "PREMIUM"
+    ],
+    "description": "Predator Elite Hoodie - Premium hoodie forged in shadow mode. Back design prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 2,
+      "S": 6,
+      "M": 10,
+      "L": 12,
+      "XL": 7,
+      "XXL": 3
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true
+  },
+  {
+    "id": 2014,
+    "name": "Storm Warrior Hoodie",
+    "title": "[ARMORY // STORM WARRIOR HOODIE] \u2014 PREMIUM",
+    "category": "Hoodies",
+    "price": 2199,
+    "originalPrice": 2699,
+    "mood_code": "STORM",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Storm_Warrior_Hoodie/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Storm_Warrior_Hoodie/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Storm_Warrior_Hoodie/side/main.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/hoodies/Storm_Warrior_Hoodie/back/main.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/hoodies/Storm_Warrior_Hoodie/front/main.jpg",
+    "badges": [
+      "BEAST DROP"
+    ],
+    "description": "Storm Warrior Hoodie - Premium hoodie forged in storm mode. Back design prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 2,
+      "S": 6,
+      "M": 10,
+      "L": 12,
+      "XL": 7,
+      "XXL": 3
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true
+  },
+  {
+    "id": 2015,
+    "name": "Ember Guardian Hoodie",
+    "title": "[ARMORY // EMBER GUARDIAN HOODIE] \u2014 PREMIUM",
+    "category": "Hoodies",
+    "price": 2399,
+    "originalPrice": 2899,
+    "mood_code": "EMBER",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Ember_Guardian_Hoodie/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Ember_Guardian_Hoodie/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Ember_Guardian_Hoodie/side/main.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/hoodies/Ember_Guardian_Hoodie/back/main.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/hoodies/Ember_Guardian_Hoodie/front/main.jpg",
+    "badges": [
+      "BEAST DROP"
+    ],
+    "description": "Ember Guardian Hoodie - Premium hoodie forged in ember mode. Back design prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 2,
+      "S": 6,
+      "M": 10,
+      "L": 12,
+      "XL": 7,
+      "XXL": 3
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true
+  },
+  {
+    "id": 2016,
+    "name": "Ghost Operative Hoodie",
+    "title": "[ARMORY // GHOST OPERATIVE HOODIE] \u2014 PREMIUM",
+    "category": "Hoodies",
+    "price": 2499,
+    "originalPrice": 2999,
+    "mood_code": "GHOST",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Ghost_Operative_Hoodie/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Ghost_Operative_Hoodie/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/Ghost_Operative_Hoodie/side/main.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/hoodies/Ghost_Operative_Hoodie/back/main.jpg",
+    "hoverImage": "https://ogshop.preview.emergentagent.com/products/hoodies/Ghost_Operative_Hoodie/front/main.jpg",
+    "badges": [
+      "PREDATOR DROP",
+      "PREMIUM"
+    ],
+    "description": "Ghost Operative Hoodie - Premium hoodie forged in ghost mode. Back design prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 2,
+      "S": 6,
+      "M": 10,
+      "L": 12,
+      "XL": 7,
+      "XXL": 3
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true
+  },
+  {
+    "id": 2017,
+    "name": "Storm Battlefield Poster",
+    "title": "[ARMORY // STORM BATTLEFIELD POSTER] \u2014 A2",
+    "category": "Posters",
+    "price": 599,
+    "originalPrice": 799,
+    "mood_code": "STORM",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/posters/Storm_Battlefield_Poster/main.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/posters/Storm_Battlefield_Poster/main.jpg",
+    "badges": [
+      "WAR POSTER",
+      "UNDER \u20b9999"
+    ],
+    "description": "Storm Battlefield Poster - A2 battlefield visual. Premium print ready for combat.",
+    "sizes": [
+      "A2"
+    ],
+    "stock": {
+      "A2": 25
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true
+  },
+  {
+    "id": 2018,
+    "name": "Shadow War Poster",
+    "title": "[ARMORY // SHADOW WAR POSTER] \u2014 A2",
+    "category": "Posters",
+    "price": 699,
+    "originalPrice": 899,
+    "mood_code": "SHADOW",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/posters/Shadow_War_Poster/main.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/posters/Shadow_War_Poster/main.jpg",
+    "badges": [
+      "WAR POSTER",
+      "UNDER \u20b9999"
+    ],
+    "description": "Shadow War Poster - A2 battlefield visual. Premium print ready for combat.",
+    "sizes": [
+      "A2"
+    ],
+    "stock": {
+      "A2": 25
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true
+  },
+  {
+    "id": 2019,
+    "name": "Ember Battle Poster",
+    "title": "[ARMORY // EMBER BATTLE POSTER] \u2014 A2",
+    "category": "Posters",
+    "price": 599,
+    "originalPrice": 799,
+    "mood_code": "EMBER",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/posters/Ember_Battle_Poster/main.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/posters/Ember_Battle_Poster/main.jpg",
+    "badges": [
+      "WAR POSTER",
+      "UNDER \u20b9999"
+    ],
+    "description": "Ember Battle Poster - A2 battlefield visual. Premium print ready for combat.",
+    "sizes": [
+      "A2"
+    ],
+    "stock": {
+      "A2": 25
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true
+  },
+  {
+    "id": 2020,
+    "name": "Ghost Operation Poster",
+    "title": "[ARMORY // GHOST OPERATION POSTER] \u2014 A2",
+    "category": "Posters",
+    "price": 649,
+    "originalPrice": 849,
+    "mood_code": "GHOST",
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/posters/Ghost_Operation_Poster/main.jpg"
+    ],
+    "primaryImage": "https://ogshop.preview.emergentagent.com/products/posters/Ghost_Operation_Poster/main.jpg",
+    "badges": [
+      "WAR POSTER",
+      "UNDER \u20b9999"
+    ],
+    "description": "Ghost Operation Poster - A2 battlefield visual. Premium print ready for combat.",
+    "sizes": [
+      "A2"
+    ],
+    "stock": {
+      "A2": 25
+    },
+    "vendor": "DVV Entertainment",
+    "isVisible": true
+  }
+]

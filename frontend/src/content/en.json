@@ -1,0 +1,194 @@
+{
+  "site": {
+    "title": "OG Official",
+    "tagline": "OG ISN'T MERCH. IT'S A CALLSIGN.",
+    "subtitle": "Official DVV drops. Theater-grade prints. Built for the tribe."
+  },
+  "navigation": {
+    "home": "Home",
+    "collections": "Collections",
+    "vault": "Vault",
+    "about": "About",
+    "contact": "Contact",
+    "account": "Account",
+    "cart": "Cart",
+    "search": "Search"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "OFFICIAL DVV STORE",
+      "title": "OG ISN'T MERCH. IT'S A CALLSIGN.",
+      "subtitle": "Cinematic drops. Theater-grade prints. Built for the tribe.",
+      "cta_primary": "Arm Up",
+      "cta_secondary": "Join Restock Alerts",
+      "timer_prefix": "Rebel Drop detonates in",
+      "te_line": "నీ రక్తం OG కోసం"
+    },
+    "rails": {
+      "affordable_title": "Under ₹{ceiling} — For Every Rebel",
+      "new_arrivals_title": "Rebel Drops",
+      "best_sellers_title": "Fan Arsenal",
+      "categories_title": "Choose Your Arsenal",
+      "ugc_title": "Fan Army Wall",
+      "journal_title": "From the Firestorm"
+    },
+    "badges": {
+      "limited": "Limited",
+      "vault": "Vault",
+      "rebel_drop": "Rebel Drop",
+      "rank_common": "Common",
+      "rank_rebel": "Rebel",
+      "rank_vault": "Vault"
+    },
+    "microcopy": {
+      "scarcity": "Only {count} left — vaulting soon.",
+      "official": "Official DVV Entertainment",
+      "telugu_line": "నీ రక్తం OG కోసం"
+    },
+    "categories": [
+      {"title": "Hoodies",   "href": "/collections/hoodies"},
+      {"title": "T-Shirts",  "href": "/collections/t-shirts"},
+      {"title": "Chains",    "href": "/collections/chains"},
+      {"title": "Accessories","href": "/collections/accessories"},
+      {"title": "Posters",   "href": "/collections/posters"}
+    ],
+    "journal": [
+      {
+        "title": "Hungry Cheetah Unleashed",
+        "deck": "The roar behind the drop.",
+        "href": "#"
+      },
+      {
+        "title": "Firestorm Is Coming",
+        "deck": "Why this wave can't be stopped.",
+        "href": "#"
+      },
+      {
+        "title": "They Call Him OG",
+        "deck": "Iconography of a revolution.",
+        "href": "#"
+      }
+    ],
+    "affordable_rail": {
+      "title": "Under ₹{ceiling} — For Every Rebel"
+    },
+    "vault": {
+      "title": "Collector's Vault",
+      "locked_message": "Not for the weak. Unlock if you dare.",
+      "unlock_hint": "Show your dedication to gain access"
+    },
+    "live_drop": {
+      "badge": "Rebel Drop",
+      "countdown_label": "Drop detonates in"
+    }
+  },
+  "product": {
+    "title_prefix": "OG //",
+    "tagline": "Forged for first-day-first-show energy.",
+    "details": {
+      "fabric": "Fabric: 100% cotton, 240–320 GSM",
+      "print": "Print: Theater-grade screen print, soft-hand",
+      "fit": "Fit: True to size (see Size Guide)",
+      "care": "Care: Cold wash. Inside out. Live long."
+    },
+    "badges": {
+      "limited": "Limited",
+      "official": "Official DVV",
+      "vault": "Vault",
+      "new": "New",
+      "sale": "Sale",
+      "best_seller": "Best Seller"
+    },
+    "scarcity": "Only {count} left — vaulting soon.",
+    "scene_code": {
+      "label": "Scene Code",
+      "placeholder": "Enter code to reveal",
+      "reveal_button": "Reveal"
+    },
+    "payment": {
+      "upi_note": "UPI payments supported",
+      "cod_note": "Cash on Delivery available",
+      "emi_hint": "EMI options available on Vault items"
+    },
+    "add_to_cart": "Add to Cart",
+    "out_of_stock": "Out of Stock",
+    "notify_restock": "Notify When Back",
+    "size_guide": "Size Guide"
+  },
+  "cart": {
+    "title": "Your Arsenal",
+    "empty_title": "Arsenal Empty",
+    "empty_message": "Time to arm up with some OG gear",
+    "continue_shopping": "Continue Shopping",
+    "checkout": "Proceed to Checkout",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "free_shipping_note": "Free shipping on orders over ₹{amount}"
+  },
+  "account": {
+    "tribe_info": "Tribe Info",
+    "tribe_id": "Tribe ID: {id}",
+    "rank": "Rank: {rank}",
+    "points": "Points: {points}",
+    "orders": "Orders",
+    "addresses": "Addresses",
+    "logout": "Logout"
+  },
+  "search": {
+    "placeholder": "Search products, collections, scenes...",
+    "suggestions": "Suggestions",
+    "recent": "Recent Searches",
+    "popular": "Popular Searches",
+    "no_results": "No results found for \"{query}\"",
+    "results_count": "{count} results found"
+  },
+  "filters": {
+    "sort_by": "Sort by",
+    "category": "Category",
+    "price_range": "Price Range",
+    "rank": "Rank",
+    "availability": "Availability",
+    "reset_all": "Reset All"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "share": "Share"
+  },
+  "footer": {
+    "official": "DVV Entertainment — Official OG Store",
+    "tagline": "Every product is a weapon. Every fan is a soldier.",
+    "policies": "Policies",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "returns": "Returns & Refunds",
+    "shipping": "Shipping Info",
+    "contact": "Contact Us",
+    "faq": "FAQ"
+  },
+  "payment_methods": {
+    "upi": "UPI",
+    "cod": "Cash on Delivery",
+    "card": "Credit/Debit Card",
+    "netbanking": "Net Banking",
+    "wallet": "Wallet",
+    "emi": "EMI"
+  },
+  "ranks": {
+    "common": "Common",
+    "rebel": "Rebel", 
+    "captain": "Captain",
+    "gambheera": "Gambheera",
+    "vault": "Vault"
+  }
+}

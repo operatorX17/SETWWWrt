@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-09-05T12:05:12.666316",
+  "backend_url": "https://ogshop.preview.emergentagent.com/api",
+  "passed_tests": 21,
+  "failed_tests": 4,
+  "overall_success": false,
+  "test_results": [
+    {
+      "test": "Server Health Check",
+      "success": true,
+      "message": "OG Armory Backend API responding correctly",
+      "timestamp": "2025-09-05T12:05:10.533381"
+    },
+    {
+      "test": "Environment Variables",
+      "success": true,
+      "message": "Backend accessible, env vars loaded",
+      "timestamp": "2025-09-05T12:05:10.586699"
+    },
+    {
+      "test": "CORS Configuration",
+      "success": true,
+      "message": "CORS headers found: access-control-allow-origin: *, access-control-allow-credentials: true",
+      "timestamp": "2025-09-05T12:05:10.641959"
+    },
+    {
+      "test": "API Routes Accessibility",
+      "success": true,
+      "message": "All defined routes tested",
+      "timestamp": "2025-09-05T12:05:10.793393"
+    },
+    {
+      "test": "Create Status Check",
+      "success": true,
+      "message": "Created status check with ID: 68bad1f615c669f148e76f97",
+      "timestamp": "2025-09-05T12:05:10.847121"
+    },
+    {
+      "test": "Get Status Checks",
+      "success": true,
+      "message": "Status endpoint working: healthy, MongoDB: connected, Documents: 7",
+      "timestamp": "2025-09-05T12:05:10.896308"
+    },
+    {
+      "test": "MongoDB Integration",
+      "success": true,
+      "message": "Successfully created and verified record in MongoDB. Documents: 8",
+      "timestamp": "2025-09-05T12:05:11.004021"
+    },
+    {
+      "test": "Shopify Environment Variables",
+      "success": true,
+      "message": "All Shopify vars configured: SHOPIFY_STORE_DOMAIN=40fg1q-ju.myshopify.com, SHOPIFY_STOREFRONT_API_TOKEN=bab636f9...5e21, SHOPIFY_STOREFRONT_API_VERSION=2024-01, SHOPIFY_ADMIN_API_KEY=shpat_ba...5e21, SHOPIFY_ADMIN_API_SECRET=your_adm...cret",
+      "timestamp": "2025-09-05T12:05:11.007872"
+    },
+    {
+      "test": "Shopify Storefront API Connectivity",
+      "success": true,
+      "message": "Successfully connected to 'OG Store' store via Storefront API",
+      "timestamp": "2025-09-05T12:05:11.188259"
+    },
+    {
+      "test": "OG Products Availability",
+      "success": false,
+      "message": "HTTP 401: {\"errors\":\"[API] Invalid API key or access token (unrecognized login or wrong password)\"}",
+      "timestamp": "2025-09-05T12:05:11.323727"
+    },
+    {
+      "test": "Backend Shopify Integration Health",
+      "success": true,
+      "message": "Backend stable with Shopify integration",
+      "timestamp": "2025-09-05T12:05:11.486596"
+    },
+    {
+      "test": "Comprehensive Products JSON Accessibility",
+      "success": true,
+      "message": "Successfully loaded 29 products including 4 VAULT exclusives from comprehensive_products.json",
+      "timestamp": "2025-09-05T12:05:11.493559"
+    },
+    {
+      "test": "Comprehensive Products JSON Accessibility",
+      "success": true,
+      "message": "Successfully loaded 29 products including 4 VAULT exclusives from comprehensive_products.json",
+      "timestamp": "2025-09-05T12:05:11.497605"
+    },
+    {
+      "test": "VAULT Product Integration",
+      "success": false,
+      "message": "VAULT integration issues: Night Hunter Hoodie: Missing unlock_requirement",
+      "timestamp": "2025-09-05T12:05:11.497727"
+    },
+    {
+      "test": "Comprehensive Products JSON Accessibility",
+      "success": true,
+      "message": "Successfully loaded 29 products including 4 VAULT exclusives from comprehensive_products.json",
+      "timestamp": "2025-09-05T12:05:11.502732"
+    },
+    {
+      "test": "Badge System Functionality",
+      "success": true,
+      "message": "Badge system working: VAULT(4), LOCKED EXCLUSIVE(4), LIMITED(7), PREMIUM(1), REBEL DROP(18). Coverage: 100.0% (29/29 products)",
+      "timestamp": "2025-09-05T12:05:11.502947"
+    },
+    {
+      "test": "Comprehensive Products JSON Accessibility",
+      "success": true,
+      "message": "Successfully loaded 29 products including 4 VAULT exclusives from comprehensive_products.json",
+      "timestamp": "2025-09-05T12:05:11.506676"
+    },
+    {
+      "test": "Category Filtering System",
+      "success": false,
+      "message": "Category filtering issues: Only 23/29 products categorized",
+      "timestamp": "2025-09-05T12:05:11.506804"
+    },
+    {
+      "test": "Comprehensive Products JSON Accessibility",
+      "success": true,
+      "message": "Successfully loaded 29 products including 4 VAULT exclusives from comprehensive_products.json",
+      "timestamp": "2025-09-05T12:05:11.510207"
+    },
+    {
+      "test": "Image Path Resolution",
+      "success": false,
+      "message": "Image resolution issues: Back image priority issues: 48.3%",
+      "timestamp": "2025-09-05T12:05:11.995903"
+    },
+    {
+      "test": "Comprehensive Products JSON Accessibility",
+      "success": true,
+      "message": "Successfully loaded 29 products including 4 VAULT exclusives from comprehensive_products.json",
+      "timestamp": "2025-09-05T12:05:12.003588"
+    },
+    {
+      "test": "Product Image Asset Integration",
+      "success": true,
+      "message": "5/5 images accessible (100.0%)",
+      "timestamp": "2025-09-05T12:05:12.506590"
+    },
+    {
+      "test": "API Performance with OG System",
+      "success": true,
+      "message": "Excellent performance: 51ms average response time",
+      "timestamp": "2025-09-05T12:05:12.659606"
+    },
+    {
+      "test": "Comprehensive Products JSON Accessibility",
+      "success": true,
+      "message": "Successfully loaded 29 products including 4 VAULT exclusives from comprehensive_products.json",
+      "timestamp": "2025-09-05T12:05:12.665962"
+    },
+    {
+      "test": "Navigation Sync Backend Support",
+      "success": true,
+      "message": "Backend supports navigation with proper badges: VAULT(4), LOCKED EXCLUSIVE(4), LIMITED(7), PREMIUM(1), REBEL DROP(18)",
+      "timestamp": "2025-09-05T12:05:12.666134"
+    }
+  ]
+}

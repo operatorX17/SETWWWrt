@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-09-04T05:23:27.677961",
+  "backend_url": "https://ogshop.preview.emergentagent.com",
+  "passed_tests": 8,
+  "failed_tests": 0,
+  "overall_success": true,
+  "test_results": [
+    {
+      "test": "Products Data Loading (Web)",
+      "success": true,
+      "message": "Loaded 52 products via web URL",
+      "timestamp": "2025-09-04T05:23:27.621630"
+    },
+    {
+      "test": "Products JSON Accessibility",
+      "success": true,
+      "message": "Products.json accessible with 52 products",
+      "timestamp": "2025-09-04T05:23:27.675635"
+    },
+    {
+      "test": "Under \u20b9999 Rail",
+      "success": true,
+      "message": "Found 12 affordable products. Samples: Blood Moon Poster (\u20b9899.0), Crimson Storm Poster (\u20b9899.0), Dark Legion Poster (\u20b9899.0)",
+      "timestamp": "2025-09-04T05:23:27.677114"
+    },
+    {
+      "test": "REBEL DROP/FAN ARSENAL Rail",
+      "success": true,
+      "message": "Found 52 rebellion core products (52 REBEL DROP, 52 FAN ARSENAL). Samples: Black Phoenix Tee ['NEW', 'REBEL DROP', 'FAN ARSENAL'], Black Storm Hoodie ['NEW', 'REBEL DROP', 'FAN ARSENAL', 'PREMIUM'], Blood Moon Poster ['NEW', 'REBEL DROP', 'FAN ARSENAL']",
+      "timestamp": "2025-09-04T05:23:27.677192"
+    },
+    {
+      "test": "PREMIUM Rail",
+      "success": true,
+      "message": "Found 20 premium products. Avg premium: \u20b92499.00 vs non-premium: \u20b91245.88. Samples: Black Storm Hoodie (\u20b92499.0), Blood Wolf Hoodie (\u20b92499.0), Brutal Machine Hoodie (\u20b92499.0)",
+      "timestamp": "2025-09-04T05:23:27.677281"
+    },
+    {
+      "test": "OG Product Names Quality",
+      "success": true,
+      "message": "Found 52 products with premium OG names, no generic names detected. Samples: Black Phoenix Tee, Black Storm Hoodie, Blood Moon Poster, Blood Moon Rebel Tee, Blood Wolf Hoodie",
+      "timestamp": "2025-09-04T05:23:27.677410"
+    },
+    {
+      "test": "DVV Entertainment Branding",
+      "success": true,
+      "message": "Found 52 out of 52 products with DVV Entertainment branding",
+      "timestamp": "2025-09-04T05:23:27.677443"
+    },
+    {
+      "test": "Product Categories Distribution",
+      "success": true,
+      "message": "Found 8 categories with good distribution: Teeshirt: 12, Hoodies: 20, Posters: 10, Sweatshirts: 3, Full Shirts: 3, Hats: 2, Wallet: 1, Slippers: 1",
+      "timestamp": "2025-09-04T05:23:27.677482"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "handle": "rebellion-core",
+    "title": "Rebellion Core",
+    "description": "Essential gear for every rebel soldier. Core items that define the OG tribe.",
+    "product_ids": [
+      5000,
+      5001,
+      5002,
+      5003,
+      5004,
+      5005,
+      5006,
+      5007,
+      5008,
+      5009,
+      5010,
+      5011,
+      5012
+    ],
+    "product_count": 13,
+    "published": true,
+    "sort_order": "manual"
+  },
+  {
+    "id": 2,
+    "handle": "under-999",
+    "title": "Under \u20b9999",
+    "description": "Premium OG gear accessible to every rebel. No soldier left behind.",
+    "product_ids": [
+      5001,
+      5034,
+      5035,
+      5036,
+      5037,
+      5038,
+      5039,
+      5040,
+      5041,
+      5042,
+      5043,
+      5050,
+      5051,
+      5052,
+      5053,
+      5054,
+      5055,
+      5056
+    ],
+    "product_count": 18,
+    "published": true,
+    "sort_order": "price-ascending"
+  },
+  {
+    "id": 3,
+    "handle": "beast-mode",
+    "title": "Beast Mode",
+    "description": "Premium hoodies and sweatshirts for elite warriors.",
+    "product_ids": [
+      5013,
+      5014,
+      5015,
+      5016,
+      5017,
+      5019,
+      5020,
+      5021,
+      5022,
+      5023,
+      5024,
+      5026,
+      5027,
+      5028,
+      5029,
+      5030,
+      5031,
+      5032,
+      5033,
+      5047,
+      5048,
+      5049
+    ],
+    "product_count": 22,
+    "published": true,
+    "sort_order": "price-descending"
+  },
+  {
+    "id": 4,
+    "handle": "predator-elite",
+    "title": "Predator Elite",
+    "description": "Ultimate premium gear for elite soldiers. The highest tier.",
+    "product_ids": [
+      5018,
+      5025
+    ],
+    "product_count": 2,
+    "published": true,
+    "sort_order": "price-descending"
+  },
+  {
+    "id": 5,
+    "handle": "arsenal-gear",
+    "title": "Arsenal Gear",
+    "description": "Essential accessories and gear for every rebel warrior.",
+    "product_ids": [
+      5050,
+      5051,
+      5052,
+      5053,
+      5054,
+      5055,
+      5056
+    ],
+    "product_count": 7,
+    "published": true,
+    "sort_order": "manual"
+  },
+  {
+    "id": 6,
+    "handle": "multi-color",
+    "title": "Multi-Color Arsenal",
+    "description": "Products available in multiple color variants for customization.",
+    "product_ids": [
+      5005,
+      5010
+    ],
+    "product_count": 2,
+    "published": true,
+    "sort_order": "manual"
+  }
+]

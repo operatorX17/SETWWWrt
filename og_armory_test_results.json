@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-09-04T05:44:41.783620",
+  "backend_url": "https://ogshop.preview.emergentagent.com",
+  "passed_tests": 8,
+  "failed_tests": 0,
+  "overall_success": true,
+  "test_results": [
+    {
+      "test": "Real Products JSON Loading",
+      "success": true,
+      "message": "Successfully loaded 55 products. Samples: Ocean Waves Rebel Tee, Abstract Geometry Rebel Tee, City Skyline Rebel Tee, Minimalist Design Rebel Tee, Nature Photography Rebel Tee",
+      "timestamp": "2025-09-04T05:44:40.845766"
+    },
+    {
+      "test": "Color Variant Consolidation",
+      "success": true,
+      "message": "Ocean Waves and Abstract Geometry properly consolidated",
+      "timestamp": "2025-09-04T05:44:40.901298"
+    },
+    {
+      "test": "Back Image Priority",
+      "success": true,
+      "message": "27/55 products (49.1%) have back image priority",
+      "timestamp": "2025-09-04T05:44:40.953086"
+    },
+    {
+      "test": "Price Rails Categorization",
+      "success": true,
+      "message": "Under \u20b9999 rail: 17 products; Premium/Vault products: 3 products. Available badges: ARSENAL, BEAST DROP, FORMAL ARSENAL, MULTI-COLOR, PREDATOR DROP, REBEL DROP, UNDER \u20b9999",
+      "timestamp": "2025-09-04T05:44:41.008756"
+    },
+    {
+      "test": "Category Mapping",
+      "success": true,
+      "message": "Categories found: Teeshirt(12)\u2192Rebel Tees; Hoodies(21)\u2192Predator Hoodies; Accessories(6); Posters(10)\u2192War Posters; Full Shirts(3); Sweatshirts(3)",
+      "timestamp": "2025-09-04T05:44:41.061861"
+    },
+    {
+      "test": "Asset Integration",
+      "success": true,
+      "message": "5/5 images accessible (100.0%)",
+      "timestamp": "2025-09-04T05:44:41.371603"
+    },
+    {
+      "test": "API Performance",
+      "success": true,
+      "message": "Root endpoint: 50ms avg; Status endpoint: 52ms avg; Products JSON: 49ms",
+      "timestamp": "2025-09-04T05:44:41.728769"
+    },
+    {
+      "test": "Navigation Sync Backend Support",
+      "success": true,
+      "message": "Categories: ['Accessories', 'Full Shirts', 'Hoodies', 'Posters', 'Sweatshirts', 'Teeshirt']; Navigation badges: ['REBEL DROP', 'ARSENAL', 'PREDATOR DROP', 'BEAST DROP']",
+      "timestamp": "2025-09-04T05:44:41.782028"
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "vault-exclusive-01",
+    "name": "SUPER BRUTAL MACHINE HOODIE",
+    "category": "Vault",
+    "price": 5999,
+    "originalPrice": 7999,
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=600&fit=crop"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "LIMITED"
+    ],
+    "description": "Engineered for warfare. Military-grade materials. Limited to 99 pieces worldwide.",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Military Black",
+      "Combat Grey"
+    ],
+    "vault_locked": true,
+    "collection": "VAULT COLLECTION",
+    "material": "Premium Cotton Blend",
+    "fit": "Oversized",
+    "weight": "450 GSM",
+    "care": "Machine wash cold",
+    "sku": "VAULT-SBM-001",
+    "stock": 99,
+    "is_vault_exclusive": true,
+    "nft_linked": true,
+    "serial_numbered": true
+  },
+  {
+    "id": "vault-exclusive-02",
+    "name": "BLOOD WOLF HOODIE",
+    "category": "Vault",
+    "price": 6499,
+    "originalPrice": 8999,
+    "images": [
+      "https://images.unsplash.com/photo-1509631179647-0177e6ef9ce1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "LIMITED"
+    ],
+    "description": "Hunt in the shadows. Premium wolf-grade fabric. Only 77 exist.",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Blood Red",
+      "Shadow Black"
+    ],
+    "vault_locked": true,
+    "collection": "VAULT COLLECTION", 
+    "material": "Ultra Premium Cotton",
+    "fit": "Athletic Fit",
+    "weight": "500 GSM",
+    "care": "Dry clean only",
+    "sku": "VAULT-BW-002",
+    "stock": 77,
+    "is_vault_exclusive": true,
+    "nft_linked": true,
+    "serial_numbered": true
+  },
+  {
+    "id": "vault-exclusive-02",
+    "name": "[VAULT // LOCKED EXCLUSIVE] — SHADOW EMPEROR HOODIE",
+    "category": "Vault",
+    "price": 5999,
+    "originalPrice": 7999,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.06.42_AM_ae319efb-90fb-4e23-b35a-f557d6485d06.jpeg?v=1756807810",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.06.43_AM_c421ffea-599d-45cf-934d-2f3be441b09d.jpeg?v=1756807840"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "PREMIUM"
+    ],
+    "description": "Shadow Emperor hoodie - The ultimate power piece. Vault exclusive for OG legends only.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "S": 1,
+      "M": 2,
+      "L": 1,
+      "XL": 1
+    },
+    "vault_locked": true,
+    "unlock_requirement": "Pre-order OG movie ticket"
+  },
+  {
+    "id": "vault-exclusive-03",
+    "name": "[VAULT // LOCKED EXCLUSIVE] — FORBIDDEN RELIC POSTER",
+    "category": "Vault",
+    "price": 2999,
+    "originalPrice": 3999,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.21_AM_1_f7a1e55b-668a-4b34-8a73-825302030f2a.jpeg?v=1756807780"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "LIMITED"
+    ],
+    "description": "Forbidden relic poster - Ultra-rare vault exclusive. Only 5 ever made.",
+    "sizes": [
+      "One Size"
+    ],
+    "stock": {
+      "One Size": 2
+    },
+    "vault_locked": true,
+    "unlock_requirement": "Complete OG Challenge"
+  },
+  {
+    "id": 9159155286272,
+    "name": "Dark Phoenix Tee",
+    "handle": "black-phoenix-tee",
+    "category": "Teeshirt",
+    "price": 1299.0,
+    "originalPrice": 1899.0,
+    "badges": [
+      "REBEL DROP",
+      "FAN ARSENAL"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.09.12_AM_4d5ffc5c-91e0-4d3e-aad4-61c58962b164.jpeg?v=1756807762"
+    ],
+    "description": "Dark Phoenix Tee - Premium OG merchandise for true fans. Crafted with precision and designed for warriors. Every product is a weapon. Every fan is a soldier.",
+    "tags": [
+      "Fan Arsenal",
+      "Limited",
+      "OG",
+      "Premium",
+      "Teeshirt"
+    ],
+    "vendor": "DVV Entertainment"
+  },
+  {
+    "id": 9159156629760,
+    "name": "Venom Beast Hoodie",
+    "handle": "venom-beast-hoodie",
+    "category": "Hoodies",
+    "price": 3499.0,
+    "originalPrice": 4999.0,
+    "badges": [
+      "PREMIUM COLLECTION",
+      "LIMITED",
+      "EXCLUSIVE"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.18.36_AM_1_b3224edc-b501-4baf-822e-b6378f63ff2e.jpeg?v=1756807829",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.06.49_AM_2_cf7d827f-5375-48ce-8b0e-cb72d0f040a3.jpeg?v=1756807829"
+    ],
+    "description": "Black Storm Hoodie - Premium OG merchandise for true fans. Crafted with precision and designed for warriors.Every product is a weapon. Every fan is a soldier.",
+    "tags": [
+      "Fan Arsenal",
+      "Hoodies",
+      "Limited",
+      "OG",
+      "Premium"
+    ],
+    "vendor": "DVV Entertainment"
+  },
+  {
+    "id": 9159155646720,
+    "name": "Blood Moon Poster",
+    "handle": "blood-moon-poster",
+    "category": "Posters",
+    "price": 899.0,
+    "originalPrice": 1399.0,
+    "badges": [
+      "REBEL DROP",
+      "FAN ARSENAL"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.21_AM_1_f7a1e55b-668a-4b34-8a73-825302030f2a.jpeg?v=1756807780"
+    ],
+    "description": "Blood Moon Poster - Premium OG merchandise for true fans. Crafted with precision and designed for warriors.Every product is a weapon. Every fan is a soldier.",
+    "tags": [
+      "Fan Arsenal",
+      "Limited",
+      "OG",
+      "Posters",
+      "Premium"
+    ],
+    "vendor": "DVV Entertainment"
+  },
+  {
+    "id": 9159155155200,
+    "name": "Blood Moon Rebel Tee",
+    "handle": "blood-moon-rebel-tee",
+    "category": "Teeshirt",
+    "price": 1299.0,
+    "originalPrice": 1899.0,
+    "badges": [
+      "REBEL DROP",
+      "FAN ARSENAL"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_8.59.07_AM_2_431f5168-1955-4bde-83af-9e599286de05.jpeg?v=1756807757"
+    ],
+    "description": "Blood Moon Rebel Tee - Premium OG merchandise for true fans. Crafted with precision and designed for warriors.Every product is a weapon. Every fan is a soldier.",
+    "tags": [
+      "Fan Arsenal",
+      "Limited",
+      "OG",
+      "Premium",
+      "Teeshirt"
+    ],
+    "vendor": "DVV Entertainment"
+  },
+  {
+    "id": 9159156302080,
+    "name": "Blood Wolf Hoodie",
+    "handle": "blood-wolf-hoodie",
+    "category": "Hoodies",
+    "price": 3499.0,
+    "originalPrice": 4999.0,
+    "badges": [
+      "PREMIUM COLLECTION",
+      "LIMITED",
+      "EXCLUSIVE"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.04_AM_1_b91e5fd7-83b7-4c9a-8d36-d28fcafe176f.jpeg?v=1756807808",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.08_AM_b08c17c1-5cea-46a5-a352-6b1c822a935a.jpeg?v=1756807808"
+    ],
+    "description": "Blood Wolf Hoodie - Premium OG merchandise for true fans. Crafted with precision and designed for warriors.Every product is a weapon. Every fan is a soldier.",
+    "tags": [
+      "Fan Arsenal",
+      "Hoodies",
+      "Limited",
+      "OG",
+      "Premium"
+    ],
+    "vendor": "DVV Entertainment"
+  },
+  {
+    "id": 9159155450112,
+    "name": "Brutal Legion Tee",
+    "handle": "brutal-legion-tee",
+    "category": "Teeshirt",
+    "price": 1299.0,
+    "originalPrice": 1899.0,
+    "badges": [
+      "REBEL DROP",
+      "FAN ARSENAL"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_8.59.05_AM_dcd50058-3761-4512-9a6c-761d86a839fe.jpeg?v=1756807771",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_8.59.05_AM_2_cf791b42-a65d-4ea7-9656-ed60842f8933.jpeg?v=1756807771"
+    ],
+    "description": "Brutal Legion Tee - Premium OG merchandise for true fans. Crafted with precision and designed for warriors.Every product is a weapon. Every fan is a soldier.",
+    "tags": [
+      "Fan Arsenal",
+      "Limited",
+      "OG",
+      "Premium",
+      "Teeshirt"
+    ],
+    "vendor": "DVV Entertainment"
+  },
+  {
+    "id": 9159157383424,
+    "name": "Hunter Cap",
+    "handle": "hunter-cap",
+    "category": "Accessories",
+    "price": 699.0,
+    "originalPrice": 1099.0,
+    "badges": [
+      "REBEL DROP",
+      "FAN ARSENAL"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_8.55.49_AM_46b23441-d456-4004-9338-074c1bada81c.jpeg?v=1756807861",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_8.55.48_AM_1_b339d583-947e-4fb5-9275-2445ab9e877f.jpeg?v=1756807861"
+    ],
+    "description": "Hunter Cap - Premium OG merchandise for true fans. Crafted with precision and designed for warriors.Every product is a weapon. Every fan is a soldier.",
+    "tags": [
+      "Fan Arsenal",
+      "Hats",
+      "Limited",
+      "OG",
+      "Premium"
+    ],
+    "vendor": "DVV Entertainment"
+  },
+  {
+    "id": 9159154958592,
+    "name": "Shadow Beast Wallet",
+    "handle": "shadow-beast-wallet",
+    "category": "Accessories",
+    "price": 1499.0,
+    "originalPrice": 2099.0,
+    "badges": [
+      "REBEL DROP",
+      "FAN ARSENAL"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_8.55.48_AM_c69e8001-d229-4e6a-8ebe-9272a718b480.jpeg?v=1756807747"
+    ],
+    "description": "Shadow Beast Wallet - Premium OG merchandise for true fans. Crafted with precision and designed for warriors.Every product is a weapon. Every fan is a soldier.",
+    "tags": [
+      "Fan Arsenal",
+      "Limited",
+      "OG",
+      "Premium",
+      "Wallet"
+    ],
+    "vendor": "DVV Entertainment"
+  },
+  {
+    "id": 9159157121280,
+    "name": "Warrior Sandals",
+    "handle": "warrior-sandals",
+    "category": "Accessories",
+    "price": 999.0,
+    "originalPrice": 1499.0,
+    "badges": [
+      "REBEL DROP",
+      "FAN ARSENAL"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_8.55.46_AM_1_7cb99f11-3566-4918-85ab-591c39b12db6.jpeg?v=1756807854",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_8.55.47_AM_2_4f9cfda3-1f79-473f-93db-1252769ed06e.jpeg?v=1756807854"
+    ],
+    "description": "Warrior Sandals - Premium OG merchandise for true fans. Crafted with precision and designed for warriors.Every product is a weapon. Every fan is a soldier.",
+    "tags": [
+      "Fan Arsenal",
+      "Limited",
+      "OG",
+      "Premium",
+      "Slippers"
+    ],
+    "vendor": "DVV Entertainment"
+  },
+  {
+    "id": "tee-consolidated-02",
+    "name": "[ARMORY // REBEL TEE] — ABSTRACT GEOMETRY",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "colors": [
+      "black",
+      "blue"
+    ],
+    "images": [
+      "/app/PRODUCTS/teeshirt/Abstract Geometry/black/WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg",
+      "/app/PRODUCTS/teeshirt/Abstract Geometry/black/WhatsApp Image 2025-08-31 at 8.59.07 AM.jpeg",
+      "/app/PRODUCTS/teeshirt/Abstract Geometry/blue/WhatsApp Image 2025-08-31 at 10.49.02 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Abstract Geometry rebel tee - Available in 2 warrior colors. Back design prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    }
+  },
+  {
+    "id": "tee-single-03",
+    "name": "[ARMORY // REBEL TEE] — CITY SKYLINE",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/City Skyline/back/WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg",
+      "/app/PRODUCTS/teeshirt/City Skyline/front/WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "City Skyline rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-04",
+    "name": "[ARMORY // REBEL TEE] — MINIMALIST DESIGN",
+    "category": "Teeshirt",
+    "price": 999,
+    "originalPrice": 1299,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Minimalist Design/back/WhatsApp Image 2025-08-31 at 8.59.07 AM (1).jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Minimalist Design rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-05",
+    "name": "[ARMORY // REBEL TEE] — NATURE PHOTOGRAPHY",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Nature Photography/front/WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Nature Photography rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-06",
+    "name": "[ARMORY // REBEL TEE] — VINTAGE TYPOGRAPHY",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Vintage Typography/front/WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Vintage Typography rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-07",
+    "name": "[ARMORY // REBEL TEE] — MOUNTAIN ADVENTURE",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Mountain Adventure/back/WhatsApp Image 2025-08-31 at 9.18.35 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Mountain Adventure rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-08",
+    "name": "[ARMORY // REBEL TEE] — MUSIC FESTIVAL VIBES",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Music Festival Vibes/back/WhatsApp Image 2025-08-31 at 8.59.06 AM (1).jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Music Festival Vibes rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-09",
+    "name": "[ARMORY // REBEL TEE] — SPACE EXPLORATION",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Space Exploration rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-10",
+    "name": "[ARMORY // REBEL TEE] — TROPICAL PARADISE",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Tropical Paradise/back/WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg",
+      "/app/PRODUCTS/teeshirt/Tropical Paradise/front/WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Tropical Paradise rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-11",
+    "name": "[ARMORY // REBEL TEE] — URBAN STREET ART",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Urban Street Art/back/WhatsApp Image 2025-08-31 at 8.59.07 AM (2).jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Urban Street Art rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-12",
+    "name": "[ARMORY // REBEL TEE] — NEON LIGHTS",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Neon Lights/front/WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Neon Lights rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "premium-brutal-machine",
+    "name": "Brutal Machine Hoodie",
+    "handle": "brutal-machine-hoodie",
+    "category": "Hoodies",
+    "price": 3499.0,
+    "originalPrice": 4999.0,
+    "badges": [
+      "PREMIUM COLLECTION",
+      "LIMITED",
+      "EXCLUSIVE"
+    ],
+    "images": [
+      "/images/hoodies/brutal-machine-front.jpg",
+      "/images/hoodies/brutal-machine-back.jpg"
+    ],
+    "description": "Brutal Machine Hoodie - Premium Collection. Engineered for destruction, crafted for comfort. The mechanical precision of warfare meets street style.",
+    "tags": [
+      "Premium Collection",
+      "Hoodies",
+      "Limited",
+      "OG",
+      "Exclusive"
+    ],
+    "vendor": "OG Armory Premium",
+    "stock": {
+      "S": 4,
+      "M": 7,
+      "L": 9,
+      "XL": 5,
+      "XXL": 2
+    }
+  },
+  {
+    "id": "premium-iron-predator",
+    "name": "Iron Predator Hoodie",
+    "handle": "iron-predator-hoodie",
+    "category": "Hoodies",
+    "price": 3499.0,
+    "originalPrice": 4999.0,
+    "badges": [
+      "PREMIUM COLLECTION",
+      "LIMITED",
+      "EXCLUSIVE"
+    ],
+    "images": [
+      "/images/hoodies/iron-predator-front.jpg",
+      "/images/hoodies/iron-predator-back.jpg"
+    ],
+    "description": "Iron Predator Hoodie - Premium Collection. Forged in the fires of conquest. For those who hunt their dreams with ruthless precision.",
+    "tags": [
+      "Premium Collection",
+      "Hoodies",
+      "Limited",
+      "OG",
+      "Exclusive"
+    ],
+    "vendor": "OG Armory Premium",
+    "stock": {
+      "S": 6,
+      "M": 10,
+      "L": 12,
+      "XL": 8,
+      "XXL": 4
+    }
+  },
+  {
+    "id": "premium-silent-death",
+    "name": "Silent Death Hoodie",
+    "handle": "silent-death-hoodie",
+    "category": "Hoodies",
+    "price": 3499.0,
+    "originalPrice": 4999.0,
+    "badges": [
+      "PREMIUM COLLECTION",
+      "LIMITED",
+      "EXCLUSIVE"
+    ],
+    "images": [
+      "/images/hoodies/silent-death-front.jpg",
+      "/images/hoodies/silent-death-back.jpg"
+    ],
+    "description": "Silent Death Hoodie - Premium Collection. Moves in shadows, strikes without warning. The whisper before the storm.",
+    "tags": [
+      "Premium Collection",
+      "Hoodies",
+      "Limited",
+      "OG",
+      "Exclusive"
+    ],
+    "vendor": "OG Armory Premium",
+    "stock": {
+      "S": 3,
+      "M": 6,
+      "L": 8,
+      "XL": 5,
+      "XXL": 2
+    }
+  },
+  {
+    "id": "vault-night-hunter",
+    "name": "Night Hunter Hoodie",
+    "handle": "night-hunter-hoodie",
+    "category": "Vault",
+    "price": 4999.0,
+    "originalPrice": 6499.0,
+    "badges": [
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "ULTRA LIMITED"
+    ],
+    "images": [
+      "/images/hoodies/night-hunter-front.jpg",
+      "/images/hoodies/night-hunter-back.jpg"
+    ],
+    "description": "Night Hunter Hoodie - VAULT EXCLUSIVE. Born from darkness, designed for legends. The ultimate predator's armor for those who own the night.",
+    "tags": [
+      "Vault",
+      "Hoodies",
+      "Ultra Limited",
+      "OG",
+      "Locked Exclusive"
+    ],
+    "vendor": "OG Armory Vault",
+    "vault_locked": true,
+    "stock": {
+      "S": 1,
+      "M": 2,
+      "L": 3,
+      "XL": 1,
+      "XXL": 1
+    }
+  },
+  {
+    "id": "og-shadow-slides",
+    "name": "Shadow Warrior Slides",
+    "handle": "shadow-warrior-slides",
+    "category": "Accessories",
+    "price": 899.0,
+    "originalPrice": 1299.0,
+    "badges": [
+      "NEW",
+      "OG EXCLUSIVE"
+    ],
+    "images": [
+      "/images/slides/shadow-warrior-front.jpg",
+      "/images/slides/shadow-warrior-back.jpg"
+    ],
+    "description": "Shadow Warrior Slides - Silent steps, deadly comfort. OG-branded slides for the stealthy soldier.",
+    "tags": [
+      "Slides",
+      "Accessories", 
+      "OG",
+      "Comfort"
+    ],
+    "vendor": "OG Armory",
+    "stock": {
+      "6": 15,
+      "7": 20,
+      "8": 25,
+      "9": 18,
+      "10": 12,
+      "11": 8
+    }
+  },
+  {
+    "id": "og-rebel-cap",
+    "name": "Rebel Command Cap",
+    "handle": "rebel-command-cap",
+    "category": "Accessories",
+    "price": 799.0,
+    "originalPrice": 1199.0,
+    "badges": [
+      "BESTSELLER",
+      "OG EXCLUSIVE"
+    ],
+    "images": [
+      "/images/caps/rebel-command-front.jpg",
+      "/images/caps/rebel-command-back.jpg"
+    ],
+    "description": "Rebel Command Cap - Lead from the front. Premium OG embroidered cap for true leaders.",
+    "tags": [
+      "Caps",
+      "Accessories", 
+      "OG",
+      "Leadership"
+    ],
+    "vendor": "OG Armory",
+    "stock": {
+      "One Size": 25
+    }
+  }
+]

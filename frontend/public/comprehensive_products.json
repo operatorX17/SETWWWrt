@@ -1,0 +1,260 @@
+[
+  {
+    "id": "vault-exclusive-01",
+    "name": "SHADOW BEAST HOODIE",
+    "category": "Vault",
+    "price": 3999,
+    "originalPrice": 4999,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hoodies/product1/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/product1/front/main.jpg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "VAULT",
+      "LIMITED"
+    ],
+    "description": "Premium shadow beast design. Limited edition hoodie crafted for rebels.",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Shadow Black",
+      "Dark Grey"
+    ],
+    "vault_locked": true,
+    "collection": "VAULT COLLECTION",
+    "material": "Premium Cotton Blend",
+    "fit": "Regular",
+    "weight": "400 GSM",
+    "care": "Machine wash cold",
+    "sku": "VAULT-SB-001",
+    "stock": 99,
+    "is_vault_exclusive": true,
+    "serial_numbered": true,
+    "requires_purchase_unlock": true
+  },
+  {
+    "id": "vault-exclusive-02",
+    "name": "URBAN STREET ART TEE",
+    "category": "Vault",
+    "price": 2499,
+    "originalPrice": 2999,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/front/main.jpg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "VAULT",
+      "LIMITED"
+    ],
+    "description": "Street art meets rebellion. Premium tee with exclusive urban design.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Street Black",
+      "Urban Grey"
+    ],
+    "vault_locked": true,
+    "collection": "VAULT COLLECTION",
+    "material": "Premium Cotton",
+    "fit": "Regular Fit",
+    "weight": "180 GSM",
+    "care": "Machine wash cold",
+    "sku": "VAULT-USA-002",
+    "stock": 77,
+    "is_vault_exclusive": true,
+    "serial_numbered": true,
+    "requires_purchase_unlock": true
+  },
+  {
+    "id": "og-hoodie-002",
+    "name": "BLOOD WOLF LEGACY",
+    "category": "Hoodies",
+    "price": 3999,
+    "originalPrice": 5499,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.06.44_AM_10d458f2-5acd-488c-a1c7-d2c7b3b1e6d5.jpeg?v=1756807862",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.06.45_AM_d1234567-8901-2345-6789-abcdef123456.jpeg?v=1756807862"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL",
+      "BESTSELLER"
+    ],
+    "description": "Wolf blood runs deep. Legacy lives forever. For the pack.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Crimson Red",
+      "Shadow Black"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Cotton Blend",
+    "fit": "Regular Fit",
+    "weight": "380 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-BW-002",
+    "stock": 75
+  },
+  {
+    "id": "og-tee-001",
+    "name": "CRIMSON FURY TEE",
+    "category": "Tee Shirts",
+    "price": 1999,
+    "originalPrice": 2499,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.04_AM_dfe15ace-3e34-45d2-ab32-3782949d11e8.jpeg?v=1756807751",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.03_AM_1_8d6877f4-5a7e-49f5-b431-74f13833bf74.jpeg?v=1756807751"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL",
+      "NEW"
+    ],
+    "description": "Unleash the fury. Wear the legend. Show no mercy.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Fury Red",
+      "Battle Black"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Premium Cotton",
+    "fit": "Regular Fit",
+    "weight": "180 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-CF-001",
+    "stock": 100
+  },
+  {
+    "id": "og-tee-002",
+    "name": "IRON PREDATOR TEE",
+    "category": "Tee Shirts",
+    "price": 1799,
+    "originalPrice": 2299,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.21_AM_1_f7a1e55b-668a-4b34-8a73-825302030f2a.jpeg?v=1756807780",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.22_AM_2_g8b2e66c-779a-5c45-9d74-936403141f7b.jpeg?v=1756807780"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL",
+      "DROP"
+    ],
+    "description": "Iron will. Predator instinct. Built to dominate.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Iron Grey",
+      "Predator Black"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Cotton Blend",
+    "fit": "Slim Fit",
+    "weight": "160 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-IP-002",
+    "stock": 85
+  },
+  {
+    "id": "vault-exclusive-03",
+    "name": "OCEAN WAVES TEE",
+    "category": "Vault",
+    "price": 2799,
+    "originalPrice": 3299,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Blue/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/black/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "VAULT",
+      "BESTSELLER"
+    ],
+    "description": "Ocean waves design with premium comfort. Exclusive rebel collection piece.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Ocean Blue",
+      "Wave Black",
+      "Storm Grey"
+    ],
+    "vault_locked": true,
+    "collection": "VAULT COLLECTION",
+    "material": "Premium Cotton",
+    "fit": "Regular Fit",
+    "weight": "180 GSM",
+    "care": "Machine wash cold",
+    "sku": "VAULT-OW-003",
+    "stock": 50,
+    "is_vault_exclusive": true,
+    "serial_numbered": true,
+    "requires_purchase_unlock": true
+  },
+  {
+    "id": "vault-exclusive-04",
+    "name": "MOUNTAIN ADVENTURE HOODIE",
+    "category": "Vault",
+    "price": 4299,
+    "originalPrice": 4999,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hoodies/product2/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/product2/front/main.jpg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "VAULT",
+      "LIMITED"
+    ],
+    "description": "Adventure awaits. Premium mountain-inspired hoodie for rebels who explore.",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Mountain Grey",
+      "Adventure Black"
+    ],
+    "vault_locked": true,
+    "collection": "VAULT COLLECTION",
+    "material": "Premium Cotton Blend",
+    "fit": "Regular Fit",
+    "weight": "420 GSM",
+    "care": "Machine wash cold",
+    "sku": "VAULT-MA-004",
+    "stock": 25,
+    "is_vault_exclusive": true,
+    "serial_numbered": true,
+    "requires_purchase_unlock": true
+  }
+]

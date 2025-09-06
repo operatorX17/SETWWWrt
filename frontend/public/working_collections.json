@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "handle": "rebellion-core",
+    "title": "Rebellion Core",
+    "description": "Essential gear for every rebel soldier. Core items that define the OG tribe.",
+    "products": [],
+    "published": true,
+    "sort_order": "manual"
+  },
+  {
+    "id": 2,
+    "handle": "under-999",
+    "title": "Under \u20b9999",
+    "description": "Premium OG gear accessible to every rebel. No soldier left behind.",
+    "products": [],
+    "published": true,
+    "sort_order": "price-ascending"
+  },
+  {
+    "id": 3,
+    "handle": "beast-mode",
+    "title": "Beast Mode",
+    "description": "Premium hoodies and sweatshirts for elite warriors.",
+    "products": [],
+    "published": true,
+    "sort_order": "price-descending"
+  },
+  {
+    "id": 4,
+    "handle": "multi-color",
+    "title": "Multi-Color Arsenal",
+    "description": "Products available in multiple color variants for customization.",
+    "products": [],
+    "published": true,
+    "sort_order": "manual"
+  }
+]

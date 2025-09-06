@@ -1,0 +1,239 @@
+🔥 STARTING COMPLETE OG STORE AUTOMATION
+============================================================
+🏪 Updating store settings...
+❌ API Error 406: 
+📚 Creating OG collections...
+❌ API Error 422: {"errors":{"handle":["has already been taken"]}}
+❌ API Error 422: {"errors":{"handle":["has already been taken"]}}
+❌ API Error 422: {"errors":{"handle":["has already been taken"]}}
+❌ API Error 422: {"errors":{"handle":["has already been taken"]}}
+🚀 Processing product directory: /app/PRODUCTS
+
+📁 Creating product: product2 (wallet)
+   ✅ Created: OG Product2 Tactical Wallet
+
+📁 Creating product: product1 (wallet)
+   ✅ Created: OG Product1 Tactical Wallet
+
+📁 Creating product: Tropical Paradise (teeshirt)
+   ✅ Created: OG Tropical Paradise Rebel Tee
+
+📁 Creating product: Tropical Paradise (teeshirt)
+   ✅ Created: OG Tropical Paradise Rebel Tee
+
+📁 Creating product: Nature Photography (teeshirt)
+   ✅ Created: OG Nature Photography Rebel Tee
+
+📁 Creating product: Urban Street Art (teeshirt)
+   ✅ Created: OG Urban Street Art Rebel Tee
+
+📁 Creating product: Mountain Adventure (teeshirt)
+   ✅ Created: OG Mountain Adventure Rebel Tee
+
+📁 Creating product: Neon Lights (teeshirt)
+   ✅ Created: OG Neon Lights Rebel Tee
+
+📁 Creating product: Vintage Typography (teeshirt)
+   ✅ Created: OG Vintage Typography Rebel Tee
+
+📁 Creating product: Music Festival Vibes (teeshirt)
+   ✅ Created: OG Music Festival Vibes Rebel Tee
+
+📁 Creating product: Space Exploration (teeshirt)
+   ✅ Created: OG Space Exploration Rebel Tee
+
+📁 Creating product: City Skyline (teeshirt)
+   ✅ Created: OG City Skyline Rebel Tee
+
+📁 Creating product: City Skyline (teeshirt)
+   ✅ Created: OG City Skyline Rebel Tee
+
+📁 Creating product: Minimalist Design (teeshirt)
+   ✅ Created: OG Minimalist Design Rebel Tee
+
+📁 Creating product: product2 (posters)
+   ✅ Created: OG Product2 Scene Poster
+
+📁 Creating product: product3 (posters)
+   ✅ Created: OG Product3 Scene Poster
+
+📁 Creating product: product8 (posters)
+   ✅ Created: OG Product8 Scene Poster
+
+📁 Creating product: product5 (posters)
+   ✅ Created: OG Product5 Scene Poster
+
+📁 Creating product: product4 (posters)
+   ✅ Created: OG Product4 Scene Poster
+
+📁 Creating product: product1 (posters)
+   ✅ Created: OG Product1 Scene Poster
+
+📁 Creating product: product10 (posters)
+   ✅ Created: OG Product10 Scene Poster
+
+📁 Creating product: product6 (posters)
+   ✅ Created: OG Product6 Scene Poster
+
+📁 Creating product: product9 (posters)
+   ✅ Created: OG Product9 Scene Poster
+
+📁 Creating product: product7 (posters)
+   ✅ Created: OG Product7 Scene Poster
+
+📁 Creating product: product2 (sweatshirts)
+   ✅ Created: OG Product2 War Sweatshirt
+
+📁 Creating product: product4 (sweatshirts)
+   ✅ Created: OG Product4 War Sweatshirt
+
+📁 Creating product: product1 (sweatshirts)
+   ✅ Created: OG Product1 War Sweatshirt
+
+📁 Creating product: product14 (hoodies)
+   ✅ Created: OG Product14 Battle Hoodie
+
+📁 Creating product: product2 (hoodies)
+   ✅ Created: OG Product2 Battle Hoodie
+
+📁 Creating product: product2 (hoodies)
+   ✅ Created: OG Product2 Battle Hoodie
+
+📁 Creating product: product3 (hoodies)
+   ✅ Created: OG Product3 Battle Hoodie
+
+📁 Creating product: product3 (hoodies)
+   ✅ Created: OG Product3 Battle Hoodie
+
+📁 Creating product: product18 (hoodies)
+   ✅ Created: OG Product18 Battle Hoodie
+
+📁 Creating product: product18 (hoodies)
+   ✅ Created: OG Product18 Battle Hoodie
+
+📁 Creating product: product16 (hoodies)
+   ✅ Created: OG Product16 Battle Hoodie
+
+📁 Creating product: product16 (hoodies)
+   ✅ Created: OG Product16 Battle Hoodie
+
+📁 Creating product: Product11 (hoodies)
+   ✅ Created: OG Product11 Battle Hoodie
+
+📁 Creating product: product20 (hoodies)
+   ✅ Created: OG Product20 Battle Hoodie
+
+📁 Creating product: product8 (hoodies)
+   ✅ Created: OG Product8 Battle Hoodie
+
+📁 Creating product: product8 (hoodies)
+   ✅ Created: OG Product8 Battle Hoodie
+
+📁 Creating product: product5 (hoodies)
+   ✅ Created: OG Product5 Battle Hoodie
+
+📁 Creating product: product5 (hoodies)
+   ✅ Created: OG Product5 Battle Hoodie
+
+📁 Creating product: product4 (hoodies)
+   ✅ Created: OG Product4 Battle Hoodie
+
+📁 Creating product: product4 (hoodies)
+   ✅ Created: OG Product4 Battle Hoodie
+
+📁 Creating product: product17 (hoodies)
+   ✅ Created: OG Product17 Battle Hoodie
+
+📁 Creating product: product1 (hoodies)
+   ✅ Created: OG Product1 Battle Hoodie
+
+📁 Creating product: product1 (hoodies)
+   ✅ Created: OG Product1 Battle Hoodie
+
+📁 Creating product: product10 (hoodies)
+   ✅ Created: OG Product10 Battle Hoodie
+
+📁 Creating product: product10 (hoodies)
+   ✅ Created: OG Product10 Battle Hoodie
+
+📁 Creating product: product6 (hoodies)
+   ✅ Created: OG Product6 Battle Hoodie
+
+📁 Creating product: product6 (hoodies)
+   ✅ Created: OG Product6 Battle Hoodie
+
+📁 Creating product: product15 (hoodies)
+   ✅ Created: OG Product15 Battle Hoodie
+
+📁 Creating product: product9 (hoodies)
+   ✅ Created: OG Product9 Battle Hoodie
+
+📁 Creating product: product9 (hoodies)
+   ✅ Created: OG Product9 Battle Hoodie
+
+📁 Creating product: product19 (hoodies)
+   ✅ Created: OG Product19 Battle Hoodie
+
+📁 Creating product: product19 (hoodies)
+   ✅ Created: OG Product19 Battle Hoodie
+
+📁 Creating product: Product12 (hoodies)
+   ✅ Created: OG Product12 Battle Hoodie
+
+📁 Creating product: product21 (hoodies)
+   ✅ Created: OG Product21 Battle Hoodie
+
+📁 Creating product: product7 (hoodies)
+   ✅ Created: OG Product7 Battle Hoodie
+
+📁 Creating product: product7 (hoodies)
+   ✅ Created: OG Product7 Battle Hoodie
+
+📁 Creating product: Product13 (hoodies)
+   ✅ Created: OG Product13 Battle Hoodie
+
+📁 Creating product: Product13 (hoodies)
+   ✅ Created: OG Product13 Battle Hoodie
+
+📁 Creating product: product2 (full shirts)
+   ✅ Created: OG Product2 Combat Shirt
+
+📁 Creating product: product3 (full shirts)
+   ✅ Created: OG Product3 Combat Shirt
+
+📁 Creating product: product1 (full shirts)
+   ✅ Created: OG Product1 Combat Shirt
+
+📁 Creating product: product2 (slippers)
+   ✅ Created: OG Product2 Rest Slippers
+
+📁 Creating product: product1 (slippers)
+   ✅ Created: OG Product1 Rest Slippers
+
+📁 Creating product: product1 (slippers)
+   ✅ Created: OG Product1 Rest Slippers
+
+📁 Creating product: product2 (hats)
+   ✅ Created: OG Product2 Tactical Cap
+
+📁 Creating product: product2 (hats)
+   ✅ Created: OG Product2 Tactical Cap
+
+📁 Creating product: product1 (hats)
+   ✅ Created: OG Product1 Tactical Cap
+
+📁 Creating product: product1 (hats)
+   ✅ Created: OG Product1 Tactical Cap
+
+📁 Creating product: WhatsApp Image 2025-08-31 at 8.55.49 AM (2) (headband)
+   ✅ Created: OG Whatsapp Image 2025 08 31 At 8.55.49 Am (2) Battle Band
+
+🎉 Successfully created 73 products!
+
+============================================================
+🎉 OG STORE AUTOMATION COMPLETE!
+✅ Store updated with OG branding
+✅ 0 collections created
+✅ 73 products created
+✅ All products have OG tags and metadata
+============================================================

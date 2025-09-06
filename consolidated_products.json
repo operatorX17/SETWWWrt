@@ -1,0 +1,391 @@
+[
+  {
+    "id": "tee-consolidated-01",
+    "name": "[ARMORY // REBEL TEE] \u2014 OCEAN WAVES",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "colors": [
+      "Blue",
+      "black",
+      "grey"
+    ],
+    "images": [
+      "/app/PRODUCTS/teeshirt/Ocean Waves/Blue/WhatsApp Image 2025-08-31 at 10.49.04 AM.jpeg",
+      "/app/PRODUCTS/teeshirt/Ocean Waves/black/WhatsApp Image 2025-08-31 at 10.49.03 AM (1).jpeg",
+      "/app/PRODUCTS/teeshirt/Ocean Waves/grey/WhatsApp Image 2025-08-31 at 10.49.03 AM (2).jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Ocean Waves rebel tee - Available in 3 warrior colors. Back design prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    }
+  },
+  {
+    "id": "tee-consolidated-02",
+    "name": "[ARMORY // REBEL TEE] \u2014 ABSTRACT GEOMETRY",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "colors": [
+      "black",
+      "blue"
+    ],
+    "images": [
+      "/app/PRODUCTS/teeshirt/Abstract Geometry/black/WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg",
+      "/app/PRODUCTS/teeshirt/Abstract Geometry/black/WhatsApp Image 2025-08-31 at 8.59.07 AM.jpeg",
+      "/app/PRODUCTS/teeshirt/Abstract Geometry/blue/WhatsApp Image 2025-08-31 at 10.49.02 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "description": "Abstract Geometry rebel tee - Available in 2 warrior colors. Back design prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 5,
+      "S": 12,
+      "M": 18,
+      "L": 22,
+      "XL": 9,
+      "XXL": 4
+    }
+  },
+  {
+    "id": "tee-single-03",
+    "name": "[ARMORY // REBEL TEE] \u2014 CITY SKYLINE",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/City Skyline/back/WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg",
+      "/app/PRODUCTS/teeshirt/City Skyline/front/WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "City Skyline rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-04",
+    "name": "[ARMORY // REBEL TEE] \u2014 MINIMALIST DESIGN",
+    "category": "Teeshirt",
+    "price": 999,
+    "originalPrice": 1299,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Minimalist Design/back/WhatsApp Image 2025-08-31 at 8.59.07 AM (1).jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Minimalist Design rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-05",
+    "name": "[ARMORY // REBEL TEE] \u2014 NATURE PHOTOGRAPHY",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Nature Photography/front/WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Nature Photography rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-06",
+    "name": "[ARMORY // REBEL TEE] \u2014 VINTAGE TYPOGRAPHY",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Vintage Typography/front/WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Vintage Typography rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-07",
+    "name": "[ARMORY // REBEL TEE] \u2014 MOUNTAIN ADVENTURE",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Mountain Adventure/back/WhatsApp Image 2025-08-31 at 9.18.35 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Mountain Adventure rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-08",
+    "name": "[ARMORY // REBEL TEE] \u2014 MUSIC FESTIVAL VIBES",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Music Festival Vibes/back/WhatsApp Image 2025-08-31 at 8.59.06 AM (1).jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Music Festival Vibes rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-09",
+    "name": "[ARMORY // REBEL TEE] \u2014 SPACE EXPLORATION",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Space Exploration rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-10",
+    "name": "[ARMORY // REBEL TEE] \u2014 TROPICAL PARADISE",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Tropical Paradise/back/WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg",
+      "/app/PRODUCTS/teeshirt/Tropical Paradise/front/WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Tropical Paradise rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-11",
+    "name": "[ARMORY // REBEL TEE] \u2014 URBAN STREET ART",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Urban Street Art/back/WhatsApp Image 2025-08-31 at 8.59.07 AM (2).jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Urban Street Art rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "tee-single-12",
+    "name": "[ARMORY // REBEL TEE] \u2014 NEON LIGHTS",
+    "category": "Teeshirt",
+    "price": 1199,
+    "originalPrice": 1499,
+    "images": [
+      "/app/PRODUCTS/teeshirt/Neon Lights/front/WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "description": "Neon Lights rebel tee - Premium OG design with back artwork prioritized.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 11,
+      "M": 16,
+      "L": 19,
+      "XL": 8,
+      "XXL": 3
+    }
+  }
+]

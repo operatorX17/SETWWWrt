@@ -1,0 +1,168 @@
+[
+  {
+    "id": "premium-crimson-fury",
+    "name": "Crimson Fury Hoodie",
+    "handle": "crimson-fury-hoodie",
+    "category": "Hoodies",
+    "price": 3499.0,
+    "originalPrice": null,
+    "badges": [
+      "PREMIUM COLLECTION",
+      "LIMITED",
+      "EXCLUSIVE"
+    ],
+    "images": [
+      "/images/hoodies/crimson-fury-front.jpg",
+      "/images/hoodies/crimson-fury-back.jpg"
+    ],
+    "description": "Crimson Fury Hoodie - Premium Collection. The rage of a thousand battles woven into fabric. For warriors who embrace the storm within.",
+    "tags": [
+      "Premium Collection",
+      "Hoodies", 
+      "Limited",
+      "OG",
+      "Exclusive"
+    ],
+    "vendor": "OG Armory Premium",
+    "stock": {
+      "S": 5,
+      "M": 8,
+      "L": 10,
+      "XL": 6,
+      "XXL": 3
+    }
+  },
+  {
+    "id": "premium-brutal-machine",
+    "name": "Brutal Machine Hoodie",
+    "handle": "brutal-machine-hoodie",
+    "category": "Hoodies",
+    "price": 3499.0,
+    "originalPrice": null,
+    "badges": [
+      "PREMIUM COLLECTION",
+      "LIMITED",
+      "EXCLUSIVE"
+    ],
+    "images": [
+      "/images/hoodies/brutal-machine-front.jpg",
+      "/images/hoodies/brutal-machine-back.jpg"
+    ],
+    "description": "Brutal Machine Hoodie - Premium Collection. Engineered for destruction, crafted for comfort. The mechanical precision of warfare meets street style.",
+    "tags": [
+      "Premium Collection",
+      "Hoodies",
+      "Limited", 
+      "OG",
+      "Exclusive"
+    ],
+    "vendor": "OG Armory Premium",
+    "stock": {
+      "S": 4,
+      "M": 7,
+      "L": 9,
+      "XL": 5,
+      "XXL": 2
+    }
+  },
+  {
+    "id": "premium-iron-predator",
+    "name": "Iron Predator Hoodie",
+    "handle": "iron-predator-hoodie",
+    "category": "Hoodies",
+    "price": 3499.0,
+    "originalPrice": null,
+    "badges": [
+      "PREMIUM COLLECTION",
+      "LIMITED",
+      "EXCLUSIVE"
+    ],
+    "images": [
+      "/images/hoodies/iron-predator-front.jpg",
+      "/images/hoodies/iron-predator-back.jpg"
+    ],
+    "description": "Iron Predator Hoodie - Premium Collection. Forged in the fires of conquest. For those who hunt their dreams with ruthless precision.",
+    "tags": [
+      "Premium Collection",
+      "Hoodies",
+      "Limited",
+      "OG", 
+      "Exclusive"
+    ],
+    "vendor": "OG Armory Premium",
+    "stock": {
+      "S": 6,
+      "M": 10,
+      "L": 12,
+      "XL": 8,
+      "XXL": 4
+    }
+  },
+  {
+    "id": "premium-silent-death",
+    "name": "Silent Death Hoodie",
+    "handle": "silent-death-hoodie",
+    "category": "Hoodies",
+    "price": 3499.0,
+    "originalPrice": null,
+    "badges": [
+      "PREMIUM COLLECTION",
+      "LIMITED",
+      "EXCLUSIVE"
+    ],
+    "images": [
+      "/images/hoodies/silent-death-front.jpg",
+      "/images/hoodies/silent-death-back.jpg"
+    ],
+    "description": "Silent Death Hoodie - Premium Collection. Moves in shadows, strikes without warning. The whisper before the storm.",
+    "tags": [
+      "Premium Collection",
+      "Hoodies",
+      "Limited",
+      "OG",
+      "Exclusive"
+    ],
+    "vendor": "OG Armory Premium",
+    "stock": {
+      "S": 3,
+      "M": 6,
+      "L": 8,
+      "XL": 5,
+      "XXL": 2
+    }
+  },
+  {
+    "id": "vault-night-hunter",
+    "name": "Night Hunter Hoodie",
+    "handle": "night-hunter-hoodie", 
+    "category": "Vault",
+    "price": 4999.0,
+    "originalPrice": null,
+    "badges": [
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "ULTRA LIMITED"
+    ],
+    "images": [
+      "/images/hoodies/night-hunter-front.jpg",
+      "/images/hoodies/night-hunter-back.jpg"
+    ],
+    "description": "Night Hunter Hoodie - VAULT EXCLUSIVE. Born from darkness, designed for legends. The ultimate predator's armor for those who own the night.",
+    "tags": [
+      "Vault",
+      "Hoodies",
+      "Ultra Limited",
+      "OG",
+      "Locked Exclusive"
+    ],
+    "vendor": "OG Armory Vault",
+    "vault_locked": true,
+    "stock": {
+      "S": 1,
+      "M": 2,
+      "L": 3,
+      "XL": 1,
+      "XXL": 1
+    }
+  }
+]

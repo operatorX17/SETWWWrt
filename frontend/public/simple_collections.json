@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "handle": "rebellion-core",
+    "title": "Rebellion Core",
+    "description": "Essential gear for every rebel soldier. Core items that define the OG tribe.",
+    "product_ids": [
+      4000,
+      4001,
+      4002,
+      4003,
+      4004,
+      4005,
+      4006,
+      4007,
+      4008,
+      4009
+    ],
+    "product_count": 10,
+    "published": true,
+    "sort_order": "manual"
+  },
+  {
+    "id": 2,
+    "handle": "under-999",
+    "title": "Under \u20b9999",
+    "description": "Premium OG gear accessible to every rebel. No soldier left behind.",
+    "product_ids": [
+      4000,
+      4009,
+      4010,
+      4011,
+      4012,
+      4013,
+      4014,
+      4015,
+      4016
+    ],
+    "product_count": 9,
+    "published": true,
+    "sort_order": "price-ascending"
+  },
+  {
+    "id": 3,
+    "handle": "multi-color",
+    "title": "Multi-Color Arsenal",
+    "description": "Products available in multiple color variants for customization.",
+    "product_ids": [
+      4000,
+      4001
+    ],
+    "product_count": 2,
+    "published": true,
+    "sort_order": "manual"
+  },
+  {
+    "id": 4,
+    "handle": "arsenal-gear",
+    "title": "Arsenal Gear",
+    "description": "Essential accessories and gear for every rebel warrior.",
+    "product_ids": [
+      4010,
+      4011,
+      4012,
+      4013,
+      4014,
+      4015,
+      4016
+    ],
+    "product_count": 7,
+    "published": true,
+    "sort_order": "manual"
+  }
+]

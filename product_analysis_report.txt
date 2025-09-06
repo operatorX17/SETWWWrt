@@ -1,0 +1,37 @@
+
+🔥 OG ARMORY PRODUCT ANALYSIS REPORT 🔥
+
+CURRENT ASSETS SUMMARY:
+- Total Images Found: 84 (You mentioned 36, we found 84)
+- Back Images Available: 31
+- Front Images Available: 32
+- Categories: 1
+
+CATEGORY BREAKDOWN:
+
+PRODUCTS:
+  - hats: 5 images
+  - slippers: 3 images
+  - HeadBand: 1 images
+  - wallet: 2 images
+  - teeshirt: 19 images [black, blue, Red, black, grey variants]
+  - full shirts: 3 images
+  - hoodies: 38 images
+  - posters: 10 images
+  - Sweatshirts: 3 images
+
+COLOR VARIANT CONSOLIDATION:
+  - PRODUCTS/teeshirt: ['black', 'blue', 'Red', 'black', 'grey'] → MERGE INTO SINGLE PRODUCT
+
+CONSOLIDATED PRODUCT STRUCTURE:
+- Created 12 consolidated products
+- Back images prioritized in all products
+- Color variants merged with size/color selection
+
+RECOMMENDATIONS:
+  - Merge 5 color variants into single product with color options
+
+IMAGE PRIORITY FIXED:
+- All products now show BACK images first
+- Front images moved to secondary positions
+- Maximum 7 images per product as requested

@@ -1,0 +1,1237 @@
+[
+  {
+    "id": 4000,
+    "name": "Ocean Waves Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 OCEAN WAVES",
+    "handle": "ocean-waves-rebel-tee",
+    "category": "Teeshirt",
+    "product_type": "T-Shirt",
+    "vendor": "DVV Entertainment",
+    "price": 999,
+    "compare_at_price": 1299,
+    "colors": [
+      "Blue",
+      "Black",
+      "Grey"
+    ],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/Blue/WhatsApp%20Image%202025-08-31%20at%2010.49.04%20AM.jpeg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/black/WhatsApp%20Image%202025-08-31%20at%2010.49.03%20AM%20(1).jpeg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/grey/WhatsApp%20Image%202025-08-31%20at%2010.49.03%20AM%20(2).jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/Blue/WhatsApp%20Image%202025-08-31%20at%2010.49.04%20AM.jpeg",
+    "badges": [
+      "REBEL DROP",
+      "UNDER \u20b9999",
+      "MULTI-COLOR"
+    ],
+    "tags": [
+      "OG",
+      "Rebel",
+      "Teeshirt"
+    ],
+    "description": "Ocean Waves Rebel Tee - Premium OG design. Built for rebels.",
+    "variants": [
+      {
+        "id": 400000,
+        "title": "XS",
+        "option1": "XS",
+        "price": 999,
+        "inventory_quantity": 5,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400001,
+        "title": "S",
+        "option1": "S",
+        "price": 999,
+        "inventory_quantity": 12,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400002,
+        "title": "M",
+        "option1": "M",
+        "price": 999,
+        "inventory_quantity": 18,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400003,
+        "title": "L",
+        "option1": "L",
+        "price": 999,
+        "inventory_quantity": 22,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400004,
+        "title": "XL",
+        "option1": "XL",
+        "price": 999,
+        "inventory_quantity": 9,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400005,
+        "title": "XXL",
+        "option1": "XXL",
+        "price": 999,
+        "inventory_quantity": 4,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4001,
+    "name": "Abstract Geometry Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 ABSTRACT GEOMETRY",
+    "handle": "abstract-geometry-rebel-tee",
+    "category": "Teeshirt",
+    "product_type": "T-Shirt",
+    "vendor": "DVV Entertainment",
+    "price": 1199,
+    "compare_at_price": 1499,
+    "colors": [
+      "Black",
+      "Blue"
+    ],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract%20Geometry/black/WhatsApp%20Image%202025-08-31%20at%208.59.07%20AM.jpeg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract%20Geometry/black/WhatsApp%20Image%202025-08-31%20at%2010.49.01%20AM%20(1).jpeg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract%20Geometry/blue/WhatsApp%20Image%202025-08-31%20at%2010.49.02%20AM.jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/teeshirt/Abstract%20Geometry/black/WhatsApp%20Image%202025-08-31%20at%208.59.07%20AM.jpeg",
+    "badges": [
+      "REBEL DROP",
+      "MULTI-COLOR"
+    ],
+    "tags": [
+      "OG",
+      "Rebel",
+      "Teeshirt"
+    ],
+    "description": "Abstract Geometry Rebel Tee - Premium OG design. Built for rebels.",
+    "variants": [
+      {
+        "id": 400100,
+        "title": "XS",
+        "option1": "XS",
+        "price": 1199,
+        "inventory_quantity": 5,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400101,
+        "title": "S",
+        "option1": "S",
+        "price": 1199,
+        "inventory_quantity": 12,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400102,
+        "title": "M",
+        "option1": "M",
+        "price": 1199,
+        "inventory_quantity": 18,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400103,
+        "title": "L",
+        "option1": "L",
+        "price": 1199,
+        "inventory_quantity": 22,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400104,
+        "title": "XL",
+        "option1": "XL",
+        "price": 1199,
+        "inventory_quantity": 9,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400105,
+        "title": "XXL",
+        "option1": "XXL",
+        "price": 1199,
+        "inventory_quantity": 4,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4002,
+    "name": "City Skyline Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 CITY SKYLINE",
+    "handle": "city-skyline-rebel-tee",
+    "category": "Teeshirt",
+    "product_type": "T-Shirt",
+    "vendor": "DVV Entertainment",
+    "price": 1199,
+    "compare_at_price": 1499,
+    "colors": [],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/City%20Skyline/back/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(2).jpeg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/City%20Skyline/front/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM.jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/teeshirt/City%20Skyline/back/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(2).jpeg",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "tags": [
+      "OG",
+      "Rebel",
+      "Teeshirt"
+    ],
+    "description": "City Skyline Rebel Tee - Premium OG design. Built for rebels.",
+    "variants": [
+      {
+        "id": 400200,
+        "title": "XS",
+        "option1": "XS",
+        "price": 1199,
+        "inventory_quantity": 5,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400201,
+        "title": "S",
+        "option1": "S",
+        "price": 1199,
+        "inventory_quantity": 12,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400202,
+        "title": "M",
+        "option1": "M",
+        "price": 1199,
+        "inventory_quantity": 18,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400203,
+        "title": "L",
+        "option1": "L",
+        "price": 1199,
+        "inventory_quantity": 22,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400204,
+        "title": "XL",
+        "option1": "XL",
+        "price": 1199,
+        "inventory_quantity": 9,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400205,
+        "title": "XXL",
+        "option1": "XXL",
+        "price": 1199,
+        "inventory_quantity": 4,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4003,
+    "name": "Vintage Typography Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 VINTAGE TYPOGRAPHY",
+    "handle": "vintage-typography-rebel-tee",
+    "category": "Teeshirt",
+    "product_type": "T-Shirt",
+    "vendor": "DVV Entertainment",
+    "price": 1299,
+    "compare_at_price": 1599,
+    "colors": [],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage%20Typography/front/WhatsApp%20Image%202025-08-31%20at%209.09.12%20AM.jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/teeshirt/Vintage%20Typography/front/WhatsApp%20Image%202025-08-31%20at%209.09.12%20AM.jpeg",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "tags": [
+      "OG",
+      "Rebel",
+      "Teeshirt"
+    ],
+    "description": "Vintage Typography Rebel Tee - Premium OG design. Built for rebels.",
+    "variants": [
+      {
+        "id": 400300,
+        "title": "XS",
+        "option1": "XS",
+        "price": 1299,
+        "inventory_quantity": 5,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400301,
+        "title": "S",
+        "option1": "S",
+        "price": 1299,
+        "inventory_quantity": 12,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400302,
+        "title": "M",
+        "option1": "M",
+        "price": 1299,
+        "inventory_quantity": 18,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400303,
+        "title": "L",
+        "option1": "L",
+        "price": 1299,
+        "inventory_quantity": 22,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400304,
+        "title": "XL",
+        "option1": "XL",
+        "price": 1299,
+        "inventory_quantity": 9,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400305,
+        "title": "XXL",
+        "option1": "XXL",
+        "price": 1299,
+        "inventory_quantity": 4,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4004,
+    "name": "Mountain Adventure Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 MOUNTAIN ADVENTURE",
+    "handle": "mountain-adventure-rebel-tee",
+    "category": "Teeshirt",
+    "product_type": "T-Shirt",
+    "vendor": "DVV Entertainment",
+    "price": 1199,
+    "compare_at_price": 1499,
+    "colors": [],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain%20Adventure/back/WhatsApp%20Image%202025-08-31%20at%209.18.35%20AM.jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/teeshirt/Mountain%20Adventure/back/WhatsApp%20Image%202025-08-31%20at%209.18.35%20AM.jpeg",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "tags": [
+      "OG",
+      "Rebel",
+      "Teeshirt"
+    ],
+    "description": "Mountain Adventure Rebel Tee - Premium OG design. Built for rebels.",
+    "variants": [
+      {
+        "id": 400400,
+        "title": "XS",
+        "option1": "XS",
+        "price": 1199,
+        "inventory_quantity": 5,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400401,
+        "title": "S",
+        "option1": "S",
+        "price": 1199,
+        "inventory_quantity": 12,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400402,
+        "title": "M",
+        "option1": "M",
+        "price": 1199,
+        "inventory_quantity": 18,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400403,
+        "title": "L",
+        "option1": "L",
+        "price": 1199,
+        "inventory_quantity": 22,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400404,
+        "title": "XL",
+        "option1": "XL",
+        "price": 1199,
+        "inventory_quantity": 9,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400405,
+        "title": "XXL",
+        "option1": "XXL",
+        "price": 1199,
+        "inventory_quantity": 4,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4005,
+    "name": "Music Festival Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 MUSIC FESTIVAL",
+    "handle": "music-festival-rebel-tee",
+    "category": "Teeshirt",
+    "product_type": "T-Shirt",
+    "vendor": "DVV Entertainment",
+    "price": 1299,
+    "compare_at_price": 1599,
+    "colors": [],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Music%20Festival%20Vibes/back/WhatsApp%20Image%202025-08-31%20at%208.59.06%20AM%20(1).jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/teeshirt/Music%20Festival%20Vibes/back/WhatsApp%20Image%202025-08-31%20at%208.59.06%20AM%20(1).jpeg",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "tags": [
+      "OG",
+      "Rebel",
+      "Teeshirt"
+    ],
+    "description": "Music Festival Rebel Tee - Premium OG design. Built for rebels.",
+    "variants": [
+      {
+        "id": 400500,
+        "title": "XS",
+        "option1": "XS",
+        "price": 1299,
+        "inventory_quantity": 5,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400501,
+        "title": "S",
+        "option1": "S",
+        "price": 1299,
+        "inventory_quantity": 12,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400502,
+        "title": "M",
+        "option1": "M",
+        "price": 1299,
+        "inventory_quantity": 18,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400503,
+        "title": "L",
+        "option1": "L",
+        "price": 1299,
+        "inventory_quantity": 22,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400504,
+        "title": "XL",
+        "option1": "XL",
+        "price": 1299,
+        "inventory_quantity": 9,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400505,
+        "title": "XXL",
+        "option1": "XXL",
+        "price": 1299,
+        "inventory_quantity": 4,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4006,
+    "name": "Space Exploration Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 SPACE EXPLORATION",
+    "handle": "space-exploration-rebel-tee",
+    "category": "Teeshirt",
+    "product_type": "T-Shirt",
+    "vendor": "DVV Entertainment",
+    "price": 1399,
+    "compare_at_price": 1699,
+    "colors": [],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Space%20Exploration/front/WhatsApp%20Image%202025-08-31%20at%208.59.04%20AM.jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/teeshirt/Space%20Exploration/front/WhatsApp%20Image%202025-08-31%20at%208.59.04%20AM.jpeg",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "tags": [
+      "OG",
+      "Rebel",
+      "Teeshirt"
+    ],
+    "description": "Space Exploration Rebel Tee - Premium OG design. Built for rebels.",
+    "variants": [
+      {
+        "id": 400600,
+        "title": "XS",
+        "option1": "XS",
+        "price": 1399,
+        "inventory_quantity": 5,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400601,
+        "title": "S",
+        "option1": "S",
+        "price": 1399,
+        "inventory_quantity": 12,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400602,
+        "title": "M",
+        "option1": "M",
+        "price": 1399,
+        "inventory_quantity": 18,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400603,
+        "title": "L",
+        "option1": "L",
+        "price": 1399,
+        "inventory_quantity": 22,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400604,
+        "title": "XL",
+        "option1": "XL",
+        "price": 1399,
+        "inventory_quantity": 9,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400605,
+        "title": "XXL",
+        "option1": "XXL",
+        "price": 1399,
+        "inventory_quantity": 4,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4007,
+    "name": "Tropical Paradise Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 TROPICAL PARADISE",
+    "handle": "tropical-paradise-rebel-tee",
+    "category": "Teeshirt",
+    "product_type": "T-Shirt",
+    "vendor": "DVV Entertainment",
+    "price": 1199,
+    "compare_at_price": 1499,
+    "colors": [],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical%20Paradise/back/WhatsApp%20Image%202025-08-31%20at%208.59.40%20AM.jpeg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical%20Paradise/front/WhatsApp%20Image%202025-08-31%20at%208.59.19%20AM.jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/teeshirt/Tropical%20Paradise/back/WhatsApp%20Image%202025-08-31%20at%208.59.40%20AM.jpeg",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "tags": [
+      "OG",
+      "Rebel",
+      "Teeshirt"
+    ],
+    "description": "Tropical Paradise Rebel Tee - Premium OG design. Built for rebels.",
+    "variants": [
+      {
+        "id": 400700,
+        "title": "XS",
+        "option1": "XS",
+        "price": 1199,
+        "inventory_quantity": 5,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400701,
+        "title": "S",
+        "option1": "S",
+        "price": 1199,
+        "inventory_quantity": 12,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400702,
+        "title": "M",
+        "option1": "M",
+        "price": 1199,
+        "inventory_quantity": 18,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400703,
+        "title": "L",
+        "option1": "L",
+        "price": 1199,
+        "inventory_quantity": 22,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400704,
+        "title": "XL",
+        "option1": "XL",
+        "price": 1199,
+        "inventory_quantity": 9,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400705,
+        "title": "XXL",
+        "option1": "XXL",
+        "price": 1199,
+        "inventory_quantity": 4,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4008,
+    "name": "Nature Photography Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 NATURE PHOTOGRAPHY",
+    "handle": "nature-photography-rebel-tee",
+    "category": "Teeshirt",
+    "product_type": "T-Shirt",
+    "vendor": "DVV Entertainment",
+    "price": 1199,
+    "compare_at_price": 1499,
+    "colors": [],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature%20Photography/front/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(1).jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/teeshirt/Nature%20Photography/front/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(1).jpeg",
+    "badges": [
+      "REBEL DROP"
+    ],
+    "tags": [
+      "OG",
+      "Rebel",
+      "Teeshirt"
+    ],
+    "description": "Nature Photography Rebel Tee - Premium OG design. Built for rebels.",
+    "variants": [
+      {
+        "id": 400800,
+        "title": "XS",
+        "option1": "XS",
+        "price": 1199,
+        "inventory_quantity": 5,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400801,
+        "title": "S",
+        "option1": "S",
+        "price": 1199,
+        "inventory_quantity": 12,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400802,
+        "title": "M",
+        "option1": "M",
+        "price": 1199,
+        "inventory_quantity": 18,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400803,
+        "title": "L",
+        "option1": "L",
+        "price": 1199,
+        "inventory_quantity": 22,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400804,
+        "title": "XL",
+        "option1": "XL",
+        "price": 1199,
+        "inventory_quantity": 9,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400805,
+        "title": "XXL",
+        "option1": "XXL",
+        "price": 1199,
+        "inventory_quantity": 4,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4009,
+    "name": "Minimalist Design Rebel Tee",
+    "title": "[ARMORY // REBEL TEE] \u2014 MINIMALIST DESIGN",
+    "handle": "minimalist-design-rebel-tee",
+    "category": "Teeshirt",
+    "product_type": "T-Shirt",
+    "vendor": "DVV Entertainment",
+    "price": 899,
+    "compare_at_price": 1199,
+    "colors": [],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist%20Design/back/WhatsApp%20Image%202025-08-31%20at%208.59.07%20AM%20(1).jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/teeshirt/Minimalist%20Design/back/WhatsApp%20Image%202025-08-31%20at%208.59.07%20AM%20(1).jpeg",
+    "badges": [
+      "REBEL DROP",
+      "UNDER \u20b9999"
+    ],
+    "tags": [
+      "OG",
+      "Rebel",
+      "Teeshirt"
+    ],
+    "description": "Minimalist Design Rebel Tee - Premium OG design. Built for rebels.",
+    "variants": [
+      {
+        "id": 400900,
+        "title": "XS",
+        "option1": "XS",
+        "price": 899,
+        "inventory_quantity": 5,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400901,
+        "title": "S",
+        "option1": "S",
+        "price": 899,
+        "inventory_quantity": 12,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400902,
+        "title": "M",
+        "option1": "M",
+        "price": 899,
+        "inventory_quantity": 18,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400903,
+        "title": "L",
+        "option1": "L",
+        "price": 899,
+        "inventory_quantity": 22,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400904,
+        "title": "XL",
+        "option1": "XL",
+        "price": 899,
+        "inventory_quantity": 9,
+        "inventory_management": "shopify"
+      },
+      {
+        "id": 400905,
+        "title": "XXL",
+        "option1": "XXL",
+        "price": 899,
+        "inventory_quantity": 4,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4010,
+    "name": "Rebel Cap Elite",
+    "title": "[ARMORY // REBEL CAP ELITE] \u2014 GEAR",
+    "handle": "rebel-cap-elite",
+    "category": "Accessories",
+    "product_type": "Accessory",
+    "vendor": "DVV Entertainment",
+    "price": 799,
+    "compare_at_price": 999,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hats/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM%20(2).jpeg",
+      "https://ogshop.preview.emergentagent.com/products/hats/product1/front/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM.jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/hats/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM%20(2).jpeg",
+    "badges": [
+      "ARSENAL",
+      "UNDER \u20b9999"
+    ],
+    "tags": [
+      "OG",
+      "Arsenal",
+      "Accessories"
+    ],
+    "description": "Rebel Cap Elite - Essential gear for every rebel warrior.",
+    "variants": [
+      {
+        "id": 401000,
+        "title": "Default",
+        "option1": "Default",
+        "price": 799,
+        "inventory_quantity": 30,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "One Size"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4011,
+    "name": "Rebel Cap Pro",
+    "title": "[ARMORY // REBEL CAP PRO] \u2014 GEAR",
+    "handle": "rebel-cap-pro",
+    "category": "Accessories",
+    "product_type": "Accessory",
+    "vendor": "DVV Entertainment",
+    "price": 799,
+    "compare_at_price": 999,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hats/product2/back/WhatsApp%20Image%202025-08-31%20at%208.59.03%20AM.jpeg",
+      "https://ogshop.preview.emergentagent.com/products/hats/product2/front/WhatsApp%20Image%202025-08-31%20at%208.55.50%20AM%20(1).jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/hats/product2/back/WhatsApp%20Image%202025-08-31%20at%208.59.03%20AM.jpeg",
+    "badges": [
+      "ARSENAL",
+      "UNDER \u20b9999"
+    ],
+    "tags": [
+      "OG",
+      "Arsenal",
+      "Accessories"
+    ],
+    "description": "Rebel Cap Pro - Essential gear for every rebel warrior.",
+    "variants": [
+      {
+        "id": 401100,
+        "title": "Default",
+        "option1": "Default",
+        "price": 799,
+        "inventory_quantity": 30,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "One Size"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4012,
+    "name": "Warrior Slides Elite",
+    "title": "[ARMORY // WARRIOR SLIDES ELITE] \u2014 GEAR",
+    "handle": "warrior-slides-elite",
+    "category": "Accessories",
+    "product_type": "Accessory",
+    "vendor": "DVV Entertainment",
+    "price": 699,
+    "compare_at_price": 899,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/slippers/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.47%20AM%20(2).jpeg",
+      "https://ogshop.preview.emergentagent.com/products/slippers/product1/front/WhatsApp%20Image%202025-08-31%20at%208.55.46%20AM%20(1).jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/slippers/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.47%20AM%20(2).jpeg",
+    "badges": [
+      "ARSENAL",
+      "UNDER \u20b9999"
+    ],
+    "tags": [
+      "OG",
+      "Arsenal",
+      "Accessories"
+    ],
+    "description": "Warrior Slides Elite - Essential gear for every rebel warrior.",
+    "variants": [
+      {
+        "id": 401200,
+        "title": "Default",
+        "option1": "Default",
+        "price": 699,
+        "inventory_quantity": 30,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "One Size"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4013,
+    "name": "Warrior Slides Pro",
+    "title": "[ARMORY // WARRIOR SLIDES PRO] \u2014 GEAR",
+    "handle": "warrior-slides-pro",
+    "category": "Accessories",
+    "product_type": "Accessory",
+    "vendor": "DVV Entertainment",
+    "price": 699,
+    "compare_at_price": 899,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/slippers/product2/front/WhatsApp%20Image%202025-08-31%20at%208.55.46%20AM.jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/slippers/product2/front/WhatsApp%20Image%202025-08-31%20at%208.55.46%20AM.jpeg",
+    "badges": [
+      "ARSENAL",
+      "UNDER \u20b9999"
+    ],
+    "tags": [
+      "OG",
+      "Arsenal",
+      "Accessories"
+    ],
+    "description": "Warrior Slides Pro - Essential gear for every rebel warrior.",
+    "variants": [
+      {
+        "id": 401300,
+        "title": "Default",
+        "option1": "Default",
+        "price": 699,
+        "inventory_quantity": 30,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "One Size"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4014,
+    "name": "Battle Wallet Elite",
+    "title": "[ARMORY // BATTLE WALLET ELITE] \u2014 GEAR",
+    "handle": "battle-wallet-elite",
+    "category": "Accessories",
+    "product_type": "Accessory",
+    "vendor": "DVV Entertainment",
+    "price": 899,
+    "compare_at_price": 1099,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/wallet/product1/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM.jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/wallet/product1/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM.jpeg",
+    "badges": [
+      "ARSENAL",
+      "UNDER \u20b9999"
+    ],
+    "tags": [
+      "OG",
+      "Arsenal",
+      "Accessories"
+    ],
+    "description": "Battle Wallet Elite - Essential gear for every rebel warrior.",
+    "variants": [
+      {
+        "id": 401400,
+        "title": "Default",
+        "option1": "Default",
+        "price": 899,
+        "inventory_quantity": 30,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "One Size"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4015,
+    "name": "Battle Wallet Pro",
+    "title": "[ARMORY // BATTLE WALLET PRO] \u2014 GEAR",
+    "handle": "battle-wallet-pro",
+    "category": "Accessories",
+    "product_type": "Accessory",
+    "vendor": "DVV Entertainment",
+    "price": 899,
+    "compare_at_price": 1099,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/wallet/product2/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(1).jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/wallet/product2/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(1).jpeg",
+    "badges": [
+      "ARSENAL",
+      "UNDER \u20b9999"
+    ],
+    "tags": [
+      "OG",
+      "Arsenal",
+      "Accessories"
+    ],
+    "description": "Battle Wallet Pro - Essential gear for every rebel warrior.",
+    "variants": [
+      {
+        "id": 401500,
+        "title": "Default",
+        "option1": "Default",
+        "price": 899,
+        "inventory_quantity": 30,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "One Size"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  },
+  {
+    "id": 4016,
+    "name": "Rebel Headband",
+    "title": "[ARMORY // REBEL HEADBAND] \u2014 GEAR",
+    "handle": "rebel-headband",
+    "category": "Accessories",
+    "product_type": "Accessory",
+    "vendor": "DVV Entertainment",
+    "price": 399,
+    "compare_at_price": 599,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/HeadBand/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(2).jpeg"
+    ],
+    "featured_image": "https://ogshop.preview.emergentagent.com/products/HeadBand/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(2).jpeg",
+    "badges": [
+      "ARSENAL",
+      "UNDER \u20b9999"
+    ],
+    "tags": [
+      "OG",
+      "Arsenal",
+      "Accessories"
+    ],
+    "description": "Rebel Headband - Essential gear for every rebel warrior.",
+    "variants": [
+      {
+        "id": 401600,
+        "title": "Default",
+        "option1": "Default",
+        "price": 399,
+        "inventory_quantity": 30,
+        "inventory_management": "shopify"
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "One Size"
+        ]
+      }
+    ],
+    "published": true,
+    "status": "active"
+  }
+]
