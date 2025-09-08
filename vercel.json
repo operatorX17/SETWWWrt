@@ -1,34 +1,24 @@
 {
-  "version": 2,
-  "builds": [
+  "buildCommand": "cd frontend && yarn install && yarn build",
+  "outputDirectory": "frontend/build",
+  "installCommand": "yarn install --cwd frontend",
+
+  "rewrites": [
     {
-      "src": "frontend/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
+      "source": "/api/(.*)",
+      "destination": "/api/index.py"
     },
     {
-      "src": "api/index.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/index.py"
+      "source": "/api",
+      "destination": "/api/index.py"
     },
     {
-      "src": "/(.*)",
-      "dest": "/frontend/build/$1"
+      "source": "/((?!api).*)",
+      "destination": "/index.html"
     }
   ],
   "env": {
-    "NODE_ENV": "production"
-  },
-  "functions": {
-    "api/index.py": {
-      "runtime": "python3.9"
-    }
+    "NODE_ENV": "production",
+    "REACT_APP_API_URL": "/api"
   }
 }

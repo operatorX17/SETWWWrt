@@ -9,7 +9,7 @@ import NFTBadge from './NFT/NFTBadge';
 import NFTModal from './NFT/NFTModal';
 import ScarcityPill from './ConversionElements/ScarcityPill';
 import ProductStory from './ConversionElements/ProductStory';
-import { ShoppingCart, Zap } from 'lucide-react';
+import { ShoppingCart, Zap, Lock } from 'lucide-react';
 
 const AnimatedProductCard = ({ product, className = "", priority = false, isSpecial = false }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -19,14 +19,12 @@ const AnimatedProductCard = ({ product, className = "", priority = false, isSpec
   const { isReducedMotion } = useTheme();
   const { addToCart } = useCart();
 
-  // Get display image - back by default, front on hover
+  // Get display image - use first image consistently to prevent flashing
   const getDisplayImage = () => {
     if (!product.images || product.images.length === 0) return '/placeholder-product.jpg';
     
-    if (product.images.length === 1) return product.images[0];
-    
-    // Show back image by default, front on hover
-    return isHovered ? product.images[0] : (product.images[1] || product.images[0]);
+    // Always use the first image to prevent flashing on hover
+    return product.images[0];
   };
 
   const handleCardClick = useCallback(() => {
@@ -105,7 +103,9 @@ const AnimatedProductCard = ({ product, className = "", priority = false, isSpec
             {/* Vault Lock Overlay */}
             {product.vault_locked && (
               <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                <div className="text-yellow-400 text-4xl animate-pulse">🔒</div>
+                <div className="bg-yellow-400/20 backdrop-blur-sm rounded-full p-4 border border-yellow-400/30">
+                  <Lock className="text-yellow-400 w-8 h-8 animate-pulse" />
+                </div>
               </div>
             )}
             
@@ -169,7 +169,7 @@ const AnimatedProductCard = ({ product, className = "", priority = false, isSpec
             {/* Product Story */}
             <ProductStory category={product.category} className="mt-2" />
 
-            {/* Add to Cart Button with Animation */}
+            {/* Add to Arsenal Button with Animation */}
             <button
               onClick={handleAddToCart}
               className={`w-full mt-3 bg-gradient-to-r from-red-600 to-red-800 hover:from-red-700 hover:to-red-900 text-white font-bold py-2 px-4 rounded-lg flex items-center justify-center space-x-2 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/30 ${

@@ -17,7 +17,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import HelpButton from './components/HelpButton';
 
 // Analytics
-import ShopifyAnalytics from './lib/shopifyTracking';
+// import { ShopifyAnalytics } from 'lib/shopifyTracking';
 
 // Import Pages
 import Home from './pages/Home';
@@ -36,7 +36,7 @@ import BattleElite from './pages/BattleElite';
 function App() {
   useEffect(() => {
     // Initialize PSPK Analytics
-    ShopifyAnalytics.init();
+    // ShopifyAnalytics.init();
   }, []);
 
   return (

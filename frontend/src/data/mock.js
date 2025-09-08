@@ -3,23 +3,21 @@
 export const mockProducts = [
   {
     id: 1,
-    name: "OG Rebel Tee",
-    category: "Teeshirt",
-    price: 1299,
-    originalPrice: null,
-    badges: ["NEW", "REBEL DROP"],
+    name: "Night Hunter Hoodie",
+    category: "Hoodies",
+    price: 2499,
+    originalPrice: 3499,
+    badges: ["NEW", "REBEL DROP", "FAN ARSENAL", "PREMIUM"],
     images: [
-      "https://framerusercontent.com/images/TITuLcYSx53fInKnsoSGfE8Xuw.jpg",
-      "https://framerusercontent.com/images/rO3nueqqdzWMFmQMfScFEHQKDK8.jpg"
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.01_AM_f7236169-75af-48e0-82f7-76ecdc1cc241.jpeg?v=1756807812"
     ],
-    description: "Premium OG T-shirt designed for true rebels. Crafted with precision and designed for warriors. Every product is a weapon. Every fan is a soldier.",
-    materials: "100% Premium Cotton, Screen Printed Graphics",
+    description: "**Night Hunter Hoodie** - Premium OG merchandise for true fans. Crafted with precision and designed for warriors. Every product is a weapon. Every fan is a soldier.",
+    materials: "100% Premium Cotton Blend, Screen Printed Graphics",
     care: "Machine wash cold with like colors. Tumble dry low. Do not bleach. Handle with respect.",
     shipping: "Free shipping on orders above ₹1000. Express delivery available.",
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: [
-      { name: "Black", value: "#000000" },
-      { name: "Red", value: "#dc2626" }
+      { name: "Black", value: "#000000" }
     ],
     vendor: "DVV Entertainment",
     collection: "OG Arsenal"
@@ -197,6 +195,197 @@ export const mockProducts = [
       "https://framerusercontent.com/images/ljOYOSZd9SFReEqYsGPBboQn4bE.jpg",
       "https://framerusercontent.com/images/oj6I57sfFpHC2gpyD7sVVc8jakU.jpg"
     ]
+  },
+  // VAULT EXCLUSIVE Products
+  {
+    id: 13,
+    name: "Vault Beast Hoodie",
+    category: "Hoodies",
+    price: 4999,
+    originalPrice: 6999,
+    badges: ["VAULT", "LOCKED EXCLUSIVE"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.01_AM_f7236169-75af-48e0-82f7-76ecdc1cc241.jpeg?v=1756807812"
+    ],
+    description: "Exclusive VAULT merchandise - Premium OG gear for elite fans only.",
+    vault_locked: true,
+    collection: "VAULT EXCLUSIVE"
+  },
+  {
+    id: 14,
+    name: "Shadow Vault Tee",
+    category: "Teeshirt",
+    price: 1999,
+    originalPrice: 2999,
+    badges: ["VAULT", "LOCKED EXCLUSIVE"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.09.12_AM_4d5ffc5c-91e0-4d3e-aad4-61c58962b164.jpeg?v=1756807762"
+    ],
+    description: "Exclusive VAULT tee - Limited access merchandise.",
+    vault_locked: true,
+    collection: "VAULT EXCLUSIVE"
+  },
+  // REBELLION CORE Products
+  {
+    id: 15,
+    name: "Rebellion Core Hoodie",
+    category: "Hoodies",
+    price: 3499,
+    originalPrice: 4499,
+    badges: ["REBELLION_CORE"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.01_AM_f7236169-75af-48e0-82f7-76ecdc1cc241.jpeg?v=1756807812"
+    ],
+    description: "Core rebellion merchandise for true warriors.",
+    collection: "REBELLION CORE"
+  },
+  {
+    id: 16,
+    name: "Rebel Core Tee",
+    category: "Teeshirt",
+    price: 1499,
+    originalPrice: 1999,
+    badges: ["REBELLION_CORE"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.09.12_AM_4d5ffc5c-91e0-4d3e-aad4-61c58962b164.jpeg?v=1756807762"
+    ],
+    description: "Essential rebellion core tee.",
+    collection: "REBELLION CORE"
+  },
+  // PREMIUM COLLECTION Products
+  {
+    id: 17,
+    name: "Premium Beast Hoodie",
+    category: "Hoodies",
+    price: 3999,
+    originalPrice: 5499,
+    badges: ["PREMIUM_COLLECTION"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.01_AM_f7236169-75af-48e0-82f7-76ecdc1cc241.jpeg?v=1756807812"
+    ],
+    description: "Premium collection hoodie - Luxury OG merchandise.",
+    collection: "PREMIUM COLLECTION"
+  },
+  {
+    id: 18,
+    name: "Premium Elite Tee",
+    category: "Teeshirt",
+    price: 1799,
+    originalPrice: 2499,
+    badges: ["PREMIUM_COLLECTION"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.09.12_AM_4d5ffc5c-91e0-4d3e-aad4-61c58962b164.jpeg?v=1756807762"
+    ],
+    description: "Premium collection tee - Elite fan merchandise.",
+    collection: "PREMIUM COLLECTION"
+  },
+  // TACTICAL TEES
+  {
+    id: 19,
+    name: "Tactical Strike Tee",
+    category: "Teeshirt",
+    price: 1299,
+    originalPrice: 1799,
+    badges: ["TACTICAL"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.09.12_AM_4d5ffc5c-91e0-4d3e-aad4-61c58962b164.jpeg?v=1756807762"
+    ],
+    description: "Tactical tee for everyday warriors.",
+    collection: "TACTICAL ARSENAL"
+  },
+  {
+    id: 20,
+    name: "Combat Ready Tee",
+    category: "Teeshirt",
+    price: 1199,
+    originalPrice: 1599,
+    badges: ["TACTICAL"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.09.12_AM_4d5ffc5c-91e0-4d3e-aad4-61c58962b164.jpeg?v=1756807762"
+    ],
+    description: "Combat ready tactical tee.",
+    collection: "TACTICAL ARSENAL"
+  },
+  // BATTLE HOODIES
+  {
+    id: 21,
+    name: "Battle Ready Hoodie",
+    category: "Hoodies",
+    price: 2999,
+    originalPrice: 3999,
+    badges: ["BATTLE"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.01_AM_f7236169-75af-48e0-82f7-76ecdc1cc241.jpeg?v=1756807812"
+    ],
+    description: "Battle ready hoodie for warriors.",
+    collection: "BATTLE GEAR"
+  },
+  {
+    id: 22,
+    name: "Combat Zone Hoodie",
+    category: "Hoodies",
+    price: 3199,
+    originalPrice: 4199,
+    badges: ["BATTLE"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.01_AM_f7236169-75af-48e0-82f7-76ecdc1cc241.jpeg?v=1756807812"
+    ],
+    description: "Combat zone battle hoodie.",
+    collection: "BATTLE GEAR"
+  },
+  // GEAR & ARSENAL (Accessories)
+  {
+    id: 23,
+    name: "Tactical Wallet",
+    category: "Accessories",
+    price: 1499,
+    originalPrice: 1999,
+    badges: ["GEAR"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_8.55.48_AM_c69e8001-d229-4e6a-8ebe-9272a718b480.jpeg?v=1756807747"
+    ],
+    description: "Tactical gear wallet for warriors.",
+    collection: "GEAR ARSENAL"
+  },
+  {
+    id: 24,
+    name: "Combat Headband",
+    category: "Accessories",
+    price: 899,
+    originalPrice: 1299,
+    badges: ["GEAR"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_8.55.48_AM_c69e8001-d229-4e6a-8ebe-9272a718b480.jpeg?v=1756807747"
+    ],
+    description: "Combat headband for tactical operations.",
+    collection: "GEAR ARSENAL"
+  },
+  // WAR POSTERS
+  {
+    id: 25,
+    name: "War Zone Poster",
+    category: "Posters",
+    price: 799,
+    originalPrice: 1199,
+    badges: ["WAR_ART"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.21_AM_1_f7a1e55b-668a-4b34-8a73-825302030f2a.jpeg?v=1756807780"
+    ],
+    description: "War zone poster for your battle station.",
+    collection: "WAR ART"
+  },
+  {
+    id: 26,
+    name: "Battle Field Poster",
+    category: "Posters",
+    price: 899,
+    originalPrice: 1299,
+    badges: ["WAR_ART"],
+    images: [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.21_AM_1_f7a1e55b-668a-4b34-8a73-825302030f2a.jpeg?v=1756807780"
+    ],
+    description: "Battle field poster for warriors.",
+    collection: "WAR ART"
   }
 ];
 

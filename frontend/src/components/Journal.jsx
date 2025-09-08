@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { mockJournalPosts } from '../data/mock';
 
@@ -11,10 +12,10 @@ const Journal = () => {
           <h2 className="text-4xl lg:text-5xl font-bold uppercase tracking-wider">
             from the journal
           </h2>
-          <button className="flex items-center space-x-2 text-white hover:text-gray-300 transition-colors group">
+          <Link to="/journal" className="flex items-center space-x-2 text-white hover:text-gray-300 transition-colors group">
             <span className="text-sm uppercase tracking-wider font-medium">View All</span>
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-          </button>
+          </Link>
         </div>
 
         {/* Subtitle */}

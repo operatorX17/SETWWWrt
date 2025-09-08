@@ -14,6 +14,8 @@ const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [showCustomerProfile, setShowCustomerProfile] = useState(false);
   const [showLoginModal, setShowLoginModal] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
   const navigate = useNavigate();
   const location = useLocation();
   const { isReducedMotion, currentTheme } = useTheme();
@@ -27,6 +29,26 @@ const Header = () => {
   useEffect(() => {
     initializeCustomer();
   }, []);
+
+  // Scroll detection for navigation visibility
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      // Show header when scrolling up or at top
+      if (currentScrollY < lastScrollY || currentScrollY < 100) {
+        setIsVisible(true);
+      } else {
+        // Hide header when scrolling down
+        setIsVisible(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
 
   const handleCustomerClick = () => {
     if (customer) {
@@ -51,7 +73,9 @@ const Header = () => {
   const tierDisplay = getTierDisplay();
 
   return (
-    <div className="relative">
+    <div className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${
+      isVisible ? 'translate-y-0' : '-translate-y-full'
+    }`}>
       {/* Dynamic Banner - UPDATED WITH DELIVERY PROMISE */}
       <div className="bg-[var(--color-accent)] text-[var(--color-bg)] text-center py-2 text-sm font-medium tracking-wider">
         {isOGTheme ? (
@@ -80,73 +104,25 @@ const Header = () => {
             </Link>
           </div>
 
-          {/* Navigation with Ranks */}
+          {/* Desktop Navigation - SIMPLIFIED */}
           <nav className="hidden lg:flex items-center space-x-8">
-            {/* Ranks Display */}
-            <div className="flex items-center space-x-2 text-sm">
-              <span className="text-gray-400">Rank:</span>
-              <span className="text-yellow-400 font-bold">
-                {customer && orders?.length > 0 ? 'REBEL' : 'FOOT SOLDIER'}
-              </span>
-            </div>
-
-            <div className="relative group">
-              <Link 
-                to="/shop" 
-                className="text-[var(--color-text)] hover:text-[var(--color-accent)] transition-colors uppercase tracking-wider text-sm font-medium"
-              >
-                ARMORY
-              </Link>
-              {/* Dropdown Menu - CLEAN VERSION WITHOUT EMOJIS */}
-              <div className="absolute top-full left-0 mt-2 w-56 bg-[var(--color-bg)] border border-[var(--color-steel)] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                <div className="py-2">
-                  <Link to="/shop" className="block px-4 py-2 text-sm hover:bg-[var(--color-steel)] transition-colors">
-                    ALL ARSENAL
-                  </Link>
-                  <Link to="/shop?category=Tee Shirts" className="block px-4 py-2 text-sm hover:bg-[var(--color-steel)] transition-colors">
-                    REBEL TEES
-                  </Link>
-                  <Link to="/shop?category=Hoodies" className="block px-4 py-2 text-sm hover:bg-[var(--color-steel)] transition-colors">
-                    PREDATOR HOODIES
-                  </Link>
-                  <Link to="/shop?category=Shirts" className="block px-4 py-2 text-sm hover:bg-[var(--color-steel)] transition-colors">
-                    FORMAL ARSENAL  
-                  </Link>
-                  <Link to="/shop?category=Sweatshirts" className="block px-4 py-2 text-sm hover:bg-[var(--color-steel)] transition-colors">
-                    COMBAT SWEATS
-                  </Link>
-                  <Link to="/shop?category=Posters" className="block px-4 py-2 text-sm hover:bg-[var(--color-steel)] transition-colors">
-                    WAR POSTERS
-                  </Link>
-                  <Link to="/shop?category=Accessories" className="block px-4 py-2 text-sm hover:bg-[var(--color-steel)] transition-colors">
-                    GEAR & ACCESSORIES
-                  </Link>
-                </div>
-              </div>
-            </div>
-            
-            {isOGTheme && (
-              <Link 
-                to="/shop?filter=vault" 
-                className="text-[var(--color-gold)] hover:text-[var(--color-accent)] transition-colors uppercase tracking-wider text-sm font-medium flex items-center space-x-1"
-              >
-                <span>🔒</span>
-                <span>VAULT</span>
-              </Link>
-            )}
-            
+            <Link 
+              to="/shop" 
+              className="text-[var(--color-text)] hover:text-[var(--color-accent)] transition-colors uppercase tracking-wider text-sm font-medium"
+            >
+              ARMORY
+            </Link>
+            <Link 
+              to="/shop?filter=vault" 
+              className="text-[var(--color-gold)] hover:text-[var(--color-accent)] transition-colors uppercase tracking-wider text-sm font-medium"
+            >
+              VAULT
+            </Link>
             <Link 
               to="/about" 
               className="text-[var(--color-text)] hover:text-[var(--color-accent)] transition-colors uppercase tracking-wider text-sm font-medium"
             >
               ABOUT
-            </Link>
-            
-            <Link 
-              to="/contact" 
-              className="text-[var(--color-text)] hover:text-[var(--color-accent)] transition-colors uppercase tracking-wider text-sm font-medium"
-            >
-              CONTACT
             </Link>
           </nav>
 
@@ -258,13 +234,6 @@ const Header = () => {
               >
                 ABOUT
               </Link>
-              <Link 
-                to="/contact" 
-                className="text-white hover:text-gray-300 transition-colors uppercase tracking-wider text-sm font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                CONTACT
-              </Link>
             </nav>
           </div>
         )}
@@ -286,31 +255,47 @@ const Header = () => {
         />
       )}
 
-      {/* Improved Login Modal with Real Shopify Integration */}
+      {/* Premium Login Modal with Shopify Integration */}
       {showLoginModal && (
-        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50 p-4">
-          <div className="bg-gray-900 border border-gray-700 rounded-2xl p-6 max-w-md w-full">
+        <div className="fixed inset-0 bg-black/90 backdrop-blur-md flex items-center justify-center z-50 p-4">
+          <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-black border border-gray-600/50 rounded-3xl p-8 max-w-md w-full shadow-2xl">
+            {/* Close button */}
+            <button
+              onClick={() => setShowLoginModal(false)}
+              className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+            
             <div className="text-center">
-              <h2 className="text-xl font-bold text-white mb-4">🔥 Access Your OG Account</h2>
-              <p className="text-gray-300 mb-6">Sign in to unlock VAULT access, track orders, and manage your OG profile!</p>
+              {/* Premium Header */}
+              <div className="mb-8">
+                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-red-500 to-orange-500 rounded-full flex items-center justify-center">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  </svg>
+                </div>
+                <h2 className="text-2xl font-bold text-white mb-2">Welcome Back</h2>
+                <p className="text-gray-400 text-sm">Access your OG Armory account</p>
+              </div>
               
-              <div className="space-y-4">
+              <div className="space-y-6">
                 <div className="text-left space-y-4">
-                  <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                  <div className="relative">
                     <input
                       type="email"
-                      placeholder="warrior@ogarmory.com"
-                      className="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                      placeholder="Email address"
+                      className="w-full px-4 py-4 bg-gray-800/50 border border-gray-600/50 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-red-500/50 focus:border-red-500/50 focus:bg-gray-800 transition-all"
                       id="login-email"
                     />
                   </div>
-                  <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-2">Password</label>
+                  <div className="relative">
                     <input
                       type="password"
-                      placeholder="••••••••"
-                      className="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                      placeholder="Password"
+                      className="w-full px-4 py-4 bg-gray-800/50 border border-gray-600/50 rounded-xl text-white placeholder-gray-400 focus:ring-2 focus:ring-red-500/50 focus:border-red-500/50 focus:bg-gray-800 transition-all"
                       id="login-password"
                     />
                   </div>
@@ -332,38 +317,33 @@ const Header = () => {
                       alert('Please enter both email and password');
                     }
                   }}
-                  className="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-red-700 hover:to-red-900 text-white font-bold py-3 rounded-lg transition-all"
+                  className="w-full bg-gradient-to-r from-red-600 via-red-700 to-red-800 hover:from-red-700 hover:via-red-800 hover:to-red-900 text-white font-semibold py-4 rounded-xl transition-all duration-300 transform hover:scale-[1.02] shadow-lg hover:shadow-red-500/25"
                   disabled={isLoading}
                 >
-                  {isLoading ? '🔄 Signing In...' : '🚀 Sign In to OG Account'}
+                  {isLoading ? (
+                    <div className="flex items-center justify-center space-x-2">
+                      <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+                      <span>Signing In...</span>
+                    </div>
+                  ) : (
+                    'Sign In'
+                  )}
                 </button>
                 
-                <div className="text-sm text-gray-400 space-y-2">
-                  <div>✅ Real Shopify account integration</div>
-                  <div>✅ Order tracking & history</div>
-                  <div>✅ VAULT exclusive access</div>
-                  <div>✅ Loyalty tier progression</div>
-                </div>
-                
-                <div className="pt-4 border-t border-gray-700">
-                  <p className="text-sm text-gray-400 mb-3">Don't have an account?</p>
+                <div className="flex items-center justify-center space-x-4 text-sm">
+                  <button className="text-gray-400 hover:text-white transition-colors">
+                    Forgot Password?
+                  </button>
+                  <span className="text-gray-600">•</span>
                   <button
                     onClick={() => {
-                      // For now, show create account message
                       alert('Account creation coming soon! Contact support@ogarmory.com');
                     }}
-                    className="w-full border border-gray-600 text-gray-300 hover:text-white hover:border-gray-500 py-3 rounded-lg transition-colors"
+                    className="text-red-400 hover:text-red-300 transition-colors"
                   >
-                    Create OG Account
+                    Create Account
                   </button>
                 </div>
-                
-                <button
-                  onClick={() => setShowLoginModal(false)}
-                  className="w-full text-gray-400 hover:text-white transition-colors mt-4"
-                >
-                  Maybe Later
-                </button>
               </div>
             </div>
           </div>

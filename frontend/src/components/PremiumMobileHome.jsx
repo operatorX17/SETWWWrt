@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useProducts } from '../hooks/useProducts';
-import { filterByPriceRange } from '../lib/price';
+import { filterByPriceRange } from '../lib/utils';
 import PremiumProductCard from './PremiumProductCard';
 import { ChevronRight, Star, Crown, Zap } from 'lucide-react';
 
@@ -46,22 +46,7 @@ const PremiumMobileHome = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="px-4 py-16 text-center bg-gradient-to-br from-black to-gray-900 text-white">
-        <h1 className="text-4xl font-black mb-4 leading-tight">
-          EVERY FAN<br />
-          <span className="text-red-500">IS A SOLDIER</span>
-        </h1>
-        <p className="text-gray-300 mb-2">Premium fanwear. No drama. Real respect.</p>
-        <p className="text-sm text-gray-400 mb-8">ప్రతి అభిమాని ఒక సైనికుడు.</p>
-        
-        <Link 
-          to="/shop"
-          className="inline-block bg-red-600 text-white px-8 py-4 rounded-full font-semibold"
-        >
-          ARM UP
-        </Link>
-      </section>
+
 
       {/* Trust Strip */}
       <section className="px-4 py-4 bg-gray-50 border-b border-gray-100">

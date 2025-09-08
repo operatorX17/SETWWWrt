@@ -1,104 +1,115 @@
 [
   {
-    "id": 9159155286272,
-    "name": "Dark Phoenix Tee",
-    "handle": "black-phoenix-tee",
-    "category": "Teeshirt",
-    "price": 1299.0,
-    "originalPrice": 1899.0,
+    "id": "vault-exclusive-03",
+    "name": "[VAULT // LOCKED EXCLUSIVE] — OCEAN WAVES TEE",
+    "handle": "vault-ocean-waves-tee",
+    "category": "Vault",
+    "price": 1899.0,
+    "originalPrice": 2499.0,
     "badges": [
-      "NEW",
-      "REBEL DROP",
-      "FAN ARSENAL"
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "LIMITED",
+      "POWER STORE"
     ],
     "images": [
-      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.09.12_AM_4d5ffc5c-91e0-4d3e-aad4-61c58962b164.jpeg?v=1756807762"
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/front/main.jpg"
     ],
-    "description": "**Dark Phoenix Tee** - Premium OG merchandise for true fans. Crafted with precision and designed for warriors. Every product is a weapon. Every fan is a soldier.",
+    "primary_image_type": "back",
+    "description": "**Ocean Waves Elite Tee** - VAULT EXCLUSIVE. Ride the waves of rebellion. Premium ocean-inspired design for elite warriors. Serial numbered and exclusive.",
     "tags": [
-      "Fan Arsenal",
+      "Vault",
+      "Exclusive",
+      "Power Store",
       "Limited",
-      "OG",
-      "Premium",
-      "Teeshirt"
-    ],
-    "vendor": "DVV Entertainment",
-    "variants": [
-      {
-        "id": 46971295072512,
-        "title": "Default Title",
-        "price": 1299.0,
-        "available": true
-      }
-    ]
-  },
-  {
-    "id": 9159156629760,
-    "name": "Black Storm Hoodie",
-    "handle": "black-storm-hoodie",
-    "category": "Hoodies",
-    "price": 2499.0,
-    "originalPrice": 3499.0,
-    "badges": [
-      "NEW",
-      "REBEL DROP",
-      "FAN ARSENAL",
-      "PREMIUM"
-    ],
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.18.36_AM_1_b3224edc-b501-4baf-822e-b6378f63ff2e.jpeg?v=1756807829",
-      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.06.49_AM_2_cf7d827f-5375-48ce-8b0e-cb72d0f040a3.jpeg?v=1756807829",
-      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.06.47_AM_1_7a782cce-3369-48ee-8524-29279d021e00.jpeg?v=1756807829",
-      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.09.11_AM_2_aa873092-a9cb-4e84-9482-574a9798ff91.jpeg?v=1756807829",
-      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.09.11_AM_1_bcf7fecb-3810-4a6d-8ced-1e2bcdef032a.jpeg?v=1756807829"
-    ],
-    "description": "**Black Storm Hoodie** - Premium OG merchandise for true fans. Crafted with precision and designed for warriors. Every product is a weapon. Every fan is a soldier.",
-    "tags": [
-      "Fan Arsenal",
-      "Hoodies",
-      "Limited",
-      "OG",
+      "Teeshirt",
       "Premium"
     ],
-    "vendor": "DVV Entertainment",
+    "vendor": "OG Armory Vault",
+    "vault_locked": true,
+    "unlock_requirement": "Power Store Elite Member",
     "variants": [
       {
-        "id": 46971298480384,
-        "title": "Default Title",
-        "price": 2499.0,
+        "id": "vault-tee-03-variant",
+        "title": "Premium Fit",
+        "price": 1899.0,
         "available": true
       }
     ]
   },
   {
-    "id": 9159155646720,
-    "name": "Blood Moon Poster",
-    "handle": "blood-moon-poster",
-    "category": "Posters",
-    "price": 899.0,
-    "originalPrice": 1399.0,
+    "id": "vault-exclusive-04",
+    "name": "[VAULT // LOCKED EXCLUSIVE] — MOUNTAIN ADVENTURE HOODIE",
+    "handle": "vault-mountain-adventure-hoodie",
+    "category": "Vault",
+    "price": 4299.0,
+    "originalPrice": 4999.0,
     "badges": [
-      "NEW",
-      "REBEL DROP",
-      "FAN ARSENAL"
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "LIMITED",
+      "POWER STORE"
+    ],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hoodies/product2/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/product2/front/main.jpg"
+    ],
+    "primary_image_type": "back",
+    "description": "**Mountain Adventure Elite Hoodie** - VAULT EXCLUSIVE. Adventure awaits. Premium mountain-inspired hoodie for rebels who explore. Serial numbered and exclusive.",
+    "tags": [
+      "Vault",
+      "Exclusive",
+      "Power Store",
+      "Limited",
+      "Hoodies",
+      "Premium"
+    ],
+    "vendor": "OG Armory Vault",
+    "vault_locked": true,
+    "unlock_requirement": "Power Store Elite Member",
+    "variants": [
+      {
+        "id": "vault-hoodie-04-variant",
+        "title": "Elite Adventure",
+        "price": 4299.0,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "vault-exclusive-poster-04",
+    "name": "[VAULT // LOCKED EXCLUSIVE] — BLOOD MOON ELITE POSTER",
+    "handle": "vault-blood-moon-elite-poster",
+    "category": "Vault",
+    "price": 2799.0,
+    "originalPrice": 4299.0,
+    "badges": [
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "LIMITED",
+      "POWER STORE"
     ],
     "images": [
       "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.21_AM_1_f7a1e55b-668a-4b34-8a73-825302030f2a.jpeg?v=1756807780"
     ],
-    "description": "**Blood Moon Poster** - Premium OG merchandise for true fans. Crafted with precision and designed for warriors. Every product is a weapon. Every fan is a soldier.",
+    "description": "**Blood Moon Elite Poster** - VAULT EXCLUSIVE. The crimson prophecy visualized. Ultra-rare battlefield art. Only 4 ever made for Power Store elite collectors.",
     "tags": [
-      "Fan Arsenal",
+      "Vault",
+      "Exclusive",
+      "Power Store",
       "Limited",
-      "OG",
       "Posters",
       "Premium"
     ],
-    "vendor": "DVV Entertainment",
+    "vendor": "OG Armory Vault",
+    "vault_locked": true,
+    "unlock_requirement": "Power Store Elite Member",
     "variants": [
       {
-        "id": 46971295891712,
-        "title": "Default Title",
-        "price": 899.0,
+        "id": "vault-poster-04-variant",
+        "title": "A2 Elite",
+        "price": 2799.0,
         "available": true
       }
     ]
@@ -312,8 +323,8 @@
     "name": "Crimson Storm Poster",
     "handle": "crimson-storm-poster",
     "category": "Posters",
-    "price": 899.0,
-    "originalPrice": 1399.0,
+    "price": 699.0,
+    "originalPrice": 999.0,
     "badges": [
       "NEW",
       "REBEL DROP",
@@ -335,7 +346,7 @@
       {
         "id": 46971296317696,
         "title": "Default Title",
-        "price": 899.0,
+        "price": 699.0,
         "available": true
       }
     ]
@@ -345,8 +356,8 @@
     "name": "Dark Legion Poster",
     "handle": "dark-legion-poster",
     "category": "Posters",
-    "price": 899.0,
-    "originalPrice": 1399.0,
+    "price": 799.0,
+    "originalPrice": 1199.0,
     "badges": [
       "NEW",
       "REBEL DROP",
@@ -368,7 +379,7 @@
       {
         "id": 46971295858944,
         "title": "Default Title",
-        "price": 899.0,
+        "price": 799.0,
         "available": true
       }
     ]
@@ -478,8 +489,8 @@
     "name": "Death Hunter Poster",
     "handle": "death-hunter-poster",
     "category": "Posters",
-    "price": 899.0,
-    "originalPrice": 1399.0,
+    "price": 620.0,
+    "originalPrice": 899.0,
     "badges": [
       "NEW",
       "REBEL DROP",
@@ -501,7 +512,7 @@
       {
         "id": 46971296612608,
         "title": "Default Title",
-        "price": 899.0,
+        "price": 620.0,
         "available": true
       }
     ]
@@ -853,8 +864,8 @@
     "name": "Iron Wolf Poster",
     "handle": "iron-wolf-poster",
     "category": "Posters",
-    "price": 899.0,
-    "originalPrice": 1399.0,
+    "price": 630.0,
+    "originalPrice": 899.0,
     "badges": [
       "NEW",
       "REBEL DROP",
@@ -876,7 +887,7 @@
       {
         "id": 46971296186624,
         "title": "Default Title",
-        "price": 899.0,
+        "price": 630.0,
         "available": true
       }
     ]
@@ -1756,6 +1767,235 @@
         "id": 46971299660032,
         "title": "Default Title",
         "price": 999.0,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "vault-exclusive-poster-01",
+    "name": "[VAULT // LOCKED EXCLUSIVE] — SHADOW WARFARE POSTER",
+    "handle": "vault-shadow-warfare-poster",
+    "category": "Vault",
+    "price": 2499.0,
+    "originalPrice": 3999.0,
+    "badges": [
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "LIMITED",
+      "POWER STORE"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.21_AM_5_1708cfa9-48c1-43ac-acaa-ddf5896605f0.jpeg?v=1756807783"
+    ],
+    "description": "**Shadow Warfare Poster** - VAULT EXCLUSIVE. Ultra-rare battlefield visual. Only 3 ever made for the elite Power Store collection. A weapon for your walls.",
+    "tags": [
+      "Vault",
+      "Exclusive",
+      "Power Store",
+      "Limited",
+      "Posters",
+      "Premium"
+    ],
+    "vendor": "OG Armory Vault",
+    "vault_locked": true,
+    "unlock_requirement": "Power Store Elite Member",
+    "variants": [
+      {
+        "id": "vault-poster-01-variant",
+        "title": "A2 Premium",
+        "price": 2499.0,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "vault-exclusive-poster-02",
+    "name": "[VAULT // LOCKED EXCLUSIVE] — CRIMSON BATTALION POSTER",
+    "handle": "vault-crimson-battalion-poster",
+    "category": "Vault",
+    "price": 2799.0,
+    "originalPrice": 4299.0,
+    "badges": [
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "LIMITED",
+      "POWER STORE"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.21_AM_3_5d41e11a-fac0-4f5c-86d9-86fdbf0994db.jpeg?v=1756807777"
+    ],
+    "description": "**Crimson Battalion Poster** - VAULT EXCLUSIVE. Blood-red battlefield masterpiece. Only 2 ever made for Power Store legends. Your wall's ultimate weapon.",
+    "tags": [
+      "Vault",
+      "Exclusive",
+      "Power Store",
+      "Limited",
+      "Posters",
+      "Premium"
+    ],
+    "vendor": "OG Armory Vault",
+    "vault_locked": true,
+    "unlock_requirement": "Power Store Elite Member",
+    "variants": [
+      {
+        "id": "vault-poster-02-variant",
+        "title": "A2 Premium",
+        "price": 2799.0,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "vault-exclusive-poster-03",
+    "name": "[VAULT // LOCKED EXCLUSIVE] — GHOST PROTOCOL POSTER",
+    "handle": "vault-ghost-protocol-poster",
+    "category": "Vault",
+    "price": 3299.0,
+    "originalPrice": 4999.0,
+    "badges": [
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "LIMITED",
+      "POWER STORE"
+    ],
+    "images": [
+      "/products/posters/product7/WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg"
+    ],
+    "description": "**Ghost Protocol Poster** - VAULT EXCLUSIVE. The rarest of the rare. Only 1 ever made for the ultimate Power Store collector. This is your grail.",
+    "tags": [
+      "Vault",
+      "Exclusive",
+      "Power Store",
+      "Limited",
+      "Posters",
+      "Premium"
+    ],
+    "vendor": "OG Armory Vault",
+    "vault_locked": true,
+    "unlock_requirement": "Power Store Elite Member",
+    "variants": [
+      {
+        "id": "vault-poster-03-variant",
+        "title": "A2 Premium",
+        "price": 3299.0,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "vault-exclusive-accessory-01",
+    "name": "[VAULT // LOCKED EXCLUSIVE] — BATTLE WALLET ELITE VAULT",
+    "handle": "vault-battle-wallet-elite",
+    "category": "Vault",
+    "price": 1999.0,
+    "originalPrice": 2999.0,
+    "badges": [
+      "VAULT",
+      "LOCKED EXCLUSIVE",
+      "LIMITED",
+      "POWER STORE"
+    ],
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/wallet/product1/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM.jpeg"
+    ],
+    "description": "**Battle Wallet Elite Vault** - VAULT EXCLUSIVE. The ultimate tactical wallet for elite warriors. Reinforced with premium materials. Only 6 ever made for Power Store legends.",
+    "tags": [
+      "Vault",
+      "Exclusive",
+      "Power Store",
+      "Limited",
+      "Accessories",
+      "Premium"
+    ],
+    "vendor": "OG Armory Vault",
+    "vault_locked": true,
+    "unlock_requirement": "Power Store Elite Member",
+    "variants": [
+      {
+        "id": "vault-accessory-01-variant",
+        "title": "Elite Tactical",
+        "price": 1999.0,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "og-tee-001",
+    "name": "CRIMSON FURY TEE",
+    "handle": "crimson-fury-tee",
+    "category": "Teeshirt",
+    "price": 695.0,
+    "originalPrice": 999.0,
+    "badges": [
+      "REBELLION CORE",
+      "BESTSELLER"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.03_AM_1_8d6877f4-5a7e-49f5-b431-74f13833bf74.jpeg?v=1756807751"
+    ],
+    "description": "Unleash the fury. Wear the legend. Show no mercy.",
+    "collection": "REBELLION CORE",
+    "tags": ["Rebellion", "Core", "Tee", "Premium"],
+    "vendor": "DVV Entertainment",
+    "variants": [
+      {
+        "id": "og-cf-001",
+        "title": "Default Title",
+        "price": 695.0,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "premium-hoodie-001",
+    "name": "ELITE WARRIOR HOODIE",
+    "handle": "elite-warrior-hoodie",
+    "category": "Hoodies",
+    "price": 2499.0,
+    "originalPrice": 3499.0,
+    "badges": [
+      "PREMIUM COLLECTION",
+      "ELITE"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.01_AM_f7236169-75af-48e0-82f7-76ecdc1cc241.jpeg?v=1756807812"
+    ],
+    "description": "Elite warrior hoodie for premium rebels.",
+    "collection": "PREMIUM COLLECTION",
+    "tags": ["Premium", "Hoodie", "Elite"],
+    "vendor": "DVV Entertainment",
+    "variants": [
+      {
+        "id": "premium-h-001",
+        "title": "Default Title",
+        "price": 2499.0,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "tactical-wallet-001",
+    "name": "TACTICAL WARRIOR WALLET",
+    "handle": "tactical-warrior-wallet",
+    "category": "Accessories",
+    "price": 1499.0,
+    "originalPrice": 1999.0,
+    "badges": [
+      "GEAR",
+      "TACTICAL"
+    ],
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_8.55.48_AM_c69e8001-d229-4e6a-8ebe-9272a718b480.jpeg?v=1756807747"
+    ],
+    "description": "Tactical gear wallet for warriors.",
+    "collection": "GEAR ARSENAL",
+    "tags": ["Accessories", "Wallet", "Tactical"],
+    "vendor": "DVV Entertainment",
+    "variants": [
+      {
+        "id": "wallet-001",
+        "title": "Default Title",
+        "price": 1499.0,
         "available": true
       }
     ]

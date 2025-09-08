@@ -1,6 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
-import { useMockDataIfShopifyUnavailable } from '../lib/shopify';
-import shopify from '../lib/shopify';
+import { useMockDataIfShopifyUnavailable, shopify } from '../lib/shopify';
 import { mockProducts } from '../data/mock';
 
 // Cache products to prevent repeated loading
@@ -53,20 +52,43 @@ export const useProducts = () => {
         console.warn('Shopify products not found:', shopifyError.message);
       }
       
-      // Also load VAULT products from comprehensive_products.json
+      // Helper function to normalize product names for comparison
+      const normalizeProductName = (name) => {
+        if (!name) return '';
+        return name.toLowerCase().trim().replace(/[\s\-_]/g, '');
+      };
+      
+      // Helper function to check if product already exists
+      const productExists = (newProduct, existingProducts) => {
+        return existingProducts.some(existing => {
+          // Check by ID first
+          if (existing.id === newProduct.id) return true;
+          
+          // Check by handle
+          if (existing.handle && newProduct.handle && existing.handle === newProduct.handle) return true;
+          
+          // Check by normalized name
+          const existingName = normalizeProductName(existing.name || existing.title);
+          const newName = normalizeProductName(newProduct.name || newProduct.title);
+          if (existingName && newName && existingName === newName) return true;
+          
+          return false;
+        });
+      };
+      
+      // Also load products from comprehensive_products.json (avoiding duplicates)
       try {
         const response = await fetch('/comprehensive_products.json');
         if (response.ok) {
           const comprehensiveProducts = await response.json();
           if (comprehensiveProducts && comprehensiveProducts.length > 0) {
-            // Add all comprehensive products including VAULT products
-            const vaultProducts = comprehensiveProducts.filter(p => 
-              (p.category === 'Vault' || p.badges?.includes('VAULT')) &&
-              !allProducts.find(existing => existing.id === p.id)
+            // Add only products that don't already exist
+            const newProducts = comprehensiveProducts.filter(p => 
+              !productExists(p, allProducts)
             );
             
-            console.log('Found VAULT products:', vaultProducts.length);
-            allProducts = [...allProducts, ...vaultProducts];
+            console.log('Found additional unique products from comprehensive:', newProducts.length);
+            allProducts = [...allProducts, ...newProducts];
           }
         }
       } catch (comprehensiveError) {
@@ -111,7 +133,7 @@ export const useProducts = () => {
 };
 
 // Get single product with Shopify integration
-export const useProduct = (productId) => {
+export const useProduct = (productIdentifier) => {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -123,32 +145,49 @@ export const useProduct = (productId) => {
         
         // First try to get from products.json, then fallback to comprehensive_products.json
         let productData = null;
+        
+        // Check if productIdentifier is a number (ID) or string (handle)
+        const isNumericId = !isNaN(parseInt(productIdentifier));
+        
         try {
           const response = await fetch('/products.json');
           if (response.ok) {
             const shopifyProducts = await response.json();
-            productData = shopifyProducts.find(p => p.id === parseInt(productId));
+            if (isNumericId) {
+              productData = shopifyProducts.find(p => p.id === parseInt(productIdentifier));
+            } else {
+              productData = shopifyProducts.find(p => p.handle === productIdentifier);
+            }
           }
         } catch (shopifyProductsError) {
           console.warn('Shopify products not found:', shopifyProductsError.message);
-          
-          // Fallback to comprehensive products
+        }
+        
+        // Try comprehensive_products.json if not found
+        if (!productData) {
           try {
             const response = await fetch('/comprehensive_products.json');
             if (response.ok) {
               const comprehensiveProducts = await response.json();
-              productData = comprehensiveProducts.find(p => p.id === parseInt(productId) || p.id === productId);
+              if (isNumericId) {
+                productData = comprehensiveProducts.find(p => p.id === parseInt(productIdentifier) || p.id === productIdentifier);
+              } else {
+                productData = comprehensiveProducts.find(p => p.handle === productIdentifier);
+              }
             }
           } catch (comprehensiveProductsError) {
             console.warn('Comprehensive products not found:', comprehensiveProductsError.message);
           }
         }
+        
+        // Note: Removed loading from new_premium_hoodies.json and comprehensive_products_backup.json
+        // to prevent duplicates. All products should be available in products.json or comprehensive_products.json
 
         // If not found in direct integration, try Shopify
         if (!productData) {
           productData = await useMockDataIfShopifyUnavailable(
-            () => shopify.getProduct(productId),
-            mockProducts.find(p => p.id === parseInt(productId))
+            () => shopify.getProduct(productIdentifier),
+            mockProducts.find(p => isNumericId ? p.id === parseInt(productIdentifier) : p.handle === productIdentifier)
           );
         }
         
@@ -162,10 +201,10 @@ export const useProduct = (productId) => {
       }
     };
 
-    if (productId) {
+    if (productIdentifier) {
       loadProduct();
     }
-  }, [productId]);
+  }, [productIdentifier]);
 
   return { product, loading, error };
 };

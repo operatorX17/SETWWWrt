@@ -1,13 +1,20 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useProducts } from '../hooks/useProducts';
-import { filterByPriceRange } from '../lib/price';
+import { filterByPriceRange } from '../lib/utils';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Rail from '../components/Rail';
 import PSPKCommunityModal from '../components/PSPKCommunityModal';
+import TeaserVideo from '../components/TeaserVideo';
+import NewTeaser from '../components/OG/NewTeaser';
+import LuxuryHeroSection from '../components/OG/LuxuryHeroSection';
+import PremiumShowcase from '../components/OG/PremiumShowcase';
+import PosterShowcase from '../components/OG/PosterShowcase';
 import AnimatedUGCStrip from '../components/ConversionElements/AnimatedUGCStrip';
 import VaultSection from '../components/ConversionElements/VaultSection';
 import TrustStrip from '../components/ConversionElements/TrustStrip';
+import Under999Section from '../components/Under999Section';
 
 const Home = () => {
   const { products, loading, error } = useProducts();
@@ -43,53 +50,66 @@ const Home = () => {
     );
   }
 
-  // Filter products for different rails - SIMPLE
-  const affordableProducts = filterByPriceRange(products, 999);
-  const rebelCore = products.filter(p => p.badges && (p.badges.includes('REBEL DROP') || p.badges.includes('FAN ARSENAL')));
-  const vaultProducts = products.filter(p => p.badges && p.badges.includes('PREMIUM'));
+  // Filter products for different rails - UPDATED
+  const affordableProducts = filterByPriceRange(products, 0, 999);
+  const rebelCore = products.filter(p => 
+    (p.collection === 'REBELLION CORE') || 
+    (p.badges && p.badges.includes('REBELLION CORE'))
+  );
+  const homepageFeaturedHoodies = products.filter(p => 
+    p.category === 'Hoodies' && 
+    p.badges && p.badges.includes('HOMEPAGE FEATURED')
+  );
+  const vaultProducts = products.filter(p => p.badges && p.badges.includes('VAULT'));
+  const premiumProducts = products.filter(p => 
+    (p.collection === 'PREMIUM COLLECTION') || 
+    (p.badges && p.badges.includes('PREMIUM')) ||
+    (p.price >= 1200 && p.price <= 1700)
+  );
 
   return (
     <div className="min-h-screen bg-[var(--color-bg)]">
+      {/* Teaser Video Section */}
+      <TeaserVideo />
+      
       <Header />
       
-      {/* Hero Section - IMPROVED READABILITY */}
-      <section className="bg-black text-white py-16 sm:py-20 px-4 sm:px-6 relative overflow-hidden">
-        {/* Background with better contrast */}
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-800">
-          <div className="absolute inset-0 bg-black/40"></div>
-        </div>
-        
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="text-center">
-            <h1 className="text-4xl sm:text-6xl lg:text-8xl xl:text-9xl font-black uppercase tracking-wider leading-tight mb-6 sm:mb-8 font-headline text-white drop-shadow-2xl">
-              EVERY FAN<br />
-              <span className="text-red-500 drop-shadow-2xl">IS A SOLDIER.</span>
-            </h1>
-            <p className="text-lg sm:text-xl text-gray-100 mb-4 max-w-3xl mx-auto font-medium leading-relaxed">
-              Premium fanwear. No drama. Real respect.
-            </p>
-            <p className="text-yellow-400 font-bold text-base sm:text-lg mb-8 drop-shadow-lg">
-              ప్రతి అభిమాని ఒక సైనికుడు. ARM UP.
-            </p>
-
-            {/* Single CTA - Responsive */}
-            <button className="bg-gradient-to-r from-red-600 to-red-800 hover:from-red-700 hover:to-red-900 text-white font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-lg text-lg sm:text-xl transition-all shadow-2xl hover:shadow-red-500/25 min-h-[48px] touch-manipulation">
-              ARM UP
-            </button>
-          </div>
-        </div>
-      </section>
+      {/* Luxury Hero Section */}
+      <LuxuryHeroSection />
 
       {/* Trust Strip - REPLACE HEAVY DELIVERY PROMISE */}
       <TrustStrip />
       
-      {/* FIRST RAIL: Under ₹999 - AS REQUESTED */}
+
+      
+      {/* New Teaser Section */}
+      <NewTeaser />
+      
+
+
+
+      
+      {/* Homepage Featured Hoodies - MOVED UP FOR BETTER VISIBILITY */}
+      {homepageFeaturedHoodies.length > 0 && (
+        <Rail 
+          title="FEATURED HOODIES — BATTLE READY" 
+          subtitle="Premium gear for the frontlines. Where the money is."
+          products={homepageFeaturedHoodies.slice(0, 6)}
+          showViewAll={true}
+          viewAllLink="/shop?category=hoodies"
+        />
+      )}
+      
+      {/* Premium Product Showcase */}
+      <PremiumShowcase />
+      
+      {/* Premium Collection Rail - MOVED UP */}
       <Rail 
-        title="UNDER ₹999 — FOR EVERY REBEL" 
-        subtitle="Cheap doesn't mean weak. Gear up."
-        products={affordableProducts.slice(0, 8)}
+        title="Premium Collection — Elite Gear" 
+        subtitle="High-value products for serious rebels"
+        products={premiumProducts.length > 0 ? premiumProducts.slice(0, 8) : products.filter(p => p.price >= 1200)}
         showViewAll={true}
-        viewAllLink="/shop?filter=under-999"
+        viewAllLink="/shop?filter=premium"
       />
       
       {/* Animated UGC Strip */}
@@ -98,19 +118,19 @@ const Home = () => {
       {/* Vault Section */}
       <VaultSection />
       
-      {/* Other Rails */}
+      {/* Under ₹999 - REPOSITIONED BUT STILL VISIBLE */}
+      <Under999Section products={affordableProducts} />
+      
+      {/* Featured Poster Collection - MOVED DOWN */}
+      <PosterShowcase />
+      
+      {/* Rebellion Core Rails */}
       <Rail 
         title="REBELLION CORE — ESSENTIAL GEAR" 
+        subtitle="Tees under ₹999. Built for rebels."
         products={rebelCore.length > 0 ? rebelCore.slice(0, 8) : products.slice(0, 8)}
         showViewAll={true}
         viewAllLink="/shop?filter=rebellion-core"
-      />
-      
-      <Rail 
-        title="Premium Collection" 
-        products={vaultProducts.length > 0 ? vaultProducts : products.filter(p => p.price >= 2000)}
-        showViewAll={true}
-        viewAllLink="/shop?filter=premium"
       />
 
       {/* Community Modal */}

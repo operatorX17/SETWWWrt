@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, MessageCircle, X, HelpCircle } from 'lucide-react';
-import { openCustomerSupport } from '../lib/wa';
+import { openCustomerSupport } from '../lib/utils';
 
 const HelpButton = () => {
   const [isOpen, setIsOpen] = useState(false);

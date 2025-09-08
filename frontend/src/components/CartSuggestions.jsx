@@ -117,7 +117,7 @@ const CartSuggestions = ({ className = "" }) => {
                 addToCart(product, { size: 'M', color: 'Default' }, 1);
               }}
               className="bg-blue-600 hover:bg-blue-700 text-white p-2 rounded-lg transition-colors flex-shrink-0"
-              title="Add to Cart"
+              title="Add to Arsenal"
             >
               <Plus size={14} />
             </button>

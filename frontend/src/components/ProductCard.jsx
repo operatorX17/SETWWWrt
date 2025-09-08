@@ -1,5 +1,6 @@
 import React, { useState, memo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Lock } from 'lucide-react';
 import { useTheme } from '../hooks/useTheme';
 import { useCart } from '../context/CartContext';
 import { formatPrice } from '../lib/price';
@@ -19,50 +20,12 @@ const ProductCard = ({ product, className = "", priority = false }) => {
   const { isReducedMotion } = useTheme();
   const { addToCart } = useCart();
 
-  // Get display image - back by default, front on hover
   const getDisplayImage = () => {
     const imgs = product?.images || [];
-    if (imgs.length === 0) return product.featured_image || 'https://via.placeholder.com/400x500?text=No+Image';
-    if (imgs.length === 1) return imgs[0];
-
-    const normalize = (s) => (typeof s === 'string' ? s.toLowerCase() : '');
-    const backIdx = imgs.findIndex((u) => {
-      const v = normalize(u);
-      return v.includes('/back/') || v.includes(' back') || v.includes('_back') || v.includes('-back') || v.includes('back/');
-    });
-    const frontIdx = imgs.findIndex((u) => {
-      const v = normalize(u);
-      return v.includes('/front/') || v.includes(' front') || v.includes('_front') || v.includes('-front') || v.includes('front/');
-    });
-
-    const hasBack = backIdx !== -1;
-    const hasFront = frontIdx !== -1;
-
-    if (hasBack && hasFront) {
-      return isHovered ? imgs[frontIdx] : imgs[backIdx];
-    }
-    if (hasBack) {
-      if (isHovered) {
-        const alt = imgs.find((_, i) => i !== backIdx);
-        return alt || imgs[backIdx];
-      }
-      return imgs[backIdx];
-    }
-    if (hasFront) {
-      if (isHovered) return imgs[frontIdx];
-      const nonFront = imgs.find((_, i) => i !== frontIdx);
-      return nonFront || imgs[frontIdx];
-    }
-
-    // Category heuristic for Shopify CDN images lacking back/front labels
-    const cat = normalize(product?.category || '');
-    const isTeeOrShirt = cat.includes('tee') || cat.includes('shirt');
-    if (!hasBack && !hasFront && isTeeOrShirt && imgs.length >= 2) {
-      return isHovered ? imgs[0] : imgs[1];
-    }
-
-    // When no markers are present, default to second image (assumed back) and swap to first (front) on hover
-    return isHovered ? (imgs[0] || imgs[1] || imgs[0]) : (imgs[1] || imgs[0]);
+    if (imgs.length === 0) return '/placeholder-product.jpg';
+    
+    // Always use the first image to prevent flashing on hover
+    return imgs[0];
   };
 
   const handleClick = useCallback(() => {
@@ -124,7 +87,9 @@ const ProductCard = ({ product, className = "", priority = false }) => {
           {/* Vault Lock Overlay */}
           {product.vault_locked && (
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-              <div className="text-yellow-400 text-4xl">🔒</div>
+              <div className="bg-yellow-400/20 backdrop-blur-sm rounded-full p-4 border border-yellow-400/30">
+                <Lock className="text-yellow-400 w-8 h-8" />
+              </div>
             </div>
           )}
           
@@ -217,7 +182,7 @@ const ProductCard = ({ product, className = "", priority = false }) => {
               className="w-full mt-3 bg-gradient-to-r from-red-600 to-red-800 hover:from-red-700 hover:to-red-900 text-white font-bold py-2 px-4 rounded-lg flex items-center justify-center space-x-2 transition-all"
             >
               <ShoppingCart size={16} />
-              <span>ADD TO CART</span>
+              <span>ADD TO ARSENAL</span>
             </button>
           </div>
 

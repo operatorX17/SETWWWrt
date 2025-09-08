@@ -4,12 +4,12 @@
     "name": "Crimson Fury Hoodie",
     "handle": "crimson-fury-hoodie",
     "category": "Hoodies",
-    "price": 3499.0,
-    "originalPrice": null,
+    "price": 1599.0,
+    "originalPrice": 1999.0,
     "badges": [
       "PREMIUM COLLECTION",
-      "LIMITED",
-      "EXCLUSIVE"
+      "HOMEPAGE FEATURED",
+      "BESTSELLER"
     ],
     "images": [
       "/images/hoodies/crimson-fury-front.jpg",
@@ -37,8 +37,8 @@
     "name": "Brutal Machine Hoodie",
     "handle": "brutal-machine-hoodie",
     "category": "Hoodies",
-    "price": 3499.0,
-    "originalPrice": null,
+    "price": 1399.0,
+    "originalPrice": 1799.0,
     "badges": [
       "PREMIUM COLLECTION",
       "LIMITED",
@@ -70,8 +70,8 @@
     "name": "Iron Predator Hoodie",
     "handle": "iron-predator-hoodie",
     "category": "Hoodies",
-    "price": 3499.0,
-    "originalPrice": null,
+    "price": 1299.0,
+    "originalPrice": 1699.0,
     "badges": [
       "PREMIUM COLLECTION",
       "LIMITED",
@@ -103,12 +103,12 @@
     "name": "Silent Death Hoodie",
     "handle": "silent-death-hoodie",
     "category": "Hoodies",
-    "price": 3499.0,
-    "originalPrice": null,
+    "price": 1449.0,
+    "originalPrice": 1899.0,
     "badges": [
       "PREMIUM COLLECTION",
-      "LIMITED",
-      "EXCLUSIVE"
+      "HOMEPAGE FEATURED",
+      "STEALTH"
     ],
     "images": [
       "/images/hoodies/silent-death-front.jpg",

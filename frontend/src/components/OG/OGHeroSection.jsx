@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Bell } from 'lucide-react';
 import { useI18n } from '../../hooks/useI18n';
 import { useProducts } from '../../hooks/useProducts';
-import { getMetafieldValue } from '../../lib/shopifyMetafields';
+import { getMetafieldValue } from 'lib/shopifyMetafields';
 import ProductCard from '../ProductCard';
 import Countdown from '../Countdown';
 

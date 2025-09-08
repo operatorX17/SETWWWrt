@@ -1099,51 +1099,7 @@
     "published": true,
     "status": "active"
   },
-  {
-    "id": 4014,
-    "name": "Battle Wallet Elite",
-    "title": "[ARMORY // BATTLE WALLET ELITE] \u2014 GEAR",
-    "handle": "battle-wallet-elite",
-    "category": "Accessories",
-    "product_type": "Accessory",
-    "vendor": "DVV Entertainment",
-    "price": 899,
-    "compare_at_price": 1099,
-    "images": [
-      "https://ogshop.preview.emergentagent.com/products/wallet/product1/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM.jpeg"
-    ],
-    "featured_image": "https://ogshop.preview.emergentagent.com/products/wallet/product1/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM.jpeg",
-    "badges": [
-      "ARSENAL",
-      "UNDER \u20b9999"
-    ],
-    "tags": [
-      "OG",
-      "Arsenal",
-      "Accessories"
-    ],
-    "description": "Battle Wallet Elite - Essential gear for every rebel warrior.",
-    "variants": [
-      {
-        "id": 401400,
-        "title": "Default",
-        "option1": "Default",
-        "price": 899,
-        "inventory_quantity": 30,
-        "inventory_management": "shopify"
-      }
-    ],
-    "options": [
-      {
-        "name": "Size",
-        "values": [
-          "One Size"
-        ]
-      }
-    ],
-    "published": true,
-    "status": "active"
-  },
+
   {
     "id": 4015,
     "name": "Battle Wallet Pro",

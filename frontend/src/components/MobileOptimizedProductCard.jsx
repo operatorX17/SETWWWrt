@@ -113,7 +113,7 @@ const MobileOptimizedProductCard = ({ product, className = "", priority = false 
           className="w-full bg-red-600 hover:bg-red-700 active:bg-red-800 text-white font-medium py-2.5 px-4 rounded-md flex items-center justify-center space-x-2 transition-colors text-sm touch-manipulation"
         >
           <ShoppingCart size={14} />
-          <span>ADD TO CART</span>
+          <span>ADD TO ARSENAL</span>
         </button>
       </div>
     </div>

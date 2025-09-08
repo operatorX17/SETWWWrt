@@ -10,6 +10,7 @@ module.exports = {
   webpack: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
+      'lib': path.resolve(__dirname, 'src/lib'),
     },
     configure: (webpackConfig) => {
       

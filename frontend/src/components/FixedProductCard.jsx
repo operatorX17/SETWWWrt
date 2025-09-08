@@ -1,4 +1,4 @@
-import React, { useState, memo, useCallback } from 'react';
+import React, { useState, memo, useCallback, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTheme } from '../hooks/useTheme';
 import { useCart } from '../context/CartContext';
@@ -9,53 +9,26 @@ import NFTBadge from './NFT/NFTBadge';
 import NFTModal from './NFT/NFTModal';
 import ScarcityPill from './ConversionElements/ScarcityPill';
 import ProductStory from './ConversionElements/ProductStory';
-import { ShoppingCart, Zap } from 'lucide-react';
+import { ShoppingCart, Heart, Eye, TrendingUp, Users, Clock, Star, Crown, Zap, Lock } from 'lucide-react';
 
 const FixedProductCard = ({ product, className = "", priority = false, isSpecial = false }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [showVaultModal, setShowVaultModal] = useState(false);
   const [showNFTModal, setShowNFTModal] = useState(false);
+  const [isLiked, setIsLiked] = useState(false);
+  // Stable values based on product ID to prevent random changes
+  const [viewCount] = useState(((product.id || 1) * 37) % 400 + 150);
+  const [stockLeft] = useState(((product.id || 1) * 23) % 15 + 8);
   const navigate = useNavigate();
   const { isReducedMotion } = useTheme();
   const { addToCart } = useCart();
 
-  // Get display image - back by default, front on hover
+  // Get display image - use first image consistently to prevent flashing
   const getDisplayImage = () => {
-    const imgs = product?.images || [];
-    if (imgs.length === 0) return product.featured_image || 'https://via.placeholder.com/400x500?text=No+Image';
-    if (imgs.length === 1) return imgs[0];
-
-    const normalize = (s) => (typeof s === 'string' ? s.toLowerCase() : '');
-    const backIdx = imgs.findIndex((u) => {
-      const v = normalize(u);
-      return v.includes('/back/') || v.includes(' back') || v.includes('_back') || v.includes('-back') || v.includes('back/');
-    });
-    const frontIdx = imgs.findIndex((u) => {
-      const v = normalize(u);
-      return v.includes('/front/') || v.includes(' front') || v.includes('_front') || v.includes('-front') || v.includes('front/');
-    });
-
-    const hasBack = backIdx !== -1;
-    const hasFront = frontIdx !== -1;
-
-    if (hasBack && hasFront) {
-      return isHovered ? imgs[frontIdx] : imgs[backIdx];
-    }
-    if (hasBack) {
-      if (isHovered) {
-        const alt = imgs.find((_, i) => i !== backIdx);
-        return alt || imgs[backIdx];
-      }
-      return imgs[backIdx];
-    }
-    if (hasFront) {
-      if (isHovered) return imgs[frontIdx];
-      const nonFront = imgs.find((_, i) => i !== frontIdx);
-      return nonFront || imgs[frontIdx];
-    }
-
-    // Default: second image as back when unlabelled
-    return isHovered ? (imgs[0] || imgs[1] || imgs[0]) : (imgs[1] || imgs[0]);
+    if (!product.images || product.images.length === 0) return '/placeholder-product.jpg';
+    
+    // Always use the first image to prevent flashing on hover
+    return product.images[0];
   };
 
   const handleCardClick = useCallback(() => {
@@ -123,7 +96,9 @@ const FixedProductCard = ({ product, className = "", priority = false, isSpecial
             {/* Vault Lock Overlay */}
             {product.vault_locked && (
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-                <div className="text-yellow-400 text-4xl animate-pulse">🔒</div>
+                <div className="bg-yellow-400/20 backdrop-blur-sm rounded-full p-4 border border-yellow-400/30">
+                  <Lock className="text-yellow-400 w-8 h-8 animate-pulse" />
+                </div>
               </div>
             )}
             
@@ -133,29 +108,83 @@ const FixedProductCard = ({ product, className = "", priority = false, isSpecial
               onMintClick={() => setShowNFTModal(true)}
             />
             
-            {/* Badges - FIXED POSITIONING */}
+            {/* Enhanced Badges */}
             <div className="absolute top-3 left-3 flex flex-col gap-1">
               {product.badges?.includes('VAULT') && (
-                <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-gradient-to-r from-yellow-400 to-yellow-600 text-black">
+                <span className="px-3 py-1 text-xs font-black tracking-wider uppercase bg-gradient-to-r from-yellow-400 to-yellow-600 text-black shadow-lg animate-pulse flex items-center">
+                  <Crown className="w-3 h-3 mr-1" />
                   VAULT
                 </span>
               )}
               {product.badges?.includes('PREMIUM COLLECTION') && (
-                <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-gray-800 text-yellow-400">
-                  PREMIUM
+                <span className="px-3 py-1 text-xs font-black tracking-wider uppercase bg-gray-800 text-yellow-400 shadow-lg">
+                  ✨ PREMIUM
                 </span>
               )}
               {product.badges?.includes('LIMITED') && (
-                <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-red-500 text-white">
-                  LIMITED
+                <span className="px-3 py-1 text-xs font-black tracking-wider uppercase bg-red-500 text-white shadow-lg">
+                  🏆 LIMITED
                 </span>
               )}
               {product.price <= 999 && (
-                <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-green-600 text-white">
+                <span className="px-3 py-1 text-xs font-black tracking-wider uppercase bg-green-600 text-white shadow-lg">
                   &lt;₹999
                 </span>
               )}
+              {Math.random() > 0.7 && (
+                <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-gradient-to-r from-orange-500 to-red-500 text-white shadow-lg flex items-center">
+                  <TrendingUp className="w-3 h-3 mr-1" />
+                  HOT
+                </span>
+              )}
               <ScarcityPill stock={getTotalStock()} />
+            </div>
+            
+            {/* Top Right Badges */}
+            <div className="absolute top-3 right-3 flex flex-col gap-2">
+              <button 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setIsLiked(!isLiked);
+                }}
+                className={`p-2 rounded-full backdrop-blur-sm transition-all ${
+                  isLiked ? 'bg-red-500 text-white' : 'bg-black/40 text-white hover:bg-black/60'
+                }`}
+              >
+                <Heart className={`w-4 h-4 ${isLiked ? 'fill-current' : ''}`} />
+              </button>
+            </div>
+            
+            {/* Enhanced Hover Overlay */}
+            <div className={`absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-between p-4 transition-all duration-300 ${
+              isHovered ? 'opacity-100' : 'opacity-0'
+            }`}>
+              {/* Top Section - Live Activity */}
+              <div className="flex justify-between items-start">
+                <div className="bg-black/60 backdrop-blur-sm text-white px-2 py-1 rounded-lg text-xs font-semibold flex items-center">
+                  <Users className="w-3 h-3 mr-1" />
+                  {viewCount} viewing
+                </div>
+                <div className="bg-orange-500/80 backdrop-blur-sm text-white px-2 py-1 rounded-lg text-xs font-semibold flex items-center">
+                  <Clock className="w-3 h-3 mr-1" />
+                  {stockLeft} left
+                </div>
+              </div>
+              
+              {/* Bottom Section - Actions */}
+              <div className="flex justify-center gap-3">
+                <button className="bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-lg hover:bg-white/30 transition-all flex items-center text-sm font-semibold">
+                  <Eye className="w-4 h-4 mr-2" />
+                  Quick View
+                </button>
+                <button 
+                  onClick={handleAddToCart}
+                  className="bg-gradient-to-r from-red-600 to-orange-600 text-white px-4 py-2 rounded-lg hover:from-red-700 hover:to-orange-700 transition-all flex items-center text-sm font-bold shadow-lg"
+                >
+                  <ShoppingCart className="w-4 h-4 mr-2" />
+                  Add to Arsenal
+                </button>
+              </div>
             </div>
           </div>
 
@@ -168,33 +197,68 @@ const FixedProductCard = ({ product, className = "", priority = false, isSpecial
               {product.name}
             </h3>
             
+            {/* Social Proof & Rating */}
+            <div className="flex items-center justify-between text-xs">
+              <div className="flex items-center bg-yellow-500/20 px-2 py-1 rounded-lg">
+                <Star className="w-3 h-3 text-yellow-400 fill-current mr-1" />
+                <span className="text-yellow-400 font-bold">4.8</span>
+              </div>
+              <div className="text-green-400 font-semibold">✓ Bestseller</div>
+            </div>
+            
             {/* Pricing - FIXED */}
-            <div className="flex items-center space-x-2">
-              <span className={`text-xl font-bold ${
-                product.category === 'Vault' ? 'text-yellow-400' : 'text-red-400'
-              }`}>
-                {formatPrice(product.price)}
-              </span>
-              {(product.originalPrice || product.compare_at_price) && 
-               ((product.originalPrice && product.originalPrice > product.price) || 
-                (product.compare_at_price && product.compare_at_price > product.price)) && (
-                <span className="text-sm text-gray-400 line-through">
-                  {formatPrice(product.originalPrice || product.compare_at_price)}
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-2">
+                <span className={`text-xl font-bold ${
+                  product.category === 'Vault' ? 'text-yellow-400' : 'text-red-400'
+                }`}>
+                  {formatPrice(product.price)}
                 </span>
+                {(product.originalPrice || product.compare_at_price) && 
+                 ((product.originalPrice && product.originalPrice > product.price) || 
+                  (product.compare_at_price && product.compare_at_price > product.price)) && (
+                  <span className="text-sm text-gray-400 line-through">
+                    {formatPrice(product.originalPrice || product.compare_at_price)}
+                  </span>
+                )}
+              </div>
+              {(product.originalPrice || product.compare_at_price) && (
+                <div className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-2 py-1 rounded-lg text-xs font-bold">
+                  {Math.round(((product.originalPrice || product.compare_at_price) - product.price) / (product.originalPrice || product.compare_at_price) * 100)}% OFF
+                </div>
               )}
             </div>
 
             {/* Product Story */}
             <ProductStory category={product.category} />
 
-            {/* Add to Cart Button - FIXED SIZE */}
-            <button
-              onClick={handleAddToCart}
-              className="w-full bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 rounded-md flex items-center justify-center space-x-2 transition-colors text-sm"
-            >
-              <ShoppingCart size={14} />
-              <span>ADD TO ARSENAL</span>
-            </button>
+            {/* Enhanced Add to Cart Button */}
+            <div className="space-y-2">
+              <button
+                onClick={handleAddToCart}
+                className="w-full bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-bold py-2.5 px-4 rounded-lg flex items-center justify-center space-x-2 transition-all duration-300 transform hover:scale-105 shadow-lg text-sm"
+              >
+                <ShoppingCart size={14} />
+                <span>ADD TO ARSENAL</span>
+                <Zap size={12} />
+              </button>
+              
+              {/* Trust Signals */}
+              <div className="flex justify-center space-x-3 text-xs text-gray-400">
+                <div className="flex items-center">
+                  <Crown className="w-3 h-3 mr-1" />
+                  Premium
+                </div>
+                <div className="flex items-center">
+                  <Zap className="w-3 h-3 mr-1" />
+                  Fast Ship
+                </div>
+                <div className="flex items-center">
+                  <Star className="w-3 h-3 mr-1" />
+                  Quality
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

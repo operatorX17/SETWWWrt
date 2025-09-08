@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { formatPrice } from '../lib/price';
 import OptimizedImage from './OptimizedImage';
-import { ShoppingCart } from 'lucide-react';
+import PricingStrategy from './PricingStrategy';
+import { ShoppingCart, Lock } from 'lucide-react';
 
 const PremiumProductCard = ({ product, className = "", priority = false }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -94,98 +95,81 @@ const PremiumProductCard = ({ product, className = "", priority = false }) => {
       onClick={handleCardClick}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onTouchStart={() => setIsHovered(true)}
+      onTouchEnd={() => setIsHovered(false)}
     >
-      {/* Product Image with Badges - Matching Rail Design */}
-      <div className="relative mb-4 overflow-hidden">
-        <div className="aspect-[3/4] bg-gradient-to-br from-gray-900 to-black rounded-2xl overflow-hidden">
+      {/* Product Image with Badges - Mobile Optimized */}
+      <div className="relative mb-3 overflow-hidden">
+        <div className="aspect-[4/5] bg-gradient-to-br from-gray-900 to-black rounded-xl overflow-hidden">
           <OptimizedImage
             src={getDisplayImage()}
             alt={product.name}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             priority={priority}
           />
           
-          {/* Badges - TOP LEFT - Matching Rail */}
-          <div className="absolute top-3 left-3 flex flex-col gap-2">
+          {/* Minimal Badges - Only Essential Info */}
+          <div className="absolute top-2 left-2 flex flex-col gap-1">
             {product.badges?.includes('VAULT') && (
-              <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-gradient-to-r from-yellow-400 to-yellow-600 text-black">
+              <span className="px-2 py-1 text-xs font-bold bg-yellow-400 text-black rounded-md flex items-center gap-1">
+                <Lock size={12} />
                 VAULT
               </span>
             )}
-            {product.badges?.includes('LIMITED') && (
-              <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-red-500 text-white">
-                LIMITED
-              </span>
-            )}
-            {product.badges?.includes('REBEL DROP') && (
-              <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-black text-red-500 border border-red-500">
-                REBEL
-              </span>
-            )}
-            {(product.badges?.includes('PREMIUM COLLECTION') || product.badges?.includes('PREMIUM')) && (
-              <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-gray-800 text-yellow-400">
-                PREMIUM
+            {isUnder999 && (
+              <span className="px-2 py-1 text-xs font-bold bg-green-600 text-white rounded-md">
+                &lt;{formatPrice(999)}
               </span>
             )}
           </div>
 
-          {/* Hover Overlay - Matching Rail */}
-          <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-            <div className="text-white text-center">
-              <div className="text-sm font-medium mb-1">Quick View</div>
-              <div className="text-xs opacity-75">Tap to explore</div>
+          {/* Stock indicator for urgency */}
+          {isLowStock && (
+            <div className="absolute bottom-2 left-2">
+              <span className="px-2 py-1 text-xs font-bold bg-orange-500 text-white rounded-md">
+                {getTotalStock()} LEFT
+              </span>
             </div>
-          </div>
+          )}
         </div>
       </div>
 
-      {/* Product Info - BELOW IMAGE - Matching Rail */}
-      <div className="space-y-3">
-        {/* Product Title */}
-        <h3 className="text-white font-bold text-lg leading-tight group-hover:text-red-400 transition-colors">
+      {/* Product Info - Mobile First Design */}
+      <div className="space-y-2">
+        {/* Product Title - Clean & Readable */}
+        <h3 className="text-white font-semibold text-sm leading-snug group-hover:text-red-400 transition-colors line-clamp-2">
           {product.name}
         </h3>
 
-        {/* Description - Shortened */}
-        <p className="text-gray-400 text-sm leading-relaxed line-clamp-2">
-          {product.description ? 
-            (product.description.length > 60 ? 
-              product.description.substring(0, 60) + '...' : 
-              product.description
-            ) : 
-            'Built for rebels.'
-          }
-        </p>
+        {/* Strategic Pricing Display */}
+        <PricingStrategy product={product} />
 
-        {/* Price */}
-        <div className="flex items-center space-x-2">
-          <span className="text-red-400 font-bold text-xl">
-            {formatPrice(product.price)}
-          </span>
-          {(product.originalPrice || product.compare_at_price) && 
-           ((product.originalPrice && product.originalPrice > product.price) || 
-            (product.compare_at_price && product.compare_at_price > product.price)) && (
-            <span className="text-gray-500 line-through text-sm">
-              {formatPrice(product.originalPrice || product.compare_at_price)}
-            </span>
-          )}
-        </div>
-
-        {/* Add to Arsenal Button - Responsive - Matching Rail */}
+        {/* Add to Cart Button - Mobile Optimized Touch Target */}
         <button
           onClick={handleAddToCart}
-          className="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-red-700 hover:to-red-900 text-white font-bold py-3 px-4 rounded-lg transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl flex items-center justify-center space-x-2 text-sm sm:text-base min-h-[48px] touch-manipulation"
+          disabled={isAdded}
+          className={`w-full font-semibold py-3 px-4 rounded-lg transition-all duration-200 flex items-center justify-center space-x-2 text-sm min-h-[44px] touch-manipulation active:scale-95 ${
+            isAdded 
+              ? 'bg-green-600 text-white' 
+              : 'bg-red-600 hover:bg-red-700 active:bg-red-800 text-white shadow-md hover:shadow-lg'
+          }`}
         >
-          <ShoppingCart size={16} className="flex-shrink-0" />
-          <span className="truncate">ADD TO ARSENAL</span>
+          {isAnimating ? (
+            <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+          ) : isAdded ? (
+            <>
+              <span className="text-base">✓</span>
+              <span>ADDED</span>
+            </>
+          ) : (
+            <>
+              <ShoppingCart size={14} className="flex-shrink-0" />
+              <span>ADD TO CART</span>
+            </>
+          )}
         </button>
 
-        {/* Telugu Text - Matching Rail */}
-        <div className="text-center">
-          <span className="text-yellow-400 text-xs">
-            🏹 ఒక్కొక్కటి ఒక ఆయుధం 🏹
-          </span>
-        </div>
+
       </div>
     </div>
   );

@@ -21,38 +21,110 @@ const Shop = () => {
       const urlParams = new URLSearchParams(window.location.search);
       const filter = urlParams.get('filter');
       const categoryParam = urlParams.get('category');
-      setActiveTab(filter || categoryParam || 'all');
+      const collection = urlParams.get('collection');
+      
+      // Handle collection parameter
+      if (collection === 'premium-collection') {
+        setActiveTab('premium');
+      } else {
+        setActiveTab(filter || categoryParam || 'all');
+      }
     }
   }, [category]);
 
-  // CLEAN TABS - WITHOUT EMOJIS, MATCHING DROPDOWN
+  // EXCLUSIVE TABS - UNIQUE PRODUCT DISTRIBUTIONS
   const tabs = [
     { id: 'all', label: 'ALL ARSENAL', filter: null },
-    { id: 'vault', label: '🔒 VAULT', filter: 'Vault' },
-    { id: 'Tee Shirts', label: 'REBEL TEES', filter: 'Tee Shirts' },
-    { id: 'Hoodies', label: 'PREDATOR HOODIES', filter: 'Hoodies' },
-    { id: 'Shirts', label: 'FORMAL ARSENAL', filter: 'Shirts' },
-    { id: 'Sweatshirts', label: 'COMBAT SWEATS', filter: 'Sweatshirts' },
-    { id: 'Posters', label: 'WAR POSTERS', filter: 'Posters' },
-    { id: 'Accessories', label: 'GEAR & ACCESSORIES', filter: 'Accessories' }
+    { id: 'vault', label: '🔒 VAULT EXCLUSIVE', filter: 'vault' },
+    { id: 'rebellion-core', label: 'REBELLION CORE', filter: 'rebellion-core' },
+    { id: 'premium', label: 'PREMIUM COLLECTION', filter: 'premium' },
+    { id: 'tees', label: 'TACTICAL TEES', filter: 'tees' },
+    { id: 'hoodies', label: 'BATTLE HOODIES', filter: 'hoodies' },
+    { id: 'accessories', label: 'GEAR & ARSENAL', filter: 'accessories' },
+    { id: 'posters', label: 'WAR POSTERS', filter: 'posters' }
   ];
 
-  const getCategoryForTab = () => {
-    if (activeTab === 'vault') return 'Vault';
-    if (activeTab === 'Tee Shirts') return 'Tee Shirts';
-    if (activeTab === 'Hoodies') return 'Hoodies';
-    if (activeTab === 'Posters') return 'Posters';
-    if (activeTab === 'Sweatshirts') return 'Sweatshirts';
-    if (activeTab === 'Shirts') return 'Shirts';
-    if (activeTab === 'Accessories') return 'Accessories';
-    return activeTab === 'all' ? null : activeTab;
+  const getFilterForTab = () => {
+    switch (activeTab) {
+      case 'vault':
+        return { type: 'vault' };
+      case 'rebellion-core':
+        return { type: 'collection', value: 'REBELLION CORE' };
+      case 'premium':
+        return { type: 'collection', value: 'PREMIUM COLLECTION' };
+      case 'tees':
+        return { type: 'category', value: 'Teeshirt', exclude: ['REBELLION CORE', 'VAULT EXCLUSIVE'] };
+      case 'hoodies':
+        return { type: 'category', value: 'Hoodies', exclude: ['PREMIUM COLLECTION', 'VAULT EXCLUSIVE'] };
+      case 'accessories':
+        return { type: 'category', value: 'Accessories' };
+      case 'posters':
+        return { type: 'category', value: 'Posters' };
+      default:
+        return { type: 'all' };
+    }
   };
 
-  const { products: filteredProducts, loading, error } = useFilteredProductsWithUnlock(
-    getCategoryForTab(),
-    activeTab === 'vault' ? 'vault' : null,
-    activeTab === 'vault' // includeVault only for vault tab
+  const { products: allProducts, loading, error } = useFilteredProductsWithUnlock(
+    null, // Get all products
+    null,
+    true // Include vault products for filtering
   );
+
+  // Apply exclusive filtering based on active tab
+  const filteredProducts = React.useMemo(() => {
+    if (!allProducts) return [];
+    
+    const filter = getFilterForTab();
+    
+    switch (filter.type) {
+      case 'vault':
+        return allProducts.filter(p => 
+          p.vault_locked || 
+          (p.badges && p.badges.includes('VAULT')) ||
+          (p.collection === 'VAULT EXCLUSIVE')
+        );
+      
+      case 'collection':
+        if (filter.value === 'REBELLION CORE') {
+          // Special handling for REBELLION CORE - match REBEL DROP products
+          return allProducts.filter(p => 
+            p.collection === 'REBELLION CORE' ||
+            (p.badges && (p.badges.includes('REBEL DROP') || p.badges.includes('REBEL') || p.badges.includes('DROP')))
+          );
+        }
+        return allProducts.filter(p => 
+          p.collection === filter.value ||
+          (p.badges && p.badges.includes(filter.value.replace(' ', '_')))
+        );
+      
+      case 'category':
+        return allProducts.filter(p => {
+          // Handle both exact match and case variations
+          const matchesCategory = p.category === filter.value || 
+                                p.category?.toLowerCase() === filter.value?.toLowerCase();
+          if (!matchesCategory) return false;
+          
+          // Exclude vault products from regular categories
+          if (p.vault_locked || (p.badges && p.badges.includes('VAULT'))) {
+            return false;
+          }
+          
+          // Exclude products that belong to specific collections
+          if (filter.exclude) {
+            return !filter.exclude.some(excludeCollection => 
+              p.collection === excludeCollection ||
+              (p.badges && p.badges.includes(excludeCollection.replace(' ', '_')))
+            );
+          }
+          
+          return true;
+        });
+      
+      default:
+        return allProducts;
+    }
+  }, [allProducts, activeTab]);
 
   const handleTabClick = (tabId) => {
     setActiveTab(tabId);
@@ -127,7 +199,7 @@ const Shop = () => {
               onClick={() => handleTabClick('all')}
               className="text-white hover:text-gray-300 underline"
             >
-              View all arsenal
+              View all products
             </button>
           </div>
         )}
