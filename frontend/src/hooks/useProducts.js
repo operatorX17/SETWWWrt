@@ -80,7 +80,7 @@ export const useProducts = () => {
           variants: product.variants || [],
           
           // Collection mapping for homepage filters
-          collection: this.mapToCollection(product),
+          collection: mapToCollection(product),
           
           // Additional metadata
           seo: product.seo || {}
