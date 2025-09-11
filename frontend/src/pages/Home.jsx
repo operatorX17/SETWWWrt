@@ -70,19 +70,40 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-[var(--color-bg)]">
-      {/* Teaser Video Section - DISABLED FOR DEBUGGING */}
-      {/* <TeaserVideo /> */}
+      {/* Teaser Video Section - FIXED VERSION */}
+      <TeaserVideo />
       
       <Header />
       
-      {/* SAFE TEST - Using safe products array */}
+      {/* MAIN PRODUCT RAILS */}
       <div className="pt-20">
+        {/* Primary Rail - All Products */}
         <Rail 
-          title="OG PRODUCTS — REAL PRODUCTS TEST" 
-          subtitle={`Found ${safeProducts.length} products from catalog`}
-          products={safeProducts.slice(0, 6)}
+          title="OG ARSENAL — COMPLETE COLLECTION" 
+          subtitle={`Discover ${safeProducts.length} premium OG products with back images prioritized`}
+          products={safeProducts.slice(0, 8)}
           showViewAll={true}
           viewAllLink="/shop"
+          prioritizeBackImages={true}
+        />
+        
+        {/* Second Rail - Premium Products */}
+        <Rail 
+          title="PREMIUM COLLECTION — ELITE GEAR" 
+          subtitle="High-value products for the ultimate fan experience"
+          products={safeProducts.filter(p => p.price >= 1000).slice(0, 6)}
+          showViewAll={true}
+          viewAllLink="/shop?filter=premium"
+          prioritizeBackImages={true}
+        />
+        
+        {/* Third Rail - Affordable Products */}
+        <Rail 
+          title="ESSENTIAL GEAR — UNDER ₹999" 
+          subtitle="Core collection for every OG soldier"
+          products={safeProducts.filter(p => p.price < 999).slice(0, 8)}
+          showViewAll={true}
+          viewAllLink="/shop?filter=under-999"
           prioritizeBackImages={true}
         />
       </div>
