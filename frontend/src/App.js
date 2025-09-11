@@ -54,7 +54,7 @@ function App() {
                     <BrowserRouter>
                       <PageTransition>
                         <Routes>
-                          <Route path="/" element={<HomeMinimal />} />
+                          <Route path="/" element={<Home />} />
                           <Route path="/collections" element={<Collections />} />
                           <Route path="/collections/:handle" element={<CollectionDetail />} />
                           <Route path="/shop" element={<Shop />} />
