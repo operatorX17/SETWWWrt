@@ -8,7 +8,7 @@ import { sendOrderToWhatsApp } from '../lib/wa';
 import { ShoppingCart, ArrowLeft, Heart, Share, Star, Truck, Shield, RefreshCw } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import ProductCard from '../components/ProductCard';
+import PremiumRecommendations from '../components/PremiumRecommendations';
 import SizeChips from '../components/SizeChips';
 import Scarcity from '../components/Scarcity';
 import TrustChips from '../components/TrustChips';
