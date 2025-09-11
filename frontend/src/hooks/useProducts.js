@@ -229,3 +229,82 @@ export const useVaultProductsWithUnlock = () => {
     error: null
   };
 };
+
+// Hook for filtered products with unlock functionality
+export const useFilteredProductsWithUnlock = (filters = {}) => {
+  const { products, loading, error } = useProducts();
+  
+  const filteredProducts = useMemo(() => {
+    let filtered = [...products];
+    
+    // Apply category filter
+    if (filters.category) {
+      filtered = filtered.filter(p => 
+        p.category.toLowerCase().includes(filters.category.toLowerCase()) ||
+        p.product_type?.toLowerCase().includes(filters.category.toLowerCase())
+      );
+    }
+    
+    // Apply collection filter
+    if (filters.collection) {
+      filtered = filtered.filter(p => p.collection === filters.collection);
+    }
+    
+    // Apply badge filter
+    if (filters.badge) {
+      filtered = filtered.filter(p => p.badges.includes(filters.badge));
+    }
+    
+    // Apply price range filter
+    if (filters.minPrice !== undefined) {
+      filtered = filtered.filter(p => p.price >= filters.minPrice);
+    }
+    if (filters.maxPrice !== undefined) {
+      filtered = filtered.filter(p => p.price <= filters.maxPrice);
+    }
+    
+    return filtered;
+  }, [products, filters]);
+
+  return {
+    products: filteredProducts,
+    loading,
+    error
+  };
+};
+
+// Hook for single product
+export const useProduct = (productId) => {
+  const { products, loading, error } = useProducts();
+  
+  const product = useMemo(() => {
+    if (!productId || !products.length) return null;
+    return products.find(p => 
+      p.id === productId || 
+      p.handle === productId ||
+      p.id === parseInt(productId)
+    );
+  }, [products, productId]);
+
+  return {
+    product,
+    loading,
+    error: product ? null : 'Product not found'
+  };
+};
+
+// Hook for filtered products (simple version)
+export const useFilteredProducts = (filterFn) => {
+  const { products, loading, error } = useProducts();
+  
+  const filteredProducts = useMemo(() => {
+    if (!filterFn || typeof filterFn !== 'function') return products;
+    return products.filter(filterFn);
+  }, [products, filterFn]);
+
+  return {
+    products: filteredProducts,
+    loading,
+    error
+  };
+};
