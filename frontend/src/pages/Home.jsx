@@ -163,16 +163,14 @@ const Home = () => {
       <NewTeaser />
       
       {/* BEST SELLERS RAIL - TOP PRIORITY */}
-      {bestSellers.length > 0 && (
-        <Rail 
-          title="BEST SELLERS — FAN FAVORITES" 
-          subtitle="Most loved by the OG army. Back views featured."
-          products={bestSellers}
-          showViewAll={true}
-          viewAllLink="/shop?filter=best-sellers"
-          prioritizeBackImages={true}
-        />
-      )}
+      <Rail 
+        title="BEST SELLERS — FAN FAVORITES" 
+        subtitle="Most loved by the OG army. Back views featured."
+        products={bestSellers}
+        showViewAll={true}
+        viewAllLink="/shop?filter=best-sellers"
+        prioritizeBackImages={true}
+      />
       
       {/* COOL SHIRTS SECTION */}
       {coolShirts.length > 0 && (
