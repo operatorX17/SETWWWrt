@@ -48,11 +48,31 @@ const Rail = ({ title, products, showViewAll = false, viewAllLink = "", animated
               {/* Product Image with Badges */}
               <div className="relative mb-3 overflow-hidden">
                 <div className="aspect-[4/5] bg-gradient-to-br from-gray-900 to-black rounded-xl overflow-hidden border-2 border-transparent group-hover:border-red-500/50 transition-all duration-300">
-                  <img 
-                    src={product.images?.[0] || '/placeholder-product.jpg'} 
-                    alt={product.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
+                  {/* Enhanced image selection logic - prioritize back images when requested */}
+                  {(() => {
+                    let imageToShow = product.images?.[0] || '/placeholder-product.jpg';
+                    
+                    // If prioritizeBackImages is true, use back image first
+                    if (prioritizeBackImages && product.backImage) {
+                      imageToShow = product.backImage;
+                    } else if (prioritizeBackImages && product.showBackFirst && product.images?.[0]) {
+                      // If product was marked to show back first, use first image (which should be back)
+                      imageToShow = product.images[0];
+                    } else if (product.primaryImage) {
+                      imageToShow = product.primaryImage;
+                    }
+                    
+                    return (
+                      <img 
+                        src={imageToShow} 
+                        alt={product.name}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        onError={(e) => {
+                          e.target.src = '/placeholder-product.jpg';
+                        }}
+                      />
+                    );
+                  })()}
                   
                   {/* Badges - Simplified for Mobile */}
                   <div className="absolute top-2 left-2 flex flex-col gap-1">
