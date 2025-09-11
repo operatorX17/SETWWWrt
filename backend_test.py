@@ -494,34 +494,45 @@ class BackendTester:
         return all_accessible
     
     def test_comprehensive_products_json_accessibility(self):
-        """Test that comprehensive_products.json is accessible and properly structured with VAULT products"""
+        """Test that comprehensive_products.json is accessible with FINAL_PRODUCTION_CATALOG (56 products)"""
         try:
             # Test direct access to comprehensive_products.json via frontend URL
-            frontend_url = os.getenv('REACT_APP_BACKEND_URL', 'http://localhost:3000').replace('/api', '').replace('https://smart-store-sync.preview.emergentagent.com', 'http://localhost:3000')
+            frontend_url = BACKEND_URL.replace('/api', '')
             products_url = f"{frontend_url}/comprehensive_products.json"
             
             response = requests.get(products_url, timeout=10)
             
             if response.status_code == 200:
                 try:
-                    products_data = response.json()
+                    catalog_data = response.json()
                     
-                    if isinstance(products_data, list):
+                    # Check if it's the new FINAL_PRODUCTION_CATALOG format
+                    if isinstance(catalog_data, dict) and 'products' in catalog_data:
+                        products_data = catalog_data['products']
+                        metadata = catalog_data.get('metadata', {})
+                        
                         product_count = len(products_data)
+                        total_from_metadata = metadata.get('total_products', 0)
+                        source = metadata.get('source', 'unknown')
+                        categories = metadata.get('categories', [])
                         
-                        # Count VAULT products
-                        vault_products = [p for p in products_data if p.get('category') == 'Vault']
-                        vault_count = len(vault_products)
-                        
-                        # Verify we have products including VAULT exclusives
-                        if product_count >= 10 and vault_count >= 3:
-                            self.log_result("Comprehensive Products JSON Accessibility", True, f"Successfully loaded {product_count} products including {vault_count} VAULT exclusives from comprehensive_products.json")
-                            return products_data
+                        # Verify FINAL_PRODUCTION_CATALOG with 56 products
+                        if product_count == 56 and source == 'FINAL_PRODUCTION_CATALOG':
+                            expected_categories = ['full shirts', 'hats', 'hoodies', 'posters', 'slippers', 'sweatshirts', 'teeshirt', 'wallet']
+                            categories_match = all(cat in categories for cat in expected_categories)
+                            
+                            if categories_match:
+                                self.log_result("Comprehensive Products JSON Accessibility", True, f"Successfully loaded FINAL_PRODUCTION_CATALOG with {product_count} products across {len(categories)} categories: {', '.join(categories)}")
+                                return products_data
+                            else:
+                                missing_cats = [cat for cat in expected_categories if cat not in categories]
+                                self.log_result("Comprehensive Products JSON Accessibility", False, f"Missing expected categories: {missing_cats}")
+                                return None
                         else:
-                            self.log_result("Comprehensive Products JSON Accessibility", False, f"Expected ≥10 products with ≥3 VAULT products, found {product_count} total with {vault_count} VAULT")
+                            self.log_result("Comprehensive Products JSON Accessibility", False, f"Expected 56 products from FINAL_PRODUCTION_CATALOG, found {product_count} from {source}")
                             return None
                     else:
-                        self.log_result("Comprehensive Products JSON Accessibility", False, "Products data is not a list")
+                        self.log_result("Comprehensive Products JSON Accessibility", False, "Invalid catalog format - expected object with 'products' array")
                         return None
                         
                 except json.JSONDecodeError as e:
