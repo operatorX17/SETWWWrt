@@ -131,27 +131,6 @@ export const useProducts = () => {
     }
   }, []);
 
-  // Simple collection mapping
-  const getProductCollection = (product) => {
-    const badges = product.badges || [];
-    const price = parseFloat(product.price) || 0;
-    
-    if (badges.includes('VAULT_EXCLUSIVE') || badges.includes('VAULT')) {
-      return 'VAULT';
-    }
-    if (badges.includes('REBEL_DROP')) {
-      return 'REBELLION CORE';
-    }
-    if (badges.includes('BEST_SELLER') || price >= 1200) {
-      return 'PREMIUM COLLECTION';
-    }
-    if (price < 999) {
-      return 'REBELLION CORE';
-    }
-    
-    return 'REBELLION CORE';
-  };
-
   // Load products on mount
   useEffect(() => {
     loadProducts();
