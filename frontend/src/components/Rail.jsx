@@ -5,7 +5,7 @@ import { formatPrice } from '../lib/price';
 import { ShoppingCart, ArrowRight, Zap, Crown, TrendingUp } from 'lucide-react';
 import FixedProductCard from './FixedProductCard';
 
-const Rail = ({ title, products, showViewAll = false, viewAllLink = "", animated = false, subtitle = "" }) => {
+const Rail = ({ title, products, showViewAll = false, viewAllLink = "", animated = false, subtitle = "", prioritizeBackImages = false }) => {
   const isSpecialRail = title.includes('VAULT') || title.includes('PREMIUM') || title.includes('EXCLUSIVE');
   const navigate = useNavigate();
   const { addToCart } = useCart();
