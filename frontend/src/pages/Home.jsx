@@ -183,16 +183,14 @@ const Home = () => {
       />
 
       {/* COOL T-SHIRTS RAIL - User requested after shirts */}
-      {coolTshirts.length > 0 && (
-        <Rail 
-          title="COOL T-SHIRTS — THUNDER COLLECTION" 
-          subtitle="Premium tees with scene codes and cinematic designs ₹699-₹975"
-          products={coolTshirts}
-          showViewAll={true}
-          viewAllLink="/shop?category=tees"
-          prioritizeBackImages={true}
-        />
-      )}
+      <Rail 
+        title="COOL T-SHIRTS — THUNDER COLLECTION" 
+        subtitle="Premium tees with scene codes and cinematic designs ₹699-₹975"
+        products={coolTshirts}
+        showViewAll={true}
+        viewAllLink="/shop?category=tees"
+        prioritizeBackImages={true}
+      />
       
       {/* FEATURED HOODIES - BATTLE READY */}
       {featuredHoodies.length > 0 && (
