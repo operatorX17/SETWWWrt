@@ -209,3 +209,23 @@ export const useProducts = () => {
     reload: loadProducts
   };
 };
+
+// Additional hook for Vault products with unlock functionality
+export const useVaultProductsWithUnlock = () => {
+  const { products } = useProducts();
+  
+  const vaultProducts = useMemo(() => {
+    return products.filter(p => 
+      p.badges.includes('VAULT_EXCLUSIVE') || 
+      p.badges.includes('VAULT') ||
+      p.collection === 'VAULT' ||
+      p.price >= 2000
+    );
+  }, [products]);
+
+  return {
+    products: vaultProducts,
+    loading: false,
+    error: null
+  };
+};
