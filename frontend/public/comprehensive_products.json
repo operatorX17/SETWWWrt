@@ -26,11 +26,13 @@
       "vault_exclusives"
     ],
     "status": "expert_generated",
-    "updated_at": "2025-09-11T18:59:32.000000",
+    "updated_at": "2025-09-11T20:43:04.021330",
     "integration_status": "ACTIVE",
     "previous_products": 56,
     "new_products": 45,
-    "source": "OG_EXPERT_CATALOG_BUILDER"
+    "source": "OG_EXPERT_CATALOG_BUILDER",
+    "pricing_update": "user_feedback_applied",
+    "image_fixes": "web_accessible_paths"
   },
   "hero_section": {
     "title": "OG Premium Collection - Expert Curated",
@@ -94,8 +96,8 @@
       "id": "og-shirt-blood-oath",
       "title": "OG // Shirt \u2014 Blood Oath",
       "category": "shirt",
-      "price": "1255",
-      "compare_at_price": "1631",
+      "price": "887",
+      "compare_at_price": "1108",
       "description": "Premium warfare. Limited drop. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SHIRT",
@@ -105,27 +107,25 @@
       "vendor": "DVV / OG",
       "product_type": "Shirt",
       "handle": "og-shirt-blood-oath",
-      "images": {
-        "front": "PRODUCTS/full shirts/product1/front/WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/full%20shirts/product1/front/WhatsApp%20Image%202025-08-31%20at%2010.49.05%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1255
+          "price": 887
         },
         {
           "option1": "M",
-          "price": 1255
+          "price": 887
         },
         {
           "option1": "L",
-          "price": 1255
+          "price": 887
         },
         {
           "option1": "XL",
-          "price": 1255
+          "price": 887
         }
       ],
       "badges": [
@@ -141,14 +141,15 @@
       "seo": {
         "title": "Blood Oath Shirt \u2014 OG Official",
         "description": "Cinematic full shirts with premium design. BEST_SELLER drop. Hunter Green."
-      }
+      },
+      "primaryImage": "/PRODUCTS/full%20shirts/product1/front/WhatsApp%20Image%202025-08-31%20at%2010.49.05%20AM%20(1).jpeg"
     },
     {
       "id": "og-shirt-zero-hour-scene-147",
       "title": "OG // Shirt \u2014 Zero Hour [Scene 147]",
       "category": "shirt",
-      "price": "1282",
-      "compare_at_price": "1666",
+      "price": "749",
+      "compare_at_price": "936",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 147. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SHIRT",
@@ -159,27 +160,25 @@
       "vendor": "DVV / OG",
       "product_type": "Shirt",
       "handle": "og-shirt-zero-hour-scene-147",
-      "images": {
-        "front": "PRODUCTS/full shirts/product3/front/WhatsApp Image 2025-08-31 at 9.09.11 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/full%20shirts/product3/front/WhatsApp%20Image%202025-08-31%20at%209.09.11%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1282
+          "price": 749
         },
         {
           "option1": "M",
-          "price": 1282
+          "price": 749
         },
         {
           "option1": "L",
-          "price": 1282
+          "price": 749
         },
         {
           "option1": "XL",
-          "price": 1282
+          "price": 749
         }
       ],
       "badges": [],
@@ -193,14 +192,15 @@
       "seo": {
         "title": "Zero Hour Shirt \u2014 OG Official",
         "description": "Cinematic full shirts with premium design. Limited drop. Midnight Black."
-      }
+      },
+      "primaryImage": "/PRODUCTS/full%20shirts/product3/front/WhatsApp%20Image%202025-08-31%20at%209.09.11%20AM.jpeg"
     },
     {
       "id": "og-shirt-thunder-strike-scene-108",
       "title": "OG // Shirt \u2014 Thunder Strike [Scene 108]",
       "category": "shirt",
-      "price": "1071",
-      "compare_at_price": "1392",
+      "price": "937",
+      "compare_at_price": "1171",
       "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 108. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SHIRT",
@@ -212,27 +212,25 @@
       "vendor": "DVV / OG",
       "product_type": "Shirt",
       "handle": "og-shirt-thunder-strike-scene-108",
-      "images": {
-        "front": "PRODUCTS/full shirts/product2/front/WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/full%20shirts/product2/front/WhatsApp%20Image%202025-08-31%20at%2010.49.06%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1071
+          "price": 937
         },
         {
           "option1": "M",
-          "price": 1071
+          "price": 937
         },
         {
           "option1": "L",
-          "price": 1071
+          "price": 937
         },
         {
           "option1": "XL",
-          "price": 1071
+          "price": 937
         }
       ],
       "badges": [
@@ -248,14 +246,15 @@
       "seo": {
         "title": "Thunder Strike Shirt \u2014 OG Official",
         "description": "Cinematic full shirts with premium design. REBEL_DROP drop. Brass / Smoke Gray."
-      }
+      },
+      "primaryImage": "/PRODUCTS/full%20shirts/product2/front/WhatsApp%20Image%202025-08-31%20at%2010.49.06%20AM.jpeg"
     },
     {
       "id": "og-hoodie-smoke-trail-scene-106",
       "title": "OG // Hoodie \u2014 Smoke Trail [Scene 106]",
       "category": "hoodie",
-      "price": "1937",
-      "compare_at_price": "2518",
+      "price": "1209",
+      "compare_at_price": "1511",
       "description": "This isn't merch. It's a callsign. Inspired by the OG universe \u2014 Scene 106. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -266,27 +265,25 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-smoke-trail-scene-106",
-      "images": {
-        "front": "PRODUCTS/hoodies/Product13/front/WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/Product13/front/WhatsApp%20Image%202025-08-31%20at%209.06.45%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1937
+          "price": 1209
         },
         {
           "option1": "M",
-          "price": 1937
+          "price": 1209
         },
         {
           "option1": "L",
-          "price": 1937
+          "price": 1209
         },
         {
           "option1": "XL",
-          "price": 1937
+          "price": 1209
         }
       ],
       "badges": [],
@@ -300,14 +297,15 @@
       "seo": {
         "title": "Smoke Trail Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Steel Blue / Gold."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/Product13/front/WhatsApp%20Image%202025-08-31%20at%209.06.45%20AM.jpeg"
     },
     {
       "id": "og-hoodie-cinder-fade",
       "title": "OG // Hoodie \u2014 Cinder Fade",
       "category": "hoodie",
-      "price": "2248",
-      "compare_at_price": "2922",
+      "price": "1209",
+      "compare_at_price": "1511",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -318,27 +316,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-cinder-fade",
-      "images": {
-        "front": "PRODUCTS/hoodies/product10/front/WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
-        "back": "PRODUCTS/hoodies/product10/back/WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product10/back/WhatsApp%20Image%202025-08-31%20at%209.06.47%20AM%20(1).jpeg",
+        "/PRODUCTS/hoodies/product10/front/WhatsApp%20Image%202025-08-31%20at%209.18.36%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 2248
+          "price": 1209
         },
         {
           "option1": "M",
-          "price": 2248
+          "price": 1209
         },
         {
           "option1": "L",
-          "price": 2248
+          "price": 1209
         },
         {
           "option1": "XL",
-          "price": 2248
+          "price": 1209
         }
       ],
       "badges": [],
@@ -352,14 +349,15 @@
       "seo": {
         "title": "Cinder Fade Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Steel Blue / Gold."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product10/back/WhatsApp%20Image%202025-08-31%20at%209.06.47%20AM%20(1).jpeg"
     },
     {
       "id": "og-hoodie-blood-oath-scene-029",
       "title": "OG // Hoodie \u2014 Blood Oath [Scene 029]",
       "category": "hoodie",
-      "price": "1888",
-      "compare_at_price": "2454",
+      "price": "1209",
+      "compare_at_price": "1511",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 029. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -369,27 +367,25 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-blood-oath-scene-029",
-      "images": {
-        "front": "PRODUCTS/hoodies/product15/front/WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product15/front/WhatsApp%20Image%202025-08-31%20at%2010.49.06%20AM%20(2).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1888
+          "price": 1209
         },
         {
           "option1": "M",
-          "price": 1888
+          "price": 1209
         },
         {
           "option1": "L",
-          "price": 1888
+          "price": 1209
         },
         {
           "option1": "XL",
-          "price": 1888
+          "price": 1209
         }
       ],
       "badges": [],
@@ -403,14 +399,15 @@
       "seo": {
         "title": "Blood Oath Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Brass / Smoke Gray."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product15/front/WhatsApp%20Image%202025-08-31%20at%2010.49.06%20AM%20(2).jpeg"
     },
     {
       "id": "og-hoodie-storm-chase-scene-037",
       "title": "OG // Hoodie \u2014 Storm Chase [Scene 037]",
       "category": "hoodie",
-      "price": "1862",
-      "compare_at_price": "2420",
+      "price": "1209",
+      "compare_at_price": "1511",
       "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 037. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -421,27 +418,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-storm-chase-scene-037",
-      "images": {
-        "front": "PRODUCTS/hoodies/product8/front/WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
-        "back": "PRODUCTS/hoodies/product8/back/WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product8/back/WhatsApp%20Image%202025-08-31%20at%209.06.46%20AM.jpeg",
+        "/PRODUCTS/hoodies/product8/front/WhatsApp%20Image%202025-08-31%20at%209.06.49%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1862
+          "price": 1209
         },
         {
           "option1": "M",
-          "price": 1862
+          "price": 1209
         },
         {
           "option1": "L",
-          "price": 1862
+          "price": 1209
         },
         {
           "option1": "XL",
-          "price": 1862
+          "price": 1209
         }
       ],
       "badges": [],
@@ -455,14 +451,15 @@
       "seo": {
         "title": "Storm Chase Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Jet Black / Blood Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product8/back/WhatsApp%20Image%202025-08-31%20at%209.06.46%20AM.jpeg"
     },
     {
       "id": "og-hoodie-shadow-strike-scene-048",
       "title": "OG // Hoodie \u2014 Shadow Strike [Scene 048]",
       "category": "hoodie",
-      "price": "2286",
-      "compare_at_price": "2971",
+      "price": "1209",
+      "compare_at_price": "1511",
       "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 048. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -473,27 +470,25 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-shadow-strike-scene-048",
-      "images": {
-        "front": "PRODUCTS/hoodies/product17/front/WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product17/front/WhatsApp%20Image%202025-08-31%20at%2010.49.06%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 2286
+          "price": 1209
         },
         {
           "option1": "M",
-          "price": 2286
+          "price": 1209
         },
         {
           "option1": "L",
-          "price": 2286
+          "price": 1209
         },
         {
           "option1": "XL",
-          "price": 2286
+          "price": 1209
         }
       ],
       "badges": [],
@@ -507,14 +502,15 @@
       "seo": {
         "title": "Shadow Strike Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Steel Blue / Gold."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product17/front/WhatsApp%20Image%202025-08-31%20at%2010.49.06%20AM%20(1).jpeg"
     },
     {
       "id": "og-hoodie-midnight-prowl-scene-044",
       "title": "OG // Hoodie \u2014 Midnight Prowl [Scene 044]",
       "category": "hoodie",
-      "price": "2109",
-      "compare_at_price": "2741",
+      "price": "1399",
+      "compare_at_price": "1748",
       "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 044. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -524,27 +520,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-midnight-prowl-scene-044",
-      "images": {
-        "front": "PRODUCTS/hoodies/product6/front/WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
-        "back": "PRODUCTS/hoodies/product6/back/WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product6/back/WhatsApp%20Image%202025-08-31%20at%209.06.49%20AM.jpeg",
+        "/PRODUCTS/hoodies/product6/front/WhatsApp%20Image%202025-08-31%20at%209.06.50%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 2109
+          "price": 1399
         },
         {
           "option1": "M",
-          "price": 2109
+          "price": 1399
         },
         {
           "option1": "L",
-          "price": 2109
+          "price": 1399
         },
         {
           "option1": "XL",
-          "price": 2109
+          "price": 1399
         }
       ],
       "badges": [
@@ -560,14 +555,15 @@
       "seo": {
         "title": "Midnight Prowl Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. BEST_SELLER drop. Midnight Black."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product6/back/WhatsApp%20Image%202025-08-31%20at%209.06.49%20AM.jpeg"
     },
     {
       "id": "og-hoodie-iron-will",
       "title": "OG // Hoodie \u2014 Iron Will",
       "category": "hoodie",
-      "price": "1894",
-      "compare_at_price": "2462",
+      "price": "1499",
+      "compare_at_price": "1873",
       "description": "Battle-grade piece forged for midnight hunts. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -578,27 +574,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-iron-will",
-      "images": {
-        "front": "PRODUCTS/hoodies/product1/front/WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
-        "back": "PRODUCTS/hoodies/product1/back/WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product1/back/WhatsApp%20Image%202025-08-31%20at%209.06.47%20AM%20(2).jpeg",
+        "/PRODUCTS/hoodies/product1/front/WhatsApp%20Image%202025-08-31%20at%209.08.07%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1894
+          "price": 1499
         },
         {
           "option1": "M",
-          "price": 1894
+          "price": 1499
         },
         {
           "option1": "L",
-          "price": 1894
+          "price": 1499
         },
         {
           "option1": "XL",
-          "price": 1894
+          "price": 1499
         }
       ],
       "badges": [
@@ -614,14 +609,15 @@
       "seo": {
         "title": "Iron Will Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. REBEL_DROP drop. Jet Black / Blood Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product1/back/WhatsApp%20Image%202025-08-31%20at%209.06.47%20AM%20(2).jpeg"
     },
     {
       "id": "og-hoodie-veta-vision-scene-090",
       "title": "OG // Hoodie \u2014 Veta Vision [Scene 090]",
       "category": "hoodie",
-      "price": "2185",
-      "compare_at_price": "2840",
+      "price": "1209",
+      "compare_at_price": "1511",
       "description": "This isn't merch. It's a callsign. Inspired by the OG universe \u2014 Scene 090. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -632,27 +628,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-veta-vision-scene-090",
-      "images": {
-        "front": "PRODUCTS/hoodies/product16/front/WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
-        "back": "PRODUCTS/hoodies/product16/back/WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product16/back/WhatsApp%20Image%202025-08-31%20at%2010.49.08%20AM.jpeg",
+        "/PRODUCTS/hoodies/product16/front/WhatsApp%20Image%202025-08-31%20at%2010.49.04%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 2185
+          "price": 1209
         },
         {
           "option1": "M",
-          "price": 2185
+          "price": 1209
         },
         {
           "option1": "L",
-          "price": 2185
+          "price": 1209
         },
         {
           "option1": "XL",
-          "price": 2185
+          "price": 1209
         }
       ],
       "badges": [],
@@ -666,14 +661,15 @@
       "seo": {
         "title": "Veta Vision Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. War Paint Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product16/back/WhatsApp%20Image%202025-08-31%20at%2010.49.08%20AM.jpeg"
     },
     {
       "id": "og-hoodie-katana-rain-scene-106",
       "title": "OG // Hoodie \u2014 Katana Rain [Scene 106]",
       "category": "hoodie",
-      "price": "1929",
-      "compare_at_price": "2507",
+      "price": "1209",
+      "compare_at_price": "1511",
       "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 106. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -684,27 +680,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-katana-rain-scene-106",
-      "images": {
-        "front": "PRODUCTS/hoodies/product3/front/WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
-        "back": "PRODUCTS/hoodies/product3/back/WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product3/back/WhatsApp%20Image%202025-08-31%20at%209.06.45%20AM%20(2).jpeg",
+        "/PRODUCTS/hoodies/product3/front/WhatsApp%20Image%202025-08-31%20at%209.06.45%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1929
+          "price": 1209
         },
         {
           "option1": "M",
-          "price": 1929
+          "price": 1209
         },
         {
           "option1": "L",
-          "price": 1929
+          "price": 1209
         },
         {
           "option1": "XL",
-          "price": 1929
+          "price": 1209
         }
       ],
       "badges": [],
@@ -718,14 +713,15 @@
       "seo": {
         "title": "Katana Rain Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Jet Black / Blood Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product3/back/WhatsApp%20Image%202025-08-31%20at%209.06.45%20AM%20(2).jpeg"
     },
     {
       "id": "og-hoodie-zero-hour-scene-026",
       "title": "OG // Hoodie \u2014 Zero Hour [Scene 026]",
       "category": "hoodie",
-      "price": "1814",
-      "compare_at_price": "2358",
+      "price": "1209",
+      "compare_at_price": "1511",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 026. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -735,27 +731,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-zero-hour-scene-026",
-      "images": {
-        "front": "PRODUCTS/hoodies/product5/front/WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
-        "back": "PRODUCTS/hoodies/product5/back/WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product5/back/WhatsApp%20Image%202025-08-31%20at%209.06.47%20AM.jpeg",
+        "/PRODUCTS/hoodies/product5/front/WhatsApp%20Image%202025-08-31%20at%209.06.51%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1814
+          "price": 1209
         },
         {
           "option1": "M",
-          "price": 1814
+          "price": 1209
         },
         {
           "option1": "L",
-          "price": 1814
+          "price": 1209
         },
         {
           "option1": "XL",
-          "price": 1814
+          "price": 1209
         }
       ],
       "badges": [],
@@ -769,14 +764,15 @@
       "seo": {
         "title": "Zero Hour Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Steel Blue / Gold."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product5/back/WhatsApp%20Image%202025-08-31%20at%209.06.47%20AM.jpeg"
     },
     {
       "id": "og-hoodie-blood-oath",
       "title": "OG // Hoodie \u2014 Blood Oath",
       "category": "hoodie",
-      "price": "2295",
-      "compare_at_price": "2983",
+      "price": "1209",
+      "compare_at_price": "1511",
       "description": "This isn't merch. It's a callsign. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -786,27 +782,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-blood-oath",
-      "images": {
-        "front": "PRODUCTS/hoodies/product9/front/WhatsApp Image 2025-08-31 at 9.18.36 AM.jpeg",
-        "back": "PRODUCTS/hoodies/product9/back/WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product9/back/WhatsApp%20Image%202025-08-31%20at%209.06.48%20AM%20(2).jpeg",
+        "/PRODUCTS/hoodies/product9/front/WhatsApp%20Image%202025-08-31%20at%209.18.36%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 2295
+          "price": 1209
         },
         {
           "option1": "M",
-          "price": 2295
+          "price": 1209
         },
         {
           "option1": "L",
-          "price": 2295
+          "price": 1209
         },
         {
           "option1": "XL",
-          "price": 2295
+          "price": 1209
         }
       ],
       "badges": [],
@@ -820,14 +815,15 @@
       "seo": {
         "title": "Blood Oath Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Steel Blue / Gold."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product9/back/WhatsApp%20Image%202025-08-31%20at%209.06.48%20AM%20(2).jpeg"
     },
     {
       "id": "og-hoodie-alley-hunt",
       "title": "OG // Hoodie \u2014 Alley Hunt",
       "category": "hoodie",
-      "price": "1823",
-      "compare_at_price": "2369",
+      "price": "1399",
+      "compare_at_price": "1748",
       "description": "Battle-grade piece forged for midnight hunts. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -837,27 +833,25 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-alley-hunt",
-      "images": {
-        "front": "PRODUCTS/hoodies/product14/front/WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product14/front/WhatsApp%20Image%202025-08-31%20at%2010.49.07%20AM%20(2).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1823
+          "price": 1399
         },
         {
           "option1": "M",
-          "price": 1823
+          "price": 1399
         },
         {
           "option1": "L",
-          "price": 1823
+          "price": 1399
         },
         {
           "option1": "XL",
-          "price": 1823
+          "price": 1399
         }
       ],
       "badges": [
@@ -873,14 +867,15 @@
       "seo": {
         "title": "Alley Hunt Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. BEST_SELLER drop. Battle Smoke."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product14/front/WhatsApp%20Image%202025-08-31%20at%2010.49.07%20AM%20(2).jpeg"
     },
     {
       "id": "og-hoodie-brass-mark-scene-144",
       "title": "OG // Hoodie \u2014 Brass Mark [Scene 144]",
       "category": "hoodie",
-      "price": "2260",
-      "compare_at_price": "2938",
+      "price": "1499",
+      "compare_at_price": "1873",
       "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 144. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -892,27 +887,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-brass-mark-scene-144",
-      "images": {
-        "front": "PRODUCTS/hoodies/product18/front/WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
-        "back": "PRODUCTS/hoodies/product18/back/WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product18/back/WhatsApp%20Image%202025-08-31%20at%2010.49.05%20AM.jpeg",
+        "/PRODUCTS/hoodies/product18/front/WhatsApp%20Image%202025-08-31%20at%2010.48.59%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 2260
+          "price": 1499
         },
         {
           "option1": "M",
-          "price": 2260
+          "price": 1499
         },
         {
           "option1": "L",
-          "price": 2260
+          "price": 1499
         },
         {
           "option1": "XL",
-          "price": 2260
+          "price": 1499
         }
       ],
       "badges": [
@@ -928,14 +922,15 @@
       "seo": {
         "title": "Brass Mark Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. REBEL_DROP drop. Hunter Green."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product18/back/WhatsApp%20Image%202025-08-31%20at%2010.49.05%20AM.jpeg"
     },
     {
       "id": "og-hoodie-blood-oath-scene-111",
       "title": "OG // Hoodie \u2014 Blood Oath [Scene 111]",
       "category": "hoodie",
-      "price": "2237",
-      "compare_at_price": "2908",
+      "price": "1209",
+      "compare_at_price": "1511",
       "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 111. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -945,27 +940,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-blood-oath-scene-111",
-      "images": {
-        "front": "PRODUCTS/hoodies/product4/front/WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
-        "back": "PRODUCTS/hoodies/product4/back/WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product4/back/WhatsApp%20Image%202025-08-31%20at%209.06.50%20AM.jpeg",
+        "/PRODUCTS/hoodies/product4/front/WhatsApp%20Image%202025-08-31%20at%209.06.46%20AM%20(2).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 2237
+          "price": 1209
         },
         {
           "option1": "M",
-          "price": 2237
+          "price": 1209
         },
         {
           "option1": "L",
-          "price": 2237
+          "price": 1209
         },
         {
           "option1": "XL",
-          "price": 2237
+          "price": 1209
         }
       ],
       "badges": [],
@@ -979,14 +973,15 @@
       "seo": {
         "title": "Blood Oath Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Midnight Black."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product4/back/WhatsApp%20Image%202025-08-31%20at%209.06.50%20AM.jpeg"
     },
     {
       "id": "og-hoodie-thunder-strike-scene-020",
       "title": "OG // Hoodie \u2014 Thunder Strike [Scene 020]",
       "category": "hoodie",
-      "price": "1906",
-      "compare_at_price": "2477",
+      "price": "1399",
+      "compare_at_price": "1748",
       "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 020. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -997,27 +992,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-thunder-strike-scene-020",
-      "images": {
-        "front": "PRODUCTS/hoodies/product7/front/WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
-        "back": "PRODUCTS/hoodies/product7/back/WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product7/back/WhatsApp%20Image%202025-08-31%20at%209.06.48%20AM.jpeg",
+        "/PRODUCTS/hoodies/product7/front/WhatsApp%20Image%202025-08-31%20at%209.06.51%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1906
+          "price": 1399
         },
         {
           "option1": "M",
-          "price": 1906
+          "price": 1399
         },
         {
           "option1": "L",
-          "price": 1906
+          "price": 1399
         },
         {
           "option1": "XL",
-          "price": 1906
+          "price": 1399
         }
       ],
       "badges": [
@@ -1033,14 +1027,15 @@
       "seo": {
         "title": "Thunder Strike Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. BEST_SELLER drop. Midnight Black."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product7/back/WhatsApp%20Image%202025-08-31%20at%209.06.48%20AM.jpeg"
     },
     {
       "id": "og-hoodie-katana-rain-scene-074",
       "title": "OG // Hoodie \u2014 Katana Rain [Scene 074]",
       "category": "hoodie",
-      "price": "3354",
-      "compare_at_price": "4360",
+      "price": "1499",
+      "compare_at_price": "1873",
       "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 074. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -1050,27 +1045,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-katana-rain-scene-074",
-      "images": {
-        "front": "PRODUCTS/hoodies/product19/front/WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
-        "back": "PRODUCTS/hoodies/product19/back/WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product19/back/WhatsApp%20Image%202025-08-31%20at%2010.49.00%20AM.jpeg",
+        "/PRODUCTS/hoodies/product19/front/WhatsApp%20Image%202025-08-31%20at%2010.48.59%20AM%20(2).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 3354
+          "price": 1499
         },
         {
           "option1": "M",
-          "price": 3354
+          "price": 1499
         },
         {
           "option1": "L",
-          "price": 3354
+          "price": 1499
         },
         {
           "option1": "XL",
-          "price": 3354
+          "price": 1499
         }
       ],
       "badges": [
@@ -1086,14 +1080,15 @@
       "seo": {
         "title": "Katana Rain Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. VAULT_EXCLUSIVE drop. Steel Blue / Gold."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product19/back/WhatsApp%20Image%202025-08-31%20at%2010.49.00%20AM.jpeg"
     },
     {
       "id": "og-hoodie-brass-mark-scene-121",
       "title": "OG // Hoodie \u2014 Brass Mark [Scene 121]",
       "category": "hoodie",
-      "price": "3485",
-      "compare_at_price": "4530",
+      "price": "1499",
+      "compare_at_price": "1873",
       "description": "Battle-grade piece forged for midnight hunts. Inspired by the OG universe \u2014 Scene 121. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
@@ -1104,27 +1099,26 @@
       "vendor": "DVV / OG",
       "product_type": "Hoodie",
       "handle": "og-hoodie-brass-mark-scene-121",
-      "images": {
-        "front": "PRODUCTS/hoodies/product2/front/WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
-        "back": "PRODUCTS/hoodies/product2/back/WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hoodies/product2/back/WhatsApp%20Image%202025-08-31%20at%209.06.48%20AM%20(1).jpeg",
+        "/PRODUCTS/hoodies/product2/front/WhatsApp%20Image%202025-08-31%20at%209.06.46%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 3485
+          "price": 1499
         },
         {
           "option1": "M",
-          "price": 3485
+          "price": 1499
         },
         {
           "option1": "L",
-          "price": 3485
+          "price": 1499
         },
         {
           "option1": "XL",
-          "price": 3485
+          "price": 1499
         }
       ],
       "badges": [
@@ -1140,14 +1134,15 @@
       "seo": {
         "title": "Brass Mark Hoodie \u2014 OG Official",
         "description": "Cinematic hoodies with premium design. VAULT_EXCLUSIVE drop. Jet Black / Blood Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hoodies/product2/back/WhatsApp%20Image%202025-08-31%20at%209.06.48%20AM%20(1).jpeg"
     },
     {
       "id": "og-headband-thunder-strike-scene-029",
       "title": "OG // Headband \u2014 Thunder Strike [Scene 029]",
       "category": "headband",
-      "price": "327",
-      "compare_at_price": "425",
+      "price": "249",
+      "compare_at_price": "311",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 029. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HEADBAND",
@@ -1159,27 +1154,25 @@
       "vendor": "DVV / OG",
       "product_type": "Headband",
       "handle": "og-headband-thunder-strike-scene-029",
-      "images": {
-        "front": "PRODUCTS/HeadBand/WhatsApp Image 2025-08-31 at 8.55.49 AM (2).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/HeadBand/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(2).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 327
+          "price": 249
         },
         {
           "option1": "M",
-          "price": 327
+          "price": 249
         },
         {
           "option1": "L",
-          "price": 327
+          "price": 249
         },
         {
           "option1": "XL",
-          "price": 327
+          "price": 249
         }
       ],
       "badges": [
@@ -1195,14 +1188,15 @@
       "seo": {
         "title": "Thunder Strike Headband \u2014 OG Official",
         "description": "Cinematic headband with premium design. UNDER_999 drop. Jet Black / Blood Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/HeadBand/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(2).jpeg"
     },
     {
       "id": "og-slide-storm-chase-scene-118",
       "title": "OG // Slide \u2014 Storm Chase [Scene 118]",
       "category": "slide",
-      "price": "678",
-      "compare_at_price": "881",
+      "price": "1099",
+      "compare_at_price": "1373",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 118. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SLIDE",
@@ -1214,27 +1208,26 @@
       "vendor": "DVV / OG",
       "product_type": "Slide",
       "handle": "og-slide-storm-chase-scene-118",
-      "images": {
-        "front": "PRODUCTS/slippers/product1/front/WhatsApp Image 2025-08-31 at 8.55.46 AM (1).jpeg",
-        "back": "PRODUCTS/slippers/product1/back/WhatsApp Image 2025-08-31 at 8.55.47 AM (2).jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/slippers/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.47%20AM%20(2).jpeg",
+        "/PRODUCTS/slippers/product1/front/WhatsApp%20Image%202025-08-31%20at%208.55.46%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 678
+          "price": 1099
         },
         {
           "option1": "M",
-          "price": 678
+          "price": 1099
         },
         {
           "option1": "L",
-          "price": 678
+          "price": 1099
         },
         {
           "option1": "XL",
-          "price": 678
+          "price": 1099
         }
       ],
       "badges": [
@@ -1251,14 +1244,15 @@
       "seo": {
         "title": "Storm Chase Slide \u2014 OG Official",
         "description": "Cinematic slippers with premium design. BEST_SELLER drop. Midnight Black."
-      }
+      },
+      "primaryImage": "/PRODUCTS/slippers/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.47%20AM%20(2).jpeg"
     },
     {
       "id": "og-slide-war-paint-scene-111",
       "title": "OG // Slide \u2014 War Paint [Scene 111]",
       "category": "slide",
-      "price": "680",
-      "compare_at_price": "884",
+      "price": "899",
+      "compare_at_price": "1123",
       "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 111. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SLIDE",
@@ -1269,27 +1263,25 @@
       "vendor": "DVV / OG",
       "product_type": "Slide",
       "handle": "og-slide-war-paint-scene-111",
-      "images": {
-        "front": "PRODUCTS/slippers/product2/front/WhatsApp Image 2025-08-31 at 8.55.46 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/slippers/product2/front/WhatsApp%20Image%202025-08-31%20at%208.55.46%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 680
+          "price": 899
         },
         {
           "option1": "M",
-          "price": 680
+          "price": 899
         },
         {
           "option1": "L",
-          "price": 680
+          "price": 899
         },
         {
           "option1": "XL",
-          "price": 680
+          "price": 899
         }
       ],
       "badges": [
@@ -1305,14 +1297,15 @@
       "seo": {
         "title": "War Paint Slide \u2014 OG Official",
         "description": "Cinematic slippers with premium design. UNDER_999 drop. Hunter Green."
-      }
+      },
+      "primaryImage": "/PRODUCTS/slippers/product2/front/WhatsApp%20Image%202025-08-31%20at%208.55.46%20AM.jpeg"
     },
     {
       "id": "og-wallet-iron-will-scene-145",
       "title": "OG // Wallet \u2014 Iron Will [Scene 145]",
       "category": "wallet",
-      "price": "844",
-      "compare_at_price": "1097",
+      "price": "1149",
+      "compare_at_price": "1436",
       "description": "This isn't merch. It's a callsign. Inspired by the OG universe \u2014 Scene 145. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_WALLET",
@@ -1324,27 +1317,25 @@
       "vendor": "DVV / OG",
       "product_type": "Wallet",
       "handle": "og-wallet-iron-will-scene-145",
-      "images": {
-        "front": "PRODUCTS/wallet/product1/WhatsApp Image 2025-08-31 at 8.55.48 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/wallet/product1/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 844
+          "price": 1149
         },
         {
           "option1": "M",
-          "price": 844
+          "price": 1149
         },
         {
           "option1": "L",
-          "price": 844
+          "price": 1149
         },
         {
           "option1": "XL",
-          "price": 844
+          "price": 1149
         }
       ],
       "badges": [
@@ -1360,14 +1351,15 @@
       "seo": {
         "title": "Iron Will Wallet \u2014 OG Official",
         "description": "Cinematic wallet with premium design. UNDER_999 drop. War Paint Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/wallet/product1/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM.jpeg"
     },
     {
       "id": "og-wallet-drip-icon",
       "title": "OG // Wallet \u2014 Drip Icon",
       "category": "wallet",
-      "price": "908",
-      "compare_at_price": "1180",
+      "price": "1149",
+      "compare_at_price": "1436",
       "description": "This isn't merch. It's a callsign. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_WALLET",
@@ -1378,27 +1370,25 @@
       "vendor": "DVV / OG",
       "product_type": "Wallet",
       "handle": "og-wallet-drip-icon",
-      "images": {
-        "front": "PRODUCTS/wallet/product2/WhatsApp Image 2025-08-31 at 8.55.49 AM (1).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/wallet/product2/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 908
+          "price": 1149
         },
         {
           "option1": "M",
-          "price": 908
+          "price": 1149
         },
         {
           "option1": "L",
-          "price": 908
+          "price": 1149
         },
         {
           "option1": "XL",
-          "price": 908
+          "price": 1149
         }
       ],
       "badges": [
@@ -1414,14 +1404,15 @@
       "seo": {
         "title": "Drip Icon Wallet \u2014 OG Official",
         "description": "Cinematic wallet with premium design. UNDER_999 drop. Brass / Smoke Gray."
-      }
+      },
+      "primaryImage": "/PRODUCTS/wallet/product2/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(1).jpeg"
     },
     {
       "id": "og-cap-thunder-strike",
       "title": "OG // Cap \u2014 Thunder Strike",
       "category": "cap",
-      "price": "888",
-      "compare_at_price": "1154",
+      "price": "849",
+      "compare_at_price": "1061",
       "description": "Battle-grade piece forged for midnight hunts. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_CAP",
@@ -1432,27 +1423,26 @@
       "vendor": "DVV / OG",
       "product_type": "Cap",
       "handle": "og-cap-thunder-strike",
-      "images": {
-        "front": "PRODUCTS/hats/product1/front/WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
-        "back": "PRODUCTS/hats/product1/back/WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hats/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM%20(1).jpeg",
+        "/PRODUCTS/hats/product1/front/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 888
+          "price": 849
         },
         {
           "option1": "M",
-          "price": 888
+          "price": 849
         },
         {
           "option1": "L",
-          "price": 888
+          "price": 849
         },
         {
           "option1": "XL",
-          "price": 888
+          "price": 849
         }
       ],
       "badges": [
@@ -1469,14 +1459,15 @@
       "seo": {
         "title": "Thunder Strike Cap \u2014 OG Official",
         "description": "Cinematic hats with premium design. BEST_SELLER drop. Jet Black / Blood Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hats/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM%20(1).jpeg"
     },
     {
       "id": "og-cap-iron-will",
       "title": "OG // Cap \u2014 Iron Will",
       "category": "cap",
-      "price": "907",
-      "compare_at_price": "1179",
+      "price": "849",
+      "compare_at_price": "1061",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_CAP",
@@ -1488,27 +1479,26 @@
       "vendor": "DVV / OG",
       "product_type": "Cap",
       "handle": "og-cap-iron-will",
-      "images": {
-        "front": "PRODUCTS/hats/product2/front/WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
-        "back": "PRODUCTS/hats/product2/back/WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/hats/product2/back/WhatsApp%20Image%202025-08-31%20at%208.59.03%20AM.jpeg",
+        "/PRODUCTS/hats/product2/front/WhatsApp%20Image%202025-08-31%20at%208.55.50%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 907
+          "price": 849
         },
         {
           "option1": "M",
-          "price": 907
+          "price": 849
         },
         {
           "option1": "L",
-          "price": 907
+          "price": 849
         },
         {
           "option1": "XL",
-          "price": 907
+          "price": 849
         }
       ],
       "badges": [
@@ -1525,14 +1515,15 @@
       "seo": {
         "title": "Iron Will Cap \u2014 OG Official",
         "description": "Cinematic hats with premium design. BEST_SELLER drop. Midnight Black."
-      }
+      },
+      "primaryImage": "/PRODUCTS/hats/product2/back/WhatsApp%20Image%202025-08-31%20at%208.59.03%20AM.jpeg"
     },
     {
       "id": "og-sweatshirt-iron-will-scene-121",
       "title": "OG // Sweatshirt \u2014 Iron Will [Scene 121]",
       "category": "sweatshirt",
-      "price": "3432",
-      "compare_at_price": "4461",
+      "price": "1399",
+      "compare_at_price": "1748",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 121. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SWEATSHIRT",
@@ -1542,27 +1533,25 @@
       "vendor": "DVV / OG",
       "product_type": "Sweatshirt",
       "handle": "og-sweatshirt-iron-will-scene-121",
-      "images": {
-        "front": "PRODUCTS/Sweatshirts/product1/front/WhatsApp Image 2025-08-31 at 9.00.54 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/Sweatshirts/product1/front/WhatsApp%20Image%202025-08-31%20at%209.00.54%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 3432
+          "price": 1399
         },
         {
           "option1": "M",
-          "price": 3432
+          "price": 1399
         },
         {
           "option1": "L",
-          "price": 3432
+          "price": 1399
         },
         {
           "option1": "XL",
-          "price": 3432
+          "price": 1399
         }
       ],
       "badges": [
@@ -1578,14 +1567,15 @@
       "seo": {
         "title": "Iron Will Sweatshirt \u2014 OG Official",
         "description": "Cinematic sweatshirts with premium design. VAULT_EXCLUSIVE drop. Midnight Black."
-      }
+      },
+      "primaryImage": "/PRODUCTS/Sweatshirts/product1/front/WhatsApp%20Image%202025-08-31%20at%209.00.54%20AM.jpeg"
     },
     {
       "id": "og-sweatshirt-veta-vision-scene-139",
       "title": "OG // Sweatshirt \u2014 Veta Vision [Scene 139]",
       "category": "sweatshirt",
-      "price": "1788",
-      "compare_at_price": "2324",
+      "price": "1099",
+      "compare_at_price": "1373",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 139. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SWEATSHIRT",
@@ -1597,27 +1587,25 @@
       "vendor": "DVV / OG",
       "product_type": "Sweatshirt",
       "handle": "og-sweatshirt-veta-vision-scene-139",
-      "images": {
-        "front": "PRODUCTS/Sweatshirts/product4/front/WhatsApp Image 2025-08-31 at 9.01.36 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/Sweatshirts/product4/front/WhatsApp%20Image%202025-08-31%20at%209.01.36%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1788
+          "price": 1099
         },
         {
           "option1": "M",
-          "price": 1788
+          "price": 1099
         },
         {
           "option1": "L",
-          "price": 1788
+          "price": 1099
         },
         {
           "option1": "XL",
-          "price": 1788
+          "price": 1099
         }
       ],
       "badges": [],
@@ -1631,14 +1619,15 @@
       "seo": {
         "title": "Veta Vision Sweatshirt \u2014 OG Official",
         "description": "Cinematic sweatshirts with premium design. Limited drop. War Paint Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/Sweatshirts/product4/front/WhatsApp%20Image%202025-08-31%20at%209.01.36%20AM.jpeg"
     },
     {
       "id": "og-tee-cinder-fade-scene-096",
       "title": "OG // Tee \u2014 Cinder Fade [Scene 096]",
       "category": "tee",
-      "price": "1043",
-      "compare_at_price": "1355",
+      "price": "749",
+      "compare_at_price": "936",
       "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 096. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_TEE",
@@ -1649,27 +1638,26 @@
       "vendor": "DVV / OG",
       "product_type": "Tee",
       "handle": "og-tee-cinder-fade-scene-096",
-      "images": {
-        "front": "PRODUCTS/teeshirt/Tropical Paradise/front/WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg",
-        "back": "PRODUCTS/teeshirt/Tropical Paradise/back/WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/teeshirt/Tropical%20Paradise/back/WhatsApp%20Image%202025-08-31%20at%208.59.40%20AM.jpeg",
+        "/PRODUCTS/teeshirt/Tropical%20Paradise/front/WhatsApp%20Image%202025-08-31%20at%208.59.19%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1043
+          "price": 749
         },
         {
           "option1": "M",
-          "price": 1043
+          "price": 749
         },
         {
           "option1": "L",
-          "price": 1043
+          "price": 749
         },
         {
           "option1": "XL",
-          "price": 1043
+          "price": 749
         }
       ],
       "badges": [],
@@ -1683,14 +1671,15 @@
       "seo": {
         "title": "Cinder Fade Tee \u2014 OG Official",
         "description": "Cinematic teeshirt with premium design. Limited drop. Jet Black / Blood Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/teeshirt/Tropical%20Paradise/back/WhatsApp%20Image%202025-08-31%20at%208.59.40%20AM.jpeg"
     },
     {
       "id": "og-tee-blood-oath-scene-148",
       "title": "OG // Tee \u2014 Blood Oath [Scene 148]",
       "category": "tee",
-      "price": "1189",
-      "compare_at_price": "1545",
+      "price": "749",
+      "compare_at_price": "936",
       "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 148. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_TEE",
@@ -1701,27 +1690,26 @@
       "vendor": "DVV / OG",
       "product_type": "Tee",
       "handle": "og-tee-blood-oath-scene-148",
-      "images": {
-        "front": "PRODUCTS/teeshirt/City Skyline/front/WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg",
-        "back": "PRODUCTS/teeshirt/City Skyline/back/WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg",
-        "primary_image_type": "back"
-      },
+      "images": [
+        "/PRODUCTS/teeshirt/City%20Skyline/back/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(2).jpeg",
+        "/PRODUCTS/teeshirt/City%20Skyline/front/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1189
+          "price": 749
         },
         {
           "option1": "M",
-          "price": 1189
+          "price": 749
         },
         {
           "option1": "L",
-          "price": 1189
+          "price": 749
         },
         {
           "option1": "XL",
-          "price": 1189
+          "price": 749
         }
       ],
       "badges": [],
@@ -1735,14 +1723,15 @@
       "seo": {
         "title": "Blood Oath Tee \u2014 OG Official",
         "description": "Cinematic teeshirt with premium design. Limited drop. Brass / Smoke Gray."
-      }
+      },
+      "primaryImage": "/PRODUCTS/teeshirt/City%20Skyline/back/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(2).jpeg"
     },
     {
       "id": "og-tee-zero-hour",
       "title": "OG // Tee \u2014 Zero Hour",
       "category": "tee",
-      "price": "1104",
-      "compare_at_price": "1435",
+      "price": "937",
+      "compare_at_price": "1171",
       "description": "Cinematic gear for the chosen army. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_TEE",
@@ -1754,27 +1743,25 @@
       "vendor": "DVV / OG",
       "product_type": "Tee",
       "handle": "og-tee-zero-hour",
-      "images": {
-        "front": "PRODUCTS/teeshirt/Neon Lights/front/WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/teeshirt/Neon%20Lights/front/WhatsApp%20Image%202025-08-31%20at%208.59.08%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 1104
+          "price": 937
         },
         {
           "option1": "M",
-          "price": 1104
+          "price": 937
         },
         {
           "option1": "L",
-          "price": 1104
+          "price": 937
         },
         {
           "option1": "XL",
-          "price": 1104
+          "price": 937
         }
       ],
       "badges": [
@@ -1790,14 +1777,15 @@
       "seo": {
         "title": "Zero Hour Tee \u2014 OG Official",
         "description": "Cinematic teeshirt with premium design. REBEL_DROP drop. War Paint Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/teeshirt/Neon%20Lights/front/WhatsApp%20Image%202025-08-31%20at%208.59.08%20AM.jpeg"
     },
     {
       "id": "og-tee-blood-oath-scene-135",
       "title": "OG // Tee \u2014 Blood Oath [Scene 135]",
       "category": "tee",
-      "price": "3423",
-      "compare_at_price": "4449",
+      "price": "937",
+      "compare_at_price": "1171",
       "description": "This isn't merch. It's a callsign. Inspired by the OG universe \u2014 Scene 135. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_TEE",
@@ -1807,27 +1795,25 @@
       "vendor": "DVV / OG",
       "product_type": "Tee",
       "handle": "og-tee-blood-oath-scene-135",
-      "images": {
-        "front": "PRODUCTS/teeshirt/Nature Photography/front/WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/teeshirt/Nature%20Photography/front/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 3423
+          "price": 937
         },
         {
           "option1": "M",
-          "price": 3423
+          "price": 937
         },
         {
           "option1": "L",
-          "price": 3423
+          "price": 937
         },
         {
           "option1": "XL",
-          "price": 3423
+          "price": 937
         }
       ],
       "badges": [
@@ -1843,14 +1829,15 @@
       "seo": {
         "title": "Blood Oath Tee \u2014 OG Official",
         "description": "Cinematic teeshirt with premium design. VAULT_EXCLUSIVE drop. Steel Blue / Gold."
-      }
+      },
+      "primaryImage": "/PRODUCTS/teeshirt/Nature%20Photography/front/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(1).jpeg"
     },
     {
       "id": "og-tee-storm-chase-scene-031",
       "title": "OG // Tee \u2014 Storm Chase [Scene 031]",
       "category": "tee",
-      "price": "3541",
-      "compare_at_price": "4603",
+      "price": "937",
+      "compare_at_price": "1171",
       "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 031. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_TEE",
@@ -1862,27 +1849,25 @@
       "vendor": "DVV / OG",
       "product_type": "Tee",
       "handle": "og-tee-storm-chase-scene-031",
-      "images": {
-        "front": "PRODUCTS/teeshirt/Vintage Typography/front/WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/teeshirt/Vintage%20Typography/front/WhatsApp%20Image%202025-08-31%20at%209.09.12%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 3541
+          "price": 937
         },
         {
           "option1": "M",
-          "price": 3541
+          "price": 937
         },
         {
           "option1": "L",
-          "price": 3541
+          "price": 937
         },
         {
           "option1": "XL",
-          "price": 3541
+          "price": 937
         }
       ],
       "badges": [
@@ -1898,14 +1883,15 @@
       "seo": {
         "title": "Storm Chase Tee \u2014 OG Official",
         "description": "Cinematic teeshirt with premium design. VAULT_EXCLUSIVE drop. Battle Smoke."
-      }
+      },
+      "primaryImage": "/PRODUCTS/teeshirt/Vintage%20Typography/front/WhatsApp%20Image%202025-08-31%20at%209.09.12%20AM.jpeg"
     },
     {
       "id": "og-tee-rebel-stare",
       "title": "OG // Tee \u2014 Rebel Stare",
       "category": "tee",
-      "price": "804",
-      "compare_at_price": "1045",
+      "price": "887",
+      "compare_at_price": "1108",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_TEE",
@@ -1915,27 +1901,25 @@
       "vendor": "DVV / OG",
       "product_type": "Tee",
       "handle": "og-tee-rebel-stare",
-      "images": {
-        "front": "PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/teeshirt/Space%20Exploration/front/WhatsApp%20Image%202025-08-31%20at%208.59.04%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 804
+          "price": 887
         },
         {
           "option1": "M",
-          "price": 804
+          "price": 887
         },
         {
           "option1": "L",
-          "price": 804
+          "price": 887
         },
         {
           "option1": "XL",
-          "price": 804
+          "price": 887
         }
       ],
       "badges": [
@@ -1952,14 +1936,15 @@
       "seo": {
         "title": "Rebel Stare Tee \u2014 OG Official",
         "description": "Cinematic teeshirt with premium design. BEST_SELLER drop. Battle Smoke."
-      }
+      },
+      "primaryImage": "/PRODUCTS/teeshirt/Space%20Exploration/front/WhatsApp%20Image%202025-08-31%20at%208.59.04%20AM.jpeg"
     },
     {
       "id": "og-poster-midnight-prowl-scene-066",
       "title": "OG // Poster \u2014 Midnight Prowl [Scene 066]",
       "category": "poster",
-      "price": "624",
-      "compare_at_price": "811",
+      "price": "399",
+      "compare_at_price": "498",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 066. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
@@ -1971,27 +1956,25 @@
       "vendor": "DVV / OG",
       "product_type": "Poster",
       "handle": "og-poster-midnight-prowl-scene-066",
-      "images": {
-        "front": "PRODUCTS/posters/product10/WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/posters/product10/WhatsApp%20Image%202025-08-31%20at%209.24.20%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 624
+          "price": 399
         },
         {
           "option1": "M",
-          "price": 624
+          "price": 399
         },
         {
           "option1": "L",
-          "price": 624
+          "price": 399
         },
         {
           "option1": "XL",
-          "price": 624
+          "price": 399
         }
       ],
       "badges": [
@@ -2007,14 +1990,15 @@
       "seo": {
         "title": "Midnight Prowl Poster \u2014 OG Official",
         "description": "Cinematic posters with premium design. UNDER_999 drop. Hunter Green."
-      }
+      },
+      "primaryImage": "/PRODUCTS/posters/product10/WhatsApp%20Image%202025-08-31%20at%209.24.20%20AM.jpeg"
     },
     {
       "id": "og-poster-war-paint",
       "title": "OG // Poster \u2014 War Paint",
       "category": "poster",
-      "price": "703",
-      "compare_at_price": "913",
+      "price": "399",
+      "compare_at_price": "498",
       "description": "Cinematic gear for the chosen army. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
@@ -2024,27 +2008,25 @@
       "vendor": "DVV / OG",
       "product_type": "Poster",
       "handle": "og-poster-war-paint",
-      "images": {
-        "front": "PRODUCTS/posters/product8/WhatsApp Image 2025-08-31 at 9.24.20 AM (1).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/posters/product8/WhatsApp%20Image%202025-08-31%20at%209.24.20%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 703
+          "price": 399
         },
         {
           "option1": "M",
-          "price": 703
+          "price": 399
         },
         {
           "option1": "L",
-          "price": 703
+          "price": 399
         },
         {
           "option1": "XL",
-          "price": 703
+          "price": 399
         }
       ],
       "badges": [
@@ -2060,14 +2042,15 @@
       "seo": {
         "title": "War Paint Poster \u2014 OG Official",
         "description": "Cinematic posters with premium design. UNDER_999 drop. War Paint Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/posters/product8/WhatsApp%20Image%202025-08-31%20at%209.24.20%20AM%20(1).jpeg"
     },
     {
       "id": "og-poster-war-paint",
       "title": "OG // Poster \u2014 War Paint",
       "category": "poster",
-      "price": "669",
-      "compare_at_price": "869",
+      "price": "399",
+      "compare_at_price": "498",
       "description": "Battle-grade piece forged for midnight hunts. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
@@ -2078,27 +2061,25 @@
       "vendor": "DVV / OG",
       "product_type": "Poster",
       "handle": "og-poster-war-paint",
-      "images": {
-        "front": "PRODUCTS/posters/product6/WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/posters/product6/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(2).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 669
+          "price": 399
         },
         {
           "option1": "M",
-          "price": 669
+          "price": 399
         },
         {
           "option1": "L",
-          "price": 669
+          "price": 399
         },
         {
           "option1": "XL",
-          "price": 669
+          "price": 399
         }
       ],
       "badges": [
@@ -2114,14 +2095,15 @@
       "seo": {
         "title": "War Paint Poster \u2014 OG Official",
         "description": "Cinematic posters with premium design. UNDER_999 drop. Midnight Black."
-      }
+      },
+      "primaryImage": "/PRODUCTS/posters/product6/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(2).jpeg"
     },
     {
       "id": "og-poster-war-paint",
       "title": "OG // Poster \u2014 War Paint",
       "category": "poster",
-      "price": "655",
-      "compare_at_price": "851",
+      "price": "399",
+      "compare_at_price": "498",
       "description": "Battle-grade piece forged for midnight hunts. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
@@ -2131,27 +2113,25 @@
       "vendor": "DVV / OG",
       "product_type": "Poster",
       "handle": "og-poster-war-paint",
-      "images": {
-        "front": "PRODUCTS/posters/product1/WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/posters/product1/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(5).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 655
+          "price": 399
         },
         {
           "option1": "M",
-          "price": 655
+          "price": 399
         },
         {
           "option1": "L",
-          "price": 655
+          "price": 399
         },
         {
           "option1": "XL",
-          "price": 655
+          "price": 399
         }
       ],
       "badges": [
@@ -2167,14 +2147,15 @@
       "seo": {
         "title": "War Paint Poster \u2014 OG Official",
         "description": "Cinematic posters with premium design. UNDER_999 drop. Battle Smoke."
-      }
+      },
+      "primaryImage": "/PRODUCTS/posters/product1/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(5).jpeg"
     },
     {
       "id": "og-poster-hungry-cheetah-scene-090",
       "title": "OG // Poster \u2014 Hungry Cheetah [Scene 090]",
       "category": "poster",
-      "price": "444",
-      "compare_at_price": "577",
+      "price": "399",
+      "compare_at_price": "498",
       "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 090. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
@@ -2185,27 +2166,25 @@
       "vendor": "DVV / OG",
       "product_type": "Poster",
       "handle": "og-poster-hungry-cheetah-scene-090",
-      "images": {
-        "front": "PRODUCTS/posters/product3/WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/posters/product3/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(3).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 444
+          "price": 399
         },
         {
           "option1": "M",
-          "price": 444
+          "price": 399
         },
         {
           "option1": "L",
-          "price": 444
+          "price": 399
         },
         {
           "option1": "XL",
-          "price": 444
+          "price": 399
         }
       ],
       "badges": [
@@ -2221,14 +2200,15 @@
       "seo": {
         "title": "Hungry Cheetah Poster \u2014 OG Official",
         "description": "Cinematic posters with premium design. UNDER_999 drop. Brass / Smoke Gray."
-      }
+      },
+      "primaryImage": "/PRODUCTS/posters/product3/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(3).jpeg"
     },
     {
       "id": "og-poster-smoke-trail-scene-064",
       "title": "OG // Poster \u2014 Smoke Trail [Scene 064]",
       "category": "poster",
-      "price": "600",
-      "compare_at_price": "780",
+      "price": "699",
+      "compare_at_price": "873",
       "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 064. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
@@ -2238,27 +2218,25 @@
       "vendor": "DVV / OG",
       "product_type": "Poster",
       "handle": "og-poster-smoke-trail-scene-064",
-      "images": {
-        "front": "PRODUCTS/posters/product5/WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/posters/product5/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(1).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 600
+          "price": 699
         },
         {
           "option1": "M",
-          "price": 600
+          "price": 699
         },
         {
           "option1": "L",
-          "price": 600
+          "price": 699
         },
         {
           "option1": "XL",
-          "price": 600
+          "price": 699
         }
       ],
       "badges": [
@@ -2275,14 +2253,15 @@
       "seo": {
         "title": "Smoke Trail Poster \u2014 OG Official",
         "description": "Cinematic posters with premium design. REBEL_DROP drop. Steel Blue / Gold."
-      }
+      },
+      "primaryImage": "/PRODUCTS/posters/product5/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(1).jpeg"
     },
     {
       "id": "og-poster-smoke-trail-scene-036",
       "title": "OG // Poster \u2014 Smoke Trail [Scene 036]",
       "category": "poster",
-      "price": "560",
-      "compare_at_price": "728",
+      "price": "699",
+      "compare_at_price": "873",
       "description": "Battle-grade piece forged for midnight hunts. Inspired by the OG universe \u2014 Scene 036. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
@@ -2292,27 +2271,25 @@
       "vendor": "DVV / OG",
       "product_type": "Poster",
       "handle": "og-poster-smoke-trail-scene-036",
-      "images": {
-        "front": "PRODUCTS/posters/product9/WhatsApp Image 2025-08-31 at 9.24.21 AM.jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/posters/product9/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM.jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 560
+          "price": 699
         },
         {
           "option1": "M",
-          "price": 560
+          "price": 699
         },
         {
           "option1": "L",
-          "price": 560
+          "price": 699
         },
         {
           "option1": "XL",
-          "price": 560
+          "price": 699
         }
       ],
       "badges": [
@@ -2329,14 +2306,15 @@
       "seo": {
         "title": "Smoke Trail Poster \u2014 OG Official",
         "description": "Cinematic posters with premium design. REBEL_DROP drop. Hunter Green."
-      }
+      },
+      "primaryImage": "/PRODUCTS/posters/product9/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM.jpeg"
     },
     {
       "id": "og-poster-night-run-scene-137",
       "title": "OG // Poster \u2014 Night Run [Scene 137]",
       "category": "poster",
-      "price": "782",
-      "compare_at_price": "1016",
+      "price": "399",
+      "compare_at_price": "498",
       "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 137. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
@@ -2347,27 +2325,25 @@
       "vendor": "DVV / OG",
       "product_type": "Poster",
       "handle": "og-poster-night-run-scene-137",
-      "images": {
-        "front": "PRODUCTS/posters/product4/WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/posters/product4/WhatsApp%20Image%202025-08-31%20at%209.24.20%20AM%20(2).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 782
+          "price": 399
         },
         {
           "option1": "M",
-          "price": 782
+          "price": 399
         },
         {
           "option1": "L",
-          "price": 782
+          "price": 399
         },
         {
           "option1": "XL",
-          "price": 782
+          "price": 399
         }
       ],
       "badges": [
@@ -2383,14 +2359,15 @@
       "seo": {
         "title": "Night Run Poster \u2014 OG Official",
         "description": "Cinematic posters with premium design. UNDER_999 drop. Hunter Green."
-      }
+      },
+      "primaryImage": "/PRODUCTS/posters/product4/WhatsApp%20Image%202025-08-31%20at%209.24.20%20AM%20(2).jpeg"
     },
     {
       "id": "og-poster-night-run-scene-005",
       "title": "OG // Poster \u2014 Night Run [Scene 005]",
       "category": "poster",
-      "price": "364",
-      "compare_at_price": "473",
+      "price": "399",
+      "compare_at_price": "498",
       "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 005. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
@@ -2400,27 +2377,25 @@
       "vendor": "DVV / OG",
       "product_type": "Poster",
       "handle": "og-poster-night-run-scene-005",
-      "images": {
-        "front": "PRODUCTS/posters/product7/WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/posters/product7/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(6).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 364
+          "price": 399
         },
         {
           "option1": "M",
-          "price": 364
+          "price": 399
         },
         {
           "option1": "L",
-          "price": 364
+          "price": 399
         },
         {
           "option1": "XL",
-          "price": 364
+          "price": 399
         }
       ],
       "badges": [
@@ -2436,14 +2411,15 @@
       "seo": {
         "title": "Night Run Poster \u2014 OG Official",
         "description": "Cinematic posters with premium design. UNDER_999 drop. Jet Black / Blood Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/posters/product7/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(6).jpeg"
     },
     {
       "id": "og-poster-shadow-strike",
       "title": "OG // Poster \u2014 Shadow Strike",
       "category": "poster",
-      "price": "3913",
-      "compare_at_price": "5086",
+      "price": "699",
+      "compare_at_price": "873",
       "description": "Cinematic gear for the chosen army. Inspired by the OG universe. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
@@ -2455,27 +2431,25 @@
       "vendor": "DVV / OG",
       "product_type": "Poster",
       "handle": "og-poster-shadow-strike",
-      "images": {
-        "front": "PRODUCTS/posters/product2/WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg",
-        "back": null,
-        "primary_image_type": "front"
-      },
+      "images": [
+        "/PRODUCTS/posters/product2/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(4).jpeg"
+      ],
       "variants": [
         {
           "option1": "S",
-          "price": 3913
+          "price": 699
         },
         {
           "option1": "M",
-          "price": 3913
+          "price": 699
         },
         {
           "option1": "L",
-          "price": 3913
+          "price": 699
         },
         {
           "option1": "XL",
-          "price": 3913
+          "price": 699
         }
       ],
       "badges": [
@@ -2491,7 +2465,8 @@
       "seo": {
         "title": "Shadow Strike Poster \u2014 OG Official",
         "description": "Cinematic posters with premium design. VAULT_EXCLUSIVE drop. War Paint Red."
-      }
+      },
+      "primaryImage": "/PRODUCTS/posters/product2/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(4).jpeg"
     }
   ]
 }
