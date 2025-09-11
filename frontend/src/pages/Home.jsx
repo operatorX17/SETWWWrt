@@ -25,12 +25,26 @@ const Home = () => {
   } = useProducts();
   
   const [communityModalOpen, setCommunityModalOpen] = useState(false);
+  const [showNavigation, setShowNavigation] = useState(false);
 
   const handleCommunityConsent = (consented) => {
     if (consented) {
       console.log('User consented to community');
     }
     setCommunityModalOpen(false);
+  };
+
+  const handleEnterVault = () => {
+    // Show navigation and scroll to next section
+    setShowNavigation(true);
+    
+    // Smooth scroll to next section
+    setTimeout(() => {
+      window.scrollTo({
+        top: window.innerHeight,
+        behavior: 'smooth'
+      });
+    }, 100);
   };
 
   // Debug logging
@@ -70,45 +84,49 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-[var(--color-bg)]">
-      {/* Teaser Video Section - FIXED VERSION */}
-      <TeaserVideo />
+      {/* Teaser Video Section - With working video */}
+      <TeaserVideo onEnterVault={handleEnterVault} />
       
-      <Header />
+      {/* Header - Only show after "Enter the Vault" is clicked */}
+      {showNavigation && <Header />}
       
-      {/* MAIN PRODUCT RAILS */}
-      <div className="pt-20">
-        {/* Primary Rail - All Products */}
-        <Rail 
-          title="OG ARSENAL — COMPLETE COLLECTION" 
-          subtitle={`Discover ${safeProducts.length} premium OG products with back images prioritized`}
-          products={safeProducts.slice(0, 8)}
-          showViewAll={true}
-          viewAllLink="/shop"
-          prioritizeBackImages={true}
-        />
-        
-        {/* Second Rail - Premium Products */}
-        <Rail 
-          title="PREMIUM COLLECTION — ELITE GEAR" 
-          subtitle="High-value products for the ultimate fan experience"
-          products={safeProducts.filter(p => p.price >= 1000).slice(0, 6)}
-          showViewAll={true}
-          viewAllLink="/shop?filter=premium"
-          prioritizeBackImages={true}
-        />
-        
-        {/* Third Rail - Affordable Products */}
-        <Rail 
-          title="ESSENTIAL GEAR — UNDER ₹999" 
-          subtitle="Core collection for every OG soldier"
-          products={safeProducts.filter(p => p.price < 999).slice(0, 8)}
-          showViewAll={true}
-          viewAllLink="/shop?filter=under-999"
-          prioritizeBackImages={true}
-        />
-      </div>
+      {/* MAIN PRODUCT RAILS - Only show after navigation appears */}
+      {showNavigation && (
+        <div className="pt-20">
+          {/* Primary Rail - All Products */}
+          <Rail 
+            title="OG ARSENAL — COMPLETE COLLECTION" 
+            subtitle={`Discover ${safeProducts.length} premium OG products with back images prioritized`}
+            products={safeProducts.slice(0, 8)}
+            showViewAll={true}
+            viewAllLink="/shop"
+            prioritizeBackImages={true}
+          />
+          
+          {/* Second Rail - Premium Products */}
+          <Rail 
+            title="PREMIUM COLLECTION — ELITE GEAR" 
+            subtitle="High-value products for the ultimate fan experience"
+            products={safeProducts.filter(p => p.price >= 1000).slice(0, 6)}
+            showViewAll={true}
+            viewAllLink="/shop?filter=premium"
+            prioritizeBackImages={true}
+          />
+          
+          {/* Third Rail - Affordable Products */}
+          <Rail 
+            title="ESSENTIAL GEAR — UNDER ₹999" 
+            subtitle="Core collection for every OG soldier"
+            products={safeProducts.filter(p => p.price < 999).slice(0, 8)}
+            showViewAll={true}
+            viewAllLink="/shop?filter=under-999"
+            prioritizeBackImages={true}
+          />
+        </div>
+      )}
 
-      <Footer />
+      {/* Footer - Only show after navigation appears */}
+      {showNavigation && <Footer />}
     </div>
   );
 };
