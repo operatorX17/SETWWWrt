@@ -1,159 +1,159 @@
 {
-  "timestamp": "2025-09-11T16:34:14.534166",
+  "timestamp": "2025-09-11T19:02:01.148149",
   "backend_url": "http://localhost:8001/api",
-  "passed_tests": 17,
-  "failed_tests": 8,
+  "passed_tests": 9,
+  "failed_tests": 16,
   "overall_success": false,
   "test_results": [
     {
       "test": "Server Health Check",
       "success": true,
       "message": "OG Armory Backend API responding correctly",
-      "timestamp": "2025-09-11T16:34:14.073155"
+      "timestamp": "2025-09-11T19:02:00.389466"
     },
     {
       "test": "Environment Variables",
       "success": true,
       "message": "Backend accessible, env vars loaded",
-      "timestamp": "2025-09-11T16:34:14.075465"
+      "timestamp": "2025-09-11T19:02:00.391789"
     },
     {
       "test": "CORS Configuration",
       "success": true,
       "message": "CORS headers found: access-control-allow-credentials: true",
-      "timestamp": "2025-09-11T16:34:14.077813"
+      "timestamp": "2025-09-11T19:02:00.394203"
     },
     {
       "test": "API Routes Accessibility",
       "success": true,
       "message": "All defined routes tested",
-      "timestamp": "2025-09-11T16:34:14.086501"
+      "timestamp": "2025-09-11T19:02:00.411340"
     },
     {
       "test": "Create Status Check",
       "success": true,
-      "message": "Created status check with ID: 68c2fa06b5cb85a20821077e",
-      "timestamp": "2025-09-11T16:34:14.089218"
+      "message": "Created status check with ID: 68c31ca8925f58c4b71b1b7f",
+      "timestamp": "2025-09-11T19:02:00.414250"
     },
     {
       "test": "Get Status Checks",
       "success": true,
-      "message": "Status endpoint working: healthy, MongoDB: connected, Documents: 12",
-      "timestamp": "2025-09-11T16:34:14.092744"
+      "message": "Status endpoint working: healthy, MongoDB: connected, Documents: 17",
+      "timestamp": "2025-09-11T19:02:00.417893"
     },
     {
       "test": "MongoDB Integration",
       "success": true,
-      "message": "Successfully created and verified record in MongoDB. Documents: 13",
-      "timestamp": "2025-09-11T16:34:14.098621"
+      "message": "Successfully created and verified record in MongoDB. Documents: 18",
+      "timestamp": "2025-09-11T19:02:00.424010"
     },
     {
       "test": "Shopify Environment Variables",
       "success": false,
       "message": "Missing variables: SHOPIFY_STOREFRONT_API_TOKEN, SHOPIFY_STOREFRONT_API_VERSION, SHOPIFY_ADMIN_API_KEY, SHOPIFY_ADMIN_API_SECRET",
-      "timestamp": "2025-09-11T16:34:14.099534"
+      "timestamp": "2025-09-11T19:02:00.424929"
     },
     {
       "test": "Shopify Storefront API Connectivity",
       "success": false,
       "message": "Missing Shopify credentials",
-      "timestamp": "2025-09-11T16:34:14.100105"
+      "timestamp": "2025-09-11T19:02:00.425499"
     },
     {
       "test": "OG Products Availability",
       "success": false,
       "message": "Missing Shopify Admin API credentials",
-      "timestamp": "2025-09-11T16:34:14.100653"
+      "timestamp": "2025-09-11T19:02:00.425989"
     },
     {
       "test": "Backend Shopify Integration Health",
       "success": true,
       "message": "Backend stable with Shopify integration",
-      "timestamp": "2025-09-11T16:34:14.108587"
+      "timestamp": "2025-09-11T19:02:00.433560"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:34:14.184917"
+      "success": false,
+      "message": "Expected 56 products from FINAL_PRODUCTION_CATALOG, found 45 from OG_EXPERT_CATALOG_BUILDER",
+      "timestamp": "2025-09-11T19:02:00.780896"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:34:14.245069"
+      "success": false,
+      "message": "Expected 56 products from FINAL_PRODUCTION_CATALOG, found 45 from OG_EXPERT_CATALOG_BUILDER",
+      "timestamp": "2025-09-11T19:02:00.841731"
     },
     {
       "test": "VAULT Product Integration",
       "success": false,
-      "message": "Expected \u22653 VAULT products, found 0",
-      "timestamp": "2025-09-11T16:34:14.246172"
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T19:02:00.843062"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:34:14.299904"
+      "success": false,
+      "message": "Expected 56 products from FINAL_PRODUCTION_CATALOG, found 45 from OG_EXPERT_CATALOG_BUILDER",
+      "timestamp": "2025-09-11T19:02:00.901128"
     },
     {
       "test": "Badge System Functionality",
       "success": false,
-      "message": "Badge system issues: Only 0/5 badge types found, 0.0% coverage",
-      "timestamp": "2025-09-11T16:34:14.300962"
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T19:02:00.902460"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:34:14.350973"
+      "success": false,
+      "message": "Expected 56 products from FINAL_PRODUCTION_CATALOG, found 45 from OG_EXPERT_CATALOG_BUILDER",
+      "timestamp": "2025-09-11T19:02:00.963396"
     },
     {
       "test": "Category Filtering System",
       "success": false,
-      "message": "Category filtering issues: No Teeshirt products; No Vault products; Only 0/56 products categorized",
-      "timestamp": "2025-09-11T16:34:14.351996"
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T19:02:00.964700"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:34:14.406293"
+      "success": false,
+      "message": "Expected 56 products from FINAL_PRODUCTION_CATALOG, found 45 from OG_EXPERT_CATALOG_BUILDER",
+      "timestamp": "2025-09-11T19:02:01.020646"
     },
     {
       "test": "Image Path Resolution",
       "success": false,
-      "message": "Error: 0",
-      "timestamp": "2025-09-11T16:34:14.407414"
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T19:02:01.022253"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:34:14.463258"
+      "success": false,
+      "message": "Expected 56 products from FINAL_PRODUCTION_CATALOG, found 45 from OG_EXPERT_CATALOG_BUILDER",
+      "timestamp": "2025-09-11T19:02:01.079035"
     },
     {
       "test": "Product Image Asset Integration",
       "success": false,
-      "message": "Error: 0",
-      "timestamp": "2025-09-11T16:34:14.464400"
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T19:02:01.080523"
     },
     {
       "test": "API Performance with OG System",
       "success": true,
       "message": "Excellent performance: 3ms average response time",
-      "timestamp": "2025-09-11T16:34:14.474248"
+      "timestamp": "2025-09-11T19:02:01.089416"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:34:14.532223"
+      "success": false,
+      "message": "Expected 56 products from FINAL_PRODUCTION_CATALOG, found 45 from OG_EXPERT_CATALOG_BUILDER",
+      "timestamp": "2025-09-11T19:02:01.146315"
     },
     {
       "test": "Image Path Formatting",
-      "success": true,
-      "message": "All image paths properly formatted with forward slashes (15/15 paths checked)",
-      "timestamp": "2025-09-11T16:34:14.533574"
+      "success": false,
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T19:02:01.147699"
     }
   ]
 }
