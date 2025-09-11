@@ -164,12 +164,12 @@ const VaultSection = ({ className = "" }) => {
               {/* Product Info */}
               <div className="space-y-4">
                 <h3 className="text-white font-light text-lg tracking-wide group-hover:text-amber-400 transition-colors duration-500">
-                  {product.name}
+                  {product.title || product.name}
                 </h3>
                 
                 <div className="flex items-center justify-between">
                   <div className="text-amber-400 font-light text-xl tracking-wide">
-                    ₹{product.price?.toLocaleString()}
+                    ₹{product.price}
                   </div>
                   
                   {/* Edition Number */}
