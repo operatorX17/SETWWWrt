@@ -67,18 +67,23 @@ const Home = () => {
     );
   }
 
-  // Smart product filtering with fallbacks
+  // Smart product filtering with fallbacks and error handling
   const getSmartProducts = (filterFn, fallbackFn, limit = 8) => {
-    const filtered = filterFn();
-    if (filtered.length >= 3) {
-      return filtered.slice(0, limit);
+    try {
+      const filtered = filterFn();
+      if (filtered && filtered.length >= 3) {
+        return filtered.slice(0, limit);
+      }
+      return fallbackFn().slice(0, limit);
+    } catch (error) {
+      console.error('Error in product filtering:', error);
+      return products.slice(0, limit); // Fallback to first products
     }
-    return fallbackFn().slice(0, limit);
   };
 
-  // Get products for different rails with intelligent fallbacks
+  // Get products for different rails with intelligent fallbacks and error handling
   const featuredHoodies = getSmartProducts(
-    () => getProductsByCategory('hoodie').filter(p => p.badges.includes('BEST_SELLER')),
+    () => getProductsByCategory('hoodie').filter(p => p.badges && p.badges.includes('BEST_SELLER')),
     () => getProductsByCategory('hoodie'),
     6
   );
@@ -110,11 +115,15 @@ const Home = () => {
   // Cool T-shirts section (user requested after shirts)
   const coolTshirts = getSmartProducts(
     () => getProductsByCategory('tee').filter(p => 
-      p.badges.includes('BEST_SELLER') || 
-      p.badges.includes('REBEL_DROP') ||
-      p.concept?.includes('Thunder') ||
-      p.concept?.includes('Strike') ||
-      p.concept?.includes('Fire')
+      p.badges && (
+        p.badges.includes('BEST_SELLER') || 
+        p.badges.includes('REBEL_DROP') ||
+        (p.concept && (
+          p.concept.includes('Thunder') ||
+          p.concept.includes('Strike') ||
+          p.concept.includes('Fire')
+        ))
+      )
     ),
     () => getProductsByCategory('tee'),
     8
