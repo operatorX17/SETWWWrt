@@ -1043,9 +1043,9 @@ class BackendTester:
         self.test_api_performance_with_og_system()
         print()
         
-        # Test 19: Navigation Sync Backend Support
-        print("19. Testing Navigation Sync Backend Support...")
-        self.test_navigation_sync_backend_support()
+        # Test 19: Image Path Formatting
+        print("19. Testing Image Path Formatting...")
+        self.test_image_path_formatting()
         print()
         
         # Summary
