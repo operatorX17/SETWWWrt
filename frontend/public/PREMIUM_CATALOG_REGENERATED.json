@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-11T21:28:00.000000",
+    "generator_version": "3.0.0 - OG Expert System",
+    "total_products": 4,
+    "status": "premium_hero_catalog"
+  },
+  "hero_section": {
+    "title": "BEYOND LEGENDARY",
+    "subtitle": "Where premium meets purpose. Every piece engineered for those who demand excellence.",
+    "products": [
+      {
+        "id": "og-shirt-blood-oath",
+        "title": "OG // Shirt — Blood Oath",
+        "handle": "og-shirt-blood-oath",
+        "price": 1255,
+        "image": "WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+        "view": "front"
+      },
+      {
+        "id": "og-hoodie-thunder-strike",
+        "title": "OG // Hoodie — Thunder Strike",
+        "handle": "og-hoodie-thunder-strike", 
+        "price": 1499,
+        "image": "thunder-strike.jpeg",
+        "view": "back"
+      },
+      {
+        "id": "og-tee-fire-storm",
+        "title": "OG // Tee — Fire Storm",
+        "handle": "og-tee-fire-storm",
+        "price": 899,
+        "image": "fire-storm.jpeg", 
+        "view": "front"
+      },
+      {
+        "id": "og-poster-war-machine",
+        "title": "OG // Poster — War Machine",
+        "handle": "og-poster-war-machine",
+        "price": 399,
+        "image": "war-machine.jpeg",
+        "view": "front"
+      }
+    ]
+  },
+  "bundle_suggestions": [
+    {
+      "id": "hero-combo",
+      "title": "Hero Combo Pack",
+      "products": ["og-shirt-blood-oath", "og-hoodie-thunder-strike"],
+      "discount": 15
+    }
+  ]
+}
