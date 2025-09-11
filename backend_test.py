@@ -496,7 +496,7 @@ class BackendTester:
         """Test that comprehensive_products.json is accessible and properly structured with VAULT products"""
         try:
             # Test direct access to comprehensive_products.json via frontend URL
-            frontend_url = os.getenv('REACT_APP_BACKEND_URL', 'http://localhost:3000').replace('/api', '').replace('https://ogshop.preview.emergentagent.com', 'http://localhost:3000')
+            frontend_url = os.getenv('REACT_APP_BACKEND_URL', 'http://localhost:3000').replace('/api', '').replace('https://smart-store-sync.preview.emergentagent.com', 'http://localhost:3000')
             products_url = f"{frontend_url}/comprehensive_products.json"
             
             response = requests.get(products_url, timeout=10)
@@ -725,7 +725,7 @@ class BackendTester:
                         # Handle different image URL formats
                         if image_url.startswith('/app/'):
                             # Local file path - convert to frontend URL
-                            frontend_url = os.getenv('REACT_APP_BACKEND_URL', 'http://localhost:3000').replace('/api', '').replace('https://ogshop.preview.emergentagent.com', 'http://localhost:3000')
+                            frontend_url = os.getenv('REACT_APP_BACKEND_URL', 'http://localhost:3000').replace('/api', '').replace('https://smart-store-sync.preview.emergentagent.com', 'http://localhost:3000')
                             image_url = image_url.replace('/app/frontend/public', frontend_url)
                         
                         response = requests.head(image_url, timeout=5)
@@ -800,7 +800,7 @@ class BackendTester:
                         # Handle different image URL formats
                         if image_url.startswith('/app/'):
                             # Local file path - convert to frontend URL
-                            frontend_url = os.getenv('REACT_APP_BACKEND_URL', 'http://localhost:3000').replace('/api', '').replace('https://ogshop.preview.emergentagent.com', 'http://localhost:3000')
+                            frontend_url = os.getenv('REACT_APP_BACKEND_URL', 'http://localhost:3000').replace('/api', '').replace('https://smart-store-sync.preview.emergentagent.com', 'http://localhost:3000')
                             image_url = image_url.replace('/app/frontend/public', frontend_url)
                         
                         response = requests.head(image_url, timeout=5)

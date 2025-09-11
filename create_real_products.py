@@ -93,7 +93,7 @@ def create_real_products():
                 color_dir = design_dir / color
                 if color_dir.exists():
                     color_images = list(color_dir.glob("*.jpg")) + list(color_dir.glob("*.jpeg"))
-                    images.extend([f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in color_images])
+                    images.extend([f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in color_images])
         
         # Handle front/back structure
         back_dir = design_dir / "back"
@@ -104,11 +104,11 @@ def create_real_products():
         
         if back_dir.exists():
             back_imgs = list(back_dir.glob("*.jpg")) + list(back_dir.glob("*.jpeg"))
-            back_images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in back_imgs]
+            back_images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in back_imgs]
         
         if front_dir.exists():
             front_imgs = list(front_dir.glob("*.jpg")) + list(front_dir.glob("*.jpeg"))
-            front_images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in front_imgs]
+            front_images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in front_imgs]
         
         # PRIORITIZE BACK IMAGES FIRST!
         all_images = back_images + images + front_images
@@ -164,16 +164,16 @@ def create_real_products():
                 
                 if back_dir.exists():
                     back_imgs = list(back_dir.glob("*.jpg")) + list(back_dir.glob("*.jpeg"))
-                    back_images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in back_imgs]
+                    back_images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in back_imgs]
                 
                 if front_dir.exists():
                     front_imgs = list(front_dir.glob("*.jpg")) + list(front_dir.glob("*.jpeg"))
-                    front_images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in front_imgs]
+                    front_images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in front_imgs]
                 
                 # Direct images in folder
                 direct_imgs = [f for f in hoodie_folder.iterdir() if f.suffix.lower() in ['.jpg', '.jpeg', '.png']]
                 if direct_imgs:
-                    direct_images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in direct_imgs]
+                    direct_images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in direct_imgs]
                 
                 # PRIORITIZE BACK IMAGES FIRST!
                 all_images = back_images + direct_images + front_images
@@ -223,16 +223,16 @@ def create_real_products():
                     
                     if back_dir.exists():
                         back_imgs = list(back_dir.glob("*.jpg")) + list(back_dir.glob("*.jpeg"))
-                        back_images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in back_imgs]
+                        back_images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in back_imgs]
                     
                     if front_dir.exists():
                         front_imgs = list(front_dir.glob("*.jpg")) + list(front_dir.glob("*.jpeg"))
-                        front_images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in front_imgs]
+                        front_images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in front_imgs]
                     
                     # Direct images
                     direct_imgs = [f for f in acc_folder.iterdir() if f.suffix.lower() in ['.jpg', '.jpeg', '.png']]
                     if direct_imgs:
-                        direct_images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in direct_imgs]
+                        direct_images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in direct_imgs]
                     
                     # PRIORITIZE BACK IMAGES FIRST!
                     all_images = back_images + direct_images + front_images
@@ -266,7 +266,7 @@ def create_real_products():
             if poster_folder.is_dir():
                 poster_images = list(poster_folder.glob("*.jpg")) + list(poster_folder.glob("*.jpeg"))
                 if poster_images:
-                    images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in poster_images]
+                    images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in poster_images]
                     
                     products.append({
                         "id": product_id,
@@ -295,7 +295,7 @@ def create_real_products():
                 if front_dir.exists():
                     shirt_images = list(front_dir.glob("*.jpg")) + list(front_dir.glob("*.jpeg"))
                     if shirt_images:
-                        images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in shirt_images]
+                        images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in shirt_images]
                         
                         products.append({
                             "id": product_id,
@@ -330,11 +330,11 @@ def create_real_products():
                 
                 if back_dir.exists():
                     back_imgs = list(back_dir.glob("*.jpg")) + list(back_dir.glob("*.jpeg"))
-                    back_images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in back_imgs]
+                    back_images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in back_imgs]
                 
                 if front_dir.exists():
                     front_imgs = list(front_dir.glob("*.jpg")) + list(front_dir.glob("*.jpeg"))
-                    front_images = [f"https://ogshop.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in front_imgs]
+                    front_images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in front_imgs]
                 
                 # PRIORITIZE BACK IMAGES FIRST!
                 all_images = back_images + front_images

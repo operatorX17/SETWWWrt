@@ -310,8 +310,8 @@ class OGProductNormalizer:
             'price': product_data['price'],
             'originalPrice': int(product_data['price'] * 1.25),
             'images': [
-                f"https://ogshop.preview.emergentagent.com/products/{category.lower()}/{concept}/front/main.jpg",
-                f"https://ogshop.preview.emergentagent.com/products/{category.lower()}/{concept}/back/main.jpg"
+                f"https://smart-store-sync.preview.emergentagent.com/products/{category.lower()}/{concept}/front/main.jpg",
+                f"https://smart-store-sync.preview.emergentagent.com/products/{category.lower()}/{concept}/back/main.jpg"
             ],
             'primary_image_type': 'front',
             'badges': badges,
