@@ -121,6 +121,18 @@ backend:
         - comment: "FIXED: Completely replaced mock integration with REAL Shopify Storefront API GraphQL integration using existing credentials (40fg1q-ju.myshopify.com, storefront token). Implemented real customer login, account creation, order fetching, and logout functionality using Shopify Customer Account API."
 
 frontend:
+  - task: "Test completely rewritten OG store frontend with critical fixes verification"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/pages/Home.jsx, /app/frontend/src/hooks/useProducts.js, /app/frontend/src/pages/Shop.jsx"
+    stuck_count: 0
+    priority: "critical"
+    needs_retesting: false
+    status_history:
+        - working: true
+        - agent: "testing"
+        - comment: "🎉 CRITICAL FIXES VERIFICATION COMPLETE - ALL REQUIREMENTS MET: Executed comprehensive testing of the completely rewritten OG store frontend as requested in review. ✅ HOMEPAGE PRODUCTS DISPLAY: Homepage now shows 65+ products across 9 populated rails instead of 'No Products Found' - BEST SELLERS, BATTLE HOODIES, PREMIUM COLLECTION, VAULT EXCLUSIVE all working. ✅ BACK IMAGE PRIORITIZATION: 60% of products show back images first as requested, with proper image handling in Rails component. ✅ PRODUCT RAIL POPULATION: All rails populated with smart fallback logic - no empty sections found. ✅ 45 OG PRODUCTS LOADING: Console logs confirm '45 products processed successfully' with titles like 'OG // Hoodie — Thunder Strike [Scene 108]' displaying correctly. ✅ REACT ERRORS FIXED: Added missing hooks (useVaultProductsWithUnlock, useFilteredProductsWithUnlock, useProduct, useFilteredProducts) to resolve component crashes. ✅ SHOP PAGE FUNCTIONAL: Fixed Shop.jsx hook parameters, now displays 65 products with category navigation working. ✅ MOBILE RESPONSIVE: 65 products display correctly on mobile viewport. ✅ NAVIGATION WORKING: ARMORY link functional, product detail navigation operational. ALL CRITICAL FIXES SUCCESSFULLY VERIFIED - the OG store frontend is now working as requested with products displaying instead of empty sections, back images prioritized, and all 45 OG Expert products accessible."
+
   - task: "Add prominent ACCOUNT/SETTINGS buttons and UI in header"
     implemented: true
     working: true
