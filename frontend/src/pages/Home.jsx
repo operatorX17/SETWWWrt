@@ -18,12 +18,22 @@ import Under999Section from '../components/Under999Section';
 import BundleSuggestions from '../components/BundleSuggestions';
 
 const Home = () => {
-  const { products, loading, error } = useProducts();
+  const { 
+    products, 
+    loading, 
+    error, 
+    getBestProducts,
+    getPremiumProducts,
+    getAffordableProducts,
+    getProductsByCategory,
+    getProductsByCollection,
+    getProductsByBadge
+  } = useProducts();
+  
   const [communityModalOpen, setCommunityModalOpen] = useState(false);
 
   const handleCommunityConsent = (consented) => {
     if (consented) {
-      // Handle community consent logic here
       console.log('User consented to community');
     }
     setCommunityModalOpen(false);
@@ -34,7 +44,7 @@ const Home = () => {
       <div className="min-h-screen bg-black text-white flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin w-8 h-8 border-2 border-[var(--color-red)] border-t-transparent rounded-full mx-auto mb-4"></div>
-          <p className="text-lg font-bold uppercase tracking-wider">Loading Arsenal...</p>
+          <p className="text-lg font-bold uppercase tracking-wider">Loading OG Arsenal...</p>
         </div>
       </div>
     );
@@ -45,28 +55,71 @@ const Home = () => {
       <div className="min-h-screen bg-black text-white flex items-center justify-center">
         <div className="text-center">
           <p className="text-lg font-bold uppercase tracking-wider text-red-400">Arsenal Temporarily Offline</p>
-          <p className="text-gray-400 mt-2">Try again in a moment</p>
+          <p className="text-gray-400 mt-2">{error}</p>
+          <button 
+            onClick={() => window.location.reload()} 
+            className="mt-4 px-6 py-2 bg-red-600 hover:bg-red-700 transition-colors"
+          >
+            Retry
+          </button>
         </div>
       </div>
     );
   }
 
-  // Filter products for different rails - UPDATED
-  const affordableProducts = filterByPriceRange(products, 0, 999);
-  const rebelCore = products.filter(p => 
-    (p.collection === 'REBELLION CORE') || 
-    (p.badges && p.badges.includes('REBELLION CORE'))
+  // Smart product filtering with fallbacks
+  const getSmartProducts = (filterFn, fallbackFn, limit = 8) => {
+    const filtered = filterFn();
+    if (filtered.length >= 3) {
+      return filtered.slice(0, limit);
+    }
+    return fallbackFn().slice(0, limit);
+  };
+
+  // Get products for different rails with intelligent fallbacks
+  const featuredHoodies = getSmartProducts(
+    () => getProductsByCategory('hoodie').filter(p => p.badges.includes('BEST_SELLER')),
+    () => getProductsByCategory('hoodie'),
+    6
   );
-  const homepageFeaturedHoodies = products.filter(p => 
-    p.category === 'Hoodies' && 
-    p.badges && p.badges.includes('HOMEPAGE FEATURED')
+
+  const premiumProducts = getSmartProducts(
+    () => getPremiumProducts(8),
+    () => products.filter(p => p.price >= 1000).slice(0, 8),
+    8
   );
-  const vaultProducts = products.filter(p => p.badges && p.badges.includes('VAULT'));
-  const premiumProducts = products.filter(p => 
-    (p.collection === 'PREMIUM COLLECTION') || 
-    (p.badges && p.badges.includes('PREMIUM')) ||
-    (p.price >= 1200 && p.price <= 1700)
+
+  const rebelCore = getSmartProducts(
+    () => getProductsByCollection('REBELLION CORE'),
+    () => getAffordableProducts(8),
+    8
   );
+
+  const vaultProducts = getSmartProducts(
+    () => getProductsByBadge('VAULT_EXCLUSIVE'),
+    () => products.filter(p => p.price >= 2000).slice(0, 6),
+    6
+  );
+
+  const bestSellers = getSmartProducts(
+    () => getBestProducts(8),
+    () => products.slice(0, 8),
+    8
+  );
+
+  // Featured products for hero (best scoring products with back images prioritized)
+  const heroProducts = products
+    .filter(p => p.showBackFirst || p.images.length > 0)
+    .sort((a, b) => (b.merch_score || 0) - (a.merch_score || 0))
+    .slice(0, 4);
+
+  console.log('🏠 Homepage product distribution:');
+  console.log('- Featured Hoodies:', featuredHoodies.length);
+  console.log('- Premium Products:', premiumProducts.length);  
+  console.log('- Rebellion Core:', rebelCore.length);
+  console.log('- Vault Products:', vaultProducts.length);
+  console.log('- Best Sellers:', bestSellers.length);
+  console.log('- Hero Products:', heroProducts.length);
 
   return (
     <div className="min-h-screen bg-[var(--color-bg)]">
@@ -78,62 +131,99 @@ const Home = () => {
       {/* Conversion Optimized Hero Section */}
       <ConversionOptimizedHero />
 
-      {/* Trust Strip - REPLACE HEAVY DELIVERY PROMISE */}
+      {/* Trust Strip */}
       <TrustStrip />
       
-      {/* Bundle Suggestions from Premium Catalog */}
+      {/* Bundle Suggestions */}
       <BundleSuggestions />
       
       {/* New Teaser Section */}
       <NewTeaser />
       
-
-
-
-      
-      {/* Homepage Featured Hoodies - MOVED UP FOR BETTER VISIBILITY */}
-      {homepageFeaturedHoodies.length > 0 && (
+      {/* BEST SELLERS RAIL - TOP PRIORITY */}
+      {bestSellers.length > 0 && (
         <Rail 
-          title="FEATURED HOODIES — BATTLE READY" 
-          subtitle="Premium gear for the frontlines. Where the money is."
-          products={homepageFeaturedHoodies.slice(0, 6)}
+          title="BEST SELLERS — FAN FAVORITES" 
+          subtitle="Most loved by the OG army. Back views featured."
+          products={bestSellers}
+          showViewAll={true}
+          viewAllLink="/shop?filter=best-sellers"
+          prioritizeBackImages={true}
+        />
+      )}
+      
+      {/* FEATURED HOODIES - BATTLE READY */}
+      {featuredHoodies.length > 0 && (
+        <Rail 
+          title="BATTLE HOODIES — FRONT LINE GEAR" 
+          subtitle="Premium hoodies with back designs shown first"
+          products={featuredHoodies}
           showViewAll={true}
           viewAllLink="/shop?category=hoodies"
+          prioritizeBackImages={true}
         />
       )}
       
       {/* Premium Product Showcase */}
       <PremiumShowcase />
       
-      {/* Premium Collection Rail - MOVED UP */}
-      <Rail 
-        title="Premium Collection — Elite Gear" 
-        subtitle="High-value products for serious rebels"
-        products={premiumProducts.length > 0 ? premiumProducts.slice(0, 8) : products.filter(p => p.price >= 1200)}
-        showViewAll={true}
-        viewAllLink="/shop?filter=premium"
-      />
+      {/* PREMIUM COLLECTION RAIL */}
+      {premiumProducts.length > 0 && (
+        <Rail 
+          title="PREMIUM COLLECTION — ELITE ARSENAL" 
+          subtitle="High-value gear for serious rebels"
+          products={premiumProducts}
+          showViewAll={true}
+          viewAllLink="/shop?filter=premium"
+        />
+      )}
       
       {/* Animated UGC Strip */}
       <AnimatedUGCStrip />
       
-      {/* Vault Section */}
-      <VaultSection />
+      {/* VAULT SECTION */}
+      {vaultProducts.length > 0 && (
+        <>
+          <VaultSection />
+          <Rail 
+            title="VAULT EXCLUSIVE — LIMITED ACCESS" 
+            subtitle="Rare gear for the elite army"
+            products={vaultProducts}
+            showViewAll={true}
+            viewAllLink="/shop?filter=vault"
+            prioritizeBackImages={true}
+          />
+        </>
+      )}
       
-      {/* Under ₹999 - REPOSITIONED BUT STILL VISIBLE */}
-      <Under999Section products={affordableProducts} />
+      {/* Under ₹999 Section */}
+      <Under999Section products={getAffordableProducts(12)} />
       
-      {/* Featured Poster Collection - MOVED DOWN */}
+      {/* Featured Poster Collection */}
       <PosterShowcase />
       
-      {/* Rebellion Core Rails */}
-      <Rail 
-        title="REBELLION CORE — ESSENTIAL GEAR" 
-        subtitle="Tees under ₹999. Built for rebels."
-        products={rebelCore.length > 0 ? rebelCore.slice(0, 8) : products.slice(0, 8)}
-        showViewAll={true}
-        viewAllLink="/shop?filter=rebellion-core"
-      />
+      {/* REBELLION CORE RAILS */}
+      {rebelCore.length > 0 && (
+        <Rail 
+          title="REBELLION CORE — ESSENTIAL GEAR" 
+          subtitle="Core collection under ₹999. Built for rebels."
+          products={rebelCore}
+          showViewAll={true}
+          viewAllLink="/shop?filter=rebellion-core"
+        />
+      )}
+
+      {/* Emergency fallback rail if nothing else shows */}
+      {(bestSellers.length === 0 && featuredHoodies.length === 0 && premiumProducts.length === 0) && (
+        <Rail 
+          title="OG ARSENAL — ALL GEAR" 
+          subtitle="Complete collection of premium OG merchandise"
+          products={products.slice(0, 12)}
+          showViewAll={true}
+          viewAllLink="/shop"
+          prioritizeBackImages={true}
+        />
+      )}
 
       {/* Community Modal */}
       <PSPKCommunityModal
