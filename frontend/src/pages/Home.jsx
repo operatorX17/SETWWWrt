@@ -154,13 +154,13 @@ const Home = () => {
       <ConversionOptimizedHero />
 
       {/* Trust Strip */}
-      <TrustStrip />
+      {/* <TrustStrip /> */}
       
       {/* Bundle Suggestions */}
-      <BundleSuggestions />
+      {/* <BundleSuggestions /> */}
       
       {/* New Teaser Section */}
-      <NewTeaser />
+      {/* <NewTeaser /> */}
       
       {/* BEST SELLERS RAIL - TOP PRIORITY */}
       <Rail 
