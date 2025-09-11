@@ -5,7 +5,7 @@ import { useCart } from '../context/CartContext';
 import { formatPrice } from '../lib/price';
 import { initiateUPIPayment } from '../lib/upi';
 import { sendOrderToWhatsApp } from '../lib/wa';
-import { ShoppingCart } from 'lucide-react';
+import { ShoppingCart, ArrowLeft, Heart, Share, Star, Truck, Shield, RefreshCw } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ProductCard from '../components/ProductCard';
@@ -15,32 +15,69 @@ import TrustChips from '../components/TrustChips';
 import CartSidebar from '../components/CartSidebar';
 
 const ProductDetail = () => {
-  const { id, handle } = useParams(); // Handle both /product/:id and /products/:handle
+  const { id, handle } = useParams();
   const navigate = useNavigate();
   
-  // Use ID or handle to find product
   const productIdentifier = id || handle;
   const { product, loading: productLoading } = useProduct(productIdentifier);
   const { addToCart, loading: cartLoading } = useCart();
+  
+  // Related products based on category and badges
+  const { products: relatedProducts } = useFilteredProducts(
+    (p) => p.category === product?.category && p.id !== product?.id
+  );
   
   const [selectedImage, setSelectedImage] = useState(0);
   const [selectedSize, setSelectedSize] = useState('M');
   const [bundleItems, setBundleItems] = useState([]);
   const [codEnabled, setCodEnabled] = useState(false);
   const [cartSidebarOpen, setCartSidebarOpen] = useState(false);
+  const [imageError, setImageError] = useState(false);
 
   useEffect(() => {
     if (product) {
-      setSelectedImage(0);
-      setSelectedSize('M'); // Most fans pick M
-      // Initialize bundle items if product has bundles
+      setSelectedImage(0); 
+      setSelectedSize('M');
+      setImageError(false);
+      
       if (product.bundle) {
         setBundleItems(product.bundle.map(item => ({ ...item, selected: false })));
       }
     }
   }, [product]);
 
-  // Mock stock data for size chips
+  // Enhanced image handling with fallbacks
+  const getProductImages = () => {
+    if (!product) return [];
+    
+    let images = [];
+    
+    // Handle different image structures
+    if (product.images && Array.isArray(product.images)) {
+      images = product.images;
+    } else if (product.images && typeof product.images === 'object') {
+      // Handle {front: '', back: ''} structure
+      if (product.images.back) images.push(product.images.back);
+      if (product.images.front) images.push(product.images.front);
+    }
+    
+    // Fallback to primaryImage
+    if (images.length === 0 && product.primaryImage) {
+      images = [product.primaryImage];
+    }
+    
+    // Fallback to backImage/frontImage
+    if (images.length === 0) {
+      if (product.backImage) images.push(product.backImage);
+      if (product.frontImage) images.push(product.frontImage);
+    }
+    
+    return images.filter(Boolean); // Remove null/undefined
+  };
+
+  const productImages = getProductImages();
+  const currentImage = productImages[selectedImage] || productImages[0] || '/placeholder-product.jpg';
+
   const mockStock = {
     'XS': 5, 'S': 12, 'M': 18, 'L': 22, 'XL': 9, 'XXL': 4
   };
@@ -53,107 +90,38 @@ const ProductDetail = () => {
     return total;
   };
 
-  const generateOrderId = () => {
-    return `OG${Date.now().toString().slice(-6)}`;
-  };
-
-  const handleUPIPayment = () => {
-    const orderId = generateOrderId();
-    const total = calculateTotal();
-    
-    const items = [
-      {
-        title: product.name,
-        size: selectedSize,
-        quantity: 1,
-        price: product.price
-      },
-      ...bundleItems.filter(item => item.selected).map(item => ({
-        title: item.id,
-        size: 'Default',
-        quantity: 1,
-        price: item.price
-      }))
-    ];
-
-    initiateUPIPayment({
-      amount: total,
-      orderId,
-      items,
-      customerInfo: { name: 'Customer' }, // In real app, get from form
-      upiId: "ogarmory@paytm",
-      merchantName: "OG Armory"
-    });
-  };
-
-  const handleWhatsAppOrder = () => {
-    const orderId = generateOrderId();
-    const total = calculateTotal();
-    
-    const items = [
-      {
-        title: product.name,
-        size: selectedSize,
-        quantity: 1,
-        price: product.price
-      },
-      ...bundleItems.filter(item => item.selected).map(item => ({
-        title: item.id,
-        size: 'Default',
-        quantity: 1,
-        price: item.price
-      }))
-    ];
-
-    // In real app, this would open a form to collect customer details
-    // For now, we'll use placeholder data
-    sendOrderToWhatsApp({
-      items,
-      total,
-      customerInfo: {
-        name: 'Customer Name',
-        phone: '+919876543210',
-        address: 'Customer Address'
-      },
-      orderId,
-      paymentMethod: codEnabled ? 'COD' : 'UPI'
-    });
-  };
-
-  const handleAddToArsenal = async () => {
+  const handleAddToCart = async () => {
     if (!product) return;
     
-    const selectedVariant = {
-      size: selectedSize,
-      id: `${product.id}-${selectedSize}`
-    };
-    
-    const result = await addToCart(product, selectedVariant, 1);
-    
-    if (result && result.success) {
+    try {
+      await addToCart({
+        id: product.id,
+        title: product.title || product.name,
+        price: product.price,
+        size: selectedSize,
+        image: currentImage,
+        quantity: 1
+      });
       setCartSidebarOpen(true);
-    } else {
-      setCartSidebarOpen(true);
+    } catch (error) {
+      console.error('Error adding to cart:', error);
     }
   };
 
-  // Get related products
-  const { products: allProducts } = useFilteredProducts('all', null);
-  const relatedProducts = allProducts.filter(p => 
-    p.category === product?.category && p.id !== product?.id
-  ).slice(0, 4);
+  const handleImageError = () => {
+    setImageError(true);
+  };
 
   if (productLoading) {
     return (
       <div className="min-h-screen bg-black text-white">
         <Header />
-        <div className="flex items-center justify-center py-20">
+        <div className="flex items-center justify-center min-h-[60vh]">
           <div className="text-center">
             <div className="animate-spin w-8 h-8 border-2 border-red-500 border-t-transparent rounded-full mx-auto mb-4"></div>
-            <p className="text-lg font-bold uppercase tracking-wider">Loading Arsenal...</p>
+            <p className="text-lg font-bold uppercase tracking-wider">Loading Product...</p>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }
@@ -162,18 +130,19 @@ const ProductDetail = () => {
     return (
       <div className="min-h-screen bg-black text-white">
         <Header />
-        <div className="flex items-center justify-center py-20">
+        <div className="flex items-center justify-center min-h-[60vh]">
           <div className="text-center">
-            <h2 className="text-2xl font-bold mb-4 uppercase tracking-wider">Product Not Found</h2>
-            <button 
-              onClick={() => navigate('/shop')} 
-              className="text-yellow-400 hover:text-white underline uppercase tracking-wider"
+            <h1 className="text-2xl font-bold mb-4">Product Not Found</h1>
+            <p className="text-gray-400 mb-6">The product you're looking for doesn't exist.</p>
+            <Link 
+              to="/shop" 
+              className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 px-6 py-3 rounded-lg transition-colors"
             >
-              Return to Armory
-            </button>
+              <ArrowLeft size={20} />
+              Back to Shop
+            </Link>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }
@@ -182,44 +151,46 @@ const ProductDetail = () => {
     <div className="min-h-screen bg-black text-white">
       <Header />
       
-      <div className="max-w-7xl mx-auto px-6 py-8">
+      <main className="max-w-7xl mx-auto px-6 py-8">
         {/* Breadcrumb */}
-        <nav className="flex items-center space-x-2 text-sm text-gray-400 mb-8">
-          <Link to="/shop" className="hover:text-white transition-colors uppercase tracking-wider">
-            ARMORY
-          </Link>
+        <nav className="flex items-center gap-2 text-sm text-gray-400 mb-8">
+          <Link to="/" className="hover:text-white transition-colors">Home</Link>
           <span>/</span>
-          <Link 
-            to={`/shop?category=${product.category.toLowerCase()}`} 
-            className="hover:text-white transition-colors uppercase tracking-wider"
-          >
-            {product.category.toUpperCase()}
-          </Link>
+          <Link to="/shop" className="hover:text-white transition-colors">Shop</Link>
           <span>/</span>
-          <span className="text-white uppercase tracking-wider">{product.name?.toUpperCase()}</span>
+          <span className="text-white">{product.title || product.name}</span>
         </nav>
 
-        {/* Main Product Layout - Mobile First */}
+        {/* Main Product Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          {/* Product Images - Shows FIRST on mobile */}
-          <div className="order-1 space-y-6">
+          {/* Product Images */}
+          <div className="space-y-6">
             {/* Main Image */}
-            <div className="aspect-[4/5] bg-gray-900 overflow-hidden">
+            <div className="aspect-[4/5] bg-gray-900 overflow-hidden rounded-lg">
               <img
-                src={product.images?.[selectedImage] || product.images?.[0]}
-                alt={product.name}
+                src={currentImage}
+                alt={product.title || product.name}
                 className="w-full h-full object-cover"
+                onError={handleImageError}
               />
+              {imageError && (
+                <div className="w-full h-full flex items-center justify-center bg-gray-800">
+                  <div className="text-center">
+                    <div className="text-4xl mb-2">🎯</div>
+                    <p className="text-gray-400">OG Product</p>
+                  </div>
+                </div>
+              )}
             </div>
             
-            {/* Thumbnail Gallery - Show all 7 images */}
-            {product.images && product.images.length > 1 && (
+            {/* Thumbnail Gallery */}
+            {productImages.length > 1 && (
               <div className="grid grid-cols-4 gap-4">
-                {product.images.slice(0, 7).map((image, index) => (
+                {productImages.slice(0, 4).map((image, index) => (
                   <button
                     key={index}
                     onClick={() => setSelectedImage(index)}
-                    className={`aspect-square bg-gray-900 overflow-hidden border-2 transition-colors ${
+                    className={`aspect-square bg-gray-900 overflow-hidden border-2 rounded transition-colors ${
                       selectedImage === index 
                         ? 'border-red-500' 
                         : 'border-gray-700 hover:border-red-500'
@@ -227,8 +198,11 @@ const ProductDetail = () => {
                   >
                     <img
                       src={image}
-                      alt={`${product.name} view ${index + 1}`}
+                      alt={`${product.title} view ${index + 1}`}
                       className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                      }}
                     />
                   </button>
                 ))}
@@ -236,53 +210,55 @@ const ProductDetail = () => {
             )}
           </div>
 
-          {/* Product Details - Shows SECOND on mobile */}
-          <div className="order-2 space-y-8">
+          {/* Product Details */}
+          <div className="space-y-8">
             {/* Product Title & Price */}
             <div>
               <h1 className="text-3xl lg:text-4xl font-black uppercase tracking-wider mb-4">
-                {product.name}
+                {product.title || product.name}
               </h1>
+              
               <div className="flex items-center gap-4 mb-4">
-                <span className="text-3xl font-bold">{formatPrice(product.price)}</span>
-                {product.originalPrice && (
+                <span className="text-3xl font-bold">₹{product.price}</span>
+                {product.compare_at_price && parseFloat(product.compare_at_price) > parseFloat(product.price) && (
                   <span className="text-xl text-gray-400 line-through">
-                    {formatPrice(product.originalPrice)}
+                    ₹{product.compare_at_price}
                   </span>
                 )}
               </div>
               
-              {/* Badges - Consistent Styling */}
+              {/* Badges */}
               <div className="flex flex-wrap gap-2 mb-6">
-                {product.badges?.includes('VAULT') && (
-                  <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-gradient-to-r from-yellow-400 to-yellow-600 text-black">
-                    VAULT
+                {product.badges?.map((badge, index) => (
+                  <span 
+                    key={index}
+                    className={`px-2 py-1 text-xs font-black tracking-wider uppercase rounded ${
+                      badge.includes('VAULT') ? 'bg-yellow-500 text-black' :
+                      badge.includes('REBEL') ? 'bg-red-500 text-white' :
+                      badge.includes('BEST') ? 'bg-green-500 text-white' :
+                      badge.includes('PREMIUM') ? 'bg-purple-500 text-white' :
+                      'bg-gray-700 text-white'
+                    }`}
+                  >
+                    {badge}
                   </span>
+                ))}
+              </div>
+
+              {/* Product Description */}
+              <div className="mb-6">
+                <p className="text-gray-300 leading-relaxed">
+                  {product.description || `${product.concept || 'Premium'} design from the OG collection. ${product.scene_code ? `Featured in ${product.scene_code}.` : ''} Crafted for the ultimate fan experience.`}
+                </p>
+                {product.concept && (
+                  <p className="text-sm text-red-400 mt-2">
+                    Concept: {product.concept} {product.scene_code && `• ${product.scene_code}`}
+                  </p>
                 )}
-                {product.badges?.includes('LIMITED') && (
-                  <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-red-500 text-white">
-                    LIMITED
-                  </span>
-                )}
-                {product.badges?.includes('REBEL DROP') && (
-                  <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-black text-red-500 border border-red-500">
-                    REBEL
-                  </span>
-                )}
-                {(product.badges?.includes('PREMIUM COLLECTION') || product.badges?.includes('PREMIUM')) && (
-                  <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-gray-800 text-yellow-400">
-                    PREMIUM
-                  </span>
-                )}
-                {product.badges?.includes('NEW') && (
-                  <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-blue-600 text-white">
-                    NEW
-                  </span>
-                )}
-                {product.badges?.includes('FAN ARSENAL') && (
-                  <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-purple-600 text-white">
-                    FAN ARSENAL
-                  </span>
+                {product.colorway && (
+                  <p className="text-sm text-gray-400 mt-1">
+                    Colorway: {product.colorway}
+                  </p>
                 )}
               </div>
             </div>
@@ -298,234 +274,112 @@ const ProductDetail = () => {
             <SizeChips
               sizes={['XS', 'S', 'M', 'L', 'XL', 'XXL']}
               selectedSize={selectedSize}
-              onSizeSelect={setSelectedSize}
+              onSizeChange={setSelectedSize}
               stock={mockStock}
-              mostPopular="L"
             />
 
-            {/* Bundle Add-ons */}
-            {bundleItems.length > 0 && (
-              <div className="space-y-4">
-                <h3 className="text-lg font-bold uppercase tracking-wider">Complete the Arsenal</h3>
-                <div className="space-y-3">
-                  {bundleItems.map((item, index) => (
-                    <label key={index} className="flex items-center gap-3 cursor-pointer">
-                      <input
-                        type="checkbox"
-                        checked={item.selected}
-                        onChange={(e) => {
-                          const updated = [...bundleItems];
-                          updated[index].selected = e.target.checked;
-                          setBundleItems(updated);
-                        }}
-                        className="w-4 h-4 text-red-500 bg-black border-gray-600 rounded focus:ring-red-500 focus:ring-2"
-                      />
-                      <span className="flex-1">{item.id}</span>
-                      <span className="font-bold">{formatPrice(item.price)}</span>
-                    </label>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Trust Indicators */}
+            {/* Trust Elements */}
             <TrustChips />
 
-            {/* COD Toggle */}
-            <div className="flex items-center gap-3">
-              <input
-                type="checkbox"
-                id="cod-toggle"
-                checked={codEnabled}
-                onChange={(e) => setCodEnabled(e.target.checked)}
-                className="w-4 h-4 text-[var(--color-red)] bg-black border-gray-600 rounded focus:ring-[var(--color-red)] focus:ring-2"
-              />
-              <label htmlFor="cod-toggle" className="text-sm font-medium">
-                Cash on Delivery (COD)
-              </label>
-            </div>
-
-            {/* Action Buttons */}
+            {/* Add to Cart Button */}
             <div className="space-y-4">
-              {/* Total */}
-              <div className="text-right">
-                <span className="text-2xl font-bold">
-                  Total: {formatPrice(calculateTotal())}
-                </span>
-              </div>
-
-              {/* Primary Actions */}
-              <div className="grid grid-cols-1 gap-4">
-                {!codEnabled && (
-                  <button
-                    onClick={handleUPIPayment}
-                    className="w-full bg-[var(--color-red)] text-white py-4 px-6 font-black uppercase tracking-wider hover:bg-opacity-90 transition-all hover:shadow-[0_0_20px_rgba(193,18,31,0.6)]"
-                  >
-                    Pay by Any UPI App
-                  </button>
-                )}
-                
-                <button
-                  onClick={handleWhatsAppOrder}
-                  className="w-full bg-green-600 text-white py-4 px-6 font-black uppercase tracking-wider hover:bg-green-700 transition-all"
-                >
-                  Buy on WhatsApp
+              <button
+                onClick={handleAddToCart}
+                disabled={cartLoading}
+                className="w-full bg-red-600 hover:bg-red-700 disabled:bg-gray-600 text-white font-bold py-4 px-8 rounded-lg transition-colors flex items-center justify-center gap-3 text-lg uppercase tracking-wider"
+              >
+                <ShoppingCart size={24} />
+                {cartLoading ? 'Adding...' : `Add to Cart • ₹${product.price}`}
+              </button>
+              
+              {/* Secondary Actions */}
+              <div className="grid grid-cols-2 gap-4">
+                <button className="flex items-center justify-center gap-2 border border-gray-600 hover:border-red-500 text-white py-3 px-6 rounded-lg transition-colors">
+                  <Heart size={20} />
+                  Wishlist
                 </button>
-                
-                <button
-                  onClick={handleAddToArsenal}
-                  disabled={cartLoading}
-                  className="w-full border-2 border-[var(--color-red)] text-[var(--color-red)] py-4 px-6 font-black uppercase tracking-wider hover:bg-[var(--color-red)] hover:text-white transition-all"
-                >
-                  {cartLoading ? 'Adding...' : 'ADD TO ARSENAL'}
+                <button className="flex items-center justify-center gap-2 border border-gray-600 hover:border-red-500 text-white py-3 px-6 rounded-lg transition-colors">
+                  <Share size={20} />
+                  Share
                 </button>
               </div>
             </div>
 
-            {/* Product Description */}
-            <div className="prose prose-invert max-w-none">
-              <p className="text-gray-300 leading-relaxed">
-                {product.description || 'Premium OG merchandise for true fans. Crafted with precision and designed for warriors. Every product is a weapon. Every fan is a soldier.'}
-              </p>
+            {/* Product Details */}
+            <div className="border-t border-gray-700 pt-8">
+              <h3 className="text-lg font-bold mb-4">Product Details</h3>
+              <div className="space-y-3 text-sm text-gray-300">
+                <div className="flex justify-between">
+                  <span>Material:</span>
+                  <span>Premium Cotton Blend</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>GSM:</span>
+                  <span>240-260 GSM</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Fit:</span>
+                  <span>Regular/Oversized</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Care:</span>
+                  <span>Machine Wash Cold</span>
+                </div>
+                {product.vendor && (
+                  <div className="flex justify-between">
+                    <span>Brand:</span>
+                    <span>{product.vendor}</span>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Shipping & Returns */}
+            <div className="border-t border-gray-700 pt-8">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
+                <div className="flex items-center gap-2">
+                  <Truck size={16} className="text-green-400" />
+                  <span>Free shipping over ₹1999</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Shield size={16} className="text-blue-400" />
+                  <span>7-day return policy</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <RefreshCw size={16} className="text-yellow-400" />
+                  <span>Exchange available</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* More from the Arsenal - Matching Homepage Rail Design */}
+        {/* Related Products */}
         {relatedProducts.length > 0 && (
-          <section className="py-16 bg-black text-white mt-16">
-            <div className="max-w-7xl mx-auto px-6">
-              {/* Rail Header */}
-              <div className="flex items-center justify-between mb-12">
-                <div>
-                  <h2 className="text-4xl lg:text-6xl font-black uppercase tracking-wider font-headline mb-4">
-                    MORE FROM THE ARSENAL
-                  </h2>
-                  <p className="text-gray-300 text-lg mb-4">Gear up with more rebel essentials</p>
-                  <div className="w-20 h-1 bg-red-500"></div>
-                </div>
-                <Link 
-                  to="/shop"
-                  className="group flex items-center gap-2 text-yellow-400 hover:text-white transition-colors"
-                >
-                  <span className="text-lg font-bold uppercase tracking-wider">View All</span>
-                  <div className="w-8 h-8 border-2 border-yellow-400 group-hover:border-white rounded-full flex items-center justify-center transition-colors">
-                    <span className="text-sm">→</span>
-                  </div>
-                </Link>
-              </div>
-
-              {/* Products Grid - Matching Rail Design */}
-               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-                 {relatedProducts.slice(0, 4).map((relatedProduct, index) => (
-                   <div key={relatedProduct.id} className="group cursor-pointer" onClick={() => navigate(`/product/${relatedProduct.id}`)}>
-                     {/* Product Image with Badges */}
-                     <div className="relative mb-4 overflow-hidden">
-                       <div className="aspect-[3/4] bg-gradient-to-br from-gray-900 to-black rounded-2xl overflow-hidden">
-                         <img 
-                           src={relatedProduct.images?.[0] || '/placeholder-product.jpg'} 
-                           alt={relatedProduct.name}
-                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                         />
-                         
-                         {/* Badges - TOP LEFT */}
-                         <div className="absolute top-3 left-3 flex flex-col gap-2">
-                           {relatedProduct.badges?.includes('VAULT') && (
-                             <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-gradient-to-r from-yellow-400 to-yellow-600 text-black">
-                               VAULT
-                             </span>
-                           )}
-                           {relatedProduct.badges?.includes('LIMITED') && (
-                             <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-red-500 text-white">
-                               LIMITED
-                             </span>
-                           )}
-                           {relatedProduct.badges?.includes('REBEL DROP') && (
-                             <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-black text-red-500 border border-red-500">
-                               REBEL
-                             </span>
-                           )}
-                           {relatedProduct.badges?.includes('PREMIUM') && (
-                             <span className="px-2 py-1 text-xs font-black tracking-wider uppercase bg-gray-800 text-yellow-400">
-                               PREMIUM
-                             </span>
-                           )}
-                         </div>
-
-                         {/* Hover Overlay */}
-                         <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                           <div className="text-white text-center">
-                             <div className="text-sm font-medium mb-1">Quick View</div>
-                             <div className="text-xs opacity-75">Tap to explore</div>
-                           </div>
-                         </div>
-                       </div>
-                     </div>
-
-                     {/* Product Info - BELOW IMAGE */}
-                     <div className="space-y-3">
-                       {/* Product Title */}
-                       <h3 className="text-white font-bold text-lg leading-tight group-hover:text-red-400 transition-colors">
-                         {relatedProduct.name}
-                       </h3>
-
-                       {/* Description - Shortened */}
-                       <p className="text-gray-400 text-sm leading-relaxed line-clamp-2">
-                         {relatedProduct.description ? 
-                           (relatedProduct.description.length > 60 ? 
-                             relatedProduct.description.substring(0, 60) + '...' : 
-                             relatedProduct.description
-                           ) : 
-                           'Built for rebels.'
-                         }
-                       </p>
-
-                       {/* Price */}
-                       <div className="flex items-center space-x-2">
-                         <span className="text-red-400 font-bold text-xl">
-                           ₹{relatedProduct.price?.toLocaleString()}
-                         </span>
-                         {relatedProduct.originalPrice && relatedProduct.originalPrice > relatedProduct.price && (
-                           <span className="text-gray-500 line-through text-sm">
-                             ₹{relatedProduct.originalPrice?.toLocaleString()}
-                           </span>
-                         )}
-                       </div>
-
-                       {/* Add to Arsenal Button - Responsive */}
-                       <button
-                         onClick={(e) => {
-                           e.stopPropagation();
-                           addToCart(relatedProduct, { size: 'M', color: relatedProduct.colors?.[0] || 'Default' });
-                         }}
-                         className="w-full bg-gradient-to-r from-red-600 to-red-800 hover:from-red-700 hover:to-red-900 text-white font-bold py-3 px-4 rounded-lg transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl flex items-center justify-center space-x-2 text-sm sm:text-base min-h-[48px] touch-manipulation"
-                       >
-                         <ShoppingCart size={16} className="flex-shrink-0" />
-                         <span className="truncate">ADD TO ARSENAL</span>
-                       </button>
-
-                       {/* Telugu Text */}
-                       <div className="text-center">
-                         <span className="text-yellow-400 text-xs">
-                           🏹 ఒక్కొక్కటి ఒక ఆయుధం 🏹
-                         </span>
-                       </div>
-                     </div>
-                   </div>
-                 ))}
-               </div>
+          <section className="mt-20">
+            <h2 className="text-2xl lg:text-3xl font-bold uppercase tracking-wider mb-8">
+              You Might Also Like
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+              {relatedProducts.slice(0, 4).map(relatedProduct => (
+                <ProductCard 
+                  key={relatedProduct.id} 
+                  product={relatedProduct} 
+                  prioritizeBackImages={true}
+                />
+              ))}
             </div>
           </section>
         )}
-      </div>
-
-      {/* Cart Sidebar */}
-      <CartSidebar 
-        isOpen={cartSidebarOpen} 
-        onClose={() => setCartSidebarOpen(false)} 
-      />
+      </main>
 
       <Footer />
+      
+      {/* Cart Sidebar */}
+      <CartSidebar 
+        isOpen={cartSidebarOpen}
+        onClose={() => setCartSidebarOpen(false)}
+      />
     </div>
   );
 };

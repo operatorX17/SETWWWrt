@@ -107,6 +107,26 @@ const Home = () => {
     8
   );
 
+  // Cool T-shirts section (user requested after shirts)
+  const coolTshirts = getSmartProducts(
+    () => getProductsByCategory('tee').filter(p => 
+      p.badges.includes('BEST_SELLER') || 
+      p.badges.includes('REBEL_DROP') ||
+      p.concept?.includes('Thunder') ||
+      p.concept?.includes('Strike') ||
+      p.concept?.includes('Fire')
+    ),
+    () => getProductsByCategory('tee'),
+    8
+  );
+
+  // Shirts section 
+  const coolShirts = getSmartProducts(
+    () => getProductsByCategory('shirt'),
+    () => products.filter(p => p.category === 'shirt'),
+    6
+  );
+
   // Featured products for hero (best scoring products with back images prioritized)
   const heroProducts = products
     .filter(p => p.showBackFirst || p.images.length > 0)
@@ -119,6 +139,8 @@ const Home = () => {
   console.log('- Rebellion Core:', rebelCore.length);
   console.log('- Vault Products:', vaultProducts.length);
   console.log('- Best Sellers:', bestSellers.length);
+  console.log('- Cool T-shirts:', coolTshirts.length);
+  console.log('- Cool Shirts:', coolShirts.length);
   console.log('- Hero Products:', heroProducts.length);
 
   return (
@@ -152,11 +174,35 @@ const Home = () => {
         />
       )}
       
+      {/* COOL SHIRTS SECTION */}
+      {coolShirts.length > 0 && (
+        <Rail 
+          title="COOL SHIRTS — PREMIUM COLLECTION" 
+          subtitle="Signature shirts for the ultimate fan experience"
+          products={coolShirts}
+          showViewAll={true}
+          viewAllLink="/shop?category=shirts"
+          prioritizeBackImages={true}
+        />
+      )}
+
+      {/* COOL T-SHIRTS RAIL - User requested after shirts */}
+      {coolTshirts.length > 0 && (
+        <Rail 
+          title="COOL T-SHIRTS — THUNDER COLLECTION" 
+          subtitle="Premium tees with scene codes and cinematic designs ₹699-₹975"
+          products={coolTshirts}
+          showViewAll={true}
+          viewAllLink="/shop?category=tees"
+          prioritizeBackImages={true}
+        />
+      )}
+      
       {/* FEATURED HOODIES - BATTLE READY */}
       {featuredHoodies.length > 0 && (
         <Rail 
           title="BATTLE HOODIES — FRONT LINE GEAR" 
-          subtitle="Premium hoodies with back designs shown first"
+          subtitle="Premium hoodies ₹1119-₹1599 with back designs shown first"
           products={featuredHoodies}
           showViewAll={true}
           viewAllLink="/shop?category=hoodies"
@@ -187,7 +233,7 @@ const Home = () => {
           <VaultSection />
           <Rail 
             title="VAULT EXCLUSIVE — LIMITED ACCESS" 
-            subtitle="Rare gear for the elite army"
+            subtitle="Rare gear for the elite army ₹1499-₹1799"
             products={vaultProducts}
             showViewAll={true}
             viewAllLink="/shop?filter=vault"
