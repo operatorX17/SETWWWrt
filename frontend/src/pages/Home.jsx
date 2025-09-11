@@ -7,15 +7,7 @@ import Footer from '../components/Footer';
 import Rail from '../components/Rail';
 import PSPKCommunityModal from '../components/PSPKCommunityModal';
 import TeaserVideo from '../components/TeaserVideo';
-import NewTeaser from '../components/OG/NewTeaser';
-import ConversionOptimizedHero from '../components/ConversionOptimizedHero';
-import PremiumShowcase from '../components/OG/PremiumShowcase';
-import PosterShowcase from '../components/OG/PosterShowcase';
-import AnimatedUGCStrip from '../components/ConversionElements/AnimatedUGCStrip';
-import VaultSection from '../components/ConversionElements/VaultSection';
-import TrustStrip from '../components/ConversionElements/TrustStrip';
-import Under999Section from '../components/Under999Section';
-import BundleSuggestions from '../components/BundleSuggestions';
+import FloatingNavigation from '../components/FloatingNavigation';
 
 const Home = () => {
   const { 
