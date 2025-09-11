@@ -173,16 +173,14 @@ const Home = () => {
       />
       
       {/* COOL SHIRTS SECTION */}
-      {coolShirts.length > 0 && (
-        <Rail 
-          title="COOL SHIRTS — PREMIUM COLLECTION" 
-          subtitle="Signature shirts for the ultimate fan experience"
-          products={coolShirts}
-          showViewAll={true}
-          viewAllLink="/shop?category=shirts"
-          prioritizeBackImages={true}
-        />
-      )}
+      <Rail 
+        title="COOL SHIRTS — PREMIUM COLLECTION" 
+        subtitle="Signature shirts for the ultimate fan experience"
+        products={coolShirts}
+        showViewAll={true}
+        viewAllLink="/shop?category=shirts"
+        prioritizeBackImages={true}
+      />
 
       {/* COOL T-SHIRTS RAIL - User requested after shirts */}
       {coolTshirts.length > 0 && (
