@@ -21,6 +21,7 @@ import HelpButton from './components/HelpButton';
 
 // Import Pages
 import Home from './pages/Home';
+import HomeMinimal from './pages/HomeMinimal';
 import Shop from './pages/Shop';
 import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
