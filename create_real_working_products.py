@@ -44,12 +44,12 @@ def find_real_images():
                 folder_name = root_path.name.lower()
                 if 'back' in folder_name:
                     image_mapping[category][product_name]['back'].extend([
-                        f"https://smart-store-sync.preview.emergentagent.com/products/{'/'.join(parts)}/{img}"
+                        f"https://imgreveal.preview.emergentagent.com/products/{'/'.join(parts)}/{img}"
                         for img in images
                     ])
                 elif 'front' in folder_name:
                     image_mapping[category][product_name]['front'].extend([
-                        f"https://smart-store-sync.preview.emergentagent.com/products/{'/'.join(parts)}/{img}"
+                        f"https://imgreveal.preview.emergentagent.com/products/{'/'.join(parts)}/{img}"
                         for img in images
                     ])
                 elif folder_name in ['black', 'blue', 'grey', 'red', 'navy', 'white']:
@@ -57,13 +57,13 @@ def find_real_images():
                     if folder_name not in image_mapping[category][product_name]['colors']:
                         image_mapping[category][product_name]['colors'][folder_name] = []
                     image_mapping[category][product_name]['colors'][folder_name].extend([
-                        f"https://smart-store-sync.preview.emergentagent.com/products/{'/'.join(parts)}/{img}"
+                        f"https://imgreveal.preview.emergentagent.com/products/{'/'.join(parts)}/{img}"
                         for img in images
                     ])
                 else:
                     # Direct images in product folder
                     image_mapping[category][product_name]['direct'].extend([
-                        f"https://smart-store-sync.preview.emergentagent.com/products/{'/'.join(parts)}/{img}"
+                        f"https://imgreveal.preview.emergentagent.com/products/{'/'.join(parts)}/{img}"
                         for img in images
                     ])
     

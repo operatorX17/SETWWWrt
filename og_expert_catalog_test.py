@@ -81,7 +81,7 @@ class OGExpertCatalogTester:
         """Test that the new OG Expert Catalog with 45 products loads correctly"""
         try:
             # Test direct access to comprehensive_products.json via frontend URL
-            frontend_url = "https://6621aa8b-ce17-4eac-8923-d8854a0ad122.preview.emergentagent.com"
+            frontend_url = "https://imgreveal.preview.emergentagent.com"
             products_url = f"{frontend_url}/comprehensive_products.json"
             
             response = requests.get(products_url, timeout=10)

@@ -502,7 +502,7 @@ class BackendTester:
         try:
             # Test direct access to comprehensive_products.json via frontend URL
             # Use the external frontend URL for accessing static files
-            frontend_url = "https://6621aa8b-ce17-4eac-8923-d8854a0ad122.preview.emergentagent.com"
+            frontend_url = "https://imgreveal.preview.emergentagent.com"
             products_url = f"{frontend_url}/comprehensive_products.json"
             
             response = requests.get(products_url, timeout=10)
@@ -742,7 +742,7 @@ class BackendTester:
                         # Handle different image URL formats
                         if image_url.startswith('/app/'):
                             # Local file path - convert to frontend URL
-                            frontend_url = os.getenv('REACT_APP_BACKEND_URL', 'http://localhost:3000').replace('/api', '').replace('https://smart-store-sync.preview.emergentagent.com', 'http://localhost:3000')
+                            frontend_url = os.getenv('REACT_APP_BACKEND_URL', 'http://localhost:3000').replace('/api', '').replace('https://imgreveal.preview.emergentagent.com', 'http://localhost:3000')
                             image_url = image_url.replace('/app/frontend/public', frontend_url)
                         
                         response = requests.head(image_url, timeout=5)
@@ -817,7 +817,7 @@ class BackendTester:
                         # Handle different image URL formats
                         if image_url.startswith('/app/'):
                             # Local file path - convert to frontend URL
-                            frontend_url = os.getenv('REACT_APP_BACKEND_URL', 'http://localhost:3000').replace('/api', '').replace('https://smart-store-sync.preview.emergentagent.com', 'http://localhost:3000')
+                            frontend_url = os.getenv('REACT_APP_BACKEND_URL', 'http://localhost:3000').replace('/api', '').replace('https://imgreveal.preview.emergentagent.com', 'http://localhost:3000')
                             image_url = image_url.replace('/app/frontend/public', frontend_url)
                         
                         response = requests.head(image_url, timeout=5)

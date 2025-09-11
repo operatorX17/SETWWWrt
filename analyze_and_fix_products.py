@@ -115,14 +115,14 @@ def analyze_uploaded_assets():
         
         # For each color, create image URLs - BACK IMAGE FIRST ALWAYS
         for color in design["colors"]:
-            back_img = f"https://smart-store-sync.preview.emergentagent.com/products/teeshirt/{design['name']}/{color}/back.jpg"
-            front_img = f"https://smart-store-sync.preview.emergentagent.com/products/teeshirt/{design['name']}/{color}/front.jpg"
+            back_img = f"https://imgreveal.preview.emergentagent.com/products/teeshirt/{design['name']}/{color}/back.jpg"
+            front_img = f"https://imgreveal.preview.emergentagent.com/products/teeshirt/{design['name']}/{color}/front.jpg"
             images.extend([back_img, front_img])
         
         # If no colors specified, use standard structure - BACK FIRST
         if not design["colors"]:
-            back_img = f"https://smart-store-sync.preview.emergentagent.com/products/teeshirt/{design['name']}/back/main.jpg"
-            front_img = f"https://smart-store-sync.preview.emergentagent.com/products/teeshirt/{design['name']}/front/main.jpg"
+            back_img = f"https://imgreveal.preview.emergentagent.com/products/teeshirt/{design['name']}/back/main.jpg"
+            front_img = f"https://imgreveal.preview.emergentagent.com/products/teeshirt/{design['name']}/front/main.jpg"
             images = [back_img, front_img]
         
         # Create badges
@@ -142,7 +142,7 @@ def analyze_uploaded_assets():
             "colors": design["colors"],
             "mood_code": design["mood"],
             "images": images[:7],  # Max 7 images
-            "primaryImage": images[0] if images else f"https://smart-store-sync.preview.emergentagent.com/products/teeshirt/{design['name']}/back/main.jpg",  # ALWAYS BACK IMAGE
+            "primaryImage": images[0] if images else f"https://imgreveal.preview.emergentagent.com/products/teeshirt/{design['name']}/back/main.jpg",  # ALWAYS BACK IMAGE
             "hoverImage": images[1] if len(images) > 1 else images[0],
             "badges": badges,
             "description": f"{design['name']} rebel tee - Available in {len(design['colors'])} colors. Back design prioritized for maximum impact.",
@@ -153,8 +153,8 @@ def analyze_uploaded_assets():
             "colorVariants": [
                 {
                     "color": color,
-                    "backImage": f"https://smart-store-sync.preview.emergentagent.com/products/teeshirt/{design['name']}/{color}/back.jpg",
-                    "frontImage": f"https://smart-store-sync.preview.emergentagent.com/products/teeshirt/{design['name']}/{color}/front.jpg"
+                    "backImage": f"https://imgreveal.preview.emergentagent.com/products/teeshirt/{design['name']}/{color}/back.jpg",
+                    "frontImage": f"https://imgreveal.preview.emergentagent.com/products/teeshirt/{design['name']}/{color}/front.jpg"
                 } for color in design["colors"]
             ]
         }
@@ -172,9 +172,9 @@ def analyze_uploaded_assets():
     
     for hoodie in hoodie_designs:
         # ENSURE BACK IMAGE IS ALWAYS PRIMARY
-        back_image = f"https://smart-store-sync.preview.emergentagent.com/products/hoodies/{hoodie['name'].replace(' ', '_')}/back/main.jpg"
-        front_image = f"https://smart-store-sync.preview.emergentagent.com/products/hoodies/{hoodie['name'].replace(' ', '_')}/front/main.jpg"
-        side_image = f"https://smart-store-sync.preview.emergentagent.com/products/hoodies/{hoodie['name'].replace(' ', '_')}/side/main.jpg"
+        back_image = f"https://imgreveal.preview.emergentagent.com/products/hoodies/{hoodie['name'].replace(' ', '_')}/back/main.jpg"
+        front_image = f"https://imgreveal.preview.emergentagent.com/products/hoodies/{hoodie['name'].replace(' ', '_')}/front/main.jpg"
+        side_image = f"https://imgreveal.preview.emergentagent.com/products/hoodies/{hoodie['name'].replace(' ', '_')}/side/main.jpg"
         
         images = [back_image, front_image, side_image]  # BACK IMAGE FIRST ALWAYS
         
@@ -207,7 +207,7 @@ def analyze_uploaded_assets():
     ]
     
     for poster in poster_designs:
-        poster_image = f"https://smart-store-sync.preview.emergentagent.com/products/posters/{poster['name'].replace(' ', '_')}/main.jpg"
+        poster_image = f"https://imgreveal.preview.emergentagent.com/products/posters/{poster['name'].replace(' ', '_')}/main.jpg"
         
         products.append({
             "id": product_id,

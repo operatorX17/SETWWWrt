@@ -36,7 +36,7 @@ def scan_all_products():
                         # Get images from color folder
                         color_images = list(item.glob("*.jpg")) + list(item.glob("*.jpeg")) + list(item.glob("*.png"))
                         for img in color_images:
-                            images.append(f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
+                            images.append(f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
                 
                 # Check for front/back folders
                 front_dir = design_folder / "front"
@@ -45,17 +45,17 @@ def scan_all_products():
                 if back_dir.exists():
                     back_images = list(back_dir.glob("*.jpg")) + list(back_dir.glob("*.jpeg"))
                     for img in back_images:
-                        images.insert(0, f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")  # Insert at beginning for priority
+                        images.insert(0, f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")  # Insert at beginning for priority
                 
                 if front_dir.exists():
                     front_images = list(front_dir.glob("*.jpg")) + list(front_dir.glob("*.jpeg"))
                     for img in front_images:
-                        images.append(f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
+                        images.append(f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
                 
                 # Direct images in design folder
                 direct_images = [f for f in design_folder.iterdir() if f.suffix.lower() in ['.jpg', '.jpeg', '.png']]
                 for img in direct_images:
-                    images.append(f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
+                    images.append(f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
                 
                 if images:  # Only create if we have images
                     price = 999 if 'minimal' in design_folder.name.lower() else 1199
@@ -116,19 +116,19 @@ def scan_all_products():
                 for back_dir in back_dirs:
                     back_images = list(back_dir.glob("*.jpg")) + list(back_dir.glob("*.jpeg"))
                     for img in back_images:
-                        images.append(f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
+                        images.append(f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
                 
                 # Front images
                 front_dirs = [d for d in hoodie_folder.iterdir() if d.is_dir() and 'front' in d.name.lower()]
                 for front_dir in front_dirs:
                     front_images = list(front_dir.glob("*.jpg")) + list(front_dir.glob("*.jpeg"))
                     for img in front_images:
-                        images.append(f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
+                        images.append(f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
                 
                 # Direct images
                 direct_images = [f for f in hoodie_folder.iterdir() if f.suffix.lower() in ['.jpg', '.jpeg', '.png']]
                 for img in direct_images:
-                    images.append(f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
+                    images.append(f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
                 
                 if images:
                     # Price based on product number
@@ -180,7 +180,7 @@ def scan_all_products():
             if poster_folder.is_dir():
                 poster_images = list(poster_folder.glob("*.jpg")) + list(poster_folder.glob("*.jpeg")) + list(poster_folder.glob("*.png"))
                 if poster_images:
-                    images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in poster_images]
+                    images = [f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in poster_images]
                     
                     product = {
                         "id": product_id,
@@ -228,7 +228,7 @@ def scan_all_products():
                 if front_dir.exists():
                     front_images = list(front_dir.glob("*.jpg")) + list(front_dir.glob("*.jpeg"))
                     for img in front_images:
-                        images.append(f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
+                        images.append(f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
                 
                 if images:
                     product = {
@@ -278,7 +278,7 @@ def scan_all_products():
                     if subfolder.is_dir():
                         sub_images = list(subfolder.glob("*.jpg")) + list(subfolder.glob("*.jpeg"))
                         for img in sub_images:
-                            images.append(f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
+                            images.append(f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
                 
                 if images:
                     product = {
@@ -336,14 +336,14 @@ def scan_all_products():
                             sub_images = list(subfolder.glob("*.jpg")) + list(subfolder.glob("*.jpeg"))
                             for img in sub_images:
                                 if 'back' in subfolder.name.lower():
-                                    images.insert(0, f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
+                                    images.insert(0, f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
                                 else:
-                                    images.append(f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
+                                    images.append(f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
                     
                     # Direct images
                     direct_images = [f for f in item_folder.iterdir() if f.suffix.lower() in ['.jpg', '.jpeg', '.png']]
                     for img in direct_images:
-                        images.append(f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
+                        images.append(f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}")
                     
                     if images:
                         product = {
@@ -385,7 +385,7 @@ def scan_all_products():
         print(f"📁 Scanning headbands...")
         headband_images = list(headband_dir.glob("*.jpg")) + list(headband_dir.glob("*.jpeg")) + list(headband_dir.glob("*.png"))
         if headband_images:
-            images = [f"https://smart-store-sync.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in headband_images]
+            images = [f"https://imgreveal.preview.emergentagent.com/products/{img.relative_to(products_dir)}" for img in headband_images]
             
             product = {
                 "id": product_id,

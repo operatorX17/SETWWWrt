@@ -19,9 +19,9 @@ def create_simple_products():
             "colors": ["Blue", "Black", "Grey"],
             "price": 999,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/Blue/WhatsApp%20Image%202025-08-31%20at%2010.49.04%20AM.jpeg",
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/black/WhatsApp%20Image%202025-08-31%20at%2010.49.03%20AM%20(1).jpeg",
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/grey/WhatsApp%20Image%202025-08-31%20at%2010.49.03%20AM%20(2).jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/Blue/WhatsApp%20Image%202025-08-31%20at%2010.49.04%20AM.jpeg",
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/black/WhatsApp%20Image%202025-08-31%20at%2010.49.03%20AM%20(1).jpeg",
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Ocean%20Waves/grey/WhatsApp%20Image%202025-08-31%20at%2010.49.03%20AM%20(2).jpeg"
             ]
         },
         {
@@ -29,9 +29,9 @@ def create_simple_products():
             "colors": ["Black", "Blue"],
             "price": 1199,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Abstract%20Geometry/black/WhatsApp%20Image%202025-08-31%20at%208.59.07%20AM.jpeg",
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Abstract%20Geometry/black/WhatsApp%20Image%202025-08-31%20at%2010.49.01%20AM%20(1).jpeg",
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Abstract%20Geometry/blue/WhatsApp%20Image%202025-08-31%20at%2010.49.02%20AM.jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Abstract%20Geometry/black/WhatsApp%20Image%202025-08-31%20at%208.59.07%20AM.jpeg",
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Abstract%20Geometry/black/WhatsApp%20Image%202025-08-31%20at%2010.49.01%20AM%20(1).jpeg",
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Abstract%20Geometry/blue/WhatsApp%20Image%202025-08-31%20at%2010.49.02%20AM.jpeg"
             ]
         },
         {
@@ -39,8 +39,8 @@ def create_simple_products():
             "colors": [],
             "price": 1199,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/City%20Skyline/back/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(2).jpeg",
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/City%20Skyline/front/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM.jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/City%20Skyline/back/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(2).jpeg",
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/City%20Skyline/front/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM.jpeg"
             ]
         },
         {
@@ -48,7 +48,7 @@ def create_simple_products():
             "colors": [],
             "price": 1299,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Vintage%20Typography/front/WhatsApp%20Image%202025-08-31%20at%209.09.12%20AM.jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Vintage%20Typography/front/WhatsApp%20Image%202025-08-31%20at%209.09.12%20AM.jpeg"
             ]
         },
         {
@@ -56,7 +56,7 @@ def create_simple_products():
             "colors": [],
             "price": 1199,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Mountain%20Adventure/back/WhatsApp%20Image%202025-08-31%20at%209.18.35%20AM.jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Mountain%20Adventure/back/WhatsApp%20Image%202025-08-31%20at%209.18.35%20AM.jpeg"
             ]
         },
         {
@@ -64,7 +64,7 @@ def create_simple_products():
             "colors": [],
             "price": 1299,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Music%20Festival%20Vibes/back/WhatsApp%20Image%202025-08-31%20at%208.59.06%20AM%20(1).jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Music%20Festival%20Vibes/back/WhatsApp%20Image%202025-08-31%20at%208.59.06%20AM%20(1).jpeg"
             ]
         },
         {
@@ -72,7 +72,7 @@ def create_simple_products():
             "colors": [],
             "price": 1399,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Space%20Exploration/front/WhatsApp%20Image%202025-08-31%20at%208.59.04%20AM.jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Space%20Exploration/front/WhatsApp%20Image%202025-08-31%20at%208.59.04%20AM.jpeg"
             ]
         },
         {
@@ -80,8 +80,8 @@ def create_simple_products():
             "colors": [],
             "price": 1199,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Tropical%20Paradise/back/WhatsApp%20Image%202025-08-31%20at%208.59.40%20AM.jpeg",
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Tropical%20Paradise/front/WhatsApp%20Image%202025-08-31%20at%208.59.19%20AM.jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Tropical%20Paradise/back/WhatsApp%20Image%202025-08-31%20at%208.59.40%20AM.jpeg",
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Tropical%20Paradise/front/WhatsApp%20Image%202025-08-31%20at%208.59.19%20AM.jpeg"
             ]
         },
         {
@@ -89,7 +89,7 @@ def create_simple_products():
             "colors": [],
             "price": 1199,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Nature%20Photography/front/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(1).jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Nature%20Photography/front/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(1).jpeg"
             ]
         },
         {
@@ -97,7 +97,7 @@ def create_simple_products():
             "colors": [],
             "price": 899,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/teeshirt/Minimalist%20Design/back/WhatsApp%20Image%202025-08-31%20at%208.59.07%20AM%20(1).jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/teeshirt/Minimalist%20Design/back/WhatsApp%20Image%202025-08-31%20at%208.59.07%20AM%20(1).jpeg"
             ]
         }
     ]
@@ -150,52 +150,52 @@ def create_simple_products():
             "name": "Rebel Cap Elite",
             "price": 799,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/hats/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM%20(2).jpeg",
-                "https://smart-store-sync.preview.emergentagent.com/products/hats/product1/front/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM.jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/hats/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM%20(2).jpeg",
+                "https://imgreveal.preview.emergentagent.com/products/hats/product1/front/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM.jpeg"
             ]
         },
         {
             "name": "Rebel Cap Pro",
             "price": 799,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/hats/product2/back/WhatsApp%20Image%202025-08-31%20at%208.59.03%20AM.jpeg",
-                "https://smart-store-sync.preview.emergentagent.com/products/hats/product2/front/WhatsApp%20Image%202025-08-31%20at%208.55.50%20AM%20(1).jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/hats/product2/back/WhatsApp%20Image%202025-08-31%20at%208.59.03%20AM.jpeg",
+                "https://imgreveal.preview.emergentagent.com/products/hats/product2/front/WhatsApp%20Image%202025-08-31%20at%208.55.50%20AM%20(1).jpeg"
             ]
         },
         {
             "name": "Warrior Slides Elite",
             "price": 699,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/slippers/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.47%20AM%20(2).jpeg",
-                "https://smart-store-sync.preview.emergentagent.com/products/slippers/product1/front/WhatsApp%20Image%202025-08-31%20at%208.55.46%20AM%20(1).jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/slippers/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.47%20AM%20(2).jpeg",
+                "https://imgreveal.preview.emergentagent.com/products/slippers/product1/front/WhatsApp%20Image%202025-08-31%20at%208.55.46%20AM%20(1).jpeg"
             ]
         },
         {
             "name": "Warrior Slides Pro",
             "price": 699,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/slippers/product2/front/WhatsApp%20Image%202025-08-31%20at%208.55.46%20AM.jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/slippers/product2/front/WhatsApp%20Image%202025-08-31%20at%208.55.46%20AM.jpeg"
             ]
         },
         {
             "name": "Battle Wallet Elite",
             "price": 899,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/wallet/product1/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM.jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/wallet/product1/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM.jpeg"
             ]
         },
         {
             "name": "Battle Wallet Pro",
             "price": 899,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/wallet/product2/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(1).jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/wallet/product2/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(1).jpeg"
             ]
         },
         {
             "name": "Rebel Headband",
             "price": 399,
             "images": [
-                "https://smart-store-sync.preview.emergentagent.com/products/HeadBand/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(2).jpeg"
+                "https://imgreveal.preview.emergentagent.com/products/HeadBand/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(2).jpeg"
             ]
         }
     ]
