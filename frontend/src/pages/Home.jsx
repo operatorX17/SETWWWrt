@@ -70,8 +70,8 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-[var(--color-bg)]">
-      {/* Teaser Video Section */}
-      <TeaserVideo />
+      {/* Teaser Video Section - DISABLED FOR DEBUGGING */}
+      {/* <TeaserVideo /> */}
       
       <Header />
       
