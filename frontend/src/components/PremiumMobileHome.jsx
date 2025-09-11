@@ -80,9 +80,9 @@ const PremiumMobileHome = () => {
         </div>
         
         <div className="grid grid-cols-2 gap-4">
-          {under999Products.slice(0, 4).map((product) => (
+          {under999Products.slice(0, 4).map((product, index) => (
             <PremiumProductCard 
-              key={product.id} 
+              key={product.id || product.handle || index} 
               product={product} 
               priority={true}
             />
@@ -104,9 +104,9 @@ const PremiumMobileHome = () => {
         </div>
         
         <div className="grid grid-cols-2 gap-4">
-          {featuredProducts.slice(0, 4).map((product) => (
+          {featuredProducts.slice(0, 4).map((product, index) => (
             <PremiumProductCard 
-              key={product.id} 
+              key={product.id || product.handle || index} 
               product={product} 
             />
           ))}
@@ -127,9 +127,9 @@ const PremiumMobileHome = () => {
           </div>
           
           <div className="grid grid-cols-2 gap-4">
-            {vaultProducts.slice(0, 4).map((product) => (
+            {vaultProducts.slice(0, 4).map((product, index) => (
               <PremiumProductCard 
-                key={product.id} 
+                key={product.id || product.handle || index} 
                 product={product} 
               />
             ))}

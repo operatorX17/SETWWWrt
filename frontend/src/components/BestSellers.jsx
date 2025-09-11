@@ -6,7 +6,7 @@ import ProductCard from './ProductCard';
 
 const BestSellers = () => {
   const navigate = useNavigate();
-  const bestSellers = mockProducts.filter(product => product.badges.includes('BEST SELLER'));
+  const bestSellers = mockProducts.filter(product => product.badges?.includes('BEST SELLER'));
 
   return (
     <div className="bg-black text-white py-20 px-6">

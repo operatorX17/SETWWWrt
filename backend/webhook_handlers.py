@@ -11,6 +11,12 @@ import hmac
 import base64
 import os
 from typing import Optional
+from datetime import datetime
+import logging
+from shopify_service import shopify_service
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
@@ -18,21 +24,8 @@ router = APIRouter()
 WEBHOOK_SECRET = os.getenv('SHOPIFY_WEBHOOK_SECRET', 'your_webhook_secret_here')
 
 def verify_webhook(data: bytes, signature: str) -> bool:
-    """Verify Shopify webhook signature"""
-    if not signature:
-        return False
-    
-    try:
-        digest = hmac.new(
-            WEBHOOK_SECRET.encode('utf-8'),
-            data,
-            digestmod=hashlib.sha256
-        ).digest()
-        
-        computed_signature = base64.b64encode(digest).decode()
-        return hmac.compare_digest(computed_signature, signature)
-    except Exception:
-        return False
+    """Verify Shopify webhook signature using service"""
+    return shopify_service.verify_webhook(data, signature)
 
 @router.post("/webhooks/products/create")
 async def handle_product_create(
@@ -46,26 +39,32 @@ async def handle_product_create(
         # Verify webhook (skip in development)
         if WEBHOOK_SECRET != 'your_webhook_secret_here':
             if not verify_webhook(body, x_shopify_hmac_sha256):
+                logger.warning("Invalid webhook signature")
                 raise HTTPException(status_code=401, detail="Invalid webhook signature")
         
         product_data = json.loads(body)
+        
+        # Store product in MongoDB via service
+        shopify_service.products_collection.update_one(
+            {'shopify_id': product_data['id']},
+            {'$set': {
+                **product_data,
+                'webhook_received_at': datetime.utcnow(),
+                'sync_status': 'webhook_created'
+            }},
+            upsert=True
+        )
         
         # Process new product
         product_id = product_data.get('id')
         title = product_data.get('title')
         
-        print(f"🆕 New product created: {title} (ID: {product_id})")
-        
-        # Here you can:
-        # 1. Update your local product cache
-        # 2. Trigger product sync
-        # 3. Send notifications
-        # 4. Update MongoDB
+        logger.info(f"Product created via webhook: {title} (ID: {product_id})")
         
         return {"status": "success", "message": f"Product {title} processed"}
         
     except Exception as e:
-        print(f"❌ Error processing product create webhook: {str(e)}")
+        logger.error(f"Product creation webhook failed: {str(e)}")
         return {"status": "error", "message": str(e)}
 
 @router.post("/webhooks/products/update")
@@ -76,17 +75,34 @@ async def handle_product_update(
     """Handle product update webhook"""
     try:
         body = await request.body()
+        
+        # Verify webhook (skip in development)
+        if WEBHOOK_SECRET != 'your_webhook_secret_here':
+            if not verify_webhook(body, x_shopify_hmac_sha256):
+                logger.warning("Invalid webhook signature")
+                raise HTTPException(status_code=401, detail="Invalid webhook signature")
+        
         product_data = json.loads(body)
+        
+        # Update product in MongoDB via service
+        shopify_service.products_collection.update_one(
+            {'shopify_id': product_data['id']},
+            {'$set': {
+                **product_data,
+                'webhook_received_at': datetime.utcnow(),
+                'sync_status': 'webhook_updated'
+            }}
+        )
         
         product_id = product_data.get('id')
         title = product_data.get('title')
         
-        print(f"🔄 Product updated: {title} (ID: {product_id})")
+        logger.info(f"Product updated via webhook: {title} (ID: {product_id})")
         
         return {"status": "success", "message": f"Product {title} updated"}
         
     except Exception as e:
-        print(f"❌ Error processing product update webhook: {str(e)}")
+        logger.error(f"Product update webhook failed: {str(e)}")
         return {"status": "error", "message": str(e)}
 
 @router.post("/webhooks/products/delete")
@@ -97,17 +113,34 @@ async def handle_product_delete(
     """Handle product deletion webhook"""
     try:
         body = await request.body()
+        
+        # Verify webhook (skip in development)
+        if WEBHOOK_SECRET != 'your_webhook_secret_here':
+            if not verify_webhook(body, x_shopify_hmac_sha256):
+                logger.warning("Invalid webhook signature")
+                raise HTTPException(status_code=401, detail="Invalid webhook signature")
+        
         product_data = json.loads(body)
+        
+        # Mark product as deleted in MongoDB
+        shopify_service.products_collection.update_one(
+            {'shopify_id': product_data['id']},
+            {'$set': {
+                'deleted_at': datetime.utcnow(),
+                'webhook_received_at': datetime.utcnow(),
+                'sync_status': 'webhook_deleted'
+            }}
+        )
         
         product_id = product_data.get('id')
         title = product_data.get('title')
         
-        print(f"🗑️ Product deleted: {title} (ID: {product_id})")
+        logger.info(f"Product deleted via webhook: {title} (ID: {product_id})")
         
         return {"status": "success", "message": f"Product {title} deleted"}
         
     except Exception as e:
-        print(f"❌ Error processing product delete webhook: {str(e)}")
+        logger.error(f"Product deletion webhook failed: {str(e)}")
         return {"status": "error", "message": str(e)}
 
 @router.post("/webhooks/orders/create")

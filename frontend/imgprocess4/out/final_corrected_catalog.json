@@ -1,0 +1,1410 @@
+[
+  {
+    "title": "Product 1 Full Shirt",
+    "handle": "product-1-full-shirt",
+    "category": "full shirts",
+    "product_type": "full shirts",
+    "tags": [
+      "shirt",
+      "formal",
+      "cotton",
+      "long-sleeve"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\full shirts\\product1\\front\\WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-1-full-shirt-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 1 Full Shirt",
+    "seo_description": "High-quality full shirts - Product 1 Full Shirt. Premium design and comfort.",
+    "meta_description": "Shop Product 1 Full Shirt - Premium full shirts with unique design."
+  },
+  {
+    "title": "Product 2 Full Shirt",
+    "handle": "product-2-full-shirt",
+    "category": "full shirts",
+    "product_type": "full shirts",
+    "tags": [
+      "shirt",
+      "formal",
+      "cotton",
+      "long-sleeve"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\full shirts\\product2\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-2-full-shirt-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 2 Full Shirt",
+    "seo_description": "High-quality full shirts - Product 2 Full Shirt. Premium design and comfort.",
+    "meta_description": "Shop Product 2 Full Shirt - Premium full shirts with unique design."
+  },
+  {
+    "title": "Product 3 Full Shirt",
+    "handle": "product-3-full-shirt",
+    "category": "full shirts",
+    "product_type": "full shirts",
+    "tags": [
+      "shirt",
+      "formal",
+      "cotton",
+      "long-sleeve"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\full shirts\\product3\\front\\WhatsApp Image 2025-08-31 at 9.09.11 AM.jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-3-full-shirt-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 3 Full Shirt",
+    "seo_description": "High-quality full shirts - Product 3 Full Shirt. Premium design and comfort.",
+    "meta_description": "Shop Product 3 Full Shirt - Premium full shirts with unique design."
+  },
+  {
+    "title": "Product 1 Hat",
+    "handle": "product-1-hat",
+    "category": "hats",
+    "product_type": "hats",
+    "tags": [
+      "hat",
+      "cap",
+      "headwear",
+      "accessory"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hats\\product1\\front\\WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hats\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-1-hat-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 1 Hat",
+    "seo_description": "High-quality hats - Product 1 Hat. Premium design and comfort.",
+    "meta_description": "Shop Product 1 Hat - Premium hats with unique design."
+  },
+  {
+    "title": "Product 2 Hat",
+    "handle": "product-2-hat",
+    "category": "hats",
+    "product_type": "hats",
+    "tags": [
+      "hat",
+      "cap",
+      "headwear",
+      "accessory"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hats\\product2\\front\\WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hats\\product2\\back\\WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-2-hat-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 2 Hat",
+    "seo_description": "High-quality hats - Product 2 Hat. Premium design and comfort.",
+    "meta_description": "Shop Product 2 Hat - Premium hats with unique design."
+  },
+  {
+    "title": "Product 1 Hoodie",
+    "handle": "product-1-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product1\\front\\WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product1\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-1-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 1 Hoodie",
+    "seo_description": "High-quality hoodies - Product 1 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 1 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 10 Hoodie",
+    "handle": "product-10-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product10\\front\\WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product10\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-10-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 10 Hoodie",
+    "seo_description": "High-quality hoodies - Product 10 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 10 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product13 Hoodie",
+    "handle": "product13-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\Product13\\front\\WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\Product13\\back\\WhatsApp Image 2025-08-31 at 9.06.44 AM.jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product13-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product13 Hoodie",
+    "seo_description": "High-quality hoodies - Product13 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product13 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 14 Hoodie",
+    "handle": "product-14-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product14\\front\\WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-14-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 14 Hoodie",
+    "seo_description": "High-quality hoodies - Product 14 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 14 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 15 Hoodie",
+    "handle": "product-15-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product15\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-15-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 15 Hoodie",
+    "seo_description": "High-quality hoodies - Product 15 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 15 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 16 Hoodie",
+    "handle": "product-16-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product16\\front\\WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product16\\back\\WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-16-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 16 Hoodie",
+    "seo_description": "High-quality hoodies - Product 16 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 16 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 17 Hoodie",
+    "handle": "product-17-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product17\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-17-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 17 Hoodie",
+    "seo_description": "High-quality hoodies - Product 17 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 17 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 18 Hoodie",
+    "handle": "product-18-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product18\\front\\WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product18\\back\\WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-18-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 18 Hoodie",
+    "seo_description": "High-quality hoodies - Product 18 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 18 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 19 Hoodie",
+    "handle": "product-19-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product19\\front\\WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product19\\back\\WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-19-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 19 Hoodie",
+    "seo_description": "High-quality hoodies - Product 19 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 19 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 2 Hoodie",
+    "handle": "product-2-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product2\\front\\WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product2\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-2-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 2 Hoodie",
+    "seo_description": "High-quality hoodies - Product 2 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 2 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 3 Hoodie",
+    "handle": "product-3-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product3\\front\\WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product3\\back\\WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-3-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 3 Hoodie",
+    "seo_description": "High-quality hoodies - Product 3 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 3 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 4 Hoodie",
+    "handle": "product-4-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product4\\front\\WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product4\\back\\WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-4-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 4 Hoodie",
+    "seo_description": "High-quality hoodies - Product 4 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 4 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 5 Hoodie",
+    "handle": "product-5-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product5\\front\\WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product5\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-5-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 5 Hoodie",
+    "seo_description": "High-quality hoodies - Product 5 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 5 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 6 Hoodie",
+    "handle": "product-6-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product6\\front\\WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product6\\back\\WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-6-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 6 Hoodie",
+    "seo_description": "High-quality hoodies - Product 6 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 6 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 7 Hoodie",
+    "handle": "product-7-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product7\\front\\WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product7\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-7-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 7 Hoodie",
+    "seo_description": "High-quality hoodies - Product 7 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 7 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 8 Hoodie",
+    "handle": "product-8-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product8\\front\\WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product8\\back\\WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-8-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 8 Hoodie",
+    "seo_description": "High-quality hoodies - Product 8 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 8 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 9 Hoodie",
+    "handle": "product-9-hoodie",
+    "category": "hoodies",
+    "product_type": "hoodies",
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "warm",
+      "casual"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product9\\front\\WhatsApp Image 2025-08-31 at 9.18.36 AM.jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\hoodies\\product9\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-9-hoodie-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 9 Hoodie",
+    "seo_description": "High-quality hoodies - Product 9 Hoodie. Premium design and comfort.",
+    "meta_description": "Shop Product 9 Hoodie - Premium hoodies with unique design."
+  },
+  {
+    "title": "Product 1 Poster",
+    "handle": "product-1-poster",
+    "category": "posters",
+    "product_type": "posters",
+    "tags": [
+      "poster",
+      "wall-art",
+      "print",
+      "decor"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\posters\\product1\\WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-1-poster-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 1 Poster",
+    "seo_description": "High-quality posters - Product 1 Poster. Premium design and comfort.",
+    "meta_description": "Shop Product 1 Poster - Premium posters with unique design."
+  },
+  {
+    "title": "Product 10 Poster",
+    "handle": "product-10-poster",
+    "category": "posters",
+    "product_type": "posters",
+    "tags": [
+      "poster",
+      "wall-art",
+      "print",
+      "decor"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\posters\\product10\\WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-10-poster-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 10 Poster",
+    "seo_description": "High-quality posters - Product 10 Poster. Premium design and comfort.",
+    "meta_description": "Shop Product 10 Poster - Premium posters with unique design."
+  },
+  {
+    "title": "Product 2 Poster",
+    "handle": "product-2-poster",
+    "category": "posters",
+    "product_type": "posters",
+    "tags": [
+      "poster",
+      "wall-art",
+      "print",
+      "decor"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\posters\\product2\\WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-2-poster-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 2 Poster",
+    "seo_description": "High-quality posters - Product 2 Poster. Premium design and comfort.",
+    "meta_description": "Shop Product 2 Poster - Premium posters with unique design."
+  },
+  {
+    "title": "Product 3 Poster",
+    "handle": "product-3-poster",
+    "category": "posters",
+    "product_type": "posters",
+    "tags": [
+      "poster",
+      "wall-art",
+      "print",
+      "decor"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\posters\\product3\\WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-3-poster-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 3 Poster",
+    "seo_description": "High-quality posters - Product 3 Poster. Premium design and comfort.",
+    "meta_description": "Shop Product 3 Poster - Premium posters with unique design."
+  },
+  {
+    "title": "Product 4 Poster",
+    "handle": "product-4-poster",
+    "category": "posters",
+    "product_type": "posters",
+    "tags": [
+      "poster",
+      "wall-art",
+      "print",
+      "decor"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\posters\\product4\\WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-4-poster-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 4 Poster",
+    "seo_description": "High-quality posters - Product 4 Poster. Premium design and comfort.",
+    "meta_description": "Shop Product 4 Poster - Premium posters with unique design."
+  },
+  {
+    "title": "Product 5 Poster",
+    "handle": "product-5-poster",
+    "category": "posters",
+    "product_type": "posters",
+    "tags": [
+      "poster",
+      "wall-art",
+      "print",
+      "decor"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\posters\\product5\\WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-5-poster-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 5 Poster",
+    "seo_description": "High-quality posters - Product 5 Poster. Premium design and comfort.",
+    "meta_description": "Shop Product 5 Poster - Premium posters with unique design."
+  },
+  {
+    "title": "Product 6 Poster",
+    "handle": "product-6-poster",
+    "category": "posters",
+    "product_type": "posters",
+    "tags": [
+      "poster",
+      "wall-art",
+      "print",
+      "decor"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\posters\\product6\\WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-6-poster-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 6 Poster",
+    "seo_description": "High-quality posters - Product 6 Poster. Premium design and comfort.",
+    "meta_description": "Shop Product 6 Poster - Premium posters with unique design."
+  },
+  {
+    "title": "Product 7 Poster",
+    "handle": "product-7-poster",
+    "category": "posters",
+    "product_type": "posters",
+    "tags": [
+      "poster",
+      "wall-art",
+      "print",
+      "decor"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\posters\\product7\\WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-7-poster-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 7 Poster",
+    "seo_description": "High-quality posters - Product 7 Poster. Premium design and comfort.",
+    "meta_description": "Shop Product 7 Poster - Premium posters with unique design."
+  },
+  {
+    "title": "Product 8 Poster",
+    "handle": "product-8-poster",
+    "category": "posters",
+    "product_type": "posters",
+    "tags": [
+      "poster",
+      "wall-art",
+      "print",
+      "decor"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\posters\\product8\\WhatsApp Image 2025-08-31 at 9.24.20 AM (1).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-8-poster-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 8 Poster",
+    "seo_description": "High-quality posters - Product 8 Poster. Premium design and comfort.",
+    "meta_description": "Shop Product 8 Poster - Premium posters with unique design."
+  },
+  {
+    "title": "Product 9 Poster",
+    "handle": "product-9-poster",
+    "category": "posters",
+    "product_type": "posters",
+    "tags": [
+      "poster",
+      "wall-art",
+      "print",
+      "decor"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\posters\\product9\\WhatsApp Image 2025-08-31 at 9.24.21 AM.jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-9-poster-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 9 Poster",
+    "seo_description": "High-quality posters - Product 9 Poster. Premium design and comfort.",
+    "meta_description": "Shop Product 9 Poster - Premium posters with unique design."
+  },
+  {
+    "title": "Product 1 Slippers",
+    "handle": "product-1-slippers",
+    "category": "slippers",
+    "product_type": "slippers",
+    "tags": [
+      "slippers",
+      "footwear",
+      "comfort",
+      "home"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\slippers\\product1\\front\\WhatsApp Image 2025-08-31 at 8.55.46 AM (1).jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\slippers\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.47 AM (2).jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-1-slippers-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 1 Slippers",
+    "seo_description": "High-quality slippers - Product 1 Slippers. Premium design and comfort.",
+    "meta_description": "Shop Product 1 Slippers - Premium slippers with unique design."
+  },
+  {
+    "title": "Product 2 Slippers",
+    "handle": "product-2-slippers",
+    "category": "slippers",
+    "product_type": "slippers",
+    "tags": [
+      "slippers",
+      "footwear",
+      "comfort",
+      "home"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\slippers\\product2\\front\\WhatsApp Image 2025-08-31 at 8.55.46 AM.jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-2-slippers-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 2 Slippers",
+    "seo_description": "High-quality slippers - Product 2 Slippers. Premium design and comfort.",
+    "meta_description": "Shop Product 2 Slippers - Premium slippers with unique design."
+  },
+  {
+    "title": "Product 1 Sweatshirt",
+    "handle": "product-1-sweatshirt",
+    "category": "Sweatshirts",
+    "product_type": "Sweatshirts",
+    "tags": [
+      "sweatshirt",
+      "casual",
+      "warm",
+      "cotton"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\Sweatshirts\\product1\\front\\WhatsApp Image 2025-08-31 at 9.00.54 AM.jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-1-sweatshirt-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 1 Sweatshirt",
+    "seo_description": "High-quality Sweatshirts - Product 1 Sweatshirt. Premium design and comfort.",
+    "meta_description": "Shop Product 1 Sweatshirt - Premium Sweatshirts with unique design."
+  },
+  {
+    "title": "Product 4 Sweatshirt",
+    "handle": "product-4-sweatshirt",
+    "category": "Sweatshirts",
+    "product_type": "Sweatshirts",
+    "tags": [
+      "sweatshirt",
+      "casual",
+      "warm",
+      "cotton"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\Sweatshirts\\product4\\front\\WhatsApp Image 2025-08-31 at 9.01.36 AM.jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-4-sweatshirt-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 4 Sweatshirt",
+    "seo_description": "High-quality Sweatshirts - Product 4 Sweatshirt. Premium design and comfort.",
+    "meta_description": "Shop Product 4 Sweatshirt - Premium Sweatshirts with unique design."
+  },
+  {
+    "title": "City Skyline T-Shirt",
+    "handle": "city-skyline-t-shirt",
+    "category": "teeshirt",
+    "product_type": "teeshirt",
+    "tags": [
+      "t-shirt",
+      "tee",
+      "casual",
+      "cotton"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\teeshirt\\City Skyline\\front\\WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\teeshirt\\City Skyline\\back\\WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "city-skyline-t-shirt-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "City Skyline T-Shirt",
+    "seo_description": "High-quality teeshirt - City Skyline T-Shirt. Premium design and comfort.",
+    "meta_description": "Shop City Skyline T-Shirt - Premium teeshirt with unique design."
+  },
+  {
+    "title": "Nature Photography T-Shirt",
+    "handle": "nature-photography-t-shirt",
+    "category": "teeshirt",
+    "product_type": "teeshirt",
+    "tags": [
+      "t-shirt",
+      "tee",
+      "casual",
+      "cotton"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\teeshirt\\Nature Photography\\front\\WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "nature-photography-t-shirt-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Nature Photography T-Shirt",
+    "seo_description": "High-quality teeshirt - Nature Photography T-Shirt. Premium design and comfort.",
+    "meta_description": "Shop Nature Photography T-Shirt - Premium teeshirt with unique design."
+  },
+  {
+    "title": "Neon Lights T-Shirt",
+    "handle": "neon-lights-t-shirt",
+    "category": "teeshirt",
+    "product_type": "teeshirt",
+    "tags": [
+      "t-shirt",
+      "tee",
+      "casual",
+      "cotton"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\teeshirt\\Neon Lights\\front\\WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "neon-lights-t-shirt-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Neon Lights T-Shirt",
+    "seo_description": "High-quality teeshirt - Neon Lights T-Shirt. Premium design and comfort.",
+    "meta_description": "Shop Neon Lights T-Shirt - Premium teeshirt with unique design."
+  },
+  {
+    "title": "Space Exploration T-Shirt",
+    "handle": "space-exploration-t-shirt",
+    "category": "teeshirt",
+    "product_type": "teeshirt",
+    "tags": [
+      "t-shirt",
+      "tee",
+      "casual",
+      "cotton"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\teeshirt\\Space Exploration\\front\\WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "space-exploration-t-shirt-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Space Exploration T-Shirt",
+    "seo_description": "High-quality teeshirt - Space Exploration T-Shirt. Premium design and comfort.",
+    "meta_description": "Shop Space Exploration T-Shirt - Premium teeshirt with unique design."
+  },
+  {
+    "title": "Tropical Paradise T-Shirt",
+    "handle": "tropical-paradise-t-shirt",
+    "category": "teeshirt",
+    "product_type": "teeshirt",
+    "tags": [
+      "t-shirt",
+      "tee",
+      "casual",
+      "cotton"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\teeshirt\\Tropical Paradise\\front\\WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg",
+      "back": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\teeshirt\\Tropical Paradise\\back\\WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg"
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "tropical-paradise-t-shirt-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Tropical Paradise T-Shirt",
+    "seo_description": "High-quality teeshirt - Tropical Paradise T-Shirt. Premium design and comfort.",
+    "meta_description": "Shop Tropical Paradise T-Shirt - Premium teeshirt with unique design."
+  },
+  {
+    "title": "Vintage Typography T-Shirt",
+    "handle": "vintage-typography-t-shirt",
+    "category": "teeshirt",
+    "product_type": "teeshirt",
+    "tags": [
+      "t-shirt",
+      "tee",
+      "casual",
+      "cotton"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\teeshirt\\Vintage Typography\\front\\WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "vintage-typography-t-shirt-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Vintage Typography T-Shirt",
+    "seo_description": "High-quality teeshirt - Vintage Typography T-Shirt. Premium design and comfort.",
+    "meta_description": "Shop Vintage Typography T-Shirt - Premium teeshirt with unique design."
+  },
+  {
+    "title": "Product 1 Wallet",
+    "handle": "product-1-wallet",
+    "category": "wallet",
+    "product_type": "wallet",
+    "tags": [
+      "wallet",
+      "accessory",
+      "leather",
+      "money"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\wallet\\product1\\WhatsApp Image 2025-08-31 at 8.55.48 AM.jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-1-wallet-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 1 Wallet",
+    "seo_description": "High-quality wallet - Product 1 Wallet. Premium design and comfort.",
+    "meta_description": "Shop Product 1 Wallet - Premium wallet with unique design."
+  },
+  {
+    "title": "Product 2 Wallet",
+    "handle": "product-2-wallet",
+    "category": "wallet",
+    "product_type": "wallet",
+    "tags": [
+      "wallet",
+      "accessory",
+      "leather",
+      "money"
+    ],
+    "vendor": "OG Brand",
+    "status": "active",
+    "published": true,
+    "images": {
+      "front": "c:\\Users\\KARTHIK GOWDA M P\\Downloads\\imgprocess4\\PRODUCTS\\wallet\\product2\\WhatsApp Image 2025-08-31 at 8.55.49 AM (1).jpeg",
+      "back": null
+    },
+    "variants": [
+      {
+        "title": "Default",
+        "price": "999.00",
+        "sku": "product-2-wallet-default",
+        "inventory_quantity": 100,
+        "weight": 0.5,
+        "requires_shipping": true
+      }
+    ],
+    "seo_title": "Product 2 Wallet",
+    "seo_description": "High-quality wallet - Product 2 Wallet. Premium design and comfort.",
+    "meta_description": "Shop Product 2 Wallet - Premium wallet with unique design."
+  }
+]

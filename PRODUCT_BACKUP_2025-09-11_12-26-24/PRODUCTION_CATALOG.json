@@ -1,0 +1,373 @@
+{
+  "catalog_info": {
+    "version": "2.0.0",
+    "last_updated": "2024-12-19",
+    "total_products": 50,
+    "categories": [
+      "vault",
+      "rebellion-core",
+      "premium",
+      "tees",
+      "hoodies",
+      "accessories",
+      "posters"
+    ],
+    "psychology_targeting": "PSPK Fan Base - Underground Culture Enthusiasts"
+  },
+  "products": [
+    {
+      "id": "vault-001",
+      "handle": "exclusive-vault-tee-black",
+      "name": "VAULT EXCLUSIVE - Black Ops Tee",
+      "title": "VAULT EXCLUSIVE - Black Ops Tee",
+      "price": 89.99,
+      "originalPrice": 129.99,
+      "category": "vault",
+      "tags": [
+        "vault",
+        "exclusive",
+        "limited",
+        "black-ops",
+        "underground"
+      ],
+      "images": [
+        "/images/products/vault-black-ops-tee-front.jpg",
+        "/images/products/vault-black-ops-tee-back.jpg"
+      ],
+      "description": "Ultra-exclusive black ops tactical tee. Only 100 pieces ever made. For true PSPK vault members only.",
+      "variants": [
+        {
+          "id": "vault-001-s",
+          "title": "Small",
+          "price": 89.99,
+          "available": true
+        },
+        {
+          "id": "vault-001-m",
+          "title": "Medium",
+          "price": 89.99,
+          "available": true
+        },
+        {
+          "id": "vault-001-l",
+          "title": "Large",
+          "price": 89.99,
+          "available": false
+        },
+        {
+          "id": "vault-001-xl",
+          "title": "X-Large",
+          "price": 89.99,
+          "available": true
+        }
+      ],
+      "badges": [
+        "VAULT EXCLUSIVE",
+        "LIMITED EDITION",
+        "SOLD OUT SIZES"
+      ],
+      "featured": true,
+      "available": true,
+      "vendor": "PSPK Underground",
+      "product_type": "Apparel"
+    },
+    {
+      "id": "rebellion-001",
+      "handle": "rebellion-core-hoodie-charcoal",
+      "name": "REBELLION CORE - Tactical Hoodie",
+      "title": "REBELLION CORE - Tactical Hoodie",
+      "price": 149.99,
+      "originalPrice": 199.99,
+      "category": "rebellion-core",
+      "tags": [
+        "rebellion-core",
+        "hoodie",
+        "tactical",
+        "resistance"
+      ],
+      "images": [
+        "/images/products/rebellion-hoodie-charcoal-front.jpg",
+        "/images/products/rebellion-hoodie-charcoal-back.jpg",
+        "/images/products/rebellion-hoodie-charcoal-detail.jpg"
+      ],
+      "description": "Heavy-duty tactical hoodie for the rebellion. Built for resistance, designed for warriors.",
+      "variants": [
+        {
+          "id": "rebellion-001-s",
+          "title": "Small",
+          "price": 149.99,
+          "available": true
+        },
+        {
+          "id": "rebellion-001-m",
+          "title": "Medium",
+          "price": 149.99,
+          "available": true
+        },
+        {
+          "id": "rebellion-001-l",
+          "title": "Large",
+          "price": 149.99,
+          "available": true
+        },
+        {
+          "id": "rebellion-001-xl",
+          "title": "X-Large",
+          "price": 149.99,
+          "available": true
+        },
+        {
+          "id": "rebellion-001-xxl",
+          "title": "XX-Large",
+          "price": 159.99,
+          "available": true
+        }
+      ],
+      "badges": [
+        "REBELLION CORE",
+        "TACTICAL GEAR",
+        "BESTSELLER"
+      ],
+      "featured": true,
+      "available": true,
+      "vendor": "PSPK Underground",
+      "product_type": "Apparel"
+    },
+    {
+      "id": "premium-001",
+      "handle": "premium-collection-stealth-tee",
+      "name": "PREMIUM - Stealth Operations Tee",
+      "title": "PREMIUM - Stealth Operations Tee",
+      "price": 69.99,
+      "originalPrice": 89.99,
+      "category": "premium",
+      "tags": [
+        "premium",
+        "stealth",
+        "operations",
+        "tactical"
+      ],
+      "images": [
+        "/images/products/premium-stealth-tee-black.jpg",
+        "/images/products/premium-stealth-tee-gray.jpg"
+      ],
+      "description": "Premium stealth operations tee. Silent, deadly, stylish.",
+      "variants": [
+        {
+          "id": "premium-001-s",
+          "title": "Small",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "premium-001-m",
+          "title": "Medium",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "premium-001-l",
+          "title": "Large",
+          "price": 69.99,
+          "available": true
+        },
+        {
+          "id": "premium-001-xl",
+          "title": "X-Large",
+          "price": 69.99,
+          "available": true
+        }
+      ],
+      "badges": [
+        "PREMIUM COLLECTION",
+        "STEALTH GEAR"
+      ],
+      "featured": false,
+      "available": true,
+      "vendor": "PSPK Underground",
+      "product_type": "Apparel"
+    },
+    {
+      "id": "tees-001",
+      "handle": "tactical-tee-urban-camo",
+      "name": "TACTICAL TEE - Urban Camo",
+      "title": "TACTICAL TEE - Urban Camo",
+      "price": 49.99,
+      "originalPrice": 69.99,
+      "category": "tees",
+      "tags": [
+        "tees",
+        "tactical",
+        "urban",
+        "camo"
+      ],
+      "images": [
+        "/images/products/tactical-tee-urban-camo.jpg"
+      ],
+      "description": "Urban warfare tactical tee. Blend in, stand out.",
+      "variants": [
+        {
+          "id": "tees-001-s",
+          "title": "Small",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "tees-001-m",
+          "title": "Medium",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "tees-001-l",
+          "title": "Large",
+          "price": 49.99,
+          "available": true
+        },
+        {
+          "id": "tees-001-xl",
+          "title": "X-Large",
+          "price": 49.99,
+          "available": true
+        }
+      ],
+      "badges": [
+        "TACTICAL TEES",
+        "URBAN WARFARE"
+      ],
+      "featured": false,
+      "available": true,
+      "vendor": "PSPK Underground",
+      "product_type": "Apparel"
+    },
+    {
+      "id": "hoodies-001",
+      "handle": "battle-hoodie-midnight-black",
+      "name": "BATTLE HOODIE - Midnight Black",
+      "title": "BATTLE HOODIE - Midnight Black",
+      "price": 119.99,
+      "originalPrice": 159.99,
+      "category": "hoodies",
+      "tags": [
+        "hoodies",
+        "battle",
+        "midnight",
+        "black"
+      ],
+      "images": [
+        "/images/products/battle-hoodie-midnight-black.jpg"
+      ],
+      "description": "Midnight black battle hoodie. For warriors who fight in the shadows.",
+      "variants": [
+        {
+          "id": "hoodies-001-s",
+          "title": "Small",
+          "price": 119.99,
+          "available": true
+        },
+        {
+          "id": "hoodies-001-m",
+          "title": "Medium",
+          "price": 119.99,
+          "available": true
+        },
+        {
+          "id": "hoodies-001-l",
+          "title": "Large",
+          "price": 119.99,
+          "available": true
+        },
+        {
+          "id": "hoodies-001-xl",
+          "title": "X-Large",
+          "price": 119.99,
+          "available": true
+        }
+      ],
+      "badges": [
+        "BATTLE HOODIES",
+        "SHADOW WARRIOR"
+      ],
+      "featured": false,
+      "available": true,
+      "vendor": "PSPK Underground",
+      "product_type": "Apparel"
+    },
+    {
+      "id": "accessories-001",
+      "handle": "tactical-cap-stealth-black",
+      "name": "TACTICAL CAP - Stealth Black",
+      "title": "TACTICAL CAP - Stealth Black",
+      "price": 39.99,
+      "originalPrice": 54.99,
+      "category": "accessories",
+      "tags": [
+        "accessories",
+        "tactical",
+        "cap",
+        "stealth"
+      ],
+      "images": [
+        "/images/products/tactical-cap-stealth-black.jpg"
+      ],
+      "description": "Stealth tactical cap. Complete your underground look.",
+      "variants": [
+        {
+          "id": "accessories-001-os",
+          "title": "One Size",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "badges": [
+        "GEAR & ARSENAL",
+        "STEALTH GEAR"
+      ],
+      "featured": false,
+      "available": true,
+      "vendor": "PSPK Underground",
+      "product_type": "Accessories"
+    },
+    {
+      "id": "posters-001",
+      "handle": "war-poster-resistance-manifesto",
+      "name": "WAR POSTER - Resistance Manifesto",
+      "title": "WAR POSTER - Resistance Manifesto",
+      "price": 29.99,
+      "originalPrice": 39.99,
+      "category": "posters",
+      "tags": [
+        "posters",
+        "war",
+        "resistance",
+        "manifesto"
+      ],
+      "images": [
+        "/images/products/war-poster-resistance-manifesto.jpg"
+      ],
+      "description": "Resistance manifesto war poster. Declare your allegiance.",
+      "variants": [
+        {
+          "id": "posters-001-18x24",
+          "title": "18x24 inches",
+          "price": 29.99,
+          "available": true
+        },
+        {
+          "id": "posters-001-24x36",
+          "title": "24x36 inches",
+          "price": 39.99,
+          "available": true
+        }
+      ],
+      "badges": [
+        "WAR POSTERS",
+        "RESISTANCE ART"
+      ],
+      "featured": false,
+      "available": true,
+      "vendor": "PSPK Underground",
+      "product_type": "Art"
+    }
+  ]
+}

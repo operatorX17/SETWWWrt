@@ -63,8 +63,8 @@ const TeaserVideo = () => {
             onClick={() => {
               const nextSection = document.querySelector('.luxury-hero-section');
               if (nextSection) {
-                const headerHeight = 120;
-                const elementPosition = nextSection.offsetTop - headerHeight;
+                // Scroll to next section where navigation will appear
+                const elementPosition = nextSection.offsetTop;
                 window.scrollTo({
                   top: elementPosition,
                   behavior: 'smooth'

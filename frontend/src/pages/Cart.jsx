@@ -54,7 +54,13 @@ const Cart = () => {
                   {/* Product Image */}
                   <div className="w-20 h-20 bg-gray-800 rounded-lg overflow-hidden flex-shrink-0">
                     {(() => {
-                      const imgs = item.images || [];
+                      // Handle new premium catalog structure where image is a string
+                      if (item?.image) {
+                        return <img src={item.image} alt={item.name} className="w-full h-full object-cover" />;
+                      }
+                      
+                      // Fallback to legacy images array structure
+                      const imgs = Array.isArray(item?.images) ? item.images : [];
                       if (imgs.length === 0) return (
                         <div className="w-full h-full bg-gray-700 flex items-center justify-center">
                           <ShoppingBag size={24} className="text-gray-500" />

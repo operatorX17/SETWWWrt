@@ -32,6 +32,7 @@ import SearchResults from './pages/SearchResults';
 import Collections from './pages/Collections';
 import CollectionDetail from './pages/CollectionDetail';
 import BattleElite from './pages/BattleElite';
+import DebugProductsPage from './pages/DebugProductsPage';
 
 function App() {
   useEffect(() => {
@@ -67,6 +68,7 @@ function App() {
                           <Route path="/journal/:id" element={<Journal />} />
                           <Route path="/contact" element={<Contact />} />
                           <Route path="/battle-elite" element={<BattleElite />} />
+                          <Route path="/debug" element={<DebugProductsPage />} />
                         </Routes>
                       </PageTransition>
                     </BrowserRouter>

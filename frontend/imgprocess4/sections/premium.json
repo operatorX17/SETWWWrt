@@ -1,0 +1,786 @@
+{
+  "metadata": {
+    "section": "premium",
+    "total_products": 8,
+    "generated_at": "2025-01-10",
+    "price_range": "₹1500 - ₹2499"
+  },
+  "products": [
+    {
+      "title": "OG // Hoodie — The Cheetah",
+      "handle": "og-hoodie-the-cheetah",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "EN",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product10/front/WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+        "back": "PRODUCTS/hoodies/product10/back/WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1697.00",
+          "sku": "og-hoodie-the-cheetah-s",
+          "inventory_quantity": 195,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1697.00",
+          "sku": "og-hoodie-the-cheetah-m",
+          "inventory_quantity": 190,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1697.00",
+          "sku": "og-hoodie-the-cheetah-l",
+          "inventory_quantity": 198,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1707.00",
+          "sku": "og-hoodie-the-cheetah-xl",
+          "inventory_quantity": 116,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 10 Hoodie",
+      "seo_description": "Buy Product 10 Hoodie online. Unleash the speed, embody the spirit. A hunter's instinct runs deep, a true veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Availab...",
+      "meta_description": "Shop Product 10 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "Unleash the speed, embody the spirit. A hunter's instinct runs deep, a true veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 87,
+        "popularity_rank": 18,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Blood Drip OG",
+      "handle": "og-hoodie-blood-drip-og",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/Product13/front/WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+        "back": "PRODUCTS/hoodies/Product13/back/WhatsApp Image 2025-08-31 at 9.06.44 AM.jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1598.00",
+          "sku": "og-hoodie-blood-drip-og-s",
+          "inventory_quantity": 108,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1598.00",
+          "sku": "og-hoodie-blood-drip-og-m",
+          "inventory_quantity": 94,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1598.00",
+          "sku": "og-hoodie-blood-drip-og-l",
+          "inventory_quantity": 53,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1608.00",
+          "sku": "og-hoodie-blood-drip-og-xl",
+          "inventory_quantity": 98,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product13 Hoodie",
+      "seo_description": "Buy Product13 Hoodie online. The OG's mark, etched in raktham. Wear the legacy, feel the power.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Ret...",
+      "meta_description": "Shop Product13 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "The OG's mark, etched in raktham. Wear the legacy, feel the power.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 79,
+        "popularity_rank": 64,
+        "is_trending": false,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Crimson Mark",
+      "handle": "og-hoodie-crimson-mark",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product14/front/WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1525.00",
+          "sku": "og-hoodie-crimson-mark-s",
+          "inventory_quantity": 110,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1525.00",
+          "sku": "og-hoodie-crimson-mark-m",
+          "inventory_quantity": 80,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1525.00",
+          "sku": "og-hoodie-crimson-mark-l",
+          "inventory_quantity": 146,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1535.00",
+          "sku": "og-hoodie-crimson-mark-xl",
+          "inventory_quantity": 90,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 14 Hoodie",
+      "seo_description": "Buy Product 14 Hoodie online. The emblem of power, etched in raw raktham. Wear the mark, become the OG.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-...",
+      "meta_description": "Shop Product 14 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "The emblem of power, etched in raw raktham. Wear the mark, become the OG.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 77,
+        "popularity_rank": 41,
+        "is_trending": false,
+        "is_bestseller": true,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Blood Mark",
+      "handle": "og-hoodie-blood-mark",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product17/front/WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1698.00",
+          "sku": "og-hoodie-blood-mark-s",
+          "inventory_quantity": 193,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1698.00",
+          "sku": "og-hoodie-blood-mark-m",
+          "inventory_quantity": 193,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1698.00",
+          "sku": "og-hoodie-blood-mark-l",
+          "inventory_quantity": 144,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1708.00",
+          "sku": "og-hoodie-blood-mark-xl",
+          "inventory_quantity": 155,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 17 Hoodie",
+      "seo_description": "Buy Product 17 Hoodie online. The OG mark, etched in blood. True fan's raktham. Wear your loyalty.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day R...",
+      "meta_description": "Shop Product 17 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "The OG mark, etched in blood. True fan's raktham. Wear your loyalty.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 90,
+        "popularity_rank": 57,
+        "is_trending": false,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Bloodied OG",
+      "handle": "og-hoodie-bloodied-og",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product3/front/WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+        "back": "PRODUCTS/hoodies/product3/back/WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1649.00",
+          "sku": "og-hoodie-bloodied-og-s",
+          "inventory_quantity": 155,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1649.00",
+          "sku": "og-hoodie-bloodied-og-m",
+          "inventory_quantity": 145,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1649.00",
+          "sku": "og-hoodie-bloodied-og-l",
+          "inventory_quantity": 182,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1659.00",
+          "sku": "og-hoodie-bloodied-og-xl",
+          "inventory_quantity": 144,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 3 Hoodie",
+      "seo_description": "Buy Product 3 Hoodie online. The OG returns, drenched in raw power. Feel the raktam. Unleash the veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-...",
+      "meta_description": "Shop Product 3 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "The OG returns, drenched in raw power. Feel the raktam. Unleash the veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 87,
+        "popularity_rank": 16,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Golden Identity",
+      "handle": "og-hoodie-golden-identity",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "CUE_BRASS",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product4/front/WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+        "back": "PRODUCTS/hoodies/product4/back/WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1618.00",
+          "sku": "og-hoodie-golden-identity-s",
+          "inventory_quantity": 102,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1618.00",
+          "sku": "og-hoodie-golden-identity-m",
+          "inventory_quantity": 174,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1618.00",
+          "sku": "og-hoodie-golden-identity-l",
+          "inventory_quantity": 192,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1628.00",
+          "sku": "og-hoodie-golden-identity-xl",
+          "inventory_quantity": 83,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 4 Hoodie",
+      "seo_description": "Buy Product 4 Hoodie online. True OG identity, etched in timeless gold. A statement of power for those who know.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Avail...",
+      "meta_description": "Shop Product 4 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "True OG identity, etched in timeless gold. A statement of power for those who know.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 80,
+        "popularity_rank": 34,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        },
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Ojas Firestorm",
+      "handle": "og-hoodie-ojas-firestorm",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product6/front/WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+        "back": "PRODUCTS/hoodies/product6/back/WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1595.00",
+          "sku": "og-hoodie-ojas-firestorm-s",
+          "inventory_quantity": 132,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1595.00",
+          "sku": "og-hoodie-ojas-firestorm-m",
+          "inventory_quantity": 97,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1595.00",
+          "sku": "og-hoodie-ojas-firestorm-l",
+          "inventory_quantity": 129,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1605.00",
+          "sku": "og-hoodie-ojas-firestorm-xl",
+          "inventory_quantity": 103,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 6 Hoodie",
+      "seo_description": "Buy Product 6 Hoodie online. The fiery gaze of Ojas, signaling the storm's arrival. Wear the power, feel the intensity.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shippin...",
+      "meta_description": "Shop Product 6 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "The fiery gaze of Ojas, signaling the storm's arrival. Wear the power, feel the intensity.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 76,
+        "popularity_rank": 63,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Firestorm",
+      "handle": "og-hoodie-firestorm",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "EN",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product8/front/WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+        "back": "PRODUCTS/hoodies/product8/back/WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1741.00",
+          "sku": "og-hoodie-firestorm-s",
+          "inventory_quantity": 197,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1741.00",
+          "sku": "og-hoodie-firestorm-m",
+          "inventory_quantity": 82,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1741.00",
+          "sku": "og-hoodie-firestorm-l",
+          "inventory_quantity": 192,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1751.00",
+          "sku": "og-hoodie-firestorm-xl",
+          "inventory_quantity": 67,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 8 Hoodie",
+      "seo_description": "Buy Product 8 Hoodie online. The storm ignites. Feel the power, unleash your inner ugra roopam.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Ret...",
+      "meta_description": "Shop Product 8 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "The storm ignites. Feel the power, unleash your inner ugra roopam.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 86,
+        "popularity_rank": 8,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ]
+    }
+  ]
+}

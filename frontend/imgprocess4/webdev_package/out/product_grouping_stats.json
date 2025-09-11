@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-10T13:18:49.319894",
+    "total_original_entries": 51,
+    "total_unified_products": 47,
+    "grouping_method": "category_concept_name"
+  },
+  "statistics": {
+    "total_products": 47,
+    "products_with_multiple_views": 3,
+    "products_with_front_and_back": 0,
+    "products_with_front_only": 2,
+    "products_with_back_only": 1,
+    "categories": {
+      "Tee": 9,
+      "Cap": 6,
+      "Hoodie": 32
+    },
+    "avg_coolness_score": 0.7853191489361703,
+    "hero_card_ready_count": 41
+  }
+}

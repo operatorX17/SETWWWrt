@@ -61,16 +61,16 @@ const CollectionDetail = () => {
   const collectionProducts = products.filter(product => {
     // Mock filtering logic - in production this would be based on Shopify collection membership
     if (handle === 'rebellion-core') {
-      return product.badges.includes('BEST SELLER') || product.name.toLowerCase().includes('essential');
+      return product.conversion_data?.is_bestseller === true || product.name.toLowerCase().includes('essential');
     }
     if (handle === 'vault-exclusive') {
-      return product.rank === 'Vault' || product.badges.includes('LIMITED');
+      return product.rank === 'Vault' || product.badges?.includes('LIMITED');
     }
     if (handle === 'captain-series') {
       return product.price > 150;
     }
     if (handle === 'first-day-first-show') {
-      return product.badges.includes('NEW');
+      return product.badges?.includes('NEW');
     }
     return false;
   });

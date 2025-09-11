@@ -14,7 +14,13 @@ const PremiumProductCard = ({ product, className = "", priority = false }) => {
   const { addToCart } = useCart();
 
   const getDisplayImage = () => {
-    const imgs = product?.images || [];
+    // Handle new premium catalog structure where image is a string
+    if (product?.image) {
+      return product.image;
+    }
+    
+    // Fallback to legacy images array structure
+    const imgs = Array.isArray(product?.images) ? product.images : [];
     if (imgs.length === 0) return product.featured_image || 'https://via.placeholder.com/400x500?text=No+Image';
     if (imgs.length === 1) return imgs[0];
 

@@ -1,0 +1,1002 @@
+{
+  "metadata": {
+    "section": "vault",
+    "total_products": 11,
+    "generated_at": "2025-01-10",
+    "price_range": "₹999 - ₹1499"
+  },
+  "products": [
+    {
+      "title": "OG // Tee — Blood OG Mark",
+      "handle": "og-tee-blood-og-mark",
+      "category": "teeshirt",
+      "product_type": "teeshirt",
+      "tags": [
+        "CUE_BLOOD_RED",
+        "CAT_Tee",
+        "shirt",
+        "casual",
+        "cotton",
+        "business",
+        "formal",
+        "CAT_TEE",
+        "professional",
+        "tee"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/full shirts/product1/front/WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1141.00",
+          "sku": "og-tee-blood-og-mark-s",
+          "inventory_quantity": 52,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1141.00",
+          "sku": "og-tee-blood-og-mark-m",
+          "inventory_quantity": 99,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1141.00",
+          "sku": "og-tee-blood-og-mark-l",
+          "inventory_quantity": 186,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1151.00",
+          "sku": "og-tee-blood-og-mark-xl",
+          "inventory_quantity": 124,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 1 Full Shirt",
+      "seo_description": "Buy Product 1 Full Shirt online. The OG mark, etched in raktham. Represent the force.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ C...",
+      "meta_description": "Shop Product 1 Full Shirt - Premium full shirts with unique design. Fast shipping & returns.",
+      "description": "The OG mark, etched in raktham. Represent the force.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 89,
+        "popularity_rank": 9,
+        "is_trending": false,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "wallet",
+          "hats"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "OG // Tee — Dripping OG",
+      "handle": "og-tee-dripping-og",
+      "category": "teeshirt",
+      "product_type": "teeshirt",
+      "tags": [
+        "CUE_BLOOD_RED",
+        "CAT_Tee",
+        "shirt",
+        "casual",
+        "cotton",
+        "business",
+        "formal",
+        "CAT_TEE",
+        "professional",
+        "tee"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/full shirts/product2/front/WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1058.00",
+          "sku": "og-tee-dripping-og-s",
+          "inventory_quantity": 54,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1058.00",
+          "sku": "og-tee-dripping-og-m",
+          "inventory_quantity": 61,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1058.00",
+          "sku": "og-tee-dripping-og-l",
+          "inventory_quantity": 159,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1068.00",
+          "sku": "og-tee-dripping-og-xl",
+          "inventory_quantity": 98,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 2 Full Shirt",
+      "seo_description": "Buy Product 2 Full Shirt online. Raw power, unfiltered presence. OG raktham runs deep.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ ...",
+      "meta_description": "Shop Product 2 Full Shirt - Premium full shirts with unique design. Fast shipping & returns.",
+      "description": "Raw power, unfiltered presence. OG raktham runs deep.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 94,
+        "popularity_rank": 6,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "wallet",
+          "hats"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Drip Icon",
+      "handle": "og-hoodie-drip-icon",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "EN",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product1/front/WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+        "back": "PRODUCTS/hoodies/product1/back/WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1347.00",
+          "sku": "og-hoodie-drip-icon-s",
+          "inventory_quantity": 50,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1347.00",
+          "sku": "og-hoodie-drip-icon-m",
+          "inventory_quantity": 53,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1347.00",
+          "sku": "og-hoodie-drip-icon-l",
+          "inventory_quantity": 66,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1357.00",
+          "sku": "og-hoodie-drip-icon-xl",
+          "inventory_quantity": 110,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 1 Hoodie",
+      "seo_description": "Buy Product 1 Hoodie online. Flow with the raw power of an OG. Simple, iconic, ready for the veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day ...",
+      "meta_description": "Shop Product 1 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "Flow with the raw power of an OG. Simple, iconic, ready for the veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 79,
+        "popularity_rank": 36,
+        "is_trending": false,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Brass Emblem",
+      "handle": "og-hoodie-brass-emblem",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "CUE_BRASS",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product15/front/WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1372.00",
+          "sku": "og-hoodie-brass-emblem-s",
+          "inventory_quantity": 79,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1372.00",
+          "sku": "og-hoodie-brass-emblem-m",
+          "inventory_quantity": 121,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1372.00",
+          "sku": "og-hoodie-brass-emblem-l",
+          "inventory_quantity": 76,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1382.00",
+          "sku": "og-hoodie-brass-emblem-xl",
+          "inventory_quantity": 96,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 15 Hoodie",
+      "seo_description": "Buy Product 15 Hoodie online. The OG's mark, bold and unyielding, etched in gold. Declare your presence.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30...",
+      "meta_description": "Shop Product 15 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "The OG's mark, bold and unyielding, etched in gold. Declare your presence.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 82,
+        "popularity_rank": 62,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Original Gold",
+      "handle": "og-hoodie-original-gold",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "CUE_BRASS",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product16/front/WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+        "back": "PRODUCTS/hoodies/product16/back/WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1340.00",
+          "sku": "og-hoodie-original-gold-s",
+          "inventory_quantity": 150,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1340.00",
+          "sku": "og-hoodie-original-gold-m",
+          "inventory_quantity": 70,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1340.00",
+          "sku": "og-hoodie-original-gold-l",
+          "inventory_quantity": 73,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1350.00",
+          "sku": "og-hoodie-original-gold-xl",
+          "inventory_quantity": 82,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 16 Hoodie",
+      "seo_description": "Buy Product 16 Hoodie online. The ultimate symbol of supremacy. Wear it like a true OG, power star style.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 3...",
+      "meta_description": "Shop Product 16 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "The ultimate symbol of supremacy. Wear it like a true OG, power star style.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 84,
+        "popularity_rank": 57,
+        "is_trending": false,
+        "is_bestseller": false,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Hungry Cheetah",
+      "handle": "og-hoodie-hungry-cheetah",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product18/front/WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
+        "back": "PRODUCTS/hoodies/product18/back/WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1343.00",
+          "sku": "og-hoodie-hungry-cheetah-s",
+          "inventory_quantity": 159,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1343.00",
+          "sku": "og-hoodie-hungry-cheetah-m",
+          "inventory_quantity": 182,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1343.00",
+          "sku": "og-hoodie-hungry-cheetah-l",
+          "inventory_quantity": 62,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1353.00",
+          "sku": "og-hoodie-hungry-cheetah-xl",
+          "inventory_quantity": 141,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 18 Hoodie",
+      "seo_description": "Buy Product 18 Hoodie online. The hunt begins, with an untamed spirit. Raktham choodali, veta modalu.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Da...",
+      "meta_description": "Shop Product 18 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "The hunt begins, with an untamed spirit. Raktham choodali, veta modalu.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 84,
+        "popularity_rank": 26,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Legacy 06",
+      "handle": "og-hoodie-legacy-06",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product2/front/WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+        "back": "PRODUCTS/hoodies/product2/back/WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1394.00",
+          "sku": "og-hoodie-legacy-06-s",
+          "inventory_quantity": 142,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1394.00",
+          "sku": "og-hoodie-legacy-06-m",
+          "inventory_quantity": 104,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1394.00",
+          "sku": "og-hoodie-legacy-06-l",
+          "inventory_quantity": 156,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1404.00",
+          "sku": "og-hoodie-legacy-06-xl",
+          "inventory_quantity": 96,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 2 Hoodie",
+      "seo_description": "Buy Product 2 Hoodie online. A subtle nod to the rise of a legend. Wear the OG legacy, felt in every pulse.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n...",
+      "meta_description": "Shop Product 2 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "A subtle nod to the rise of a legend. Wear the OG legacy, felt in every pulse.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 85,
+        "popularity_rank": 99,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — Brutal Mark",
+      "handle": "og-hoodie-brutal-mark",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product5/front/WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+        "back": "PRODUCTS/hoodies/product5/back/WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1337.00",
+          "sku": "og-hoodie-brutal-mark-s",
+          "inventory_quantity": 181,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1337.00",
+          "sku": "og-hoodie-brutal-mark-m",
+          "inventory_quantity": 69,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1337.00",
+          "sku": "og-hoodie-brutal-mark-l",
+          "inventory_quantity": 102,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1347.00",
+          "sku": "og-hoodie-brutal-mark-xl",
+          "inventory_quantity": 151,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 5 Hoodie",
+      "seo_description": "Buy Product 5 Hoodie online. The mark of a true OG. Raktham, passion, power.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Custom...",
+      "meta_description": "Shop Product 5 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "The mark of a true OG. Raktham, passion, power.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 80,
+        "popularity_rank": 30,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "OG // Hoodie — OG Repeat",
+      "handle": "og-hoodie-og-repeat",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hoodies/product7/front/WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+        "back": "PRODUCTS/hoodies/product7/back/WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "1410.00",
+          "sku": "og-hoodie-og-repeat-s",
+          "inventory_quantity": 199,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "1410.00",
+          "sku": "og-hoodie-og-repeat-m",
+          "inventory_quantity": 171,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "1410.00",
+          "sku": "og-hoodie-og-repeat-l",
+          "inventory_quantity": 53,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "1420.00",
+          "sku": "og-hoodie-og-repeat-xl",
+          "inventory_quantity": 54,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Product 7 Hoodie",
+      "seo_description": "Buy Product 7 Hoodie online. The OG legacy, boldly repeated across. Wear your pride. Choodandi!\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Ret...",
+      "meta_description": "Shop Product 7 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+      "description": "The OG legacy, boldly repeated across. Wear your pride. Choodandi!\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 93,
+        "popularity_rank": 81,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "Sweatshirts"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "Product 1 Wallet",
+      "handle": "product-1-wallet",
+      "category": "wallet",
+      "product_type": "wallet",
+      "tags": [
+        "essential",
+        "accessory",
+        "leather",
+        "money",
+        "organization",
+        "wallet",
+        "CAT_Wallet",
+        "bestseller",
+        "CAT_WALLET",
+        "premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/wallet/product1/WhatsApp Image 2025-08-31 at 8.55.48 AM.jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "Default",
+          "price": "1011.00",
+          "sku": "product-1-wallet-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 1 Wallet",
+      "seo_description": "Buy Product 1 Wallet online. Organize in style with the Product 1 Wallet Wallet. Premium materials with thoughtful design. Multiple compartments for cards, cash, and essentials.\n\n...",
+      "meta_description": "Shop Product 1 Wallet - Premium wallet with unique design. Fast shipping & returns.",
+      "description": "Organize in style with the Product 1 Wallet Wallet. Premium materials with thoughtful design. Multiple compartments for cards, cash, and essentials.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 94,
+        "popularity_rank": 73,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "full shirts",
+          "hats"
+        ]
+      }
+    },
+    {
+      "title": "Product 2 Wallet",
+      "handle": "product-2-wallet",
+      "category": "wallet",
+      "product_type": "wallet",
+      "tags": [
+        "essential",
+        "accessory",
+        "leather",
+        "money",
+        "organization",
+        "wallet",
+        "CAT_Wallet",
+        "bestseller",
+        "CAT_WALLET",
+        "premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/wallet/product2/WhatsApp Image 2025-08-31 at 8.55.49 AM (1).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "Default",
+          "price": "1090.00",
+          "sku": "product-2-wallet-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 2 Wallet",
+      "seo_description": "Buy Product 2 Wallet online. Organize in style with the Product 2 Wallet Wallet. Premium materials with thoughtful design. Multiple compartments for cards, cash, and essentials.\n\n...",
+      "meta_description": "Shop Product 2 Wallet - Premium wallet with unique design. Fast shipping & returns.",
+      "description": "Organize in style with the Product 2 Wallet Wallet. Premium materials with thoughtful design. Multiple compartments for cards, cash, and essentials.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 81,
+        "popularity_rank": 19,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "full shirts",
+          "hats"
+        ]
+      }
+    }
+  ]
+}

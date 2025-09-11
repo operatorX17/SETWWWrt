@@ -1,12 +1,21 @@
-// Shopify Storefront API client - Real Shopify Store
-const SHOPIFY_DOMAIN = process.env.REACT_APP_SHOPIFY_STORE_DOMAIN || '40fg1q-ju.myshopify.com';
-const SHOPIFY_STOREFRONT_TOKEN = process.env.REACT_APP_SHOPIFY_STOREFRONT_API_TOKEN || 'bab636f906ac3a48b7ff915141b55e21';
+// Shopify Storefront API client - Production Ready Configuration
+const SHOPIFY_DOMAIN = process.env.REACT_APP_SHOPIFY_STORE_DOMAIN;
+const SHOPIFY_STOREFRONT_TOKEN = process.env.REACT_APP_SHOPIFY_STOREFRONT_ACCESS_TOKEN;
+const SHOPIFY_API_VERSION = process.env.REACT_APP_SHOPIFY_API_VERSION || '2024-01';
 
-const SHOPIFY_API_VERSION = process.env.REACT_APP_SHOPIFY_STOREFRONT_API_VERSION || '2024-01';
-const SHOPIFY_ENDPOINT = `https://${SHOPIFY_DOMAIN}/api/${SHOPIFY_API_VERSION}/graphql.json`;
+// Validate required environment variables
+if (!SHOPIFY_DOMAIN || !SHOPIFY_STOREFRONT_TOKEN) {
+  console.warn('Missing Shopify configuration. Please check your environment variables.');
+}
 
-// Demo mode flag - disabled now that real Shopify is configured
-const DEMO_MODE = false; // Real Shopify products loading
+const SHOPIFY_ENDPOINT = SHOPIFY_DOMAIN ? `https://${SHOPIFY_DOMAIN}/api/${SHOPIFY_API_VERSION}/graphql.json` : null;
+
+// Backend API configuration
+const BACKEND_API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
+
+// Demo mode flag - use backend API as primary source
+const USE_BACKEND_API = process.env.REACT_APP_USE_BACKEND_API !== 'false';
+const DEMO_MODE = !SHOPIFY_ENDPOINT || process.env.REACT_APP_DEMO_MODE === 'true';
 
 // GraphQL queries with OG metafields support
 const PRODUCTS_QUERY = `
@@ -197,9 +206,28 @@ class ShopifyAPI {
   constructor() {
     this.endpoint = SHOPIFY_ENDPOINT;
     this.token = SHOPIFY_STOREFRONT_TOKEN;
+    this.backendUrl = BACKEND_API_URL;
+    this.useBackend = USE_BACKEND_API;
   }
 
   async request(query, variables = {}) {
+    // If backend API is preferred and available, try it first
+    if (this.useBackend) {
+      try {
+        const backendResponse = await this.requestFromBackend(query, variables);
+        if (backendResponse) {
+          return backendResponse;
+        }
+      } catch (backendError) {
+        console.warn('Backend API failed, falling back to Shopify:', backendError.message);
+      }
+    }
+
+    // Fallback to direct Shopify API
+    if (!this.endpoint || !this.token) {
+      throw new Error('Shopify configuration missing. Please check environment variables.');
+    }
+
     try {
       const response = await fetch(this.endpoint, {
         method: 'POST',
@@ -228,6 +256,84 @@ class ShopifyAPI {
       console.error('Shopify API Error:', error);
       throw error;
     }
+  }
+
+  async requestFromBackend(query, variables = {}) {
+    try {
+      // Convert GraphQL query to backend API call
+      if (query.includes('products(first:')) {
+        const response = await fetch(`${this.backendUrl}/products?limit=${variables.first || 20}`);
+        if (response.ok) {
+          const data = await response.json();
+          return {
+            products: {
+              edges: data.products?.map(product => ({ node: this.transformBackendProduct(product) })) || []
+            }
+          };
+        }
+      } else if (query.includes('productByHandle')) {
+        const response = await fetch(`${this.backendUrl}/products/${variables.handle}`);
+        if (response.ok) {
+          const data = await response.json();
+          return {
+            productByHandle: this.transformBackendProduct(data.product)
+          };
+        }
+      }
+    } catch (error) {
+      console.warn('Backend API request failed:', error);
+      return null;
+    }
+    return null;
+  }
+
+  transformBackendProduct(backendProduct) {
+    if (!backendProduct) return null;
+    
+    return {
+      id: backendProduct.shopify_id || backendProduct.id,
+      title: backendProduct.title,
+      handle: backendProduct.handle,
+      description: backendProduct.description || backendProduct.body_html,
+      descriptionHtml: backendProduct.body_html || backendProduct.description,
+      priceRange: {
+        minVariantPrice: {
+          amount: backendProduct.variants?.[0]?.price || '0',
+          currencyCode: 'USD'
+        },
+        maxVariantPrice: {
+          amount: backendProduct.variants?.[0]?.price || '0',
+          currencyCode: 'USD'
+        }
+      },
+      images: {
+        edges: (backendProduct.images || []).map(img => ({
+          node: {
+            url: img.src || img.url || img,
+            altText: backendProduct.title,
+            width: 800,
+            height: 800
+          }
+        }))
+      },
+      variants: {
+        edges: (backendProduct.variants || []).map(variant => ({
+          node: {
+            id: variant.id,
+            title: variant.title || 'Default',
+            availableForSale: variant.available !== false,
+            price: {
+              amount: variant.price || '0',
+              currencyCode: 'USD'
+            },
+            selectedOptions: variant.options || []
+          }
+        }))
+      },
+      tags: backendProduct.tags || [],
+      productType: backendProduct.product_type || 'general',
+      vendor: backendProduct.vendor || 'OG Store'
+    };
   }
 
   // Get all products

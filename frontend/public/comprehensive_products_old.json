@@ -1,0 +1,1361 @@
+[
+  {
+    "id": "vault-exclusive-01",
+    "handle": "shadow-beast-hoodie",
+    "name": "SHADOW BEAST HOODIE",
+    "category": "Vault",
+    "price": 3999,
+    "originalPrice": 4999,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hoodies/product1/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/product1/front/main.jpg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "VAULT",
+      "LIMITED",
+      "CAT_VAULT",
+      "VAULT_ELIGIBLE"
+    ],
+    "description": "Premium shadow beast design. Limited edition hoodie crafted for rebels.",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Shadow Black",
+      "Dark Grey"
+    ],
+    "vault_locked": true,
+    "collection": "VAULT COLLECTION",
+    "material": "Premium Cotton Blend",
+    "fit": "Regular",
+    "weight": "400 GSM",
+    "care": "Machine wash cold",
+    "sku": "VAULT-SB-001",
+    "stock": 99,
+    "is_vault_exclusive": true,
+    "serial_numbered": true,
+    "requires_purchase_unlock": true,
+    "og_name": "OG // Vault — SHADOW BEAST [Beast]",
+    "product_type": "Vault",
+    "metafields": {
+      "og": {
+        "rank": 90,
+        "scene_code": "BST",
+        "is_limited": true,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "VAULT",
+          "LIMITED",
+          "CAT_VAULT",
+          "VAULT_ELIGIBLE"
+        ],
+        "colorway": "Shadow Black",
+        "size_chart": "vault_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-vault-exclusive-01"
+      }
+    }
+  },
+  {
+    "id": "vault-exclusive-02",
+    "handle": "urban-street-art-tee",
+    "name": "URBAN STREET ART TEE",
+    "category": "Vault",
+    "price": 2999,
+    "originalPrice": 2999,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Urban Street Art/front/main.jpg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "VAULT",
+      "LIMITED",
+      "CAT_VAULT",
+      "VAULT_ELIGIBLE"
+    ],
+    "description": "Street art meets rebellion. Premium tee with exclusive urban design.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Street Black",
+      "Urban Grey"
+    ],
+    "vault_locked": true,
+    "collection": "VAULT COLLECTION",
+    "material": "Premium Cotton",
+    "fit": "Regular Fit",
+    "weight": "180 GSM",
+    "care": "Machine wash cold",
+    "sku": "VAULT-USA-002",
+    "stock": 77,
+    "is_vault_exclusive": true,
+    "serial_numbered": true,
+    "requires_purchase_unlock": true,
+    "og_name": "OG // Vault — URBAN STREET ART [Urban]",
+    "product_type": "Vault",
+    "metafields": {
+      "og": {
+        "rank": 55,
+        "scene_code": "URB",
+        "is_limited": true,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "VAULT",
+          "LIMITED",
+          "CAT_VAULT",
+          "VAULT_ELIGIBLE"
+        ],
+        "colorway": "Street Black",
+        "size_chart": "vault_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-vault-exclusive-02"
+      }
+    }
+  },
+  {
+    "id": "og-hoodie-002",
+    "handle": "blood-wolf-legacy",
+    "name": "BLOOD WOLF LEGACY",
+    "category": "Hoodies",
+    "price": 1799,
+    "originalPrice": 1999,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.06.45_AM_d1234567-8901-2345-6789-abcdef123456.jpeg?v=1756807862",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.06.44_AM_10d458f2-5acd-488c-a1c7-d2c7b3b1e6d5.jpeg?v=1756807862"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "HOMEPAGE FEATURED",
+      "BESTSELLER",
+      "CAT_HOODIE"
+    ],
+    "description": "Wolf blood runs deep. Legacy lives forever. For the pack.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Crimson Red",
+      "Shadow Black"
+    ],
+    "vault_locked": false,
+    "collection": "PREMIUM COLLECTION",
+    "material": "Cotton Blend",
+    "fit": "Regular Fit",
+    "weight": "380 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-BW-002",
+    "stock": 75,
+    "og_name": "OG // Hoodies — BLOOD WOLF LEGACY [Wolf]",
+    "product_type": "Hoodies",
+    "metafields": {
+      "og": {
+        "rank": 69,
+        "scene_code": "WLF",
+        "is_limited": false,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "HOMEPAGE FEATURED",
+          "BESTSELLER",
+          "CAT_HOODIE"
+        ],
+        "colorway": "Crimson Red",
+        "size_chart": "hoodies_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-og-hoodie-002"
+      }
+    }
+  },
+  {
+    "id": "og-tee-001",
+    "handle": "crimson-fury-tee",
+    "name": "CRIMSON FURY TEE",
+    "category": "Tee Shirts",
+    "price": 799,
+    "originalPrice": 999,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.03_AM_1_8d6877f4-5a7e-49f5-b431-74f13833bf74.jpeg?v=1756807751",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_10.49.04_AM_dfe15ace-3e34-45d2-ab32-3782949d11e8.jpeg?v=1756807751"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBELLION CORE",
+      "BESTSELLER",
+      "CAT_TEE"
+    ],
+    "description": "Unleash the fury. Wear the legend. Show no mercy.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Fury Red",
+      "Battle Black"
+    ],
+    "vault_locked": false,
+    "collection": "REBELLION CORE",
+    "material": "Premium Cotton",
+    "fit": "Regular Fit",
+    "weight": "180 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-CF-001",
+    "stock": 100,
+    "og_name": "OG // Tees — CRIMSON FURY [Crimson]",
+    "product_type": "Tees",
+    "metafields": {
+      "og": {
+        "rank": 46,
+        "scene_code": "CRM",
+        "is_limited": false,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "REBELLION CORE",
+          "BESTSELLER",
+          "CAT_TEE"
+        ],
+        "colorway": "Fury Red",
+        "size_chart": "tees_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-og-tee-001"
+      }
+    }
+  },
+  {
+    "id": "og-tee-002",
+    "handle": "iron-predator-tee",
+    "name": "IRON PREDATOR TEE",
+    "category": "Tee Shirts",
+    "price": 799,
+    "originalPrice": 899,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.22_AM_2_g8b2e66c-779a-5c45-9d74-936403141f7b.jpeg?v=1756807780",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.21_AM_1_f7a1e55b-668a-4b34-8a73-825302030f2a.jpeg?v=1756807780"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBELLION CORE",
+      "NEW",
+      "CAT_TEE"
+    ],
+    "description": "Iron will. Predator instinct. Built to dominate.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Iron Grey",
+      "Predator Black"
+    ],
+    "vault_locked": false,
+    "collection": "REBELLION CORE",
+    "material": "Cotton Blend",
+    "fit": "Slim Fit",
+    "weight": "160 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-IP-002",
+    "stock": 85,
+    "og_name": "OG // Tees — IRON PREDATOR [Predator]",
+    "product_type": "Tees",
+    "metafields": {
+      "og": {
+        "rank": 48,
+        "scene_code": "PRD",
+        "is_limited": false,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "REBELLION CORE",
+          "NEW",
+          "CAT_TEE"
+        ],
+        "colorway": "Iron Grey",
+        "size_chart": "tees_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-og-tee-002"
+      }
+    }
+  },
+  {
+    "id": "og-tee-003",
+    "handle": "tactical-strike-tee",
+    "name": "TACTICAL STRIKE TEE",
+    "category": "Tee Shirts",
+    "price": 799,
+    "originalPrice": 999,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.23_AM_3_h9c3f77d-880b-6d56-ae85-047514252g8c.jpeg?v=1756807780",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.24_AM_4_i0d4g88e-991c-7e67-bf96-158625363h9d.jpeg?v=1756807780"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBELLION CORE",
+      "TACTICAL",
+      "CAT_TEE"
+    ],
+    "description": "Precision strikes. Tactical advantage. Built for warriors.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Tactical Black",
+      "Strike Grey"
+    ],
+    "vault_locked": false,
+    "collection": "REBELLION CORE",
+    "material": "Premium Cotton",
+    "fit": "Regular Fit",
+    "weight": "200 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-TS-003",
+    "stock": 120,
+    "og_name": "OG // Tees — TACTICAL STRIKE [Tactical]",
+    "product_type": "Tees",
+    "metafields": {
+      "og": {
+        "rank": 63,
+        "scene_code": "TAC",
+        "is_limited": false,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "REBELLION CORE",
+          "TACTICAL",
+          "CAT_TEE"
+        ],
+        "colorway": "Tactical Black",
+        "size_chart": "tees_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-og-tee-003"
+      }
+    }
+  },
+  {
+    "id": "og-tee-004",
+    "handle": "shadow-ops-tee",
+    "name": "SHADOW OPS TEE",
+    "category": "Tee Shirts",
+    "price": 799,
+    "originalPrice": 799,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.25_AM_5_j1e5h99f-002d-8f78-cg07-269736474i0e.jpeg?v=1756807780",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.24.26_AM_6_k2f6i00g-113e-9g89-dh18-370847585j1f.jpeg?v=1756807780"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "REBELLION CORE",
+      "STEALTH",
+      "CAT_TEE"
+    ],
+    "description": "Move in shadows. Strike without warning. Ghost protocol.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Shadow Black",
+      "Stealth Grey"
+    ],
+    "vault_locked": false,
+    "collection": "REBELLION CORE",
+    "material": "Cotton Blend",
+    "fit": "Slim Fit",
+    "weight": "180 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-SO-004",
+    "stock": 95,
+    "og_name": "OG // Tees — SHADOW OPS [Shadow]",
+    "product_type": "Tees",
+    "metafields": {
+      "og": {
+        "rank": 21,
+        "scene_code": "SHD",
+        "is_limited": false,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "REBELLION CORE",
+          "STEALTH",
+          "CAT_TEE"
+        ],
+        "colorway": "Shadow Black",
+        "size_chart": "tees_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-og-tee-004"
+      }
+    }
+  },
+  {
+    "id": "og-hoodie-003",
+    "handle": "storm-breaker-hoodie",
+    "name": "STORM BREAKER HOODIE",
+    "category": "Hoodies",
+    "price": 1799,
+    "originalPrice": 1899,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.06.46_AM_e2345678-9012-3456-7890-bcdef1234567.jpeg?v=1756807862",
+      "https://cdn.shopify.com/s/files/1/0780/0484/6848/files/WhatsApp_Image_2025-08-31_at_9.06.47_AM_f3456789-0123-4567-8901-cdef12345678.jpeg?v=1756807862"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "HOMEPAGE FEATURED",
+      "STORM SERIES",
+      "CAT_HOODIE"
+    ],
+    "description": "Break through storms. Weather any battle. Unstoppable force.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Storm Grey",
+      "Thunder Black"
+    ],
+    "vault_locked": false,
+    "collection": "PREMIUM COLLECTION",
+    "material": "Heavy Cotton Blend",
+    "fit": "Regular Fit",
+    "weight": "400 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-SB-003",
+    "stock": 60,
+    "og_name": "OG // Hoodies — STORM BREAKER [Storm]",
+    "product_type": "Hoodies",
+    "metafields": {
+      "og": {
+        "rank": 10,
+        "scene_code": "STM",
+        "is_limited": false,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "HOMEPAGE FEATURED",
+          "STORM SERIES",
+          "CAT_HOODIE"
+        ],
+        "colorway": "Storm Grey",
+        "size_chart": "hoodies_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-og-hoodie-003"
+      }
+    }
+  },
+  {
+    "id": "vault-exclusive-03",
+    "handle": "ocean-waves-tee",
+    "name": "OCEAN WAVES TEE",
+    "category": "Vault",
+    "price": 2999,
+    "originalPrice": 3299,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/Blue/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/teeshirt/Ocean Waves/black/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "VAULT",
+      "BESTSELLER",
+      "CAT_VAULT",
+      "VAULT_ELIGIBLE"
+    ],
+    "description": "Ocean waves design with premium comfort. Exclusive rebel collection piece.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Ocean Blue",
+      "Wave Black",
+      "Storm Grey"
+    ],
+    "vault_locked": true,
+    "collection": "VAULT COLLECTION",
+    "material": "Premium Cotton",
+    "fit": "Regular Fit",
+    "weight": "180 GSM",
+    "care": "Machine wash cold",
+    "sku": "VAULT-OW-003",
+    "stock": 50,
+    "is_vault_exclusive": true,
+    "serial_numbered": true,
+    "requires_purchase_unlock": true,
+    "og_name": "OG // Vault — OCEAN WAVES [Ocean]",
+    "product_type": "Vault",
+    "metafields": {
+      "og": {
+        "rank": 42,
+        "scene_code": "OCN",
+        "is_limited": true,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "VAULT",
+          "BESTSELLER",
+          "CAT_VAULT",
+          "VAULT_ELIGIBLE"
+        ],
+        "colorway": "Ocean Blue",
+        "size_chart": "vault_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-vault-exclusive-03"
+      }
+    }
+  },
+  {
+    "id": "vault-exclusive-04",
+    "handle": "mountain-adventure-hoodie",
+    "name": "MOUNTAIN ADVENTURE HOODIE",
+    "category": "Vault",
+    "price": 4299,
+    "originalPrice": 4999,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/hoodies/product2/back/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/hoodies/product2/front/main.jpg"
+    ],
+    "primary_image_type": "back",
+    "badges": [
+      "VAULT",
+      "LIMITED",
+      "CAT_VAULT",
+      "VAULT_ELIGIBLE"
+    ],
+    "description": "Adventure awaits. Premium mountain-inspired hoodie for rebels who explore.",
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      "Mountain Grey",
+      "Adventure Black"
+    ],
+    "vault_locked": true,
+    "collection": "VAULT COLLECTION",
+    "material": "Premium Cotton Blend",
+    "fit": "Regular Fit",
+    "weight": "420 GSM",
+    "care": "Machine wash cold",
+    "sku": "VAULT-MA-004",
+    "stock": 25,
+    "is_vault_exclusive": true,
+    "serial_numbered": true,
+    "requires_purchase_unlock": true,
+    "og_name": "OG // Vault — MOUNTAIN ADVENTURE [Mountain]",
+    "product_type": "Vault",
+    "metafields": {
+      "og": {
+        "rank": 36,
+        "scene_code": "MTN",
+        "is_limited": true,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "VAULT",
+          "LIMITED",
+          "CAT_VAULT",
+          "VAULT_ELIGIBLE"
+        ],
+        "colorway": "Mountain Grey",
+        "size_chart": "vault_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-vault-exclusive-04"
+      }
+    }
+  },
+  {
+    "id": "og-slides-1000",
+    "handle": "rebel-strike",
+    "name": "REBEL STRIKE SLIDES",
+    "og_name": "OG // Slides — Rebel Strike [Urban]",
+    "category": "Slides",
+    "product_type": "Slides",
+    "price": 699,
+    "originalPrice": 873,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/slides/Rebel Strike/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/slides/Rebel Strike/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_SLIDES",
+      "NEW",
+      "DROP"
+    ],
+    "description": "Strike with every step. Rebel comfort for street warriors.",
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "colors": [
+      "Rebel Black",
+      "Strike Red"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "EVA Foam",
+    "fit": "Regular Fit",
+    "weight": "200g",
+    "care": "Machine wash cold",
+    "sku": "OG-SLI-1000",
+    "stock": 41,
+    "metafields": {
+      "og": {
+        "rank": 81,
+        "scene_code": "URB",
+        "is_limited": true,
+        "drop_start": "2025-10-06T21:17:45.030955",
+        "drop_end": "2025-10-21T21:17:45.030955",
+        "badges": [
+          "CAT_SLIDES",
+          "NEW",
+          "DROP"
+        ],
+        "colorway": "Rebel Black",
+        "size_chart": "slides_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001000"
+      }
+    }
+  },
+  {
+    "id": "og-slides-1001",
+    "handle": "shadow-walker",
+    "name": "SHADOW WALKER SLIDES",
+    "og_name": "OG // Slides — Shadow Walker [Street]",
+    "category": "Slides",
+    "product_type": "Slides",
+    "price": 799,
+    "originalPrice": 998,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/slides/Shadow Walker/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/slides/Shadow Walker/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_SLIDES"
+    ],
+    "description": "Walk in shadows. Move without sound. Ghost protocol.",
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "colors": [
+      "Shadow Black",
+      "Stealth Grey"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "EVA Foam",
+    "fit": "Regular Fit",
+    "weight": "200g",
+    "care": "Machine wash cold",
+    "sku": "OG-SLI-1001",
+    "stock": 95,
+    "metafields": {
+      "og": {
+        "rank": 48,
+        "scene_code": "STR",
+        "is_limited": false,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "CAT_SLIDES"
+        ],
+        "colorway": "Shadow Black",
+        "size_chart": "slides_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001001"
+      }
+    }
+  },
+  {
+    "id": "og-slides-1002",
+    "handle": "beast-mode",
+    "name": "BEAST MODE SLIDES",
+    "og_name": "OG // Slides — Beast Mode [Beast]",
+    "category": "Slides",
+    "product_type": "Slides",
+    "price": 899,
+    "originalPrice": 1123,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/slides/Beast Mode/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/slides/Beast Mode/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_SLIDES",
+      "PREMIUM",
+      "DROP"
+    ],
+    "description": "Unleash the beast. Comfort meets power.",
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "colors": [
+      "Beast Black",
+      "Fury Red"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "EVA Foam",
+    "fit": "Regular Fit",
+    "weight": "200g",
+    "care": "Machine wash cold",
+    "sku": "OG-SLI-1002",
+    "stock": 124,
+    "metafields": {
+      "og": {
+        "rank": 10,
+        "scene_code": "BST",
+        "is_limited": true,
+        "drop_start": "2025-09-18T21:17:45.030997",
+        "drop_end": "2025-09-30T21:17:45.030997",
+        "badges": [
+          "CAT_SLIDES",
+          "PREMIUM",
+          "DROP"
+        ],
+        "colorway": "Beast Black",
+        "size_chart": "slides_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001002"
+      }
+    }
+  },
+  {
+    "id": "og-caps-1003",
+    "handle": "tactical-strike",
+    "name": "TACTICAL STRIKE CAP",
+    "og_name": "OG // Caps — Tactical Strike [Tactical]",
+    "category": "Caps",
+    "product_type": "Caps",
+    "price": 599,
+    "originalPrice": 748,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/caps/Tactical Strike/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/caps/Tactical Strike/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_CAP"
+    ],
+    "description": "Precision headgear. Built for tactical advantage.",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Tactical Black",
+      "Strike Green"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Cotton Twill",
+    "fit": "Standard",
+    "weight": "150 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-CAP-1003",
+    "stock": 17,
+    "metafields": {
+      "og": {
+        "rank": 22,
+        "scene_code": "TAC",
+        "is_limited": false,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "CAT_CAP"
+        ],
+        "colorway": "Tactical Black",
+        "size_chart": "caps_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001003"
+      }
+    }
+  },
+  {
+    "id": "og-caps-1004",
+    "handle": "urban-rebel",
+    "name": "URBAN REBEL CAP",
+    "og_name": "OG // Caps — Urban Rebel [Urban]",
+    "category": "Caps",
+    "product_type": "Caps",
+    "price": 699,
+    "originalPrice": 873,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/caps/Urban Rebel/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/caps/Urban Rebel/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_CAP",
+      "PREMIUM",
+      "DROP"
+    ],
+    "description": "Urban rebellion starts here. Street-ready headgear.",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Urban Black",
+      "Rebel Red"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Cotton Twill",
+    "fit": "Standard",
+    "weight": "150 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-CAP-1004",
+    "stock": 91,
+    "metafields": {
+      "og": {
+        "rank": 18,
+        "scene_code": "URB",
+        "is_limited": true,
+        "drop_start": "2025-10-06T21:17:45.031018",
+        "drop_end": "2025-10-19T21:17:45.031018",
+        "badges": [
+          "CAT_CAP",
+          "PREMIUM",
+          "DROP"
+        ],
+        "colorway": "Urban Black",
+        "size_chart": "caps_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001004"
+      }
+    }
+  },
+  {
+    "id": "og-caps-1005",
+    "handle": "shadow-ops",
+    "name": "SHADOW OPS CAP",
+    "og_name": "OG // Caps — Shadow Ops [Shadow]",
+    "category": "Caps",
+    "product_type": "Caps",
+    "price": 799,
+    "originalPrice": 998,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/caps/Shadow Ops/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/caps/Shadow Ops/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_CAP"
+    ],
+    "description": "Stealth operations headgear. Move unseen.",
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Shadow Black",
+      "Ops Grey"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Cotton Twill",
+    "fit": "Standard",
+    "weight": "150 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-CAP-1005",
+    "stock": 78,
+    "metafields": {
+      "og": {
+        "rank": 10,
+        "scene_code": "SHD",
+        "is_limited": false,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "CAT_CAP"
+        ],
+        "colorway": "Shadow Black",
+        "size_chart": "caps_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001005"
+      }
+    }
+  },
+  {
+    "id": "og-bands-1006",
+    "handle": "rebellion-core",
+    "name": "REBELLION CORE BAND",
+    "og_name": "OG // Bands — Rebellion Core [Rebellion]",
+    "category": "Bands",
+    "product_type": "Bands",
+    "price": 399,
+    "originalPrice": 498,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/bands/Rebellion Core/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/bands/Rebellion Core/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_BAND",
+      "DROP"
+    ],
+    "description": "Core rebellion accessory. Show your allegiance.",
+    "sizes": [
+      "S/M",
+      "L/XL"
+    ],
+    "colors": [
+      "Rebel Black",
+      "Core Red"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Silicone",
+    "fit": "Standard",
+    "weight": "50g",
+    "care": "Machine wash cold",
+    "sku": "OG-BAN-1006",
+    "stock": 116,
+    "metafields": {
+      "og": {
+        "rank": 47,
+        "scene_code": "RBL",
+        "is_limited": true,
+        "drop_start": "2025-10-07T21:17:45.031038",
+        "drop_end": "2025-10-25T21:17:45.031038",
+        "badges": [
+          "CAT_BAND",
+          "DROP"
+        ],
+        "colorway": "Rebel Black",
+        "size_chart": "bands_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001006"
+      }
+    }
+  },
+  {
+    "id": "og-bands-1007",
+    "handle": "beast-fury",
+    "name": "BEAST FURY BAND",
+    "og_name": "OG // Bands — Beast Fury [Beast]",
+    "category": "Bands",
+    "product_type": "Bands",
+    "price": 499,
+    "originalPrice": 623,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/bands/Beast Fury/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/bands/Beast Fury/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_BAND"
+    ],
+    "description": "Channel the beast. Fury in every fiber.",
+    "sizes": [
+      "S/M",
+      "L/XL"
+    ],
+    "colors": [
+      "Beast Black",
+      "Fury Orange"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Silicone",
+    "fit": "Standard",
+    "weight": "50g",
+    "care": "Machine wash cold",
+    "sku": "OG-BAN-1007",
+    "stock": 29,
+    "metafields": {
+      "og": {
+        "rank": 91,
+        "scene_code": "BST",
+        "is_limited": false,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "CAT_BAND"
+        ],
+        "colorway": "Beast Black",
+        "size_chart": "bands_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001007"
+      }
+    }
+  },
+  {
+    "id": "og-posters-1008",
+    "handle": "rebellion-manifesto",
+    "name": "REBELLION MANIFESTO POSTER",
+    "og_name": "OG // Posters — Rebellion Manifesto [Rebellion]",
+    "category": "Posters",
+    "product_type": "Posters",
+    "price": 599,
+    "originalPrice": 748,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/posters/Rebellion Manifesto/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/posters/Rebellion Manifesto/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_POSTER",
+      "LIMITED"
+    ],
+    "description": "The rebellion manifesto. Declare your allegiance.",
+    "sizes": [
+      "A3",
+      "A2"
+    ],
+    "colors": [
+      "Classic Print"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Premium Paper",
+    "fit": "Standard",
+    "weight": "250 GSM",
+    "care": "Handle with care",
+    "sku": "OG-POS-1008",
+    "stock": 104,
+    "metafields": {
+      "og": {
+        "rank": 24,
+        "scene_code": "RBL",
+        "is_limited": false,
+        "drop_start": null,
+        "drop_end": null,
+        "badges": [
+          "CAT_POSTER",
+          "LIMITED"
+        ],
+        "colorway": "Classic Print",
+        "size_chart": "posters_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001008"
+      }
+    }
+  },
+  {
+    "id": "og-posters-1009",
+    "handle": "beast-mode-artwork",
+    "name": "BEAST MODE ARTWORK POSTER",
+    "og_name": "OG // Posters — Beast Mode Artwork [Beast]",
+    "category": "Posters",
+    "product_type": "Posters",
+    "price": 799,
+    "originalPrice": 998,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/posters/Beast Mode Artwork/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/posters/Beast Mode Artwork/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_POSTER",
+      "DROP"
+    ],
+    "description": "Beast mode artwork. Unleash your space.",
+    "sizes": [
+      "A3",
+      "A2"
+    ],
+    "colors": [
+      "Premium Print"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Premium Paper",
+    "fit": "Standard",
+    "weight": "250 GSM",
+    "care": "Handle with care",
+    "sku": "OG-POS-1009",
+    "stock": 93,
+    "metafields": {
+      "og": {
+        "rank": 71,
+        "scene_code": "BST",
+        "is_limited": true,
+        "drop_start": "2025-09-09T21:17:45.031066",
+        "drop_end": "2025-09-19T21:17:45.031066",
+        "badges": [
+          "CAT_POSTER",
+          "DROP"
+        ],
+        "colorway": "Premium Print",
+        "size_chart": "posters_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001009"
+      }
+    }
+  },
+  {
+    "id": "og-sweatshirts-1010",
+    "handle": "urban-warrior",
+    "name": "URBAN WARRIOR SWEATSHIRT",
+    "og_name": "OG // Sweatshirts — Urban Warrior [Urban]",
+    "category": "Sweatshirts",
+    "product_type": "Sweatshirts",
+    "price": 1699,
+    "originalPrice": 2123,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/sweatshirts/Urban Warrior/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/sweatshirts/Urban Warrior/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_SWEATSHIRT",
+      "DROP"
+    ],
+    "description": "Urban warfare comfort. Built for street battles.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Warrior Black",
+      "Urban Grey"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Cotton Fleece",
+    "fit": "Regular Fit",
+    "weight": "320 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-SWE-1010",
+    "stock": 98,
+    "metafields": {
+      "og": {
+        "rank": 87,
+        "scene_code": "URB",
+        "is_limited": true,
+        "drop_start": "2025-10-08T21:17:45.031078",
+        "drop_end": "2025-10-15T21:17:45.031078",
+        "badges": [
+          "CAT_SWEATSHIRT",
+          "DROP"
+        ],
+        "colorway": "Warrior Black",
+        "size_chart": "sweatshirts_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001010"
+      }
+    }
+  },
+  {
+    "id": "og-sweatshirts-1011",
+    "handle": "storm-rider",
+    "name": "STORM RIDER SWEATSHIRT",
+    "og_name": "OG // Sweatshirts — Storm Rider [Storm]",
+    "category": "Sweatshirts",
+    "product_type": "Sweatshirts",
+    "price": 1799,
+    "originalPrice": 2248,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/sweatshirts/Storm Rider/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/sweatshirts/Storm Rider/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_SWEATSHIRT",
+      "LIMITED",
+      "DROP"
+    ],
+    "description": "Ride the storm. Weather any challenge.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Storm Grey",
+      "Thunder Black"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Cotton Fleece",
+    "fit": "Regular Fit",
+    "weight": "320 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-SWE-1011",
+    "stock": 68,
+    "metafields": {
+      "og": {
+        "rank": 19,
+        "scene_code": "STM",
+        "is_limited": true,
+        "drop_start": "2025-09-23T21:17:45.031091",
+        "drop_end": "2025-10-10T21:17:45.031091",
+        "badges": [
+          "CAT_SWEATSHIRT",
+          "LIMITED",
+          "DROP"
+        ],
+        "colorway": "Storm Grey",
+        "size_chart": "sweatshirts_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001011"
+      }
+    }
+  },
+  {
+    "id": "og-sweatshirts-1012",
+    "handle": "shadow-legion",
+    "name": "SHADOW LEGION SWEATSHIRT",
+    "og_name": "OG // Sweatshirts — Shadow Legion [Shadow]",
+    "category": "Sweatshirts",
+    "product_type": "Sweatshirts",
+    "price": 1899,
+    "originalPrice": 2373,
+    "images": [
+      "https://ogshop.preview.emergentagent.com/products/sweatshirts/Shadow Legion/front/main.jpg",
+      "https://ogshop.preview.emergentagent.com/products/sweatshirts/Shadow Legion/back/main.jpg"
+    ],
+    "primary_image_type": "front",
+    "badges": [
+      "CAT_SWEATSHIRT",
+      "DROP"
+    ],
+    "description": "Join the shadow legion. Elite comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Legion Black",
+      "Shadow Grey"
+    ],
+    "vault_locked": false,
+    "collection": "OG COLLECTION",
+    "material": "Cotton Fleece",
+    "fit": "Regular Fit",
+    "weight": "320 GSM",
+    "care": "Machine wash cold",
+    "sku": "OG-SWE-1012",
+    "stock": 42,
+    "metafields": {
+      "og": {
+        "rank": 24,
+        "scene_code": "SHD",
+        "is_limited": true,
+        "drop_start": "2025-09-28T21:17:45.031103",
+        "drop_end": "2025-10-13T21:17:45.031103",
+        "badges": [
+          "CAT_SWEATSHIRT",
+          "DROP"
+        ],
+        "colorway": "Legion Black",
+        "size_chart": "sweatshirts_size_chart.jpg",
+        "locale_tags": [
+          "IN",
+          "EN"
+        ],
+        "collectible_id": "OG-001012"
+      }
+    }
+  }
+]

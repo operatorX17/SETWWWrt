@@ -35,7 +35,7 @@ const SearchResults = () => {
 
   // Get available categories from search results
   const availableCategories = [...new Set(searchResults.map(p => p.category))];
-  const availableBadges = [...new Set(searchResults.flatMap(p => p.badges))];
+  const availableBadges = [...new Set(searchResults.flatMap(p => p.badges || []))];
 
   const handleFilterChange = (key, value) => {
     updateFilter(key, value);

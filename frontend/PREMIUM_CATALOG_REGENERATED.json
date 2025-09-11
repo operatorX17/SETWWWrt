@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "total_products": 0,
+    "categories": [],
+    "generation_info": {
+      "generated_at": "2025-09-11T12:30:00Z",
+      "version": "3.0.0",
+      "status": "CLEARED_FOR_NEW_CATALOG",
+      "last_updated": "2025-09-11"
+    },
+    "premium_tier_system": {
+      "hero": {
+        "description": "Legendary items with exclusive designs",
+        "price_range": "₹1500-₹3000",
+        "features": ["Limited Edition", "Premium Materials", "Exclusive Designs"]
+      },
+      "elite": {
+        "description": "High-quality premium products",
+        "price_range": "₹800-₹1500",
+        "features": ["Premium Quality", "Special Designs", "Enhanced Durability"]
+      },
+      "standard": {
+        "description": "Quality products for everyday use",
+        "price_range": "₹300-₹800",
+        "features": ["Good Quality", "Comfortable", "Affordable"]
+      }
+    }
+  },
+  "hero": [],
+  "elite": [],
+  "standard": []
+}

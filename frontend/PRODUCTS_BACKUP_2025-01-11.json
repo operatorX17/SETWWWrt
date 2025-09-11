@@ -1,0 +1,31 @@
+{
+  "backup_info": {
+    "created_at": "2025-01-11T12:30:00Z",
+    "original_file": "PREMIUM_CATALOG_REGENERATED.json",
+    "total_products_backed_up": 44,
+    "backup_reason": "Complete catalog clearing for new product structure"
+  },
+  "original_metadata": {
+    "total_products": 44,
+    "categories": [
+      "posters",
+      "hats",
+      "wallet",
+      "teeshirt",
+      "hoodies",
+      "Sweatshirts",
+      "slippers",
+      "full shirts"
+    ],
+    "generated_at": "2025-01-10",
+    "version": "2.0.0",
+    "ready_for_production": true,
+    "regenerated_at": "2025-09-11T08:41:13.506967",
+    "premium_tier_system": true,
+    "classification_fixed": true,
+    "collections_enabled": true,
+    "total_collections": 7,
+    "collections_updated_at": "2025-09-11T11:50:57.395751"
+  },
+  "note": "This backup contains all 44 products that were removed from the main catalog. The structure includes hero section, bundle suggestions, and all product details with images, variants, pricing, and metadata."
+}

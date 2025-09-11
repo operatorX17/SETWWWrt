@@ -1,0 +1,2008 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-10T13:18:49.319894",
+    "total_original_entries": 51,
+    "total_unified_products": 47,
+    "grouping_method": "category_concept_name"
+  },
+  "statistics": {
+    "total_products": 47,
+    "products_with_multiple_views": 3,
+    "products_with_front_and_back": 0,
+    "products_with_front_only": 2,
+    "products_with_back_only": 1,
+    "categories": {
+      "Tee": 9,
+      "Cap": 6,
+      "Hoodie": 32
+    },
+    "avg_coolness_score": 0.7853191489361703,
+    "hero_card_ready_count": 41
+  },
+  "products": [
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+      "category": "Tee",
+      "concept_name": "Blood OG Mark",
+      "title": "OG // Tee — Blood OG Mark",
+      "handle": "og-tee-blood-og-mark",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "The OG mark, etched in raktham. Represent the force.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_TEE",
+        "CAT_Tee",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.75,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "blood-og-mark",
+      "price_inr": 899.11,
+      "analyzed_at": "2025-09-10T11:21:14.254948",
+      "product_id": "prod_001",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+      "category": "Tee",
+      "concept_name": "Dripping OG",
+      "title": "OG // Tee — Dripping OG",
+      "handle": "og-tee-dripping-og",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "Raw power, unfiltered presence. OG raktham runs deep.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_TEE",
+        "CAT_Tee",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.7,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "dripping-og",
+      "price_inr": 899.11,
+      "analyzed_at": "2025-09-10T11:21:39.321040",
+      "product_id": "prod_002",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+          "view": "front",
+          "is_primary": true,
+          "visual_coolness_score": 0.7,
+          "hero_card_ready": true
+        },
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.09.11 AM.jpeg",
+          "view": "front",
+          "is_primary": false,
+          "visual_coolness_score": 0.7,
+          "hero_card_ready": true
+        }
+      ],
+      "total_views": 2,
+      "has_front_view": true,
+      "has_back_view": false
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg",
+      "category": "Cap",
+      "concept_name": "OG Emblem",
+      "title": "OG // Cap — OG Emblem",
+      "handle": "og-cap-og-emblem",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "Identify yourself. The OG emblem, etched in raktham and pride.",
+      "badge": "Rebel Drop",
+      "price_band": "BUDGET",
+      "tags": [
+        "CAT_CAP",
+        "CAT_Cap",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.75,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "og-emblem",
+      "price_inr": 399.11,
+      "analyzed_at": "2025-09-10T11:22:04.824835",
+      "product_id": "prod_003",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 8.55.48 AM (2).jpeg",
+      "category": "Cap",
+      "concept_name": "Savage Signature",
+      "title": "OG // Cap — Savage Signature",
+      "handle": "og-cap-savage-signature",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "The mark of a true OG. Carry the legacy with this iconic emblem, maava.",
+      "badge": "Under ₹999",
+      "price_band": "BUDGET",
+      "tags": [
+        "CAT_CAP",
+        "CAT_Cap",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.7,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "savage-signature",
+      "price_inr": 399.11,
+      "analyzed_at": "2025-09-10T11:22:15.449820",
+      "product_id": "prod_004",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 8.55.48 AM (2).jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+      "category": "Cap",
+      "concept_name": "OG Emblazoned",
+      "title": "OG // Cap — OG Emblazoned",
+      "handle": "og-cap-og-emblazoned",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.",
+      "badge": "Under ₹999",
+      "price_band": "BUDGET",
+      "tags": [
+        "CAT_CAP",
+        "CAT_Cap",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.7,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "og-emblazoned",
+      "price_inr": 399.11,
+      "analyzed_at": "2025-09-10T11:22:28.458984",
+      "product_id": "prod_005",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg",
+      "category": "Cap",
+      "concept_name": "Blood Script",
+      "title": "OG // Cap — Blood Script",
+      "handle": "og-cap-blood-script",
+      "palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "The OG sigil, etched in raktham. \nDeclare your allegiance.",
+      "badge": "Under ₹999",
+      "price_band": "BUDGET",
+      "tags": [
+        "CAT_CAP",
+        "CAT_Cap",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.7,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "blood-script",
+      "price_inr": 399.11,
+      "analyzed_at": "2025-09-10T11:22:38.458800",
+      "product_id": "prod_006",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
+      "category": "Cap",
+      "concept_name": "The OG Mark",
+      "title": "OG // Cap — The OG Mark",
+      "handle": "og-cap-the-og-mark",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ],
+      "description": "Own your status. Wear the mark of the original.\nRaktham-red style, for the true fan.",
+      "badge": "Rebel Drop",
+      "price_band": "BUDGET",
+      "tags": [
+        "CAT_CAP",
+        "CAT_Cap",
+        "CUE_ASH_WHITE",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.7,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "the-og-mark",
+      "price_inr": 399.11,
+      "analyzed_at": "2025-09-10T11:22:48.588611",
+      "product_id": "prod_007",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 8.55.49 AM (2).jpeg",
+      "category": "Cap",
+      "concept_name": "Original Mark",
+      "title": "OG // Cap — Original Mark",
+      "handle": "og-cap-original-mark",
+      "palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "Represent the OG spirit, unyielding. Oka prathidhwani, oka mark.",
+      "badge": "Under ₹999",
+      "price_band": "BUDGET",
+      "tags": [
+        "CAT_CAP",
+        "CAT_Cap",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.75,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "original-mark",
+      "price_inr": 399.11,
+      "analyzed_at": "2025-09-10T11:22:58.137520",
+      "product_id": "prod_008",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 8.55.49 AM (2).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Life Goes On",
+      "title": "OG // Hoodie — Life Goes On",
+      "handle": "og-hoodie-life-goes-on",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "Life goes on, the legend endures. This is the OG way, raktham and veta.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "CUE_SMOKE",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.7,
+      "hero_card_ready": false,
+      "view": "back",
+      "handle_fragment": "life-goes-on",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:23:14.708765",
+      "product_id": "prod_009",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Drip Icon",
+      "title": "OG // Hoodie — Drip Icon",
+      "handle": "og-hoodie-drip-icon",
+      "palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "Flow with the raw power of an OG. Simple, iconic, ready for the veta.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.7,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "drip-icon",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:23:36.769149",
+      "product_id": "prod_010",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Blazing Soul",
+      "title": "OG // Hoodie — Blazing Soul",
+      "handle": "og-hoodie-blazing-soul",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ],
+      "description": "The fiery gaze of an OG, his resolve burning bright. Feel the power, wear the intensity.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.88,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "blazing-soul",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:23:45.079569",
+      "product_id": "prod_011",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+      "category": "Hoodie",
+      "concept_name": "The Cheetah",
+      "title": "OG // Hoodie — The Cheetah",
+      "handle": "og-hoodie-the-cheetah",
+      "palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "Unleash the speed, embody the spirit. A hunter's instinct runs deep, a true veta.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.65,
+      "hero_card_ready": false,
+      "view": "front",
+      "handle_fragment": "the-cheetah",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:23:57.953589",
+      "product_id": "prod_012",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.42 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Red Gaze",
+      "title": "OG // Hoodie — Red Gaze",
+      "handle": "og-hoodie-red-gaze",
+      "palette": [
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "His gaze cuts through the darkness, an unyielding promise of what's to come. Feel the intensity, carry the power.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "red-gaze",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:24:08.912632",
+      "product_id": "prod_013",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.42 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.43 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Firestorm Gaze",
+      "title": "OG // Hoodie — Firestorm Gaze",
+      "handle": "og-hoodie-firestorm-gaze",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "From the depths of the storm, a gaze that ignites the veta. Wear the fire, feel the raktham.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "CUE_SMOKE",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "firestorm-gaze",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:24:23.048360",
+      "product_id": "prod_014",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.43 AM.jpeg",
+          "view": "back",
+          "is_primary": true,
+          "visual_coolness_score": 0.9,
+          "hero_card_ready": true
+        },
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg",
+          "view": "back",
+          "is_primary": false,
+          "visual_coolness_score": 0.9,
+          "hero_card_ready": true
+        }
+      ],
+      "total_views": 2,
+      "has_front_view": false,
+      "has_back_view": true
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.44 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Ignited Spirit",
+      "title": "OG // Hoodie — Ignited Spirit",
+      "handle": "og-hoodie-ignited-spirit",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ],
+      "description": "A legendary force, ablaze with raw, unyielding spirit. Wear the inferno, unleash your veta.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "CUE_BRASS",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "ignited-spirit",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:24:33.730906",
+      "product_id": "prod_015",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.44 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Blood Drip OG",
+      "title": "OG // Hoodie — Blood Drip OG",
+      "handle": "og-hoodie-blood-drip-og",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "The OG's mark, etched in raktham. Wear the legacy, feel the power.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.75,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "blood-drip-og",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:24:43.609988",
+      "product_id": "prod_016",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Crimson Mark",
+      "title": "OG // Hoodie — Crimson Mark",
+      "handle": "og-hoodie-crimson-mark",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "The emblem of power, etched in raw raktham. Wear the mark, become the OG.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.7,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "crimson-mark",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:25:01.770594",
+      "product_id": "prod_017",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Brass Emblem",
+      "title": "OG // Hoodie — Brass Emblem",
+      "handle": "og-hoodie-brass-emblem",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        }
+      ],
+      "description": "The OG's mark, bold and unyielding, etched in gold. Declare your presence.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BRASS",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.8,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "brass-emblem",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:25:16.968003",
+      "product_id": "prod_018",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Ojas Gambheera",
+      "title": "OG // Hoodie — Ojas Gambheera",
+      "handle": "og-hoodie-ojas-gambheera",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "The calm before the storm. Ojas Gambheera unleashed.\nFeel the power, feel the veera. Firestorm begins.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.75,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "ojas-gambheera",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:25:29.045514",
+      "product_id": "prod_019",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Original Gold",
+      "title": "OG // Hoodie — Original Gold",
+      "handle": "og-hoodie-original-gold",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        }
+      ],
+      "description": "The ultimate symbol of supremacy. Wear it like a true OG, power star style.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BRASS",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "original-gold",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:25:36.336869",
+      "product_id": "prod_020",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Blood Mark",
+      "title": "OG // Hoodie — Blood Mark",
+      "handle": "og-hoodie-blood-mark",
+      "palette": [
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "The OG mark, etched in blood. True fan's raktham. Wear your loyalty.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.8,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "blood-mark",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:25:51.150525",
+      "product_id": "prod_021",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Silent Veta",
+      "title": "OG // Hoodie — Silent Veta",
+      "handle": "og-hoodie-silent-veta",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        }
+      ],
+      "description": "When the moment demands it, the blade emerges. A silent veta, sharp and precise. Wear your readiness.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BRASS",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.8,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "silent-veta",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:26:01.991379",
+      "product_id": "prod_022",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Hungry Cheetah",
+      "title": "OG // Hoodie — Hungry Cheetah",
+      "handle": "og-hoodie-hungry-cheetah",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "The hunt for supremacy begins. Ee veta ki nuvvu ready-aa?",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.8,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "hungry-cheetah",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:26:41.281700",
+      "product_id": "prod_023",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
+          "view": "front",
+          "is_primary": false,
+          "visual_coolness_score": 0.75,
+          "hero_card_ready": true
+        },
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
+          "view": "front",
+          "is_primary": true,
+          "visual_coolness_score": 0.8,
+          "hero_card_ready": true
+        },
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.18.36 AM.jpeg",
+          "view": "front",
+          "is_primary": false,
+          "visual_coolness_score": 0.75,
+          "hero_card_ready": true
+        }
+      ],
+      "total_views": 3,
+      "has_front_view": true,
+      "has_back_view": false
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Firestorm Begins",
+      "title": "OG // Hoodie — Firestorm Begins",
+      "handle": "og-hoodie-firestorm-begins",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ],
+      "description": "A declaration of power, where the storm of vengeance begins. Embrace the OG fire within.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.7,
+      "hero_card_ready": false,
+      "view": "back",
+      "handle_fragment": "firestorm-begins",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:26:27.014919",
+      "product_id": "prod_024",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg",
+      "category": "Hoodie",
+      "concept_name": "OG Persona",
+      "title": "OG // Hoodie — OG Persona",
+      "handle": "og-hoodie-og-persona",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ],
+      "description": "The silent storm, the OG persona unleashed. Wear the veta.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.8,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "og-persona",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:26:59.983594",
+      "product_id": "prod_025",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Legacy 06",
+      "title": "OG // Hoodie — Legacy 06",
+      "handle": "og-hoodie-legacy-06",
+      "palette": [
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "A subtle nod to the rise of a legend. Wear the OG legacy, felt in every pulse.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.6,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "legacy-06",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:27:21.637798",
+      "product_id": "prod_026",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.49.01 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Crimson Veta",
+      "title": "OG // Hoodie — Crimson Veta",
+      "handle": "og-hoodie-crimson-veta",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ],
+      "description": "Rage building in the silence, a calculating gaze that speaks volumes. Embrace the OG's intensity. Ready for the veta.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.8,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "crimson-veta",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:27:34.588323",
+      "product_id": "prod_027",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.49.01 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 10.49.03 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Zero Hour",
+      "title": "OG // Hoodie — Zero Hour",
+      "handle": "og-hoodie-zero-hour",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "The veta begins, silent and swift. A new dawn of brutality approaches.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.75,
+      "hero_card_ready": false,
+      "view": "back",
+      "handle_fragment": "zero-hour",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:27:52.171925",
+      "product_id": "prod_028",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 10.49.03 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Veta Vision",
+      "title": "OG // Hoodie — Veta Vision",
+      "handle": "og-hoodie-veta-vision",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "The OG's fiery gaze, a vision of raw power.\nUnleash your inner 'veta', the hunt begins.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "CUE_SMOKE",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "veta-vision",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:28:05.576539",
+      "product_id": "prod_029",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Bloodied OG",
+      "title": "OG // Hoodie — Bloodied OG",
+      "handle": "og-hoodie-bloodied-og",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "The OG returns, drenched in raw power. Feel the raktam. Unleash the veta.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "CUE_SMOKE",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.75,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "bloodied-og",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:28:20.398164",
+      "product_id": "prod_030",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Katana Grip",
+      "title": "OG // Hoodie — Katana Grip",
+      "handle": "og-hoodie-katana-grip",
+      "palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        }
+      ],
+      "description": "The silent resolve of the OG, blade at the ready. A chey kshanam, strike with precision.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BRASS",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.88,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "katana-grip",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:28:33.348605",
+      "product_id": "prod_031",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Golden Identity",
+      "title": "OG // Hoodie — Golden Identity",
+      "handle": "og-hoodie-golden-identity",
+      "palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        },
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ],
+      "description": "True OG identity, etched in timeless gold. A statement of power for those who know.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BRASS",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.8,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "golden-identity",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:28:44.538682",
+      "product_id": "prod_032",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Katana Storm",
+      "title": "OG // Hoodie — Katana Storm",
+      "handle": "og-hoodie-katana-storm",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        }
+      ],
+      "description": "When the storm rages, the blade becomes a whisper of veta. Channel the warrior within.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BRASS",
+        "CUE_RAIN",
+        "CUE_SMOKE",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.85,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "katana-storm",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:28:57.957054",
+      "product_id": "prod_033",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Brutal Mark",
+      "title": "OG // Hoodie — Brutal Mark",
+      "handle": "og-hoodie-brutal-mark",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "The mark of a true OG. Raktham, passion, power.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.75,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "brutal-mark",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:29:07.518847",
+      "product_id": "prod_034",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "Ojas Gumbeera",
+      "title": "OG // Hoodie — Ojas Gumbeera",
+      "handle": "og-hoodie-ojas-gumbeera",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ],
+      "description": "The prophecy of Ojas Gumbeera unfolds. Wear the mark, for the firestorm begins and the veta is on.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.85,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "ojas-gumbeera",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:29:19.469130",
+      "product_id": "prod_035",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Ojas Firestorm",
+      "title": "OG // Hoodie — Ojas Firestorm",
+      "handle": "og-hoodie-ojas-firestorm",
+      "palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "The fiery gaze of Ojas, signaling the storm's arrival. Wear the power, feel the intensity.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "ojas-firestorm",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:29:28.861295",
+      "product_id": "prod_036",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "OG Legacy Mark",
+      "title": "OG // Hoodie — OG Legacy Mark",
+      "handle": "og-hoodie-og-legacy-mark",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "Wear the emblem of an era. The OG legacy, marked for the true fans. Ee rathri nede!",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_ASH_WHITE",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.75,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "og-legacy-mark",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:29:45.159220",
+      "product_id": "prod_037",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+      "category": "Hoodie",
+      "concept_name": "OG Repeat",
+      "title": "OG // Hoodie — OG Repeat",
+      "handle": "og-hoodie-og-repeat",
+      "palette": [
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "The OG legacy, boldly repeated across. Wear your pride. Choodandi!",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.65,
+      "hero_card_ready": false,
+      "view": "front",
+      "handle_fragment": "og-repeat",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:29:56.203430",
+      "product_id": "prod_038",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Firestorm",
+      "title": "OG // Hoodie — Firestorm",
+      "handle": "og-hoodie-firestorm",
+      "palette": [
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "The storm ignites. Feel the power, unleash your inner ugra roopam.",
+      "badge": "Rebel Drop",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.3,
+      "hero_card_ready": false,
+      "view": "front",
+      "handle_fragment": "firestorm",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:30:33.431971",
+      "product_id": "prod_039",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg",
+      "category": "Hoodie",
+      "concept_name": "Red Reign",
+      "title": "OG // Hoodie — Red Reign",
+      "handle": "og-hoodie-red-reign",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "The OG stands against a storm of fury, a silent force. Feel the thirigamana energy with every wear.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_HOODIE",
+        "CAT_Hoodie",
+        "CUE_BLOOD_RED",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.85,
+      "hero_card_ready": true,
+      "view": "back",
+      "handle_fragment": "red-reign",
+      "price_inr": 1299.11,
+      "analyzed_at": "2025-09-10T11:30:53.198987",
+      "product_id": "prod_040",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg",
+          "view": "back",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg",
+      "category": "Tee",
+      "concept_name": "Firepower Fury",
+      "title": "OG // Tee — Firepower Fury",
+      "handle": "og-tee-firepower-fury",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ],
+      "description": "The OG in his element, a storm of firepower and intensity. Feel the raktham, prepare for the veta.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_TEE",
+        "CAT_Tee",
+        "CUE_BLOOD_RED",
+        "CUE_BRASS",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "firepower-fury",
+      "price_inr": 975.11,
+      "analyzed_at": "2025-09-10T11:32:06.062659",
+      "product_id": "prod_041",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg",
+      "category": "Tee",
+      "concept_name": "The Arrival",
+      "title": "OG // Tee — The Arrival",
+      "handle": "og-tee-the-arrival",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ],
+      "description": "Before the storm, before the veta, there's only the name. The OG makes his entrance. Are you ready?",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_TEE",
+        "CAT_Tee",
+        "CUE_BRASS",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "the-arrival",
+      "price_inr": 975.11,
+      "analyzed_at": "2025-09-10T11:32:47.807446",
+      "product_id": "prod_042",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg",
+      "category": "Tee",
+      "concept_name": "Crimson Fury",
+      "title": "OG // Tee — Crimson Fury",
+      "handle": "og-tee-crimson-fury",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ],
+      "description": "The crimson inferno burns, fuelled by raktham and righteous rage.\nWitness the unforgiving veta. Join the hunt.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_TEE",
+        "CAT_Tee",
+        "CUE_BLOOD_RED",
+        "CUE_SMOKE",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.95,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "crimson-fury",
+      "price_inr": 975.11,
+      "analyzed_at": "2025-09-10T11:34:13.364162",
+      "product_id": "prod_043",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg",
+      "category": "Tee",
+      "concept_name": "Bullet Circle OG",
+      "title": "OG // Tee — Bullet Circle OG",
+      "handle": "og-tee-bullet-circle-og",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "The OG's stride, surrounded by the mark of battle. Raktham red, brass gold, a true legend's call.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_TEE",
+        "CUE_BLOOD_RED",
+        "CUE_BRASS",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "bullet-circle-og",
+      "price_inr": 975.11,
+      "analyzed_at": "2025-09-10T11:36:04.333517",
+      "product_id": "prod_044",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg",
+      "category": "Tee",
+      "concept_name": "Cheetha's Blade",
+      "title": "OG // Tee — Cheetha's Blade",
+      "handle": "og-tee-cheethas-blade",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "The OG rises, his blade a whisper of raw veta. For the loyal, for the fearless. Adhe veta.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_TEE",
+        "CAT_Tee",
+        "CUE_BLOOD_RED",
+        "CUE_BRASS",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "cheetha-s-blade",
+      "price_inr": 975.11,
+      "analyzed_at": "2025-09-10T11:37:18.907772",
+      "product_id": "prod_045",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg",
+      "category": "Tee",
+      "concept_name": "Gateway Carnage",
+      "title": "OG // Tee — Gateway Carnage",
+      "handle": "og-tee-gateway-carnage",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        }
+      ],
+      "description": "The OG descends upon Mumbai, a storm of fire and fury. Veta begins, a new era of brutality dawns.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_TEE",
+        "CAT_Tee",
+        "CUE_BLOOD_RED",
+        "CUE_BRASS",
+        "CUE_SMOKE",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "gateway-carnage",
+      "price_inr": 975.11,
+      "analyzed_at": "2025-09-10T11:39:24.255680",
+      "product_id": "prod_046",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "image_id": "WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg",
+      "category": "Tee",
+      "concept_name": "Crimson Rain Veta",
+      "title": "OG // Tee — Crimson Rain Veta",
+      "handle": "og-tee-crimson-rain-veta",
+      "palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ],
+      "description": "The streets run red, a silent warning for those who dare. This is his rajyam.\nEvery drop of rain echoes his veta. Own the OG legacy.",
+      "badge": "Vault Exclusive",
+      "price_band": "CORE",
+      "tags": [
+        "CAT_TEE",
+        "CAT_Tee",
+        "CUE_BLOOD_RED",
+        "CUE_RAIN",
+        "EN",
+        "TE"
+      ],
+      "visual_coolness_score": 0.9,
+      "hero_card_ready": true,
+      "view": "front",
+      "handle_fragment": "crimson-rain-veta",
+      "price_inr": 975.11,
+      "analyzed_at": "2025-09-10T11:39:37.704169",
+      "product_id": "prod_047",
+      "images": [
+        {
+          "image_id": "WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg",
+          "view": "front",
+          "is_primary": true
+        }
+      ]
+    }
+  ]
+}

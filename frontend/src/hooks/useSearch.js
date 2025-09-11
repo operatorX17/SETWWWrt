@@ -186,7 +186,7 @@ export const useSearchFilters = (searchResults) => {
     // Badge filter
     if (filters.badges.length > 0) {
       filtered = filtered.filter(product =>
-        product.badges.some(badge => filters.badges.includes(badge))
+        product.badges?.some(badge => filters.badges.includes(badge))
       );
     }
 

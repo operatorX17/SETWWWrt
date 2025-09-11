@@ -30,16 +30,23 @@ const Header = () => {
     initializeCustomer();
   }, []);
 
-  // Scroll detection for navigation visibility
+  // Scroll detection for navigation visibility - UPDATED TO SHOW AFTER HERO VIDEO
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
+      const heroVideoHeight = window.innerHeight; // Full viewport height for hero video
       
-      // Show header when scrolling up or at top
-      if (currentScrollY < lastScrollY || currentScrollY < 100) {
-        setIsVisible(true);
+      // Only show header after scrolling past the hero video section
+      if (currentScrollY > heroVideoHeight - 100) {
+        // Show header when scrolling up or when past hero video
+        if (currentScrollY < lastScrollY) {
+          setIsVisible(true);
+        } else {
+          // Hide header when scrolling down (but only after hero video)
+          setIsVisible(false);
+        }
       } else {
-        // Hide header when scrolling down
+        // Hide header completely when in hero video section
         setIsVisible(false);
       }
       

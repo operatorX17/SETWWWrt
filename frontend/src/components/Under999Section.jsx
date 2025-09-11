@@ -50,7 +50,7 @@ const Under999Section = ({ products }) => {
         {/* Products Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {products.slice(0, 8).map((product, index) => (
-            <div key={product.id} className="group">
+            <div key={product.id || product.handle || index} className="group">
               <ProductCard 
                 product={product} 
                 className="transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/20"

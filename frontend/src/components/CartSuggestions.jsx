@@ -78,7 +78,13 @@ const CartSuggestions = ({ className = "" }) => {
           <div key={product.id} className="bg-gray-800/50 rounded-lg p-3 flex items-center space-x-3">
             <div className="w-16 h-16 bg-gray-700 rounded-lg overflow-hidden flex-shrink-0">
               {(() => {
-                const imgs = product.images || [];
+                // Handle new premium catalog structure where image is a string
+                if (product?.image) {
+                  return <img src={product.image} alt={product.name} className="w-full h-full object-cover" />;
+                }
+                
+                // Fallback to legacy images array structure
+                const imgs = Array.isArray(product?.images) ? product.images : [];
                 if (imgs.length === 0) return (
                   <div className="w-full h-full bg-gray-600 flex items-center justify-center">
                     <Star size={16} className="text-gray-400" />

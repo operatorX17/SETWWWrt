@@ -1,0 +1,51 @@
+{
+  "store_info": {
+    "name": "PSPK Fan Store",
+    "tagline": "Official PSPK Merchandise - Underground Culture",
+    "total_products": 0,
+    "fan_tiers": [
+      "casual_fan",
+      "dedicated_supporter",
+      "hardcore_enthusiast",
+      "vault_member"
+    ],
+    "category_stats": {
+      "apparel": 0,
+      "accessories": 0,
+      "collectibles": 0,
+      "digital": 0
+    },
+    "generation_info": {
+      "version": "2.0.0",
+      "generated_at": "2025-09-11",
+      "last_updated": "2025-09-11",
+      "status": "CLEARED_FOR_NEW_CATALOG"
+    }
+  },
+  "hero_section": {
+    "featured_products": []
+  },
+  "categories": {
+    "apparel": {
+      "name": "Apparel",
+      "description": "PSPK branded clothing and wearables",
+      "products": []
+    },
+    "accessories": {
+      "name": "Accessories",
+      "description": "PSPK branded accessories and gear",
+      "products": []
+    },
+    "collectibles": {
+      "name": "Collectibles",
+      "description": "Limited edition PSPK collectibles",
+      "products": []
+    },
+    "digital": {
+      "name": "Digital",
+      "description": "Digital PSPK content and downloads",
+      "products": []
+    }
+  },
+  "products": []
+}

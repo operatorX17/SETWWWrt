@@ -1,0 +1,763 @@
+[
+  {
+    "title": "OG // Slide — Comfort Code",
+    "handle": "og-slide-comfort-code",
+    "productType": "Slide",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>Off-duty, but always OG. Rep your fandom even when you're chilling, maawa.</p>",
+    "tags": [
+      "CAT_SLIDE",
+      "CAT_Slide",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 899.11,
+    "imageSrcs": [
+      "./out/front/comfort-code/WhatsApp Image 2025-09-04 at 3.51.47 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Under \\u20b9999\"]",
+      "og.colorway": "Ash White / Blood Red",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Slide — Crimson Comfort",
+    "handle": "og-slide-crimson-comfort",
+    "productType": "Slide",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>Step into your domain, the ultimate OG comfort. Your pad, your power, your 'adda' (hangout/den) for chill vibes.</p>",
+    "tags": [
+      "CAT_SLIDE",
+      "CAT_Slide",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 899.11,
+    "imageSrcs": [
+      "./out/front/crimson-comfort/WhatsApp Image 2025-09-04 at 3.51.48 AM (1).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Under \\u20b9999\"]",
+      "og.colorway": "Blood Red / Ash White",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Cap — Bloodied OG",
+    "handle": "og-cap-bloodied-og",
+    "productType": "Cap",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The OG symbol, etched in raktam. A tribute to the relentless spirit.\nWear the legacy. Own the fight.</p>",
+    "tags": [
+      "CAT_CAP",
+      "CAT_Cap",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 399.11,
+    "imageSrcs": [
+      "./out/front/bloodied-og/WhatsApp Image 2025-09-04 at 3.51.48 AM (2).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Under \\u20b9999\"]",
+      "og.colorway": "Jet Black / Blood Red",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Slide — Crimson Mark",
+    "handle": "og-slide-crimson-mark",
+    "productType": "Slide",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>Mark your territory, OG style. Unleash your inner raktham with every step.</p>",
+    "tags": [
+      "CAT_SLIDE",
+      "CAT_Slide",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 899.11,
+    "imageSrcs": [
+      "./out/front/crimson-mark/WhatsApp Image 2025-09-04 at 3.51.48 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Under \\u20b9999\"]",
+      "og.colorway": "Jet Black / Blood Red / Ash White",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Urban Blueprint",
+    "handle": "og-tee-urban-blueprint",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>Navigate the concrete jungle, where every move is part of the blueprint. For the OG who sees the bigger picture.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CAT_Tee",
+      "CUE_ASH_WHITE",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 899.11,
+    "imageSrcs": [
+      "./out/front/urban-blueprint/WhatsApp Image 2025-09-04 at 3.51.49 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Rebel Drop\"]",
+      "og.colorway": "Jet Black / Blood Red / Ash White",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Firestorm",
+    "handle": "og-tee-firestorm",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>Unleash the storm, where wheels burn and legends rise. Raktham, pranam, OG. Ready to dominate.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CAT_Tee",
+      "CUE_BLOOD_RED",
+      "CUE_BRASS",
+      "CUE_SMOKE",
+      "EN",
+      "TE"
+    ],
+    "price": 975.11,
+    "imageSrcs": [
+      "./out/front/firestorm/WhatsApp Image 2025-09-04 at 3.51.50 AM (1).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Blood Red / Brass Gold / Ash White",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Raw OG Power",
+    "handle": "og-tee-raw-og-power",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>Channel the raw power of the OG. A statement in defiance.\nFeel the throb of raktham, wear the veta spirit.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CAT_Tee",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 899.11,
+    "imageSrcs": [
+      "./out/front/raw-og-power/WhatsApp Image 2025-09-04 at 3.51.50 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Under \\u20b9999\"]",
+      "og.colorway": "Ash White / Blood Red",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Blood OG",
+    "handle": "og-tee-blood-og",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The original gangsta. OG raktham on full display.\nShow your loyalty. Own the streets.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CAT_Tee",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 899.11,
+    "imageSrcs": [
+      "./out/front/blood-og/WhatsApp Image 2025-09-04 at 3.51.51 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Rebel Drop\"]",
+      "og.colorway": "Jet Black / Blood Red",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Iconic Ride",
+    "handle": "og-tee-iconic-ride",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The legend's roar, a classic machine for a timeless persona. This OG ride is ready for the veta.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CAT_Tee",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 899.11,
+    "imageSrcs": [
+      "./out/front/iconic-ride/WhatsApp Image 2025-09-04 at 3.51.52 AM (1).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Under \\u20b9999\"]",
+      "og.colorway": "Ash White / Blood Red / Jet Black",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Blood Mark",
+    "handle": "og-tee-blood-mark",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The mark of the OG, etched in raktham. Wear it, feel the power.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 899.11,
+    "imageSrcs": [
+      "./out/front/blood-mark/WhatsApp Image 2025-09-04 at 3.51.52 AM (2).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Rebel Drop\"]",
+      "og.colorway": "Jet Black / Blood Red",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Ojas Gambeera Gaze",
+    "handle": "og-tee-ojas-gambeera-gaze",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The piercing Ojas Gambeera gaze. A warning in every glance, a force to reckon with. Daring you to meet his eyes.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CAT_Tee",
+      "CUE_BLOOD_RED",
+      "CUE_BRASS",
+      "EN",
+      "TE"
+    ],
+    "price": 975.11,
+    "imageSrcs": [
+      "./out/front/ojas-gambeera-gaze/WhatsApp Image 2025-09-04 at 3.51.52 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Ash White / Blood Red / Brass Gold",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Rage Unleashed",
+    "handle": "og-tee-rage-unleashed",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The OG's stride sets the path ablaze. When he moves, the world trembles. Raktham.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CAT_Tee",
+      "CUE_BLOOD_RED",
+      "CUE_BRASS",
+      "EN",
+      "TE"
+    ],
+    "price": 975.11,
+    "imageSrcs": [
+      "./out/front/rage-unleashed/WhatsApp Image 2025-09-04 at 3.51.53 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Hungry Cheetah",
+    "handle": "og-hoodie-hungry-cheetah",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The hunter's instinct takes over. Chudu, the game is on. \nUnleash your primal veta. Ready to strike.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/hungry-cheetah/WhatsApp Image 2025-09-04 at 3.51.55 AM (1).jpeg",
+      "./out/front/hungry-cheetah/WhatsApp Image 2025-09-04 at 3.52.04 AM (1).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Rebel Drop\"]",
+      "og.colorway": "Ash White / Blood Red",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Blood Legacy",
+    "handle": "og-tee-blood-legacy",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The OG's legacy, painted in raktham. A visceral tribute to power and presence. Ready for the hunt.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CAT_Tee",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 975.11,
+    "imageSrcs": [
+      "./out/front/blood-legacy/WhatsApp Image 2025-09-04 at 3.51.55 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Blood Red",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Intense Veta",
+    "handle": "og-hoodie-intense-veta",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The piercing gaze of a predator, ready for the veta. Feel the intensity, embrace the chase.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/intense-veta/WhatsApp Image 2025-09-04 at 3.51.56 AM (1).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Blood Red / Ash White",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Silent Call",
+    "handle": "og-hoodie-silent-call",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>Even a silent call from the OG signals the coming veta. Life goes on, but the hunt never stops.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/silent-call/WhatsApp Image 2025-09-04 at 3.51.56 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Blood Red",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Firestorm Gaze",
+    "handle": "og-hoodie-firestorm-gaze",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>Kallalo raktham, a hunger that burns. Unleash the inner OG, ready for the veta. Arm up, veera.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BLOOD_RED",
+      "CUE_BRASS",
+      "CUE_SMOKE",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/firestorm-gaze/WhatsApp Image 2025-09-04 at 3.51.57 AM.jpeg",
+      "./out/front/firestorm-gaze/WhatsApp Image 2025-09-04 at 3.52.00 AM (2).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Ash White",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Blood Drip OG",
+    "handle": "og-hoodie-blood-drip-og",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The OG's arrival is etched in raktham. Wear the symbol of dominance.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/blood-drip-og/WhatsApp Image 2025-09-04 at 3.51.58 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Rebel Drop\"]",
+      "og.colorway": "Jet Black / Blood Red",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Blaze of OG",
+    "handle": "og-hoodie-blaze-of-og",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The OG ignites, his very presence a roaring blaze. Feel the heat, the jwala, the raw power within.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CUE_BLOOD_RED",
+      "CUE_BRASS",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/blaze-of-og/WhatsApp Image 2025-09-04 at 3.51.59 AM (1).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Blood Red / Brass Gold",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — The Fifth Mark",
+    "handle": "og-hoodie-the-fifth-mark",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The OG's mark of conviction. Show your allegiance, no looking back.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/the-fifth-mark/WhatsApp Image 2025-09-04 at 3.51.59 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Rebel Drop\"]",
+      "og.colorway": "Blood Red / Ash White",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Rebel Stare",
+    "handle": "og-hoodie-rebel-stare",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The iconic gaze, rendered in raw power. Feel the intensity, wear the swag. Oora mass!</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/rebel-stare/WhatsApp Image 2025-09-04 at 3.52.00 AM (1).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Blood Red / Ash White",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Bloodied OG",
+    "handle": "og-hoodie-bloodied-og",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The OG persona, written in raktham, an unbreakable resolve.\nWear your power, feel the heat.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BLOOD_RED",
+      "CUE_SMOKE",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/bloodied-og/WhatsApp Image 2025-09-04 at 3.52.00 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Blood Red",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Life Goes On",
+    "handle": "og-hoodie-life-goes-on",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>A reflective moment for the OG, carrying the weight and moving forward. Life goes on, anthems play. Own this vibe.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/life-goes-on/WhatsApp Image 2025-09-04 at 3.52.01 AM (1).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Blood Red / Ash White",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Katana Storm",
+    "handle": "og-hoodie-katana-storm",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>Channel the fury of a lone warrior, striking down all who stand in the way. Ryuutsu's storm, a relentless veta. This is the OG way.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BRASS",
+      "CUE_SMOKE",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/katana-storm/WhatsApp Image 2025-09-04 at 3.52.01 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Brass Gold / Ash White",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Veta Begins",
+    "handle": "og-hoodie-veta-begins",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The steel in hand, the resolve set. This is where the hunt, the 'veta', truly begins.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BRASS",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/veta-begins/WhatsApp Image 2025-09-04 at 3.52.02 AM (1).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Ash White / Brass Gold",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Ash Drip OG",
+    "handle": "og-hoodie-ash-drip-og",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>Raktham drops, style flows. Unleash the inner OG.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/ash-drip-og/WhatsApp Image 2025-09-04 at 3.52.02 AM (2).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Rebel Drop\"]",
+      "og.colorway": "Jet Black / Ash White",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Hoodie — Maverick Stance",
+    "handle": "og-hoodie-maverick-stance",
+    "productType": "Hoodie",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The OG's confident swagger, captured in blood red. Embody the veta spirit, ready to rule.</p>",
+    "tags": [
+      "CAT_HOODIE",
+      "CAT_Hoodie",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 1299.11,
+    "imageSrcs": [
+      "./out/front/maverick-stance/WhatsApp Image 2025-09-04 at 3.52.02 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Ash White / Blood Red / Jet Black",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Blaze of Fury",
+    "handle": "og-tee-blaze-of-fury",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The fire within burns, ready for the veta. Unleash the OG's spirit with every wear.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CAT_Tee",
+      "CUE_BLOOD_RED",
+      "CUE_BRASS",
+      "EN",
+      "TE"
+    ],
+    "price": 975.11,
+    "imageSrcs": [
+      "./out/front/blaze-of-fury/WhatsApp Image 2025-09-04 at 3.52.03 AM (1).jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Jet Black / Blood Red / Brass Gold",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Dripping OG",
+    "handle": "og-tee-dripping-og",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The OG's mark, etched in raktham. A statement of loyalty, sharp and clear.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CAT_Tee",
+      "CUE_BLOOD_RED",
+      "EN",
+      "TE"
+    ],
+    "price": 899.11,
+    "imageSrcs": [
+      "./out/front/dripping-og/WhatsApp Image 2025-09-04 at 3.52.03 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "false",
+      "og.badges": "[\"Rebel Drop\"]",
+      "og.colorway": "Ash White / Blood Red",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  },
+  {
+    "title": "OG // Tee — Raktham OG",
+    "handle": "og-tee-raktham-og",
+    "productType": "Tee",
+    "vendor": "DVV Entertainment",
+    "descriptionHtml": "<p>The legacy drips, etched in raktham. A clean canvas for brutal power, showing your unwavering allegiance to the OG.</p>",
+    "tags": [
+      "CAT_TEE",
+      "CAT_Tee",
+      "CUE_BLOOD_RED",
+      "CUE_BRASS",
+      "EN",
+      "TE"
+    ],
+    "price": 975.11,
+    "imageSrcs": [
+      "./out/front/raktham-og/WhatsApp Image 2025-09-04 at 3.52.04 AM.jpeg"
+    ],
+    "metafields": {
+      "og.rank": "COMMON",
+      "og.is_limited": "true",
+      "og.badges": "[\"Vault Exclusive\"]",
+      "og.colorway": "Ash White / Blood Red / Brass Gold",
+      "og.locale_tags": "[\"TE\", \"EN\"]"
+    }
+  }
+]

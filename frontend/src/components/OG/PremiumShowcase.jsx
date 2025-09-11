@@ -26,20 +26,20 @@ const PremiumShowcase = () => {
       const features = [];
       
       // Add category-specific features
-      if (product.category === 'Hoodies' || product.name.includes('HOODIE')) {
+      if (product.category === 'Hoodies' || product.name?.includes('HOODIE')) {
         features.push('Premium Cotton Blend', 'Heavyweight 400GSM');
-      } else if (product.category === 'Tees' || product.name.includes('TEE')) {
+      } else if (product.category === 'Tees' || product.name?.includes('TEE')) {
         features.push('Soft Cotton', 'Breathable Fabric');
       } else if (product.category === 'Vault') {
         features.push('Vault Exclusive', 'Serial Numbered');
       }
       
       // Add design-specific features
-      if (product.name.includes('SHADOW') || product.name.includes('BEAST')) {
+      if (product.name?.includes('SHADOW') || product.name?.includes('BEAST')) {
         features.push('Dark Aesthetic');
-      } else if (product.name.includes('STORM') || product.name.includes('THUNDER')) {
+      } else if (product.name?.includes('STORM') || product.name?.includes('THUNDER')) {
         features.push('Weather Inspired');
-      } else if (product.name.includes('CRIMSON') || product.name.includes('FURY')) {
+      } else if (product.name?.includes('CRIMSON') || product.name?.includes('FURY')) {
         features.push('Bold Design');
       }
       

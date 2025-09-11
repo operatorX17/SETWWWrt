@@ -67,6 +67,32 @@ module.exports = {
                                 '3': 'hsl(var(--chart-3))',
                                 '4': 'hsl(var(--chart-4))',
                                 '5': 'hsl(var(--chart-5))'
+                        },
+                        // PSPK Crimson Color Psychology Scheme
+                        crimson: {
+                                DEFAULT: 'var(--crimson-primary)',
+                                primary: 'var(--crimson-primary)',
+                                dark: 'var(--crimson-dark)',
+                                light: 'var(--crimson-light)'
+                        },
+                        gold: {
+                                DEFAULT: 'var(--gold-accent)',
+                                accent: 'var(--gold-accent)',
+                                light: 'var(--gold-light)',
+                                dark: 'var(--gold-dark)',
+                                brass: 'var(--brass-gold)'
+                        },
+                        pspk: {
+                                black: 'var(--black-primary)',
+                                'black-secondary': 'var(--black-secondary)',
+                                'black-tertiary': 'var(--black-tertiary)',
+                                'ash-white': 'var(--ash-white)',
+                                'blood-red': 'var(--blood-red)',
+                                'cta-primary': 'var(--cta-primary)',
+                                'cta-secondary': 'var(--cta-secondary)',
+                                'vault-badge': 'var(--vault-badge)',
+                                success: 'var(--success-green)',
+                                warning: 'var(--warning-orange)'
                         }
                 },
                 keyframes: {

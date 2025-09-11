@@ -1,0 +1,1144 @@
+{
+  "metadata": {
+    "section": "under_999",
+    "total_products": 17,
+    "generated_at": "2025-01-10",
+    "price_range": "₹0 - ₹998"
+  },
+  "products": [
+    {
+      "title": "OG // Cap — OG Emblazoned",
+      "handle": "og-cap-og-emblazoned",
+      "category": "hats",
+      "product_type": "hats",
+      "tags": [
+        "CAT_Cap",
+        "headwear",
+        "accessory",
+        "cap",
+        "hat",
+        "style",
+        "CAT_CAP",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hats/product1/front/WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+        "back": "PRODUCTS/hats/product1/back/WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg"
+      },
+      "variants": [
+        {
+          "title": "OG // Cap — OG Emblazoned",
+          "price": "415.00",
+          "sku": "product-1-hat-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 1 Hat",
+      "seo_description": "Buy Product 1 Hat online. Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Retu...",
+      "meta_description": "Shop Product 1 Hat - Premium hats with unique design. Fast shipping & returns.",
+      "description": "Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 91,
+        "popularity_rank": 2,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "hoodies"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "OG // Cap — The OG Mark",
+      "handle": "og-cap-the-og-mark",
+      "category": "hats",
+      "product_type": "hats",
+      "tags": [
+        "CAT_Cap",
+        "headwear",
+        "accessory",
+        "cap",
+        "CUE_ASH_WHITE",
+        "hat",
+        "style",
+        "CAT_CAP"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/hats/product2/front/WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
+        "back": "PRODUCTS/hats/product2/back/WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg"
+      },
+      "variants": [
+        {
+          "title": "OG // Cap — The OG Mark",
+          "price": "629.00",
+          "sku": "product-2-hat-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 2 Hat",
+      "seo_description": "Buy Product 2 Hat online. Own your status. Wear the mark of the original.\nRaktham-red style, for the true fan.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Avai...",
+      "meta_description": "Shop Product 2 Hat - Premium hats with unique design. Fast shipping & returns.",
+      "description": "Own your status. Wear the mark of the original.\nRaktham-red style, for the true fan.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 93,
+        "popularity_rank": 12,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "teeshirt",
+          "hoodies"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ]
+    },
+    {
+      "title": "OG // Poster — Firepower Fury",
+      "handle": "og--poster--firepower-fury",
+      "category": "posters",
+      "product_type": "posters",
+      "tags": [
+        "CAT_POSTER",
+        "home-decor",
+        "print",
+        "CAT_Poster",
+        "interior-design",
+        "wall-art",
+        "artwork",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/posters/product1/WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "OG // Poster — Firepower Fury",
+          "price": "546.00",
+          "sku": "product-1-poster-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 1 Poster",
+      "seo_description": "Buy Product 1 Poster online. The OG in his element, a storm of firepower and intensity. Feel the raktham, prepare for the veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast...",
+      "meta_description": "Shop Product 1 Poster - Premium posters with unique design. Fast shipping & returns.",
+      "description": "The OG in his element, a storm of firepower and intensity. Feel the raktham, prepare for the veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 77,
+        "popularity_rank": 99,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [],
+        "cross_sell_categories": [
+          "full shirts",
+          "teeshirt"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ]
+    },
+    {
+      "title": "OG // Poster — The Arrival",
+      "handle": "og--poster--the-arrival",
+      "category": "posters",
+      "product_type": "posters",
+      "tags": [
+        "CAT_POSTER",
+        "home-decor",
+        "print",
+        "CAT_Poster",
+        "CUE_BRASS",
+        "interior-design",
+        "wall-art",
+        "artwork"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/posters/product10/WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "OG // Poster — The Arrival",
+          "price": "311.00",
+          "sku": "product-10-poster-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 10 Poster",
+      "seo_description": "Buy Product 10 Poster online. Before the storm, before the veta, there's only the name. The OG makes his entrance. Are you ready?\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fas...",
+      "meta_description": "Shop Product 10 Poster - Premium posters with unique design. Fast shipping & returns.",
+      "description": "Before the storm, before the veta, there's only the name. The OG makes his entrance. Are you ready?\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 91,
+        "popularity_rank": 42,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [],
+        "cross_sell_categories": [
+          "full shirts",
+          "teeshirt"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "OG // Poster — Crimson Fury",
+      "handle": "og--poster--crimson-fury",
+      "category": "posters",
+      "product_type": "posters",
+      "tags": [
+        "CAT_POSTER",
+        "home-decor",
+        "print",
+        "CAT_Poster",
+        "interior-design",
+        "wall-art",
+        "artwork",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/posters/product2/WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "OG // Poster — Crimson Fury",
+          "price": "370.00",
+          "sku": "product-2-poster-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 2 Poster",
+      "seo_description": "Buy Product 2 Poster online. The crimson inferno burns, fuelled by raktham and righteous rage.\nWitness the unforgiving veta. Join the hunt.\n\n✓ Premium Quality Materials\n✓ Unique D...",
+      "meta_description": "Shop Product 2 Poster - Premium posters with unique design. Fast shipping & returns.",
+      "description": "The crimson inferno burns, fuelled by raktham and righteous rage.\nWitness the unforgiving veta. Join the hunt.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 78,
+        "popularity_rank": 6,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [],
+        "cross_sell_categories": [
+          "full shirts",
+          "teeshirt"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        }
+      ]
+    },
+    {
+      "title": "OG // Poster — Bullet Circle OG",
+      "handle": "og--poster--bullet-circle-og",
+      "category": "posters",
+      "product_type": "posters",
+      "tags": [
+        "CAT_POSTER",
+        "home-decor",
+        "print",
+        "CAT_Poster",
+        "CUE_BRASS",
+        "interior-design",
+        "wall-art",
+        "artwork",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/posters/product3/WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "OG // Poster — Bullet Circle OG",
+          "price": "391.00",
+          "sku": "product-3-poster-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 3 Poster",
+      "seo_description": "Buy Product 3 Poster online. The OG's stride, surrounded by the mark of battle. Raktham red, brass gold, a true legend's call.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast ...",
+      "meta_description": "Shop Product 3 Poster - Premium posters with unique design. Fast shipping & returns.",
+      "description": "The OG's stride, surrounded by the mark of battle. Raktham red, brass gold, a true legend's call.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 89,
+        "popularity_rank": 3,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [],
+        "cross_sell_categories": [
+          "full shirts",
+          "teeshirt"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ]
+    },
+    {
+      "title": "OG // Poster — Cheetha's Blade",
+      "handle": "og--poster--cheetha's-blade",
+      "category": "posters",
+      "product_type": "posters",
+      "tags": [
+        "CAT_POSTER",
+        "home-decor",
+        "print",
+        "CAT_Poster",
+        "interior-design",
+        "wall-art",
+        "artwork",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/posters/product4/WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "OG // Poster — Cheetha's Blade",
+          "price": "320.00",
+          "sku": "product-4-poster-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 4 Poster",
+      "seo_description": "Buy Product 4 Poster online. The OG rises, his blade a whisper of raw veta. For the loyal, for the fearless. Adhe veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shippin...",
+      "meta_description": "Shop Product 4 Poster - Premium posters with unique design. Fast shipping & returns.",
+      "description": "The OG rises, his blade a whisper of raw veta. For the loyal, for the fearless. Adhe veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 95,
+        "popularity_rank": 42,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [],
+        "cross_sell_categories": [
+          "full shirts",
+          "teeshirt"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ]
+    },
+    {
+      "title": "OG // Poster — Gateway Carnage",
+      "handle": "og--poster--gateway-carnage",
+      "category": "posters",
+      "product_type": "posters",
+      "tags": [
+        "CAT_POSTER",
+        "home-decor",
+        "print",
+        "CAT_Poster",
+        "interior-design",
+        "wall-art",
+        "artwork",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/posters/product5/WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "OG // Poster — Gateway Carnage",
+          "price": "359.00",
+          "sku": "product-5-poster-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 5 Poster",
+      "seo_description": "Buy Product 5 Poster online. The OG descends upon Mumbai, a storm of fire and fury. Veta begins, a new era of brutality dawns.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast ...",
+      "meta_description": "Shop Product 5 Poster - Premium posters with unique design. Fast shipping & returns.",
+      "description": "The OG descends upon Mumbai, a storm of fire and fury. Veta begins, a new era of brutality dawns.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 79,
+        "popularity_rank": 81,
+        "is_trending": false,
+        "is_bestseller": false,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [],
+        "cross_sell_categories": [
+          "full shirts",
+          "teeshirt"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        }
+      ]
+    },
+    {
+      "title": "OG // Poster — Crimson Rain Veta",
+      "handle": "og--poster--crimson-rain-veta",
+      "category": "posters",
+      "product_type": "posters",
+      "tags": [
+        "CAT_POSTER",
+        "home-decor",
+        "print",
+        "CAT_Poster",
+        "interior-design",
+        "wall-art",
+        "artwork",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/posters/product6/WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "OG // Poster — Crimson Rain Veta",
+          "price": "344.00",
+          "sku": "product-6-poster-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 6 Poster",
+      "seo_description": "Buy Product 6 Poster online. The streets run red, a silent warning for those who dare. This is his rajyam.\nEvery drop of rain echoes his veta. Own the OG legacy.\n\n✓ Premium Qualit...",
+      "meta_description": "Shop Product 6 Poster - Premium posters with unique design. Fast shipping & returns.",
+      "description": "The streets run red, a silent warning for those who dare. This is his rajyam.\nEvery drop of rain echoes his veta. Own the OG legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 85,
+        "popularity_rank": 82,
+        "is_trending": true,
+        "is_bestseller": false,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [],
+        "cross_sell_categories": [
+          "full shirts",
+          "teeshirt"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        },
+        {
+          "name": "Brass Gold",
+          "hex": "#C99700"
+        },
+        {
+          "name": "Ash White",
+          "hex": "#EAEAEA"
+        }
+      ]
+    },
+    {
+      "title": "Product 7 Poster",
+      "handle": "product-7-poster",
+      "category": "posters",
+      "product_type": "posters",
+      "tags": [
+        "CAT_POSTER",
+        "home-decor",
+        "print",
+        "CAT_Poster",
+        "trending",
+        "interior-design",
+        "wall-art",
+        "artwork"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/posters/product7/WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "Default",
+          "price": "339.00",
+          "sku": "product-7-poster-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 7 Poster",
+      "seo_description": "Buy Product 7 Poster online. Transform your space with this stunning Product 7 Poster poster. High-quality print with vibrant colors that bring your walls to life. Perfect for bed...",
+      "meta_description": "Shop Product 7 Poster - Premium posters with unique design. Fast shipping & returns.",
+      "description": "Transform your space with this stunning Product 7 Poster poster. High-quality print with vibrant colors that bring your walls to life. Perfect for bedrooms, living rooms, or office spaces.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 88,
+        "popularity_rank": 40,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [],
+        "cross_sell_categories": [
+          "full shirts",
+          "teeshirt"
+        ]
+      }
+    },
+    {
+      "title": "Product 8 Poster",
+      "handle": "product-8-poster",
+      "category": "posters",
+      "product_type": "posters",
+      "tags": [
+        "CAT_POSTER",
+        "home-decor",
+        "print",
+        "CAT_Poster",
+        "interior-design",
+        "wall-art",
+        "artwork",
+        "premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/posters/product8/WhatsApp Image 2025-08-31 at 9.24.20 AM (1).jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "Default",
+          "price": "301.00",
+          "sku": "product-8-poster-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 8 Poster",
+      "seo_description": "Buy Product 8 Poster online. Transform your space with this stunning Product 8 Poster poster. High-quality print with vibrant colors that bring your walls to life. Perfect for bed...",
+      "meta_description": "Shop Product 8 Poster - Premium posters with unique design. Fast shipping & returns.",
+      "description": "Transform your space with this stunning Product 8 Poster poster. High-quality print with vibrant colors that bring your walls to life. Perfect for bedrooms, living rooms, or office spaces.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 79,
+        "popularity_rank": 59,
+        "is_trending": false,
+        "is_bestseller": false,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [],
+        "cross_sell_categories": [
+          "full shirts",
+          "teeshirt"
+        ]
+      }
+    },
+    {
+      "title": "Product 9 Poster",
+      "handle": "product-9-poster",
+      "category": "posters",
+      "product_type": "posters",
+      "tags": [
+        "CAT_POSTER",
+        "home-decor",
+        "print",
+        "CAT_Poster",
+        "trending",
+        "interior-design",
+        "wall-art",
+        "artwork"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/posters/product9/WhatsApp Image 2025-08-31 at 9.24.21 AM.jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "Default",
+          "price": "497.00",
+          "sku": "product-9-poster-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 9 Poster",
+      "seo_description": "Buy Product 9 Poster online. Transform your space with this stunning Product 9 Poster poster. High-quality print with vibrant colors that bring your walls to life. Perfect for bed...",
+      "meta_description": "Shop Product 9 Poster - Premium posters with unique design. Fast shipping & returns.",
+      "description": "Transform your space with this stunning Product 9 Poster poster. High-quality print with vibrant colors that bring your walls to life. Perfect for bedrooms, living rooms, or office spaces.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 75,
+        "popularity_rank": 44,
+        "is_trending": false,
+        "is_bestseller": true,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [],
+        "cross_sell_categories": [
+          "full shirts",
+          "teeshirt"
+        ]
+      }
+    },
+    {
+      "title": "Product 1 Slippers",
+      "handle": "product-1-slippers",
+      "category": "slippers",
+      "product_type": "slippers",
+      "tags": [
+        "CAT_SLIPPER",
+        "slippers",
+        "footwear",
+        "casual",
+        "home",
+        "relaxation",
+        "comfort",
+        "CAT_Slipper",
+        "soft",
+        "new-arrival"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/slippers/product1/front/WhatsApp Image 2025-08-31 at 8.55.46 AM (1).jpeg",
+        "back": "PRODUCTS/slippers/product1/back/WhatsApp Image 2025-08-31 at 8.55.47 AM (2).jpeg"
+      },
+      "variants": [
+        {
+          "title": "Default",
+          "price": "822.00",
+          "sku": "product-1-slippers-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 1 Slippers",
+      "seo_description": "Buy Product 1 Slippers online. Relax in comfort with the Product 1 Slippers Slippers. Soft, cushioned sole with durable construction. Perfect for home or light outdoor use.\n\n✓ Premi...",
+      "meta_description": "Shop Product 1 Slippers - Premium slippers with unique design. Fast shipping & returns.",
+      "description": "Relax in comfort with the Product 1 Slippers Slippers. Soft, cushioned sole with durable construction. Perfect for home or light outdoor use.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 75,
+        "popularity_rank": 4,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "hoodies",
+          "Sweatshirts"
+        ]
+      }
+    },
+    {
+      "title": "Product 2 Slippers",
+      "handle": "product-2-slippers",
+      "category": "slippers",
+      "product_type": "slippers",
+      "tags": [
+        "CAT_SLIPPER",
+        "limited-edition",
+        "slippers",
+        "footwear",
+        "casual",
+        "home",
+        "relaxation",
+        "comfort",
+        "CAT_Slipper",
+        "soft"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/slippers/product2/front/WhatsApp Image 2025-08-31 at 8.55.46 AM.jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "Default",
+          "price": "871.00",
+          "sku": "product-2-slippers-default",
+          "inventory_quantity": 100,
+          "weight": 0.5,
+          "requires_shipping": true
+        }
+      ],
+      "seo_title": "Product 2 Slippers",
+      "seo_description": "Buy Product 2 Slippers online. Relax in comfort with the Product 2 Slippers Slippers. Soft, cushioned sole with durable construction. Perfect for home or light outdoor use.\n\n✓ Premi...",
+      "meta_description": "Shop Product 2 Slippers - Premium slippers with unique design. Fast shipping & returns.",
+      "description": "Relax in comfort with the Product 2 Slippers Slippers. Soft, cushioned sole with durable construction. Perfect for home or light outdoor use.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 83,
+        "popularity_rank": 78,
+        "is_trending": false,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "hoodies",
+          "Sweatshirts"
+        ]
+      }
+    },
+    {
+      "title": "City Skyline T-Shirt",
+      "handle": "city-skyline-t-shirt",
+      "category": "teeshirt",
+      "product_type": "teeshirt",
+      "tags": [
+        "trendy",
+        "t-shirt",
+        "CAT_Tee",
+        "shirt",
+        "casual-wear",
+        "cotton",
+        "casual",
+        "comfortable",
+        "CAT_TEE",
+        "premium",
+        "tee"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/teeshirt/City Skyline/front/WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg",
+        "back": "PRODUCTS/teeshirt/City Skyline/back/WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "535.00",
+          "sku": "city-skyline-t-shirt-s",
+          "inventory_quantity": 69,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "535.00",
+          "sku": "city-skyline-t-shirt-m",
+          "inventory_quantity": 82,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "535.00",
+          "sku": "city-skyline-t-shirt-l",
+          "inventory_quantity": 146,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "545.00",
+          "sku": "city-skyline-t-shirt-xl",
+          "inventory_quantity": 59,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "City Skyline T-Shirt",
+      "seo_description": "Buy City Skyline T-Shirt online. Express your style with the City Skyline T-Shirt T-Shirt. Made from premium cotton blend for ultimate comfort and durability. Features unique design t...",
+      "meta_description": "Shop City Skyline T-Shirt - Premium teeshirt with unique design. Fast shipping & returns.",
+      "description": "Express your style with the City Skyline T-Shirt T-Shirt. Made from premium cotton blend for ultimate comfort and durability. Features unique design that stands out from the crowd.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 77,
+        "popularity_rank": 27,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "hoodies",
+          "hats"
+        ]
+      }
+    },
+    {
+      "title": "OG // Hoodie — Life Goes On",
+      "handle": "og-hoodie-life-goes-on",
+      "category": "hoodies",
+      "product_type": "hoodies",
+      "tags": [
+        "trendy",
+        "t-shirt",
+        "hoodie",
+        "warm",
+        "streetwear",
+        "casual-wear",
+        "cotton",
+        "casual",
+        "comfortable",
+        "sweatshirt",
+        "CAT_Hoodie",
+        "CAT_HOODIE",
+        "CUE_BLOOD_RED"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/teeshirt/Neon Lights/front/WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg",
+        "back": null
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "618.00",
+          "sku": "og-hoodie-life-goes-on-s",
+          "inventory_quantity": 119,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "618.00",
+          "sku": "og-hoodie-life-goes-on-m",
+          "inventory_quantity": 102,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "618.00",
+          "sku": "og-hoodie-life-goes-on-l",
+          "inventory_quantity": 110,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "628.00",
+          "sku": "og-hoodie-life-goes-on-xl",
+          "inventory_quantity": 109,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Neon Lights T-Shirt",
+      "seo_description": "Buy Neon Lights T-Shirt online. Life goes on, the legend endures. This is the OG way, raktham and veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Da...",
+      "meta_description": "Shop Neon Lights T-Shirt - Premium teeshirt with unique design. Fast shipping & returns.",
+      "description": "Life goes on, the legend endures. This is the OG way, raktham and veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 79,
+        "popularity_rank": 91,
+        "is_trending": true,
+        "is_bestseller": true,
+        "discount_eligible": false,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "hoodies",
+          "hats"
+        ]
+      },
+      "color_palette": [
+        {
+          "name": "Jet Black",
+          "hex": "#0B0B0D"
+        },
+        {
+          "name": "Blood Red",
+          "hex": "#C1121F"
+        }
+      ]
+    },
+    {
+      "title": "Tropical Paradise T-Shirt",
+      "handle": "tropical-paradise-t-shirt",
+      "category": "teeshirt",
+      "product_type": "teeshirt",
+      "tags": [
+        "trendy",
+        "t-shirt",
+        "CAT_Tee",
+        "shirt",
+        "casual-wear",
+        "cotton",
+        "casual",
+        "comfortable",
+        "CAT_TEE",
+        "bestseller",
+        "tee"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS/teeshirt/Tropical Paradise/front/WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg",
+        "back": "PRODUCTS/teeshirt/Tropical Paradise/back/WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg"
+      },
+      "variants": [
+        {
+          "title": "S",
+          "price": "677.00",
+          "sku": "tropical-paradise-t-shirt-s",
+          "inventory_quantity": 176,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "S"
+        },
+        {
+          "title": "M",
+          "price": "677.00",
+          "sku": "tropical-paradise-t-shirt-m",
+          "inventory_quantity": 92,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "M"
+        },
+        {
+          "title": "L",
+          "price": "677.00",
+          "sku": "tropical-paradise-t-shirt-l",
+          "inventory_quantity": 51,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "L"
+        },
+        {
+          "title": "XL",
+          "price": "687.00",
+          "sku": "tropical-paradise-t-shirt-xl",
+          "inventory_quantity": 123,
+          "weight": 0.5,
+          "requires_shipping": true,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Tropical Paradise T-Shirt",
+      "seo_description": "Buy Tropical Paradise T-Shirt online. Express your style with the Tropical Paradise T-Shirt T-Shirt. Made from premium cotton blend for ultimate comfort and durability. Features unique des...",
+      "meta_description": "Shop Tropical Paradise T-Shirt - Premium teeshirt with unique design. Fast shipping & returns.",
+      "description": "Express your style with the Tropical Paradise T-Shirt T-Shirt. Made from premium cotton blend for ultimate comfort and durability. Features unique design that stands out from the crowd.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+      "conversion_data": {
+        "conversion_score": 91,
+        "popularity_rank": 16,
+        "is_trending": false,
+        "is_bestseller": false,
+        "discount_eligible": true,
+        "bundle_compatible": true,
+        "size_variants": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color_variants": [
+          "Black",
+          "White",
+          "Navy"
+        ],
+        "cross_sell_categories": [
+          "hoodies",
+          "hats"
+        ]
+      }
+    }
+  ]
+}

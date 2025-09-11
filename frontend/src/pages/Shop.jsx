@@ -53,13 +53,13 @@ const Shop = () => {
       case 'premium':
         return { type: 'collection', value: 'PREMIUM COLLECTION' };
       case 'tees':
-        return { type: 'category', value: 'Teeshirt', exclude: ['REBELLION CORE', 'VAULT EXCLUSIVE'] };
+        return { type: 'category', value: 'teeshirt' };
       case 'hoodies':
-        return { type: 'category', value: 'Hoodies', exclude: ['PREMIUM COLLECTION', 'VAULT EXCLUSIVE'] };
+        return { type: 'category', value: 'hoodies' };
       case 'accessories':
-        return { type: 'category', value: 'Accessories' };
+        return { type: 'category', value: 'accessories' };
       case 'posters':
-        return { type: 'category', value: 'Posters' };
+        return { type: 'category', value: 'posters' };
       default:
         return { type: 'all' };
     }
@@ -76,6 +76,14 @@ const Shop = () => {
     if (!allProducts) return [];
     
     const filter = getFilterForTab();
+
+    // Category alias maps for robust matching
+    const categoryAliases = {
+      teeshirt: ['teeshirt', 'tee shirts', 'tee'],
+      hoodies: ['hoodies', 'hoodie', 'sweatshirts'],
+      accessories: ['accessories', 'wallet', 'hats', 'slippers'],
+      posters: ['posters', 'poster']
+    };
     
     switch (filter.type) {
       case 'vault':
@@ -90,41 +98,18 @@ const Shop = () => {
           // Special handling for REBELLION CORE - match REBEL DROP products
           return allProducts.filter(p => 
             p.collection === 'REBELLION CORE' ||
-            (p.badges && (p.badges.includes('REBEL DROP') || p.badges.includes('REBEL') || p.badges.includes('DROP')))
+            p.collection === 'REBEL DROP'
           );
         }
-        return allProducts.filter(p => 
-          p.collection === filter.value ||
-          (p.badges && p.badges.includes(filter.value.replace(' ', '_')))
-        );
-      
-      case 'category':
-        return allProducts.filter(p => {
-          // Handle both exact match and case variations
-          const matchesCategory = p.category === filter.value || 
-                                p.category?.toLowerCase() === filter.value?.toLowerCase();
-          if (!matchesCategory) return false;
-          
-          // Exclude vault products from regular categories
-          if (p.vault_locked || (p.badges && p.badges.includes('VAULT'))) {
-            return false;
-          }
-          
-          // Exclude products that belong to specific collections
-          if (filter.exclude) {
-            return !filter.exclude.some(excludeCollection => 
-              p.collection === excludeCollection ||
-              (p.badges && p.badges.includes(excludeCollection.replace(' ', '_')))
-            );
-          }
-          
-          return true;
-        });
+        return allProducts.filter(p => p.collection === filter.value);
       
       default:
         return allProducts;
     }
   }, [allProducts, activeTab]);
+
+  // Get current tab info for display
+  const currentTab = tabs.find(tab => tab.id === activeTab) || tabs[0];
 
   const handleTabClick = (tabId) => {
     setActiveTab(tabId);
@@ -153,13 +138,20 @@ const Shop = () => {
       
       <div className="max-w-7xl mx-auto px-6 py-8">
         {/* Page Title */}
-        <div className="mb-12">
-          <h1 className="text-6xl lg:text-8xl font-black font-headline uppercase tracking-wider leading-none mb-4 text-white">
-            ARMORY
-          </h1>
-          <p className="text-xl text-gray-300 max-w-3xl">
-            Browse the arsenal. Every piece forged for rebels.
-          </p>
+        <div className="bg-gradient-to-r from-orange-900 via-black to-orange-900 text-white py-16 -mx-6 mb-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center">
+              <h1 className="text-4xl md:text-6xl font-bold mb-4">
+                🔥 PSPK × OG OFFICIAL STORE
+              </h1>
+              <p className="text-xl md:text-2xl text-orange-300 mb-2">
+                They Call Him OG - Power Star Pawan Kalyan Official Merchandise
+              </p>
+              <p className="text-lg text-gray-300 mb-8">
+                {currentTab.description} {currentTab.priceRange && `• ${currentTab.priceRange}`}
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Tab Navigation */}
@@ -187,8 +179,8 @@ const Shop = () => {
 
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {filteredProducts.map((product) => (
-            <PremiumProductCard key={product.id} product={product} />
+          {filteredProducts.map((product, index) => (
+            <PremiumProductCard key={`${product.id || product.handle || 'product'}-${index}`} product={product} />
           ))}
         </div>
 

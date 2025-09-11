@@ -6,6 +6,7 @@
 
 @layer base {
   :root {
+    /* Shadcn/UI Variables */
     --background: 0 0% 0%;
     --foreground: 0 0% 100%;
     --card: 0 0% 0%;
@@ -31,6 +32,32 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
     --radius: 0.5rem;
+    
+    /* PSPK Crimson Color Psychology Scheme */
+    --crimson-primary: #C1121F;
+    --crimson-primary-rgb: 193, 18, 31;
+    --crimson-dark: #8B0000;
+    --crimson-light: #DC143C;
+    --gold-accent: #C99700;
+    --gold-accent-rgb: 201, 151, 0;
+    --gold-light: #FFD700;
+    --gold-dark: #B8860B;
+    --black-primary: #0B0B0D;
+    --black-secondary: #1A1A1C;
+    --black-tertiary: #2A2A2C;
+    --ash-white: #F5F5F5;
+    --blood-red: #8B0000;
+    --brass-gold: #B5651D;
+    
+    /* Conversion Optimization Colors */
+    --cta-primary: var(--crimson-primary);
+    --cta-secondary: var(--gold-accent);
+    --urgency-bg: rgba(var(--crimson-primary-rgb), 0.1);
+    --urgency-border: rgba(var(--crimson-primary-rgb), 0.3);
+    --premium-gradient: linear-gradient(135deg, var(--crimson-primary), var(--gold-accent));
+    --vault-badge: var(--gold-accent);
+    --success-green: #22C55E;
+    --warning-orange: #F59E0B;
   }
 }
 

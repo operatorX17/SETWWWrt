@@ -11,7 +11,7 @@ const FanArsenal = () => {
 
   // Get fan arsenal products (best sellers)
   const fanArsenal = products.filter(product => 
-    product.badges.includes('BEST SELLER')
+    product.conversion_data?.is_bestseller === true
   );
 
   const getRankBadgeColor = (rank) => {

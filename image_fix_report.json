@@ -1,0 +1,52 @@
+{
+  "total_categories": 9,
+  "total_images_found": 79,
+  "total_images_copied": 79,
+  "categories": {
+    "full shirts": {
+      "products": 3,
+      "images_found": 3,
+      "images_copied": 3
+    },
+    "hats": {
+      "products": 2,
+      "images_found": 4,
+      "images_copied": 4
+    },
+    "headband": {
+      "products": 1,
+      "images_found": 1,
+      "images_copied": 1
+    },
+    "hoodies": {
+      "products": 21,
+      "images_found": 35,
+      "images_copied": 35
+    },
+    "posters": {
+      "products": 10,
+      "images_found": 10,
+      "images_copied": 10
+    },
+    "slippers": {
+      "products": 2,
+      "images_found": 3,
+      "images_copied": 3
+    },
+    "sweatshirts": {
+      "products": 3,
+      "images_found": 3,
+      "images_copied": 3
+    },
+    "teeshirt": {
+      "products": 13,
+      "images_found": 18,
+      "images_copied": 18
+    },
+    "wallet": {
+      "products": 2,
+      "images_found": 2,
+      "images_copied": 2
+    }
+  }
+}

@@ -2,6 +2,9 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useMockDataIfShopifyUnavailable, shopify } from '../lib/shopify';
 import { mockProducts } from '../data/mock';
 
+// API configuration
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
+
 // Cache products to prevent repeated loading
 let cachedProducts = null;
 let lastFetchTime = 0;
@@ -27,7 +30,147 @@ export const useProducts = () => {
       
       let allProducts = [];
       
-      // Load Shopify products first (working images)
+      // Try to load products from backend API first
+      try {
+        const response = await fetch(`${API_BASE_URL}/api/products/storefront`);
+        if (response.ok) {
+          const apiData = await response.json();
+          
+          // Convert Shopify product format to our format
+          const convertedProducts = apiData.products?.map(product => ({
+            id: product.id,
+            title: product.title,
+            handle: product.handle,
+            price: product.variants?.[0]?.price || '0',
+            compareAtPrice: product.variants?.[0]?.compareAtPrice,
+            images: product.images?.map(img => img.src) || [],
+            category: product.productType || 'uncategorized',
+            tags: product.tags || [],
+            description: product.description || '',
+            variants: product.variants || [],
+            vendor: product.vendor || 'PSPK Store',
+            available: product.availableForSale !== false
+          })) || [];
+          
+          allProducts = [...convertedProducts];
+          console.log('Loaded products from backend API:', convertedProducts.length);
+        }
+      } catch (apiError) {
+        console.warn('Backend API unavailable, falling back to local catalog:', apiError);
+        
+        // Fallback 1: Load PSPK Fan Store catalog (highest quality)
+        try {
+          const response = await fetch('/imgprocess4/PSPK_FAN_STORE_CATALOG.json');
+          if (response.ok) {
+            const catalogData = await response.json();
+            
+            // Extract products from all tiers
+            const allTierProducts = [];
+            
+            if (catalogData.fan_tiers) {
+              Object.values(catalogData.fan_tiers).forEach(tier => {
+                if (tier.products) {
+                  allTierProducts.push(...tier.products);
+                }
+              });
+            }
+            
+            // Normalize product data with PSPK fan psychology
+            const normalizedProducts = allTierProducts.map(product => ({
+              ...product,
+              id: product.handle || product.id,
+              price: typeof product.price === 'string' ? product.price : product.variants?.[0]?.price || '0',
+              images: product.images ? 
+                (typeof product.images === 'object' && !Array.isArray(product.images) ? 
+                  Object.values(product.images).filter(Boolean) : 
+                  Array.isArray(product.images) ? product.images : [product.images]
+                ) : [],
+              available: product.status === 'active' && product.published !== false,
+              badges: product.tier_info?.display_name ? [product.tier_info.display_name] : 
+                     product.tier === 'essentials' ? ['🔥 PSPK ESSENTIALS'] : 
+                     product.tier === 'rebel_arsenal' ? ['⚔️ REBEL ARSENAL'] :
+                     product.tier === 'boss_collection' ? ['👑 BOSS COLLECTION'] : 
+                     product.tier === 'legend_vault' ? ['🏆 LEGEND VAULT'] : [],
+              fanRating: product.fan_psychology?.conversion_triggers?.fan_rating,
+              purchaseCount: product.fan_psychology?.conversion_triggers?.purchase_count,
+              tierPsychology: product.fan_psychology?.tier_psychology
+            }));
+            
+            allProducts = [...normalizedProducts];
+            console.log('Loaded PSPK catalog products:', normalizedProducts.length);
+          }
+        } catch (pspkError) {
+          console.warn('PSPK catalog not found, trying production catalog:', pspkError.message);
+          
+          // Fallback 2: Load production catalog
+          try {
+            const response = await fetch('/PRODUCTION_CATALOG.json');
+            if (response.ok) {
+              const productionData = await response.json();
+              if (productionData && productionData.products) {
+                const productionProducts = productionData.products.map(product => {
+                  return {
+                    ...product,
+                    badges: product.badges || [
+                      'PRODUCTION READY',
+                      product.featured ? 'FEATURED' : null,
+                      product.price > 100 ? 'PREMIUM' : null,
+                      product.tags?.includes('limited') ? 'LIMITED' : null
+                    ].filter(Boolean)
+                  };
+                });
+                
+                allProducts = [...productionProducts];
+                console.log('Loaded production catalog products:', productionProducts.length);
+              }
+            }
+          } catch (productionError) {
+            console.warn('Production catalog not found, trying premium catalog:', productionError.message);
+          }
+          
+          // Fallback 3: Load premium catalog
+          try {
+            const response = await fetch('/PREMIUM_CATALOG_REGENERATED.json');
+            if (response.ok) {
+              const catalogData = await response.json();
+              if (catalogData && catalogData.products && catalogData.products.length > 0) {
+                // Process premium catalog products
+                const premiumProducts = catalogData.products.map(product => {
+                  // Convert string prices to numbers for proper formatting
+                  const price = typeof product.price === 'string' ? parseFloat(product.price) : product.price;
+                  const originalPrice = typeof product.originalPrice === 'string' ? parseFloat(product.originalPrice) : product.originalPrice;
+                  
+                  // Convert variant prices from strings to numbers
+                  const variants = product.variants ? product.variants.map(variant => ({
+                    ...variant,
+                    price: typeof variant.price === 'string' ? parseFloat(variant.price) : variant.price
+                  })) : [];
+                  
+                  return {
+                    ...product,
+                    price: price || 0,
+                    originalPrice: originalPrice || null,
+                    variants: variants,
+                    badges: product.badges || [
+                      'PREMIUM COLLECTION',
+                      product.featured ? 'FEATURED' : null,
+                      price > 2000 ? 'PREMIUM' : null,
+                      product.tags?.includes('Limited') ? 'LIMITED' : null
+                    ].filter(Boolean)
+                  };
+                });
+                
+                allProducts = [...premiumProducts];
+                console.log('Loaded premium catalog products:', premiumProducts.length);
+              }
+            }
+          } catch (premiumError) {
+            console.warn('Premium catalog not found:', premiumError.message);
+          }
+        }
+      }
+      
+      // Load Shopify products as additional source (working images)
       try {
         const response = await fetch('/products.json');
         if (response.ok) {
@@ -45,7 +188,12 @@ export const useProducts = () => {
               ].filter(Boolean)
             }));
             
-            allProducts = [...productsWithBadges];
+            // Add only products that don't already exist
+            const newShopifyProducts = productsWithBadges.filter(p => 
+              !productExists(p, allProducts)
+            );
+            
+            allProducts = [...allProducts, ...newShopifyProducts];
           }
         }
       } catch (shopifyError) {
@@ -80,10 +228,32 @@ export const useProducts = () => {
       try {
         const response = await fetch('/comprehensive_products.json');
         if (response.ok) {
-          const comprehensiveProducts = await response.json();
+          const comprehensiveData = await response.json();
+          // Handle both array format and object format with products property
+          const comprehensiveProducts = Array.isArray(comprehensiveData) 
+            ? comprehensiveData 
+            : comprehensiveData.products || [];
+            
           if (comprehensiveProducts && comprehensiveProducts.length > 0) {
+            // Normalize comprehensive products to match expected format
+            const normalizedProducts = comprehensiveProducts.map(product => {
+              const firstVariant = product.variants?.[0];
+              return {
+                ...product,
+                id: product.id || product.handle,
+                name: product.name || product.title,
+                price: firstVariant?.price ? parseFloat(firstVariant.price) : 0,
+                images: product.images ? [
+                  product.images.front,
+                  product.images.back
+                ].filter(Boolean) : [],
+                colors: product.conversion_data?.color_variants || [],
+                category: product.category || product.product_type
+              };
+            });
+            
             // Add only products that don't already exist
-            const newProducts = comprehensiveProducts.filter(p => 
+            const newProducts = normalizedProducts.filter(p => 
               !productExists(p, allProducts)
             );
             
@@ -127,7 +297,7 @@ export const useProducts = () => {
 
   useEffect(() => {
     loadProducts();
-  }, [loadProducts]);
+  }, []);
 
   return { products, loading, error, refetch: () => window.location.reload() };
 };
@@ -180,8 +350,60 @@ export const useProduct = (productIdentifier) => {
           }
         }
         
-        // Note: Removed loading from new_premium_hoodies.json and comprehensive_products_backup.json
-        // to prevent duplicates. All products should be available in products.json or comprehensive_products.json
+        // Try PSPK_FAN_STORE_CATALOG.json if not found
+        if (!productData) {
+          try {
+            const response = await fetch('/imgprocess4/PSPK_FAN_STORE_CATALOG.json');
+            if (response.ok) {
+              const pspkCatalog = await response.json();
+              // The PSPK catalog has a complex nested structure - extract all products
+              let allPspkProducts = [];
+              
+              // Helper function to recursively find all products in the catalog
+              const extractProducts = (obj) => {
+                if (Array.isArray(obj)) {
+                  obj.forEach(item => extractProducts(item));
+                } else if (obj && typeof obj === 'object') {
+                  if (obj.products && Array.isArray(obj.products)) {
+                    allPspkProducts = [...allPspkProducts, ...obj.products];
+                  }
+                  // Also check if the object itself is a product (has handle property)
+                  if (obj.handle && obj.title) {
+                    allPspkProducts.push(obj);
+                  }
+                  // Recursively check all object properties
+                  Object.values(obj).forEach(value => extractProducts(value));
+                }
+              };
+              
+              extractProducts(pspkCatalog);
+              console.log('Extracted PSPK products:', allPspkProducts.length);
+              
+              if (isNumericId) {
+                productData = allPspkProducts.find(p => p.id === parseInt(productIdentifier) || p.id === productIdentifier);
+              } else {
+                productData = allPspkProducts.find(p => p.handle === productIdentifier);
+              }
+              
+              if (productData) {
+                 console.log('Found product in PSPK catalog:', productData.title);
+                 // Normalize PSPK product data to match expected structure
+                 productData = {
+                   ...productData,
+                   name: productData.title, // Map title to name
+                   id: productData.handle, // Use handle as ID if no ID exists
+                   price: productData.variants && productData.variants[0] ? productData.variants[0].price : '0.00',
+                   images: productData.images || {},
+                   description: productData.tier_info?.description || 'No description available'
+                 };
+               }
+            }
+          } catch (pspkCatalogError) {
+            console.warn('PSPK catalog not found:', pspkCatalogError.message);
+          }
+        }
+        
+        // Note: Added PSPK_FAN_STORE_CATALOG.json support for additional product coverage
 
         // If not found in direct integration, try Shopify
         if (!productData) {
@@ -191,12 +413,14 @@ export const useProduct = (productIdentifier) => {
           );
         }
         
+        console.log('useProduct: Setting product data:', productData ? productData.name || productData.title : 'null');
         setProduct(productData);
         setError(null);
       } catch (err) {
         setError(err.message);
         console.error('Failed to load product:', err);
       } finally {
+        console.log('useProduct: Setting loading to false');
         setLoading(false);
       }
     };
@@ -280,7 +504,7 @@ export const useFilteredProducts = (category, filter, includeVault = false) => {
           filtered = filtered.filter(p => p.badges && p.badges.includes('NEW'));
           break;
         case 'best-sellers':
-          filtered = filtered.filter(p => p.badges && p.badges.includes('BEST SELLER'));
+          filtered = filtered.filter(p => p.conversion_data?.is_bestseller === true);
           break;
         case 'sale':
           filtered = filtered.filter(p => p.badges && p.badges.includes('SALE'));
@@ -289,8 +513,48 @@ export const useFilteredProducts = (category, filter, includeVault = false) => {
           // For vault filter, ONLY show VAULT products
           filtered = products.filter(p => 
             p.vault_locked === true ||
-            (p.badges && (p.badges.includes('VAULT') || p.badges.includes('LOCKED EXCLUSIVE'))) ||
+            (p.badges && (p.badges.includes('VAULT') || p.badges.includes('LOCKED EXCLUSIVE') || p.badges.includes('VAULT EXCLUSIVE'))) ||
             (p.category && p.category.toLowerCase() === 'vault')
+          );
+          break;
+        case 'rebellion-core':
+          // REBELLION CORE filter
+          filtered = filtered.filter(p => 
+            p.badges && p.badges.includes('REBELLION CORE') ||
+            (p.collection && p.collection === 'REBELLION CORE')
+          );
+          break;
+        case 'premium':
+          // PREMIUM COLLECTION filter
+          filtered = filtered.filter(p => 
+            p.badges && p.badges.includes('PREMIUM COLLECTION') ||
+            (p.collection && p.collection === 'PREMIUM COLLECTION')
+          );
+          break;
+        case 'tees':
+          // TACTICAL TEES filter - all tee shirts
+          filtered = filtered.filter(p => 
+            p.category && (p.category.toLowerCase() === 'teeshirt' || p.category.toLowerCase() === 'tee shirts' || p.category.toLowerCase() === 'tee')
+          );
+          break;
+        case 'hoodies':
+          // BATTLE HOODIES filter - all hoodies
+          filtered = filtered.filter(p => 
+            p.category && (p.category.toLowerCase() === 'hoodies' || p.category.toLowerCase() === 'hoodie' || p.category.toLowerCase() === 'sweatshirts')
+          );
+          break;
+        case 'accessories':
+          // GEAR & ARSENAL filter - accessories
+          filtered = filtered.filter(p => 
+            p.category && (p.category.toLowerCase() === 'accessories' || p.category.toLowerCase() === 'wallet' || p.category.toLowerCase() === 'cap' || p.category.toLowerCase() === 'caps' || p.category.toLowerCase() === 'slides' || p.category.toLowerCase() === 'bands') ||
+            (p.badges && p.badges.includes('GEAR & ARSENAL'))
+          );
+          break;
+        case 'posters':
+          // WAR POSTERS filter
+          filtered = filtered.filter(p => 
+            p.category && (p.category.toLowerCase() === 'posters' || p.category.toLowerCase() === 'poster') ||
+            (p.badges && p.badges.includes('WAR POSTERS'))
           );
           break;
         default:
@@ -452,7 +716,7 @@ export const useFilteredProductsWithUnlock = (category, filter, includeVault = f
           filtered = filtered.filter(p => p.badges && p.badges.includes('NEW'));
           break;
         case 'best-sellers':
-          filtered = filtered.filter(p => p.badges && p.badges.includes('BEST SELLER'));
+          filtered = filtered.filter(p => p.conversion_data?.is_bestseller === true);
           break;
         case 'sale':
           filtered = filtered.filter(p => p.badges && p.badges.includes('SALE'));

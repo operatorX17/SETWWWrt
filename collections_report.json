@@ -1,0 +1,87 @@
+{
+  "total_collections": 7,
+  "featured_collections": 5,
+  "collections_summary": {
+    "firestorm": {
+      "name": "Firestorm Collection",
+      "total_products": 32,
+      "categories": [
+        "Sweatshirts",
+        "posters",
+        "teeshirt",
+        "full shirts",
+        "hoodies"
+      ],
+      "featured": true
+    },
+    "essential": {
+      "name": "Essential Collection",
+      "total_products": 18,
+      "categories": [
+        "Sweatshirts",
+        "slippers",
+        "hats",
+        "teeshirt",
+        "full shirts",
+        "hoodies"
+      ],
+      "featured": true
+    },
+    "premium": {
+      "name": "Premium Collection",
+      "total_products": 23,
+      "categories": [
+        "wallet",
+        "Sweatshirts",
+        "hoodies"
+      ],
+      "featured": true
+    },
+    "vault": {
+      "name": "Vault Collection",
+      "total_products": 33,
+      "categories": [
+        "posters",
+        "hoodies",
+        "full shirts"
+      ],
+      "featured": true
+    },
+    "armory": {
+      "name": "Armory Collection",
+      "total_products": 21,
+      "categories": [
+        "posters",
+        "hats",
+        "teeshirt"
+      ],
+      "featured": true
+    },
+    "streetwear": {
+      "name": "Streetwear Collection",
+      "total_products": 29,
+      "categories": [
+        "wallet",
+        "hats",
+        "hoodies",
+        "teeshirt"
+      ],
+      "featured": false
+    },
+    "accessories": {
+      "name": "Accessories Collection",
+      "total_products": 9,
+      "categories": [
+        "slippers",
+        "wallet",
+        "hats",
+        "teeshirt"
+      ],
+      "featured": false
+    }
+  },
+  "files_created": [
+    "C:\\Users\\KARTHIK GOWDA M P\\Downloads\\Og1.5-main\\Og1.5-mainBOSS\\Og1.5-main\\frontend\\public\\collections.json",
+    "C:\\Users\\KARTHIK GOWDA M P\\Downloads\\Og1.5-main\\Og1.5-mainBOSS\\Og1.5-main\\frontend\\collections_detailed.json"
+  ]
+}

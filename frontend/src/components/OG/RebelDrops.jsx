@@ -12,11 +12,11 @@ const RebelDrops = () => {
   // Get rebel drop products (NEW items) - Enhanced filtering for OG products
   const rebelProducts = products.filter(product => 
     product.badges && (
-      product.badges.includes('NEW') || 
-      product.badges.includes('REBEL DROP') ||
-      product.badges.includes('REBEL') ||
-      product.badges.includes('DROP') ||
-      product.badges.includes('FAN ARSENAL')
+      product.badges?.includes('NEW') || 
+      product.badges?.includes('REBEL DROP') ||
+      product.badges?.includes('REBEL') ||
+      product.badges?.includes('DROP') ||
+      product.badges?.includes('FAN ARSENAL')
     )
   );
 

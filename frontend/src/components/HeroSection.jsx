@@ -4,7 +4,7 @@ import { mockProducts, mockHeroImages } from '../data/mock';
 import ProductCard from './ProductCard';
 
 const HeroSection = () => {
-  const newProducts = mockProducts.filter(product => product.badges.includes('NEW'));
+  const newProducts = mockProducts.filter(product => product.badges?.includes('NEW'));
 
   return (
     <div className="bg-black text-white">

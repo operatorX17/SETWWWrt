@@ -130,22 +130,26 @@ const ProductCard = ({ product, className = "", priority = false }) => {
           </div>
 
           {/* Color swatches for multi-color products */}
-          {product.colors && product.colors.length > 1 && (
+          {((product.colors && product.colors.length > 1) || 
+            (product.conversion_data?.color_variants && product.conversion_data.color_variants.length > 1)) && (
             <div className="absolute bottom-4 left-4 flex gap-1">
-              {product.colors.slice(0, 3).map((color, index) => (
-                <div
-                  key={index}
-                  className={`w-3 h-3 rounded-full border border-white/50 ${
-                    color.toLowerCase() === 'black' ? 'bg-black' :
-                    color.toLowerCase() === 'white' ? 'bg-white' :
-                    color.toLowerCase() === 'blue' ? 'bg-blue-600' :
-                    color.toLowerCase() === 'red' ? 'bg-red-600' :
-                    color.toLowerCase() === 'grey' || color.toLowerCase() === 'gray' ? 'bg-gray-500' :
-                    'bg-gray-400'
-                  }`}
-                  title={color}
-                />
-              ))}
+              {(product.colors || product.conversion_data?.color_variants || []).slice(0, 3).map((color, index) => {
+                const colorName = typeof color === 'string' ? color : (color?.name || color?.hex || 'gray');
+                return (
+                  <div
+                    key={index}
+                    className={`w-3 h-3 rounded-full border border-white/50 ${
+                      colorName.toLowerCase() === 'black' ? 'bg-black' :
+                      colorName.toLowerCase() === 'white' ? 'bg-white' :
+                      colorName.toLowerCase() === 'blue' ? 'bg-blue-600' :
+                      colorName.toLowerCase() === 'red' ? 'bg-red-600' :
+                      colorName.toLowerCase() === 'grey' || colorName.toLowerCase() === 'gray' ? 'bg-gray-500' :
+                      'bg-gray-400'
+                    }`}
+                    title={colorName}
+                  />
+                );
+              })}
             </div>
           )}
         </div>

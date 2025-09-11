@@ -1,0 +1,3311 @@
+{
+  "metadata": {
+    "total_collections": 7,
+    "featured_collections": 5,
+    "generated_at": "2025-09-11T11:50:57.395308",
+    "version": "1.0.0"
+  },
+  "featured_collections": [
+    {
+      "id": "vault",
+      "name": "Vault Collection",
+      "description": "Limited edition and high-value pieces",
+      "theme": "exclusive",
+      "total_products": 33,
+      "categories": [
+        "posters",
+        "hoodies",
+        "full shirts"
+      ],
+      "price_range": {
+        "min": 320.0,
+        "max": 1410.0
+      },
+      "featured": true,
+      "preview_products": [
+        {
+          "id": "og-poster-cheethas-blade",
+          "title": "OG // Poster — Cheetha's Blade",
+          "price": "320.00",
+          "image": "/images/products/posters/product1/main.jpeg",
+          "category": "posters",
+          "premium_tier": "Armory Collection",
+          "conversion_score": 95,
+          "is_bestseller": true,
+          "images": {
+            "front": "/images/products/posters/product1/main.jpeg",
+            "main": "/images/products/posters/product1/main.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-tee-dripping-og",
+          "title": "OG // Tee — Dripping OG",
+          "price": "1058.00",
+          "image": "PRODUCTS/full shirts/product2/front/WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+          "category": "full shirts",
+          "premium_tier": "Vault Collection",
+          "conversion_score": 94,
+          "is_bestseller": false,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-hoodie-og-repeat",
+          "title": "OG // Hoodie — OG Repeat",
+          "price": "1410.00",
+          "image": "/images/products/hoodies/product1/front.jpeg",
+          "category": "hoodies",
+          "premium_tier": "Vault Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hoodies/product1/front.jpeg",
+            "back": "/images/products/hoodies/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "title": "OG // Tee — Blood OG Mark",
+          "handle": "og-tee-blood-og-mark",
+          "category": "full shirts",
+          "product_type": "full shirts",
+          "tags": [
+            "shirt",
+            "formal",
+            "business",
+            "professional",
+            "cotton",
+            "CAT_TEE",
+            "CAT_Tee",
+            "CUE_BLOOD_RED",
+            "TIER_2"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/full shirts/product1/front/WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+            "back": null
+          },
+          "variants": [
+            {
+              "title": "S",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-s",
+              "inventory_quantity": 52,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "S"
+            },
+            {
+              "title": "M",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-m",
+              "inventory_quantity": 99,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "M"
+            },
+            {
+              "title": "L",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-l",
+              "inventory_quantity": 186,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "L"
+            },
+            {
+              "title": "XL",
+              "price": "1151.00",
+              "sku": "og-tee-blood-og-mark-xl",
+              "inventory_quantity": 124,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "XL"
+            }
+          ],
+          "seo_title": "Product 1 Full Shirt",
+          "seo_description": "Buy Product 1 Full Shirt online. The OG mark, etched in raktham. Represent the force.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ C...",
+          "meta_description": "Shop Product 1 Full Shirt - Premium full shirts with unique design. Fast shipping & returns.",
+          "description": "The OG mark, etched in raktham. Represent the force.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 89,
+            "popularity_rank": 9,
+            "is_trending": false,
+            "is_bestseller": true,
+            "discount_eligible": true,
+            "bundle_compatible": true,
+            "size_variants": [
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "wallet",
+              "hats"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Jet Black",
+              "hex": "#0B0B0D"
+            },
+            {
+              "name": "Blood Red",
+              "hex": "#C1121F"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Vault Collection",
+            "tier_level": 2,
+            "tier_description": "Exclusive designs with premium materials"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "firestorm",
+      "name": "Firestorm Collection",
+      "description": "Bold and intense designs that make a statement",
+      "theme": "aggressive",
+      "total_products": 32,
+      "categories": [
+        "Sweatshirts",
+        "posters",
+        "teeshirt",
+        "full shirts",
+        "hoodies"
+      ],
+      "price_range": {
+        "min": 320.0,
+        "max": 1410.0
+      },
+      "featured": true,
+      "preview_products": [
+        {
+          "id": "og-poster-cheethas-blade",
+          "title": "OG // Poster — Cheetha's Blade",
+          "price": "320.00",
+          "image": "/images/products/posters/product1/main.jpeg",
+          "category": "posters",
+          "premium_tier": "Armory Collection",
+          "conversion_score": 95,
+          "is_bestseller": true,
+          "images": {
+            "front": "/images/products/posters/product1/main.jpeg",
+            "main": "/images/products/posters/product1/main.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-tee-dripping-og",
+          "title": "OG // Tee — Dripping OG",
+          "price": "1058.00",
+          "image": "PRODUCTS/full shirts/product2/front/WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+          "category": "full shirts",
+          "premium_tier": "Vault Collection",
+          "conversion_score": 94,
+          "is_bestseller": false,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-tee-blood-og-mark",
+          "title": "OG // Tee — Blood OG Mark",
+          "price": "500.00",
+          "image": "PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+          "category": "teeshirt",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 94,
+          "is_bestseller": true,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-hoodie-og-repeat",
+          "title": "OG // Hoodie — OG Repeat",
+          "price": "1410.00",
+          "image": "/images/products/hoodies/product1/front.jpeg",
+          "category": "hoodies",
+          "premium_tier": "Vault Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hoodies/product1/front.jpeg",
+            "back": "/images/products/hoodies/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "premium",
+      "name": "Premium Collection",
+      "description": "Luxury items and exclusive designs",
+      "theme": "luxury",
+      "total_products": 23,
+      "categories": [
+        "wallet",
+        "Sweatshirts",
+        "hoodies"
+      ],
+      "price_range": {
+        "min": 1011.0,
+        "max": 1410.0
+      },
+      "featured": true,
+      "preview_products": [
+        {
+          "id": "product-1-wallet",
+          "title": "Product 1 Wallet",
+          "price": "1011.00",
+          "image": "/images/products/wallet/product1/main.jpeg",
+          "category": "wallet",
+          "premium_tier": "Premium Collection",
+          "conversion_score": 94,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/wallet/product1/main.jpeg",
+            "main": "/images/products/wallet/product1/main.jpeg"
+          },
+          "collections": [
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "premium",
+            "name": "Premium Collection",
+            "theme": "luxury"
+          }
+        },
+        {
+          "id": "og-hoodie-og-repeat",
+          "title": "OG // Hoodie — OG Repeat",
+          "price": "1410.00",
+          "image": "/images/products/hoodies/product1/front.jpeg",
+          "category": "hoodies",
+          "premium_tier": "Vault Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hoodies/product1/front.jpeg",
+            "back": "/images/products/hoodies/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "title": "OG // Hoodie — Drip Icon",
+          "handle": "og-hoodie-drip-icon",
+          "category": "hoodies",
+          "product_type": "hoodies",
+          "tags": [
+            "hoodie",
+            "sweatshirt",
+            "warm",
+            "casual",
+            "streetwear",
+            "CAT_HOODIE",
+            "CAT_Hoodie",
+            "EN",
+            "TIER_2"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/hoodies/product1/front/WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+            "back": "PRODUCTS/hoodies/product1/back/WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg"
+          },
+          "variants": [
+            {
+              "title": "S",
+              "price": "1347.00",
+              "sku": "og-hoodie-drip-icon-s",
+              "inventory_quantity": 50,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "S"
+            },
+            {
+              "title": "M",
+              "price": "1347.00",
+              "sku": "og-hoodie-drip-icon-m",
+              "inventory_quantity": 53,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "M"
+            },
+            {
+              "title": "L",
+              "price": "1347.00",
+              "sku": "og-hoodie-drip-icon-l",
+              "inventory_quantity": 66,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "L"
+            },
+            {
+              "title": "XL",
+              "price": "1357.00",
+              "sku": "og-hoodie-drip-icon-xl",
+              "inventory_quantity": 110,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "XL"
+            }
+          ],
+          "seo_title": "Product 1 Hoodie",
+          "seo_description": "Buy Product 1 Hoodie online. Flow with the raw power of an OG. Simple, iconic, ready for the veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day ...",
+          "meta_description": "Shop Product 1 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+          "description": "Flow with the raw power of an OG. Simple, iconic, ready for the veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 79,
+            "popularity_rank": 36,
+            "is_trending": false,
+            "is_bestseller": true,
+            "discount_eligible": true,
+            "bundle_compatible": true,
+            "size_variants": [
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "teeshirt",
+              "Sweatshirts"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Ash White",
+              "hex": "#EAEAEA"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Vault Collection",
+            "tier_level": 2,
+            "tier_description": "Exclusive designs with premium materials"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "title": "OG // Hoodie — The Cheetah",
+          "handle": "og-hoodie-the-cheetah",
+          "category": "hoodies",
+          "product_type": "hoodies",
+          "tags": [
+            "hoodie",
+            "sweatshirt",
+            "warm",
+            "casual",
+            "streetwear",
+            "CAT_HOODIE",
+            "CAT_Hoodie",
+            "EN",
+            "TIER_2"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/hoodies/product10/front/WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+            "back": "PRODUCTS/hoodies/product10/back/WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg"
+          },
+          "variants": [
+            {
+              "title": "S",
+              "price": "1697.00",
+              "sku": "og-hoodie-the-cheetah-s",
+              "inventory_quantity": 195,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "S"
+            },
+            {
+              "title": "M",
+              "price": "1697.00",
+              "sku": "og-hoodie-the-cheetah-m",
+              "inventory_quantity": 190,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "M"
+            },
+            {
+              "title": "L",
+              "price": "1697.00",
+              "sku": "og-hoodie-the-cheetah-l",
+              "inventory_quantity": 198,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "L"
+            },
+            {
+              "title": "XL",
+              "price": "1707.00",
+              "sku": "og-hoodie-the-cheetah-xl",
+              "inventory_quantity": 116,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "XL"
+            }
+          ],
+          "seo_title": "Product 10 Hoodie",
+          "seo_description": "Buy Product 10 Hoodie online. Unleash the speed, embody the spirit. A hunter's instinct runs deep, a true veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Availab...",
+          "meta_description": "Shop Product 10 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+          "description": "Unleash the speed, embody the spirit. A hunter's instinct runs deep, a true veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 87,
+            "popularity_rank": 18,
+            "is_trending": true,
+            "is_bestseller": false,
+            "discount_eligible": false,
+            "bundle_compatible": true,
+            "size_variants": [
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "teeshirt",
+              "Sweatshirts"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Ash White",
+              "hex": "#EAEAEA"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Vault Collection",
+            "tier_level": 2,
+            "tier_description": "Exclusive designs with premium materials"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "armory",
+      "name": "Armory Collection",
+      "description": "Tactical and military-inspired designs",
+      "theme": "tactical",
+      "total_products": 21,
+      "categories": [
+        "posters",
+        "hats",
+        "teeshirt"
+      ],
+      "price_range": {
+        "min": 320.0,
+        "max": 629.0
+      },
+      "featured": true,
+      "preview_products": [
+        {
+          "id": "og-poster-cheethas-blade",
+          "title": "OG // Poster — Cheetha's Blade",
+          "price": "320.00",
+          "image": "/images/products/posters/product1/main.jpeg",
+          "category": "posters",
+          "premium_tier": "Armory Collection",
+          "conversion_score": 95,
+          "is_bestseller": true,
+          "images": {
+            "front": "/images/products/posters/product1/main.jpeg",
+            "main": "/images/products/posters/product1/main.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-tee-blood-og-mark",
+          "title": "OG // Tee — Blood OG Mark",
+          "price": "500.00",
+          "image": "PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+          "category": "teeshirt",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 94,
+          "is_bestseller": true,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-cap-the-og-mark",
+          "title": "OG // Cap — The OG Mark",
+          "price": "629.00",
+          "image": "/images/products/hats/product1/front.jpeg",
+          "category": "hats",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hats/product1/front.jpeg",
+            "back": "/images/products/hats/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "essential",
+            "name": "Essential Collection",
+            "theme": "casual"
+          }
+        },
+        {
+          "title": "OG // Cap — OG Emblazoned",
+          "handle": "og-cap-og-emblazoned",
+          "category": "hats",
+          "product_type": "hats",
+          "tags": [
+            "hat",
+            "cap",
+            "headwear",
+            "accessory",
+            "style",
+            "CAT_CAP",
+            "CAT_Cap",
+            "CUE_BLOOD_RED",
+            "TIER_1"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/hats/product1/front/WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+            "back": "PRODUCTS/hats/product1/back/WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg"
+          },
+          "variants": [
+            {
+              "title": "OG // Cap — OG Emblazoned",
+              "price": "415.00",
+              "sku": "product-1-hat-default",
+              "inventory_quantity": 100,
+              "weight": 0.5,
+              "requires_shipping": true
+            }
+          ],
+          "seo_title": "Product 1 Hat",
+          "seo_description": "Buy Product 1 Hat online. Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Retu...",
+          "meta_description": "Shop Product 1 Hat - Premium hats with unique design. Fast shipping & returns.",
+          "description": "Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 91,
+            "popularity_rank": 2,
+            "is_trending": true,
+            "is_bestseller": false,
+            "discount_eligible": true,
+            "bundle_compatible": true,
+            "size_variants": [],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "teeshirt",
+              "hoodies"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Jet Black",
+              "hex": "#0B0B0D"
+            },
+            {
+              "name": "Blood Red",
+              "hex": "#C1121F"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Essential Collection",
+            "tier_level": 1,
+            "tier_description": "Affordable premium designs for everyday wear"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essential",
+      "name": "Essential Collection",
+      "description": "Everyday essentials with the OG touch",
+      "theme": "casual",
+      "total_products": 18,
+      "categories": [
+        "Sweatshirts",
+        "slippers",
+        "hats",
+        "teeshirt",
+        "full shirts",
+        "hoodies"
+      ],
+      "price_range": {
+        "min": 500.0,
+        "max": 629.0
+      },
+      "featured": true,
+      "preview_products": [
+        {
+          "id": "og-tee-blood-og-mark",
+          "title": "OG // Tee — Blood OG Mark",
+          "price": "500.00",
+          "image": "PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+          "category": "teeshirt",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 94,
+          "is_bestseller": true,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-cap-the-og-mark",
+          "title": "OG // Cap — The OG Mark",
+          "price": "629.00",
+          "image": "/images/products/hats/product1/front.jpeg",
+          "category": "hats",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hats/product1/front.jpeg",
+            "back": "/images/products/hats/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "essential",
+            "name": "Essential Collection",
+            "theme": "casual"
+          }
+        },
+        {
+          "title": "OG // Tee — Blood OG Mark",
+          "handle": "og-tee-blood-og-mark",
+          "category": "full shirts",
+          "product_type": "full shirts",
+          "tags": [
+            "shirt",
+            "formal",
+            "business",
+            "professional",
+            "cotton",
+            "CAT_TEE",
+            "CAT_Tee",
+            "CUE_BLOOD_RED",
+            "TIER_2"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/full shirts/product1/front/WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+            "back": null
+          },
+          "variants": [
+            {
+              "title": "S",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-s",
+              "inventory_quantity": 52,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "S"
+            },
+            {
+              "title": "M",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-m",
+              "inventory_quantity": 99,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "M"
+            },
+            {
+              "title": "L",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-l",
+              "inventory_quantity": 186,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "L"
+            },
+            {
+              "title": "XL",
+              "price": "1151.00",
+              "sku": "og-tee-blood-og-mark-xl",
+              "inventory_quantity": 124,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "XL"
+            }
+          ],
+          "seo_title": "Product 1 Full Shirt",
+          "seo_description": "Buy Product 1 Full Shirt online. The OG mark, etched in raktham. Represent the force.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ C...",
+          "meta_description": "Shop Product 1 Full Shirt - Premium full shirts with unique design. Fast shipping & returns.",
+          "description": "The OG mark, etched in raktham. Represent the force.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 89,
+            "popularity_rank": 9,
+            "is_trending": false,
+            "is_bestseller": true,
+            "discount_eligible": true,
+            "bundle_compatible": true,
+            "size_variants": [
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "wallet",
+              "hats"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Jet Black",
+              "hex": "#0B0B0D"
+            },
+            {
+              "name": "Blood Red",
+              "hex": "#C1121F"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Vault Collection",
+            "tier_level": 2,
+            "tier_description": "Exclusive designs with premium materials"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "title": "OG // Cap — OG Emblazoned",
+          "handle": "og-cap-og-emblazoned",
+          "category": "hats",
+          "product_type": "hats",
+          "tags": [
+            "hat",
+            "cap",
+            "headwear",
+            "accessory",
+            "style",
+            "CAT_CAP",
+            "CAT_Cap",
+            "CUE_BLOOD_RED",
+            "TIER_1"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/hats/product1/front/WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+            "back": "PRODUCTS/hats/product1/back/WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg"
+          },
+          "variants": [
+            {
+              "title": "OG // Cap — OG Emblazoned",
+              "price": "415.00",
+              "sku": "product-1-hat-default",
+              "inventory_quantity": 100,
+              "weight": 0.5,
+              "requires_shipping": true
+            }
+          ],
+          "seo_title": "Product 1 Hat",
+          "seo_description": "Buy Product 1 Hat online. Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Retu...",
+          "meta_description": "Shop Product 1 Hat - Premium hats with unique design. Fast shipping & returns.",
+          "description": "Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 91,
+            "popularity_rank": 2,
+            "is_trending": true,
+            "is_bestseller": false,
+            "discount_eligible": true,
+            "bundle_compatible": true,
+            "size_variants": [],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "teeshirt",
+              "hoodies"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Jet Black",
+              "hex": "#0B0B0D"
+            },
+            {
+              "name": "Blood Red",
+              "hex": "#C1121F"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Essential Collection",
+            "tier_level": 1,
+            "tier_description": "Affordable premium designs for everyday wear"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    }
+  ],
+  "all_collections": [
+    {
+      "id": "vault",
+      "name": "Vault Collection",
+      "description": "Limited edition and high-value pieces",
+      "theme": "exclusive",
+      "total_products": 33,
+      "categories": [
+        "posters",
+        "hoodies",
+        "full shirts"
+      ],
+      "price_range": {
+        "min": 320.0,
+        "max": 1410.0
+      },
+      "featured": true,
+      "preview_products": [
+        {
+          "id": "og-poster-cheethas-blade",
+          "title": "OG // Poster — Cheetha's Blade",
+          "price": "320.00",
+          "image": "/images/products/posters/product1/main.jpeg",
+          "category": "posters",
+          "premium_tier": "Armory Collection",
+          "conversion_score": 95,
+          "is_bestseller": true,
+          "images": {
+            "front": "/images/products/posters/product1/main.jpeg",
+            "main": "/images/products/posters/product1/main.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-tee-dripping-og",
+          "title": "OG // Tee — Dripping OG",
+          "price": "1058.00",
+          "image": "PRODUCTS/full shirts/product2/front/WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+          "category": "full shirts",
+          "premium_tier": "Vault Collection",
+          "conversion_score": 94,
+          "is_bestseller": false,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-hoodie-og-repeat",
+          "title": "OG // Hoodie — OG Repeat",
+          "price": "1410.00",
+          "image": "/images/products/hoodies/product1/front.jpeg",
+          "category": "hoodies",
+          "premium_tier": "Vault Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hoodies/product1/front.jpeg",
+            "back": "/images/products/hoodies/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "title": "OG // Tee — Blood OG Mark",
+          "handle": "og-tee-blood-og-mark",
+          "category": "full shirts",
+          "product_type": "full shirts",
+          "tags": [
+            "shirt",
+            "formal",
+            "business",
+            "professional",
+            "cotton",
+            "CAT_TEE",
+            "CAT_Tee",
+            "CUE_BLOOD_RED",
+            "TIER_2"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/full shirts/product1/front/WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+            "back": null
+          },
+          "variants": [
+            {
+              "title": "S",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-s",
+              "inventory_quantity": 52,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "S"
+            },
+            {
+              "title": "M",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-m",
+              "inventory_quantity": 99,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "M"
+            },
+            {
+              "title": "L",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-l",
+              "inventory_quantity": 186,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "L"
+            },
+            {
+              "title": "XL",
+              "price": "1151.00",
+              "sku": "og-tee-blood-og-mark-xl",
+              "inventory_quantity": 124,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "XL"
+            }
+          ],
+          "seo_title": "Product 1 Full Shirt",
+          "seo_description": "Buy Product 1 Full Shirt online. The OG mark, etched in raktham. Represent the force.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ C...",
+          "meta_description": "Shop Product 1 Full Shirt - Premium full shirts with unique design. Fast shipping & returns.",
+          "description": "The OG mark, etched in raktham. Represent the force.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 89,
+            "popularity_rank": 9,
+            "is_trending": false,
+            "is_bestseller": true,
+            "discount_eligible": true,
+            "bundle_compatible": true,
+            "size_variants": [
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "wallet",
+              "hats"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Jet Black",
+              "hex": "#0B0B0D"
+            },
+            {
+              "name": "Blood Red",
+              "hex": "#C1121F"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Vault Collection",
+            "tier_level": 2,
+            "tier_description": "Exclusive designs with premium materials"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "firestorm",
+      "name": "Firestorm Collection",
+      "description": "Bold and intense designs that make a statement",
+      "theme": "aggressive",
+      "total_products": 32,
+      "categories": [
+        "Sweatshirts",
+        "posters",
+        "teeshirt",
+        "full shirts",
+        "hoodies"
+      ],
+      "price_range": {
+        "min": 320.0,
+        "max": 1410.0
+      },
+      "featured": true,
+      "preview_products": [
+        {
+          "id": "og-poster-cheethas-blade",
+          "title": "OG // Poster — Cheetha's Blade",
+          "price": "320.00",
+          "image": "/images/products/posters/product1/main.jpeg",
+          "category": "posters",
+          "premium_tier": "Armory Collection",
+          "conversion_score": 95,
+          "is_bestseller": true,
+          "images": {
+            "front": "/images/products/posters/product1/main.jpeg",
+            "main": "/images/products/posters/product1/main.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-tee-dripping-og",
+          "title": "OG // Tee — Dripping OG",
+          "price": "1058.00",
+          "image": "PRODUCTS/full shirts/product2/front/WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+          "category": "full shirts",
+          "premium_tier": "Vault Collection",
+          "conversion_score": 94,
+          "is_bestseller": false,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-tee-blood-og-mark",
+          "title": "OG // Tee — Blood OG Mark",
+          "price": "500.00",
+          "image": "PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+          "category": "teeshirt",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 94,
+          "is_bestseller": true,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-hoodie-og-repeat",
+          "title": "OG // Hoodie — OG Repeat",
+          "price": "1410.00",
+          "image": "/images/products/hoodies/product1/front.jpeg",
+          "category": "hoodies",
+          "premium_tier": "Vault Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hoodies/product1/front.jpeg",
+            "back": "/images/products/hoodies/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "premium",
+      "name": "Premium Collection",
+      "description": "Luxury items and exclusive designs",
+      "theme": "luxury",
+      "total_products": 23,
+      "categories": [
+        "wallet",
+        "Sweatshirts",
+        "hoodies"
+      ],
+      "price_range": {
+        "min": 1011.0,
+        "max": 1410.0
+      },
+      "featured": true,
+      "preview_products": [
+        {
+          "id": "product-1-wallet",
+          "title": "Product 1 Wallet",
+          "price": "1011.00",
+          "image": "/images/products/wallet/product1/main.jpeg",
+          "category": "wallet",
+          "premium_tier": "Premium Collection",
+          "conversion_score": 94,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/wallet/product1/main.jpeg",
+            "main": "/images/products/wallet/product1/main.jpeg"
+          },
+          "collections": [
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "premium",
+            "name": "Premium Collection",
+            "theme": "luxury"
+          }
+        },
+        {
+          "id": "og-hoodie-og-repeat",
+          "title": "OG // Hoodie — OG Repeat",
+          "price": "1410.00",
+          "image": "/images/products/hoodies/product1/front.jpeg",
+          "category": "hoodies",
+          "premium_tier": "Vault Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hoodies/product1/front.jpeg",
+            "back": "/images/products/hoodies/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "title": "OG // Hoodie — Drip Icon",
+          "handle": "og-hoodie-drip-icon",
+          "category": "hoodies",
+          "product_type": "hoodies",
+          "tags": [
+            "hoodie",
+            "sweatshirt",
+            "warm",
+            "casual",
+            "streetwear",
+            "CAT_HOODIE",
+            "CAT_Hoodie",
+            "EN",
+            "TIER_2"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/hoodies/product1/front/WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+            "back": "PRODUCTS/hoodies/product1/back/WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg"
+          },
+          "variants": [
+            {
+              "title": "S",
+              "price": "1347.00",
+              "sku": "og-hoodie-drip-icon-s",
+              "inventory_quantity": 50,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "S"
+            },
+            {
+              "title": "M",
+              "price": "1347.00",
+              "sku": "og-hoodie-drip-icon-m",
+              "inventory_quantity": 53,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "M"
+            },
+            {
+              "title": "L",
+              "price": "1347.00",
+              "sku": "og-hoodie-drip-icon-l",
+              "inventory_quantity": 66,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "L"
+            },
+            {
+              "title": "XL",
+              "price": "1357.00",
+              "sku": "og-hoodie-drip-icon-xl",
+              "inventory_quantity": 110,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "XL"
+            }
+          ],
+          "seo_title": "Product 1 Hoodie",
+          "seo_description": "Buy Product 1 Hoodie online. Flow with the raw power of an OG. Simple, iconic, ready for the veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day ...",
+          "meta_description": "Shop Product 1 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+          "description": "Flow with the raw power of an OG. Simple, iconic, ready for the veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 79,
+            "popularity_rank": 36,
+            "is_trending": false,
+            "is_bestseller": true,
+            "discount_eligible": true,
+            "bundle_compatible": true,
+            "size_variants": [
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "teeshirt",
+              "Sweatshirts"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Ash White",
+              "hex": "#EAEAEA"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Vault Collection",
+            "tier_level": 2,
+            "tier_description": "Exclusive designs with premium materials"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "title": "OG // Hoodie — The Cheetah",
+          "handle": "og-hoodie-the-cheetah",
+          "category": "hoodies",
+          "product_type": "hoodies",
+          "tags": [
+            "hoodie",
+            "sweatshirt",
+            "warm",
+            "casual",
+            "streetwear",
+            "CAT_HOODIE",
+            "CAT_Hoodie",
+            "EN",
+            "TIER_2"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/hoodies/product10/front/WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+            "back": "PRODUCTS/hoodies/product10/back/WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg"
+          },
+          "variants": [
+            {
+              "title": "S",
+              "price": "1697.00",
+              "sku": "og-hoodie-the-cheetah-s",
+              "inventory_quantity": 195,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "S"
+            },
+            {
+              "title": "M",
+              "price": "1697.00",
+              "sku": "og-hoodie-the-cheetah-m",
+              "inventory_quantity": 190,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "M"
+            },
+            {
+              "title": "L",
+              "price": "1697.00",
+              "sku": "og-hoodie-the-cheetah-l",
+              "inventory_quantity": 198,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "L"
+            },
+            {
+              "title": "XL",
+              "price": "1707.00",
+              "sku": "og-hoodie-the-cheetah-xl",
+              "inventory_quantity": 116,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "XL"
+            }
+          ],
+          "seo_title": "Product 10 Hoodie",
+          "seo_description": "Buy Product 10 Hoodie online. Unleash the speed, embody the spirit. A hunter's instinct runs deep, a true veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Availab...",
+          "meta_description": "Shop Product 10 Hoodie - Premium hoodies with unique design. Fast shipping & returns.",
+          "description": "Unleash the speed, embody the spirit. A hunter's instinct runs deep, a true veta.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 87,
+            "popularity_rank": 18,
+            "is_trending": true,
+            "is_bestseller": false,
+            "discount_eligible": false,
+            "bundle_compatible": true,
+            "size_variants": [
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "teeshirt",
+              "Sweatshirts"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Ash White",
+              "hex": "#EAEAEA"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Vault Collection",
+            "tier_level": 2,
+            "tier_description": "Exclusive designs with premium materials"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "armory",
+      "name": "Armory Collection",
+      "description": "Tactical and military-inspired designs",
+      "theme": "tactical",
+      "total_products": 21,
+      "categories": [
+        "posters",
+        "hats",
+        "teeshirt"
+      ],
+      "price_range": {
+        "min": 320.0,
+        "max": 629.0
+      },
+      "featured": true,
+      "preview_products": [
+        {
+          "id": "og-poster-cheethas-blade",
+          "title": "OG // Poster — Cheetha's Blade",
+          "price": "320.00",
+          "image": "/images/products/posters/product1/main.jpeg",
+          "category": "posters",
+          "premium_tier": "Armory Collection",
+          "conversion_score": 95,
+          "is_bestseller": true,
+          "images": {
+            "front": "/images/products/posters/product1/main.jpeg",
+            "main": "/images/products/posters/product1/main.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-tee-blood-og-mark",
+          "title": "OG // Tee — Blood OG Mark",
+          "price": "500.00",
+          "image": "PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+          "category": "teeshirt",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 94,
+          "is_bestseller": true,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-cap-the-og-mark",
+          "title": "OG // Cap — The OG Mark",
+          "price": "629.00",
+          "image": "/images/products/hats/product1/front.jpeg",
+          "category": "hats",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hats/product1/front.jpeg",
+            "back": "/images/products/hats/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "essential",
+            "name": "Essential Collection",
+            "theme": "casual"
+          }
+        },
+        {
+          "title": "OG // Cap — OG Emblazoned",
+          "handle": "og-cap-og-emblazoned",
+          "category": "hats",
+          "product_type": "hats",
+          "tags": [
+            "hat",
+            "cap",
+            "headwear",
+            "accessory",
+            "style",
+            "CAT_CAP",
+            "CAT_Cap",
+            "CUE_BLOOD_RED",
+            "TIER_1"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/hats/product1/front/WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+            "back": "PRODUCTS/hats/product1/back/WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg"
+          },
+          "variants": [
+            {
+              "title": "OG // Cap — OG Emblazoned",
+              "price": "415.00",
+              "sku": "product-1-hat-default",
+              "inventory_quantity": 100,
+              "weight": 0.5,
+              "requires_shipping": true
+            }
+          ],
+          "seo_title": "Product 1 Hat",
+          "seo_description": "Buy Product 1 Hat online. Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Retu...",
+          "meta_description": "Shop Product 1 Hat - Premium hats with unique design. Fast shipping & returns.",
+          "description": "Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 91,
+            "popularity_rank": 2,
+            "is_trending": true,
+            "is_bestseller": false,
+            "discount_eligible": true,
+            "bundle_compatible": true,
+            "size_variants": [],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "teeshirt",
+              "hoodies"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Jet Black",
+              "hex": "#0B0B0D"
+            },
+            {
+              "name": "Blood Red",
+              "hex": "#C1121F"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Essential Collection",
+            "tier_level": 1,
+            "tier_description": "Affordable premium designs for everyday wear"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "essential",
+      "name": "Essential Collection",
+      "description": "Everyday essentials with the OG touch",
+      "theme": "casual",
+      "total_products": 18,
+      "categories": [
+        "Sweatshirts",
+        "slippers",
+        "hats",
+        "teeshirt",
+        "full shirts",
+        "hoodies"
+      ],
+      "price_range": {
+        "min": 500.0,
+        "max": 629.0
+      },
+      "featured": true,
+      "preview_products": [
+        {
+          "id": "og-tee-blood-og-mark",
+          "title": "OG // Tee — Blood OG Mark",
+          "price": "500.00",
+          "image": "PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+          "category": "teeshirt",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 94,
+          "is_bestseller": true,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "og-cap-the-og-mark",
+          "title": "OG // Cap — The OG Mark",
+          "price": "629.00",
+          "image": "/images/products/hats/product1/front.jpeg",
+          "category": "hats",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hats/product1/front.jpeg",
+            "back": "/images/products/hats/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "essential",
+            "name": "Essential Collection",
+            "theme": "casual"
+          }
+        },
+        {
+          "title": "OG // Tee — Blood OG Mark",
+          "handle": "og-tee-blood-og-mark",
+          "category": "full shirts",
+          "product_type": "full shirts",
+          "tags": [
+            "shirt",
+            "formal",
+            "business",
+            "professional",
+            "cotton",
+            "CAT_TEE",
+            "CAT_Tee",
+            "CUE_BLOOD_RED",
+            "TIER_2"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/full shirts/product1/front/WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+            "back": null
+          },
+          "variants": [
+            {
+              "title": "S",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-s",
+              "inventory_quantity": 52,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "S"
+            },
+            {
+              "title": "M",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-m",
+              "inventory_quantity": 99,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "M"
+            },
+            {
+              "title": "L",
+              "price": "1141.00",
+              "sku": "og-tee-blood-og-mark-l",
+              "inventory_quantity": 186,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "L"
+            },
+            {
+              "title": "XL",
+              "price": "1151.00",
+              "sku": "og-tee-blood-og-mark-xl",
+              "inventory_quantity": 124,
+              "weight": 0.5,
+              "requires_shipping": true,
+              "size": "XL"
+            }
+          ],
+          "seo_title": "Product 1 Full Shirt",
+          "seo_description": "Buy Product 1 Full Shirt online. The OG mark, etched in raktham. Represent the force.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ C...",
+          "meta_description": "Shop Product 1 Full Shirt - Premium full shirts with unique design. Fast shipping & returns.",
+          "description": "The OG mark, etched in raktham. Represent the force.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 89,
+            "popularity_rank": 9,
+            "is_trending": false,
+            "is_bestseller": true,
+            "discount_eligible": true,
+            "bundle_compatible": true,
+            "size_variants": [
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "wallet",
+              "hats"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Jet Black",
+              "hex": "#0B0B0D"
+            },
+            {
+              "name": "Blood Red",
+              "hex": "#C1121F"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Vault Collection",
+            "tier_level": 2,
+            "tier_description": "Exclusive designs with premium materials"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "title": "OG // Cap — OG Emblazoned",
+          "handle": "og-cap-og-emblazoned",
+          "category": "hats",
+          "product_type": "hats",
+          "tags": [
+            "hat",
+            "cap",
+            "headwear",
+            "accessory",
+            "style",
+            "CAT_CAP",
+            "CAT_Cap",
+            "CUE_BLOOD_RED",
+            "TIER_1"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/hats/product1/front/WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+            "back": "PRODUCTS/hats/product1/back/WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg"
+          },
+          "variants": [
+            {
+              "title": "OG // Cap — OG Emblazoned",
+              "price": "415.00",
+              "sku": "product-1-hat-default",
+              "inventory_quantity": 100,
+              "weight": 0.5,
+              "requires_shipping": true
+            }
+          ],
+          "seo_title": "Product 1 Hat",
+          "seo_description": "Buy Product 1 Hat online. Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Retu...",
+          "meta_description": "Shop Product 1 Hat - Premium hats with unique design. Fast shipping & returns.",
+          "description": "Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 91,
+            "popularity_rank": 2,
+            "is_trending": true,
+            "is_bestseller": false,
+            "discount_eligible": true,
+            "bundle_compatible": true,
+            "size_variants": [],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "teeshirt",
+              "hoodies"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Jet Black",
+              "hex": "#0B0B0D"
+            },
+            {
+              "name": "Blood Red",
+              "hex": "#C1121F"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Essential Collection",
+            "tier_level": 1,
+            "tier_description": "Affordable premium designs for everyday wear"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "streetwear",
+      "name": "Streetwear Collection",
+      "description": "Urban fashion and street culture",
+      "theme": "urban",
+      "total_products": 29,
+      "categories": [
+        "wallet",
+        "hats",
+        "hoodies",
+        "teeshirt"
+      ],
+      "price_range": {
+        "min": 500.0,
+        "max": 1410.0
+      },
+      "featured": false,
+      "preview_products": [
+        {
+          "id": "og-tee-blood-og-mark",
+          "title": "OG // Tee — Blood OG Mark",
+          "price": "500.00",
+          "image": "PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+          "category": "teeshirt",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 94,
+          "is_bestseller": true,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "product-1-wallet",
+          "title": "Product 1 Wallet",
+          "price": "1011.00",
+          "image": "/images/products/wallet/product1/main.jpeg",
+          "category": "wallet",
+          "premium_tier": "Premium Collection",
+          "conversion_score": 94,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/wallet/product1/main.jpeg",
+            "main": "/images/products/wallet/product1/main.jpeg"
+          },
+          "collections": [
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "premium",
+            "name": "Premium Collection",
+            "theme": "luxury"
+          }
+        },
+        {
+          "id": "og-cap-the-og-mark",
+          "title": "OG // Cap — The OG Mark",
+          "price": "629.00",
+          "image": "/images/products/hats/product1/front.jpeg",
+          "category": "hats",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hats/product1/front.jpeg",
+            "back": "/images/products/hats/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "essential",
+            "name": "Essential Collection",
+            "theme": "casual"
+          }
+        },
+        {
+          "id": "og-hoodie-og-repeat",
+          "title": "OG // Hoodie — OG Repeat",
+          "price": "1410.00",
+          "image": "/images/products/hoodies/product1/front.jpeg",
+          "category": "hoodies",
+          "premium_tier": "Vault Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hoodies/product1/front.jpeg",
+            "back": "/images/products/hoodies/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories Collection",
+      "description": "Complete your look with OG accessories",
+      "theme": "accessories",
+      "total_products": 9,
+      "categories": [
+        "slippers",
+        "wallet",
+        "hats",
+        "teeshirt"
+      ],
+      "price_range": {
+        "min": 500.0,
+        "max": 1011.0
+      },
+      "featured": false,
+      "preview_products": [
+        {
+          "id": "og-tee-blood-og-mark",
+          "title": "OG // Tee — Blood OG Mark",
+          "price": "500.00",
+          "image": "PRODUCTS/teeshirt/Space Exploration/front/WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+          "category": "teeshirt",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 94,
+          "is_bestseller": true,
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        },
+        {
+          "id": "product-1-wallet",
+          "title": "Product 1 Wallet",
+          "price": "1011.00",
+          "image": "/images/products/wallet/product1/main.jpeg",
+          "category": "wallet",
+          "premium_tier": "Premium Collection",
+          "conversion_score": 94,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/wallet/product1/main.jpeg",
+            "main": "/images/products/wallet/product1/main.jpeg"
+          },
+          "collections": [
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "premium",
+            "name": "Premium Collection",
+            "theme": "luxury"
+          }
+        },
+        {
+          "id": "og-cap-the-og-mark",
+          "title": "OG // Cap — The OG Mark",
+          "price": "629.00",
+          "image": "/images/products/hats/product1/front.jpeg",
+          "category": "hats",
+          "premium_tier": "Essential Collection",
+          "conversion_score": 93,
+          "is_bestseller": false,
+          "images": {
+            "front": "/images/products/hats/product1/front.jpeg",
+            "back": "/images/products/hats/product1/back.jpeg"
+          },
+          "collections": [
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "essential",
+            "name": "Essential Collection",
+            "theme": "casual"
+          }
+        },
+        {
+          "title": "OG // Cap — OG Emblazoned",
+          "handle": "og-cap-og-emblazoned",
+          "category": "hats",
+          "product_type": "hats",
+          "tags": [
+            "hat",
+            "cap",
+            "headwear",
+            "accessory",
+            "style",
+            "CAT_CAP",
+            "CAT_Cap",
+            "CUE_BLOOD_RED",
+            "TIER_1"
+          ],
+          "vendor": "OG Brand",
+          "status": "active",
+          "published": true,
+          "images": {
+            "front": "PRODUCTS/hats/product1/front/WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+            "back": "PRODUCTS/hats/product1/back/WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg"
+          },
+          "variants": [
+            {
+              "title": "OG // Cap — OG Emblazoned",
+              "price": "415.00",
+              "sku": "product-1-hat-default",
+              "inventory_quantity": 100,
+              "weight": 0.5,
+              "requires_shipping": true
+            }
+          ],
+          "seo_title": "Product 1 Hat",
+          "seo_description": "Buy Product 1 Hat online. Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Retu...",
+          "meta_description": "Shop Product 1 Hat - Premium hats with unique design. Fast shipping & returns.",
+          "description": "Sleek. Potent. The mark of an OG. Rep the power, wear the legacy.\n\n✓ Premium Quality Materials\n✓ Unique Design\n✓ Fast Shipping Available\n✓ 30-Day Return Policy\n✓ Customer Satisfaction Guaranteed",
+          "conversion_data": {
+            "conversion_score": 91,
+            "popularity_rank": 2,
+            "is_trending": true,
+            "is_bestseller": false,
+            "discount_eligible": true,
+            "bundle_compatible": true,
+            "size_variants": [],
+            "color_variants": [
+              "Black",
+              "White",
+              "Navy"
+            ],
+            "cross_sell_categories": [
+              "teeshirt",
+              "hoodies"
+            ]
+          },
+          "color_palette": [
+            {
+              "name": "Jet Black",
+              "hex": "#0B0B0D"
+            },
+            {
+              "name": "Blood Red",
+              "hex": "#C1121F"
+            }
+          ],
+          "premium_tier": {
+            "tier_name": "Essential Collection",
+            "tier_level": 1,
+            "tier_description": "Affordable premium designs for everyday wear"
+          },
+          "collections": [
+            {
+              "id": "firestorm",
+              "name": "Firestorm Collection",
+              "theme": "aggressive"
+            },
+            {
+              "id": "essential",
+              "name": "Essential Collection",
+              "theme": "casual"
+            },
+            {
+              "id": "premium",
+              "name": "Premium Collection",
+              "theme": "luxury"
+            },
+            {
+              "id": "vault",
+              "name": "Vault Collection",
+              "theme": "exclusive"
+            },
+            {
+              "id": "armory",
+              "name": "Armory Collection",
+              "theme": "tactical"
+            },
+            {
+              "id": "streetwear",
+              "name": "Streetwear Collection",
+              "theme": "urban"
+            },
+            {
+              "id": "accessories",
+              "name": "Accessories Collection",
+              "theme": "accessories"
+            }
+          ],
+          "primary_collection": {
+            "id": "firestorm",
+            "name": "Firestorm Collection",
+            "theme": "aggressive"
+          }
+        }
+      ]
+    }
+  ],
+  "collection_stats": {
+    "total_products_in_collections": 165,
+    "average_products_per_collection": 23.57,
+    "price_ranges": {}
+  }
+}

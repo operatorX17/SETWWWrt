@@ -8,13 +8,14 @@ import Rail from '../components/Rail';
 import PSPKCommunityModal from '../components/PSPKCommunityModal';
 import TeaserVideo from '../components/TeaserVideo';
 import NewTeaser from '../components/OG/NewTeaser';
-import LuxuryHeroSection from '../components/OG/LuxuryHeroSection';
+import ConversionOptimizedHero from '../components/ConversionOptimizedHero';
 import PremiumShowcase from '../components/OG/PremiumShowcase';
 import PosterShowcase from '../components/OG/PosterShowcase';
 import AnimatedUGCStrip from '../components/ConversionElements/AnimatedUGCStrip';
 import VaultSection from '../components/ConversionElements/VaultSection';
 import TrustStrip from '../components/ConversionElements/TrustStrip';
 import Under999Section from '../components/Under999Section';
+import BundleSuggestions from '../components/BundleSuggestions';
 
 const Home = () => {
   const { products, loading, error } = useProducts();
@@ -74,13 +75,14 @@ const Home = () => {
       
       <Header />
       
-      {/* Luxury Hero Section */}
-      <LuxuryHeroSection />
+      {/* Conversion Optimized Hero Section */}
+      <ConversionOptimizedHero />
 
       {/* Trust Strip - REPLACE HEAVY DELIVERY PROMISE */}
       <TrustStrip />
       
-
+      {/* Bundle Suggestions from Premium Catalog */}
+      <BundleSuggestions />
       
       {/* New Teaser Section */}
       <NewTeaser />

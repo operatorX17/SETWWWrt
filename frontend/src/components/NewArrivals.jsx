@@ -6,7 +6,7 @@ import ProductCard from './ProductCard';
 
 const NewArrivals = () => {
   const navigate = useNavigate();
-  const newProducts = mockProducts.filter(product => product.badges.includes('NEW'));
+  const newProducts = mockProducts.filter(product => product.badges?.includes('NEW'));
 
   return (
     <div className="bg-black text-white py-20 px-6">

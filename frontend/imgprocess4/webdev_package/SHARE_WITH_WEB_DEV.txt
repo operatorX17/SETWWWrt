@@ -1,0 +1,43 @@
+FILES TO SHARE WITH WEB DEVELOPMENT AGENT
+==========================================
+
+ESSENTIAL FILES (Must Have):
+----------------------------
+1. out/grouped_products.json - Main product catalog (47 products)
+2. out/front_view_designs/ - All front product images (50+ designs)
+3. models/Product.js - Database schema
+4. routes/products.js - Product API endpoints
+5. server.js - Backend server setup
+
+IMPORTANT FILES (Should Have):
+-----------------------------
+6. out/back_view_designs/ - Back product images (22+ designs)
+7. out/ai_products_for_admin.json - Admin dashboard data
+8. routes/sync.js - Data sync endpoints
+9. out/front_selection.json - Hero/featured images
+10. package.json - Node.js dependencies
+
+OPTIONAL FILES (Nice to Have):
+-----------------------------
+11. out/product_grouping_stats.json - Analytics data
+12. docs/PRODUCT_LINKING_EXPLANATION.md - Technical documentation
+13. client/src/ - React components (if using React)
+14. routes/upload.js - Image upload handling
+15. requirements.txt - Python dependencies (for AI processing)
+
+KEY INFORMATION FOR WEB DEV:
+---------------------------
+- 47 unified products ready for store integration
+- Products have unique IDs, SEO handles, price bands
+- Images organized by design name in folders
+- Products marked as hero_card_ready for featured display
+- Visual coolness scores for sorting/filtering
+- Multi-view support (front/back images)
+- Complete backend API already built
+- Database schema defined
+
+TOTAL SIZE: ~5-10MB
+MAIN DATA: grouped_products.json (47 products, ~50KB)
+IMAGES: ~2-5MB (74 processed images)
+
+READY FOR: Shopify, WooCommerce, custom store integration
