@@ -87,30 +87,6 @@ export const useProducts = () => {
         };
       });
       
-      console.log(`✅ Successfully processed ${processedProducts.length} products`);
-      console.log('🎯 Sample product:', processedProducts[0]);
-      
-      // Log category distribution
-      const categories = {};
-      processedProducts.forEach(p => {
-        categories[p.category] = (categories[p.category] || 0) + 1;
-      });
-      console.log('📊 Category distribution:', categories);
-      
-      setProducts(processedProducts);
-      setError(null);
-      
-    } catch (err) {
-      console.error('❌ Error loading products:', err);
-      setError(err.message);
-      
-      // Fallback to empty array instead of crashing
-      setProducts([]);
-    } finally {
-      setLoading(false);
-    }
-  }, []);
-
   // Helper function to map OG products to homepage collections
   const mapToCollection = (product) => {
     const badges = product.badges || [];
