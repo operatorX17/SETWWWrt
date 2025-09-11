@@ -18,9 +18,10 @@ from dotenv import load_dotenv
 load_dotenv('frontend/.env')
 BACKEND_URL = os.getenv('REACT_APP_BACKEND_URL')
 
+# Fallback to supervisor configured URL if not found in .env
 if not BACKEND_URL:
-    print("❌ REACT_APP_BACKEND_URL not found in frontend/.env")
-    sys.exit(1)
+    BACKEND_URL = "https://6621aa8b-ce17-4eac-8923-d8854a0ad122.preview.emergentagent.com"
+    print(f"⚠️  REACT_APP_BACKEND_URL not found in frontend/.env, using supervisor URL: {BACKEND_URL}")
 
 # Ensure API prefix
 API_BASE_URL = f"{BACKEND_URL}/api"
