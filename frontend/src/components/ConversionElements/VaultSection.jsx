@@ -131,17 +131,31 @@ const VaultSection = ({ className = "" }) => {
 
               {/* Product Image */}
               <div className="aspect-square bg-zinc-900/50 rounded-2xl mb-6 overflow-hidden relative">
-                {product.images && product.images[0] ? (
-                  <img 
-                    src={product.images[0]} 
-                    alt={product.name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center">
-                    <Crown className="text-zinc-700" size={48} strokeWidth={1} />
-                  </div>
-                )}
+                {(() => {
+                  let imageToShow = '/placeholder-product.jpg';
+                  
+                  // Handle different image structures
+                  if (product.images && Array.isArray(product.images) && product.images[0]) {
+                    imageToShow = product.images[0];
+                  } else if (product.primaryImage) {
+                    imageToShow = product.primaryImage;
+                  } else if (product.backImage) {
+                    imageToShow = product.backImage;
+                  } else if (product.frontImage) {
+                    imageToShow = product.frontImage;
+                  }
+                  
+                  return (
+                    <img 
+                      src={imageToShow} 
+                      alt={product.title || product.name}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      onError={(e) => {
+                        e.target.src = '/placeholder-product.jpg';
+                      }}
+                    />
+                  );
+                })()}
                 
                 {/* Subtle Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
