@@ -84,7 +84,7 @@ const Home = () => {
     !p.title.includes('Smoke Trail')
   ).slice(0, 6);
   const premiumProducts = safeProducts.filter(p => p.price >= 1000).slice(0, 6);
-  const affordableProducts = safeProducts.filter(p => p price < 999).slice(0, 8);
+  const affordableProducts = safeProducts.filter(p => p.price < 999).slice(0, 8);
 
   return (
     <div className="min-h-screen bg-[var(--color-bg)]">
