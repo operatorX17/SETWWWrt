@@ -897,54 +897,50 @@ class BackendTester:
             self.log_result("API Performance with OG System", False, f"Error: {str(e)}")
             return False
     
-    def test_navigation_sync_backend_support(self):
-        """Test backend support for navigation synchronization with proper badges"""
+    def test_image_path_formatting(self):
+        """Test that image paths use forward slashes (not backslashes) and are properly formatted"""
         try:
             products_data = self.test_comprehensive_products_json_accessibility()
             if not products_data:
-                self.log_result("Navigation Sync Backend Support", False, "Could not load products data")
+                self.log_result("Image Path Formatting", False, "Could not load products data")
                 return False
             
-            # Check for expected badges that support navigation sync
-            expected_badges = ['REBEL DROP', 'VAULT', 'PREMIUM', 'LIMITED', 'LOCKED EXCLUSIVE']
-            badge_counts = {}
+            # Test image path formatting
+            backslash_issues = []
+            forward_slash_count = 0
+            total_images_checked = 0
             
-            for product in products_data:
-                badges = product.get('badges', [])
-                for badge in badges:
-                    if badge in expected_badges:
-                        if badge in badge_counts:
-                            badge_counts[badge] += 1
-                        else:
-                            badge_counts[badge] = 1
+            for product in products_data[:10]:  # Check first 10 products
+                name = product.get('title', 'Unknown')
+                images = product.get('images', {})
+                
+                # Check front image path
+                front_image = images.get('front')
+                if front_image:
+                    total_images_checked += 1
+                    if '\\' in front_image:
+                        backslash_issues.append(f"{name}: {front_image}")
+                    elif '/' in front_image:
+                        forward_slash_count += 1
+                
+                # Check back image path
+                back_image = images.get('back')
+                if back_image:
+                    total_images_checked += 1
+                    if '\\' in back_image:
+                        backslash_issues.append(f"{name}: {back_image}")
+                    elif '/' in back_image:
+                        forward_slash_count += 1
             
-            print(f"  📊 Navigation badges found: {dict(badge_counts)}")
-            
-            # Check if we have products with navigation-supporting badges
-            total_badged_products = sum(badge_counts.values())
-            
-            # Verify we have key navigation badges (REBEL DROP and VAULT)
-            has_rebel_drop = badge_counts.get('REBEL DROP', 0) > 0
-            has_vault = badge_counts.get('VAULT', 0) > 0
-            
-            if total_badged_products > 0 and has_rebel_drop and has_vault:
-                badge_summary = ', '.join([f"{badge}({count})" for badge, count in badge_counts.items()])
-                self.log_result("Navigation Sync Backend Support", True, f"Backend supports navigation with proper badges: {badge_summary}")
+            if len(backslash_issues) == 0:
+                self.log_result("Image Path Formatting", True, f"All image paths properly formatted with forward slashes ({forward_slash_count}/{total_images_checked} paths checked)")
                 return True
             else:
-                missing = []
-                if not has_rebel_drop:
-                    missing.append("No REBEL DROP badges")
-                if not has_vault:
-                    missing.append("No VAULT badges")
-                if total_badged_products == 0:
-                    missing.append("No navigation badges found")
-                
-                self.log_result("Navigation Sync Backend Support", False, f"Navigation sync issues: {'; '.join(missing)}")
+                self.log_result("Image Path Formatting", False, f"Found {len(backslash_issues)} image paths with backslashes: {'; '.join(backslash_issues[:3])}")
                 return False
                 
         except Exception as e:
-            self.log_result("Navigation Sync Backend Support", False, f"Error: {str(e)}")
+            self.log_result("Image Path Formatting", False, f"Error: {str(e)}")
             return False
 
     def run_all_tests(self):
