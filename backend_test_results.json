@@ -1,159 +1,159 @@
 {
-  "timestamp": "2025-09-11T16:32:18.207713",
-  "backend_url": "https://6621aa8b-ce17-4eac-8923-d8854a0ad122.preview.emergentagent.com/api",
+  "timestamp": "2025-09-11T16:33:35.209484",
+  "backend_url": "http://localhost:8001/api",
   "passed_tests": 9,
   "failed_tests": 16,
   "overall_success": false,
   "test_results": [
     {
       "test": "Server Health Check",
-      "success": false,
-      "message": "HTTP 502: ",
-      "timestamp": "2025-09-11T16:32:16.895314"
+      "success": true,
+      "message": "OG Armory Backend API responding correctly",
+      "timestamp": "2025-09-11T16:33:35.131551"
     },
     {
       "test": "Environment Variables",
-      "success": false,
-      "message": "Backend not accessible",
-      "timestamp": "2025-09-11T16:32:16.947982"
+      "success": true,
+      "message": "Backend accessible, env vars loaded",
+      "timestamp": "2025-09-11T16:33:35.133926"
     },
     {
       "test": "CORS Configuration",
-      "success": false,
-      "message": "No CORS headers found",
-      "timestamp": "2025-09-11T16:32:16.998669"
+      "success": true,
+      "message": "CORS headers found: access-control-allow-credentials: true",
+      "timestamp": "2025-09-11T16:33:35.136236"
     },
     {
       "test": "API Routes Accessibility",
-      "success": false,
+      "success": true,
       "message": "All defined routes tested",
-      "timestamp": "2025-09-11T16:32:17.177889"
+      "timestamp": "2025-09-11T16:33:35.161358"
     },
     {
       "test": "Create Status Check",
-      "success": false,
-      "message": "HTTP 502: ",
-      "timestamp": "2025-09-11T16:32:17.225634"
+      "success": true,
+      "message": "Created status check with ID: 68c2f9dfb5cb85a208210774",
+      "timestamp": "2025-09-11T16:33:35.164715"
     },
     {
       "test": "Get Status Checks",
-      "success": false,
-      "message": "HTTP 502: ",
-      "timestamp": "2025-09-11T16:32:17.311277"
+      "success": true,
+      "message": "Status endpoint working: healthy, MongoDB: connected, Documents: 2",
+      "timestamp": "2025-09-11T16:33:35.168737"
     },
     {
       "test": "MongoDB Integration",
-      "success": false,
-      "message": "Failed to create test record",
-      "timestamp": "2025-09-11T16:32:17.364473"
+      "success": true,
+      "message": "Successfully created and verified record in MongoDB. Documents: 3",
+      "timestamp": "2025-09-11T16:33:35.175011"
     },
     {
       "test": "Shopify Environment Variables",
       "success": false,
-      "message": "Missing variables: SHOPIFY_STORE_DOMAIN, SHOPIFY_STOREFRONT_API_TOKEN, SHOPIFY_STOREFRONT_API_VERSION, SHOPIFY_ADMIN_API_KEY, SHOPIFY_ADMIN_API_SECRET",
-      "timestamp": "2025-09-11T16:32:17.365823"
+      "message": "Missing variables: SHOPIFY_STOREFRONT_API_TOKEN, SHOPIFY_STOREFRONT_API_VERSION, SHOPIFY_ADMIN_API_KEY, SHOPIFY_ADMIN_API_SECRET",
+      "timestamp": "2025-09-11T16:33:35.175966"
     },
     {
       "test": "Shopify Storefront API Connectivity",
       "success": false,
       "message": "Missing Shopify credentials",
-      "timestamp": "2025-09-11T16:32:17.365870"
+      "timestamp": "2025-09-11T16:33:35.176535"
     },
     {
       "test": "OG Products Availability",
       "success": false,
       "message": "Missing Shopify Admin API credentials",
-      "timestamp": "2025-09-11T16:32:17.365901"
+      "timestamp": "2025-09-11T16:33:35.177058"
     },
     {
       "test": "Backend Shopify Integration Health",
+      "success": true,
+      "message": "Backend stable with Shopify integration",
+      "timestamp": "2025-09-11T16:33:35.185562"
+    },
+    {
+      "test": "Comprehensive Products JSON Accessibility",
       "success": false,
-      "message": "Backend issues detected with Shopify integration",
-      "timestamp": "2025-09-11T16:32:17.548511"
+      "message": "HTTP 404: Cannot access comprehensive_products.json",
+      "timestamp": "2025-09-11T16:33:35.187690"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:32:17.618952"
-    },
-    {
-      "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:32:17.709534"
+      "success": false,
+      "message": "HTTP 404: Cannot access comprehensive_products.json",
+      "timestamp": "2025-09-11T16:33:35.189772"
     },
     {
       "test": "VAULT Product Integration",
       "success": false,
-      "message": "Expected \u22653 VAULT products, found 0",
-      "timestamp": "2025-09-11T16:32:17.710875"
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T16:33:35.189873"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:32:17.809805"
+      "success": false,
+      "message": "HTTP 404: Cannot access comprehensive_products.json",
+      "timestamp": "2025-09-11T16:33:35.191904"
     },
     {
       "test": "Badge System Functionality",
       "success": false,
-      "message": "Badge system issues: Only 0/5 badge types found, 0.0% coverage",
-      "timestamp": "2025-09-11T16:32:17.811321"
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T16:33:35.192009"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:32:17.870590"
+      "success": false,
+      "message": "HTTP 404: Cannot access comprehensive_products.json",
+      "timestamp": "2025-09-11T16:33:35.194167"
     },
     {
       "test": "Category Filtering System",
       "success": false,
-      "message": "Category filtering issues: No Teeshirt products; No Vault products; Only 0/56 products categorized",
-      "timestamp": "2025-09-11T16:32:17.872015"
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T16:33:35.194276"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:32:17.923906"
+      "success": false,
+      "message": "HTTP 404: Cannot access comprehensive_products.json",
+      "timestamp": "2025-09-11T16:33:35.196317"
     },
     {
       "test": "Image Path Resolution",
       "success": false,
-      "message": "Error: 0",
-      "timestamp": "2025-09-11T16:32:17.925383"
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T16:33:35.196418"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:32:17.979590"
+      "success": false,
+      "message": "HTTP 404: Cannot access comprehensive_products.json",
+      "timestamp": "2025-09-11T16:33:35.198450"
     },
     {
       "test": "Product Image Asset Integration",
       "success": false,
-      "message": "Error: 0",
-      "timestamp": "2025-09-11T16:32:17.980943"
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T16:33:35.198549"
     },
     {
       "test": "API Performance with OG System",
       "success": true,
-      "message": "Excellent performance: 48ms average response time",
-      "timestamp": "2025-09-11T16:32:18.124941"
+      "message": "Excellent performance: 3ms average response time",
+      "timestamp": "2025-09-11T16:33:35.207201"
     },
     {
       "test": "Comprehensive Products JSON Accessibility",
-      "success": true,
-      "message": "Successfully loaded FINAL_PRODUCTION_CATALOG with 56 products across 8 categories: full shirts, hats, hoodies, posters, slippers, sweatshirts, teeshirt, wallet",
-      "timestamp": "2025-09-11T16:32:18.205887"
+      "success": false,
+      "message": "HTTP 404: Cannot access comprehensive_products.json",
+      "timestamp": "2025-09-11T16:33:35.209238"
     },
     {
       "test": "Image Path Formatting",
-      "success": true,
-      "message": "All image paths properly formatted with forward slashes (15/15 paths checked)",
-      "timestamp": "2025-09-11T16:32:18.207280"
+      "success": false,
+      "message": "Could not load products data",
+      "timestamp": "2025-09-11T16:33:35.209339"
     }
   ]
 }
