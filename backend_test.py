@@ -501,7 +501,8 @@ class BackendTester:
         """Test that comprehensive_products.json is accessible with FINAL_PRODUCTION_CATALOG (56 products)"""
         try:
             # Test direct access to comprehensive_products.json via frontend URL
-            frontend_url = BACKEND_URL.replace('/api', '')
+            # Use the external frontend URL for accessing static files
+            frontend_url = "https://6621aa8b-ce17-4eac-8923-d8854a0ad122.preview.emergentagent.com"
             products_url = f"{frontend_url}/comprehensive_products.json"
             
             response = requests.get(products_url, timeout=10)
