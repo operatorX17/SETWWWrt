@@ -89,7 +89,7 @@ export const useProducts = () => {
           variants: product.variants || [],
           
           // Collection mapping - simple version
-          collection: this.getProductCollection(product),
+          collection: getProductCollection(product),
           
           // Additional metadata
           seo: product.seo || {}
