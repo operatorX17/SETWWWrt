@@ -1,46 +1,17 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 
-// React import needed for additional hooks
-
-// Simplified and optimized useProducts hook focused on comprehensive_products.json
+// Simplified and fixed useProducts hook focused on images working
 export const useProducts = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   const loadProducts = useCallback(async () => {
-    // Helper function to map OG products to homepage collections
-    const mapToCollection = (product) => {
-      const badges = product.badges || [];
-      const tags = product.tags || [];
-      const price = parseFloat(product.price) || 0;
-      
-      // Map based on badges and characteristics
-      if (badges.includes('VAULT_EXCLUSIVE') || badges.includes('VAULT')) {
-        return 'VAULT';
-      }
-      if (badges.includes('REBEL_DROP')) {
-        return 'REBELLION CORE';
-      }
-      if (badges.includes('BEST_SELLER') || product.merch_score > 0.8) {
-        return 'PREMIUM COLLECTION';
-      }
-      if (price < 999 || badges.includes('UNDER_999')) {
-        return 'REBELLION CORE';
-      }
-      if (price >= 1200) {
-        return 'PREMIUM COLLECTION';
-      }
-      
-      // Default mapping
-      return 'REBELLION CORE';
-    };
-
     try {
       setLoading(true);
       console.log('🔄 Loading products from comprehensive_products.json...');
       
-      // Load from our OG Expert Catalog (comprehensive_products.json)
+      // Load from our OG Expert Catalog
       const response = await fetch('/comprehensive_products.json');
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
@@ -61,20 +32,33 @@ export const useProducts = () => {
       
       console.log(`📊 Processing ${rawProducts.length} raw products...`);
       
-      // Transform products to standard format with enhanced image handling
+      // Transform products with SIMPLE image handling that works
       const processedProducts = rawProducts.map(product => {
-        // Determine best image to show (prioritize back image as requested)
-        let primaryImage = null;
-        let secondaryImage = null;
+        // Simple image handling - just use what's available
+        let imageList = [];
         
         if (product.images) {
-          // Prioritize back image for front display (user's request)
-          if (product.images.back) {
-            primaryImage = product.images.back;
-            secondaryImage = product.images.front;
-          } else if (product.images.front) {
-            primaryImage = product.images.front;
+          // If it's an object with front/back
+          if (typeof product.images === 'object' && !Array.isArray(product.images)) {
+            if (product.images.back) imageList.push(product.images.back);
+            if (product.images.front) imageList.push(product.images.front);
+          } 
+          // If it's already an array
+          else if (Array.isArray(product.images)) {
+            imageList = product.images.filter(Boolean);
           }
+        }
+        
+        // Fallback to any available image
+        if (imageList.length === 0) {
+          if (product.primaryImage) imageList.push(product.primaryImage);
+          if (product.backImage) imageList.push(product.backImage);
+          if (product.frontImage) imageList.push(product.frontImage);
+        }
+        
+        // Ensure images array is never empty
+        if (imageList.length === 0) {
+          imageList = ['/placeholder-product.jpg'];
         }
         
         return {
@@ -91,12 +75,8 @@ export const useProducts = () => {
           vendor: product.vendor || 'DVV / OG',
           product_type: product.product_type || product.category,
           
-          // Enhanced image handling
-          images: [primaryImage, secondaryImage].filter(Boolean),
-          primaryImage: primaryImage,
-          backImage: product.images?.back,
-          frontImage: product.images?.front,
-          showBackFirst: !!product.images?.back, // Flag to show back image first
+          // Simple image array that always works
+          images: imageList,
           
           // OG specific data
           concept: product.concept,
@@ -108,8 +88,8 @@ export const useProducts = () => {
           // Variants
           variants: product.variants || [],
           
-          // Collection mapping for homepage filters
-          collection: mapToCollection(product),
+          // Collection mapping - simple version
+          collection: this.getProductCollection(product),
           
           // Additional metadata
           seo: product.seo || {}
@@ -117,14 +97,6 @@ export const useProducts = () => {
       });
       
       console.log(`✅ Successfully processed ${processedProducts.length} products`);
-      console.log('🎯 Sample product:', processedProducts[0]);
-      
-      // Log category distribution
-      const categories = {};
-      processedProducts.forEach(p => {
-        categories[p.category] = (categories[p.category] || 0) + 1;
-      });
-      console.log('📊 Category distribution:', categories);
       
       setProducts(processedProducts);
       setError(null);
@@ -132,31 +104,39 @@ export const useProducts = () => {
     } catch (err) {
       console.error('❌ Error loading products:', err);
       setError(err.message);
-      
-      // Fallback to empty array instead of crashing
       setProducts([]);
     } finally {
       setLoading(false);
     }
   }, []);
 
+  // Simple collection mapping
+  const getProductCollection = (product) => {
+    const badges = product.badges || [];
+    const price = parseFloat(product.price) || 0;
+    
+    if (badges.includes('VAULT_EXCLUSIVE') || badges.includes('VAULT')) {
+      return 'VAULT';
+    }
+    if (badges.includes('REBEL_DROP')) {
+      return 'REBELLION CORE';
+    }
+    if (badges.includes('BEST_SELLER') || price >= 1200) {
+      return 'PREMIUM COLLECTION';
+    }
+    if (price < 999) {
+      return 'REBELLION CORE';
+    }
+    
+    return 'REBELLION CORE';
+  };
+
   // Load products on mount
   useEffect(() => {
     loadProducts();
   }, [loadProducts]);
 
-  // Memoized product categories for filtering
-  const productCategories = useMemo(() => {
-    const categories = new Set();
-    products.forEach(product => {
-      if (product.category) {
-        categories.add(product.category);
-      }
-    });
-    return Array.from(categories);
-  }, [products]);
-
-  // Helper functions for filtering
+  // Helper functions
   const getProductsByCategory = useCallback((category) => {
     if (!category) return products;
     return products.filter(p => 
@@ -197,7 +177,6 @@ export const useProducts = () => {
     products,
     loading,
     error,
-    productCategories,
     
     // Helper functions
     getProductsByCategory,
@@ -212,7 +191,7 @@ export const useProducts = () => {
   };
 };
 
-// Additional hook for Vault products with unlock functionality
+// Additional hooks with proper React imports
 export const useVaultProductsWithUnlock = () => {
   const { products } = useProducts();
   
@@ -232,37 +211,24 @@ export const useVaultProductsWithUnlock = () => {
   };
 };
 
-// Hook for filtered products with unlock functionality
 export const useFilteredProductsWithUnlock = (filters = {}) => {
   const { products, loading, error } = useProducts();
   
   const filteredProducts = useMemo(() => {
     let filtered = [...products];
     
-    // Apply category filter
     if (filters.category) {
       filtered = filtered.filter(p => 
-        p.category.toLowerCase().includes(filters.category.toLowerCase()) ||
-        p.product_type?.toLowerCase().includes(filters.category.toLowerCase())
+        p.category.toLowerCase().includes(filters.category.toLowerCase())
       );
     }
     
-    // Apply collection filter
     if (filters.collection) {
       filtered = filtered.filter(p => p.collection === filters.collection);
     }
     
-    // Apply badge filter
     if (filters.badge) {
       filtered = filtered.filter(p => p.badges.includes(filters.badge));
-    }
-    
-    // Apply price range filter
-    if (filters.minPrice !== undefined) {
-      filtered = filtered.filter(p => p.price >= filters.minPrice);
-    }
-    if (filters.maxPrice !== undefined) {
-      filtered = filtered.filter(p => p.price <= filters.maxPrice);
     }
     
     return filtered;
@@ -275,7 +241,6 @@ export const useFilteredProductsWithUnlock = (filters = {}) => {
   };
 };
 
-// Hook for single product
 export const useProduct = (productId) => {
   const { products, loading, error } = useProducts();
   
@@ -295,7 +260,6 @@ export const useProduct = (productId) => {
   };
 };
 
-// Hook for filtered products (simple version)
 export const useFilteredProducts = (filterFn) => {
   const { products, loading, error } = useProducts();
   
