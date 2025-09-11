@@ -151,7 +151,7 @@ const Home = () => {
       <Header />
       
       {/* Conversion Optimized Hero Section */}
-      <ConversionOptimizedHero />
+      {/* <ConversionOptimizedHero /> */}
 
       {/* Trust Strip */}
       {/* <TrustStrip /> */}
