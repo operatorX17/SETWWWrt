@@ -162,6 +162,16 @@ const Home = () => {
       {/* New Teaser Section */}
       {/* <NewTeaser /> */}
       
+      {/* TEST RAIL - Hard coded to test if Rail component works */}
+      <Rail 
+        title="TEST RAIL — DEBUGGING" 
+        subtitle="Testing if Rail component renders at all"
+        products={products.slice(0, 4) || []} 
+        showViewAll={true}
+        viewAllLink="/shop"
+        prioritizeBackImages={true}
+      />
+      
       {/* BEST SELLERS RAIL - TOP PRIORITY */}
       <Rail 
         title="BEST SELLERS — FAN FAVORITES" 
