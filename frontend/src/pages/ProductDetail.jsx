@@ -354,23 +354,11 @@ const ProductDetail = () => {
           </div>
         </div>
 
-        {/* Related Products */}
-        {relatedProducts.length > 0 && (
-          <section className="mt-20">
-            <h2 className="text-2xl lg:text-3xl font-bold uppercase tracking-wider mb-8">
-              You Might Also Like
-            </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-              {relatedProducts.slice(0, 4).map(relatedProduct => (
-                <ProductCard 
-                  key={relatedProduct.id} 
-                  product={relatedProduct} 
-                  prioritizeBackImages={true}
-                />
-              ))}
-            </div>
-          </section>
-        )}
+        {/* Premium Recommendations */}
+        <PremiumRecommendations 
+          products={relatedProducts} 
+          currentProductId={product?.id}
+        />
       </main>
 
       <Footer />
