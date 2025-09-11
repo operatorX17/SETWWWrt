@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { useProduct, useFilteredProducts } from '../hooks/useProducts';
+import { useProduct, useProducts } from '../hooks/useProducts';
 import { useCart } from '../context/CartContext';
 import { formatPrice } from '../lib/price';
 import { initiateUPIPayment } from '../lib/upi';
