@@ -1,5 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 
+// React import needed for additional hooks
+
 // Simplified and optimized useProducts hook focused on comprehensive_products.json
 export const useProducts = () => {
   const [products, setProducts] = useState([]);
