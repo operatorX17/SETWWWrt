@@ -349,6 +349,7 @@ test_plan:
     - "Account settings and profile management testing"
     - "Order tracking with real Shopify data testing"
     - "Backend server health with new Shopify integration"
+    - "OG Expert Catalog integration with 45 premium products - COMPLETED"
   stuck_tasks: []
   test_all: false
   test_priority: "critical_first"
