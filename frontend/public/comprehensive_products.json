@@ -32,7 +32,9 @@
     "new_products": 45,
     "source": "OG_EXPERT_CATALOG_BUILDER",
     "pricing_update": "user_feedback_applied",
-    "image_fixes": "web_accessible_paths"
+    "image_fixes": "web_accessible_paths",
+    "image_format": "array_format",
+    "images_fixed": 0
   },
   "hero_section": {
     "title": "OG Premium Collection - Expert Curated",
