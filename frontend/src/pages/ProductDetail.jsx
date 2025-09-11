@@ -23,8 +23,9 @@ const ProductDetail = () => {
   const { addToCart, loading: cartLoading } = useCart();
   
   // Related products based on category and badges
-  const { products: relatedProducts } = useFilteredProducts(
-    (p) => p.category === product?.category && p.id !== product?.id
+  const { products: allProducts } = useProducts();
+  const relatedProducts = allProducts.filter(p => 
+    p.category === product?.category && p.id !== product?.id
   );
   
   const [selectedImage, setSelectedImage] = useState(0);
