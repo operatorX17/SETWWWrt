@@ -71,8 +71,20 @@ const Home = () => {
     );
   }
 
-  // Use safe fallback for products
-  const safeProducts = products || [];
+  // Use safe fallback for products and filter out unwanted ones
+  const safeProducts = (products || []).filter(p => 
+    !p.title.includes('Cinder Fade') && !p.title.includes('Smoke Trail')
+  );
+
+  // Prioritize TEES first, then good design hoodies
+  const tees = safeProducts.filter(p => p.category === 'tee').slice(0, 8);
+  const hoodies = safeProducts.filter(p => 
+    p.category === 'hoodie' && 
+    !p.title.includes('Cinder Fade') && 
+    !p.title.includes('Smoke Trail')
+  ).slice(0, 6);
+  const premiumProducts = safeProducts.filter(p => p.price >= 1000).slice(0, 6);
+  const affordableProducts = safeProducts.filter(p => p price < 999).slice(0, 8);
 
   return (
     <div className="min-h-screen bg-[var(--color-bg)]">
@@ -82,34 +94,47 @@ const Home = () => {
       {/* Header - Only show after "Enter the Vault" is clicked */}
       {showNavigation && <Header />}
       
+      {/* Floating Navigation - Always visible for easy access */}
+      <FloatingNavigation />
+      
       {/* MAIN PRODUCT RAILS - Only show after navigation appears */}
       {showNavigation && (
         <div className="pt-20">
-          {/* Primary Rail - All Products */}
+          {/* TEES FIRST - As requested */}
           <Rail 
-            title="OG ARSENAL — COMPLETE COLLECTION" 
-            subtitle={`Discover ${safeProducts.length} premium OG products with back images prioritized`}
-            products={safeProducts.slice(0, 8)}
+            title="PREMIUM TEES — TOP PICKS" 
+            subtitle={`${tees.length} carefully selected tees with square format`}
+            products={tees}
             showViewAll={true}
-            viewAllLink="/shop"
+            viewAllLink="/shop?category=tee"
             prioritizeBackImages={true}
           />
           
-          {/* Second Rail - Premium Products */}
+          {/* GOOD DESIGN HOODIES */}
+          <Rail 
+            title="SIGNATURE HOODIES — CURATED DESIGNS" 
+            subtitle="Premium hoodies with exceptional prints and design"
+            products={hoodies}
+            showViewAll={true}
+            viewAllLink="/shop?category=hoodie"
+            prioritizeBackImages={true}
+          />
+          
+          {/* PREMIUM COLLECTION */}
           <Rail 
             title="PREMIUM COLLECTION — ELITE GEAR" 
-            subtitle="High-value products for the ultimate fan experience"
-            products={safeProducts.filter(p => p.price >= 1000).slice(0, 6)}
+            subtitle="High-value products for ultimate fan experience"
+            products={premiumProducts}
             showViewAll={true}
             viewAllLink="/shop?filter=premium"
             prioritizeBackImages={true}
           />
           
-          {/* Third Rail - Affordable Products */}
+          {/* AFFORDABLE GEAR */}
           <Rail 
             title="ESSENTIAL GEAR — UNDER ₹999" 
-            subtitle="Core collection for every OG soldier"
-            products={safeProducts.filter(p => p.price < 999).slice(0, 8)}
+            subtitle="Core collection for every fan"
+            products={affordableProducts}
             showViewAll={true}
             viewAllLink="/shop?filter=under-999"
             prioritizeBackImages={true}
