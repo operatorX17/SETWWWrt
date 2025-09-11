@@ -7,6 +7,33 @@ export const useProducts = () => {
   const [error, setError] = useState(null);
 
   const loadProducts = useCallback(async () => {
+    // Helper function to map OG products to homepage collections
+    const mapToCollection = (product) => {
+      const badges = product.badges || [];
+      const tags = product.tags || [];
+      const price = parseFloat(product.price) || 0;
+      
+      // Map based on badges and characteristics
+      if (badges.includes('VAULT_EXCLUSIVE') || badges.includes('VAULT')) {
+        return 'VAULT';
+      }
+      if (badges.includes('REBEL_DROP')) {
+        return 'REBELLION CORE';
+      }
+      if (badges.includes('BEST_SELLER') || product.merch_score > 0.8) {
+        return 'PREMIUM COLLECTION';
+      }
+      if (price < 999 || badges.includes('UNDER_999')) {
+        return 'REBELLION CORE';
+      }
+      if (price >= 1200) {
+        return 'PREMIUM COLLECTION';
+      }
+      
+      // Default mapping
+      return 'REBELLION CORE';
+    };
+
     try {
       setLoading(true);
       console.log('🔄 Loading products from comprehensive_products.json...');
@@ -87,32 +114,29 @@ export const useProducts = () => {
         };
       });
       
-  // Helper function to map OG products to homepage collections
-  const mapToCollection = (product) => {
-    const badges = product.badges || [];
-    const tags = product.tags || [];
-    const price = parseFloat(product.price) || 0;
-    
-    // Map based on badges and characteristics
-    if (badges.includes('VAULT_EXCLUSIVE') || badges.includes('VAULT')) {
-      return 'VAULT';
+      console.log(`✅ Successfully processed ${processedProducts.length} products`);
+      console.log('🎯 Sample product:', processedProducts[0]);
+      
+      // Log category distribution
+      const categories = {};
+      processedProducts.forEach(p => {
+        categories[p.category] = (categories[p.category] || 0) + 1;
+      });
+      console.log('📊 Category distribution:', categories);
+      
+      setProducts(processedProducts);
+      setError(null);
+      
+    } catch (err) {
+      console.error('❌ Error loading products:', err);
+      setError(err.message);
+      
+      // Fallback to empty array instead of crashing
+      setProducts([]);
+    } finally {
+      setLoading(false);
     }
-    if (badges.includes('REBEL_DROP')) {
-      return 'REBELLION CORE';
-    }
-    if (badges.includes('BEST_SELLER') || product.merch_score > 0.8) {
-      return 'PREMIUM COLLECTION';
-    }
-    if (price < 999 || badges.includes('UNDER_999')) {
-      return 'REBELLION CORE';
-    }
-    if (price >= 1200) {
-      return 'PREMIUM COLLECTION';
-    }
-    
-    // Default mapping
-    return 'REBELLION CORE';
-  };
+  }, []);
 
   // Load products on mount
   useEffect(() => {
