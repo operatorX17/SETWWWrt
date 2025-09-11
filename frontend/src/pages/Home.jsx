@@ -136,9 +136,9 @@ const Home = () => {
     6
   );
 
-  // Featured products for hero (best scoring products with back images prioritized)
+  // Featured products for hero (best scoring products with back images prioritized) - SAFE VERSION
   const heroProducts = products
-    .filter(p => p.showBackFirst || p.images.length > 0)
+    .filter(p => p && p.images && p.images.length > 0)
     .sort((a, b) => (b.merch_score || 0) - (a.merch_score || 0))
     .slice(0, 4);
 
