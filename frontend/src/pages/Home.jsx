@@ -21,13 +21,7 @@ const Home = () => {
   const { 
     products, 
     loading, 
-    error, 
-    getBestProducts,
-    getPremiumProducts,
-    getAffordableProducts,
-    getProductsByCategory,
-    getProductsByCollection,
-    getProductsByBadge
+    error
   } = useProducts();
   
   const [communityModalOpen, setCommunityModalOpen] = useState(false);
@@ -38,6 +32,10 @@ const Home = () => {
     }
     setCommunityModalOpen(false);
   };
+
+  // Debug logging
+  console.log('🏠 Home component render - Products:', products?.length || 0);
+  console.log('🏠 Loading:', loading, 'Error:', error);
 
   if (loading) {
     return (
@@ -67,90 +65,8 @@ const Home = () => {
     );
   }
 
-  // Smart product filtering with fallbacks and error handling
-  const getSmartProducts = (filterFn, fallbackFn, limit = 8) => {
-    try {
-      const filtered = filterFn();
-      if (filtered && filtered.length >= 3) {
-        return filtered.slice(0, limit);
-      }
-      return fallbackFn().slice(0, limit);
-    } catch (error) {
-      console.error('Error in product filtering:', error);
-      return products.slice(0, limit); // Fallback to first products
-    }
-  };
-
-  // Get products for different rails with intelligent fallbacks and error handling
-  const featuredHoodies = getSmartProducts(
-    () => getProductsByCategory('hoodie').filter(p => p.badges && p.badges.includes('BEST_SELLER')),
-    () => getProductsByCategory('hoodie'),
-    6
-  );
-
-  const premiumProducts = getSmartProducts(
-    () => getPremiumProducts(8),
-    () => products.filter(p => p.price >= 1000).slice(0, 8),
-    8
-  );
-
-  const rebelCore = getSmartProducts(
-    () => getProductsByCollection('REBELLION CORE'),
-    () => getAffordableProducts(8),
-    8
-  );
-
-  const vaultProducts = getSmartProducts(
-    () => getProductsByBadge('VAULT_EXCLUSIVE'),
-    () => products.filter(p => p.price >= 2000).slice(0, 6),
-    6
-  );
-
-  const bestSellers = getSmartProducts(
-    () => getBestProducts(8),
-    () => products.slice(0, 8),
-    8
-  );
-
-  // Cool T-shirts section (user requested after shirts)
-  const coolTshirts = getSmartProducts(
-    () => getProductsByCategory('tee').filter(p => 
-      p.badges && (
-        p.badges.includes('BEST_SELLER') || 
-        p.badges.includes('REBEL_DROP') ||
-        (p.concept && (
-          p.concept.includes('Thunder') ||
-          p.concept.includes('Strike') ||
-          p.concept.includes('Fire')
-        ))
-      )
-    ),
-    () => getProductsByCategory('tee'),
-    8
-  );
-
-  // Shirts section 
-  const coolShirts = getSmartProducts(
-    () => getProductsByCategory('shirt'),
-    () => products.filter(p => p.category === 'shirt'),
-    6
-  );
-
-  // Featured products for hero (best scoring products with back images prioritized) - SAFE VERSION
-  const heroProducts = products
-    .filter(p => p && p.images && p.images.length > 0)
-    .sort((a, b) => (b.merch_score || 0) - (a.merch_score || 0))
-    .slice(0, 4);
-
-  console.log('🏠 Homepage product distribution:');
-  console.log('- Featured Hoodies:', featuredHoodies.length);
-  console.log('- Premium Products:', premiumProducts.length);  
-  console.log('- Rebellion Core:', rebelCore.length);
-  console.log('- Vault Products:', vaultProducts.length);
-  console.log('- Best Sellers:', bestSellers.length);
-  console.log('- Cool T-shirts:', coolTshirts.length);
-  console.log('- Cool Shirts:', coolShirts.length);
-  console.log('- Hero Products:', heroProducts.length);
+  // Use safe fallback for products
+  const safeProducts = products || [];
 
   return (
     <div className="min-h-screen bg-[var(--color-bg)]">
@@ -159,12 +75,12 @@ const Home = () => {
       
       <Header />
       
-      {/* SIMPLE TEST - Just one Rail to debug */}
+      {/* SAFE TEST - Using safe products array */}
       <div className="pt-20">
         <Rail 
-          title="OG PRODUCTS — WORKING TEST" 
-          subtitle="Testing real products from comprehensive_products.json"
-          products={products.slice(0, 6)}
+          title="OG PRODUCTS — REAL PRODUCTS TEST" 
+          subtitle={`Found ${safeProducts.length} products from catalog`}
+          products={safeProducts.slice(0, 6)}
           showViewAll={true}
           viewAllLink="/shop"
           prioritizeBackImages={true}
