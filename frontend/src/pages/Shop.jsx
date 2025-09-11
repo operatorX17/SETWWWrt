@@ -103,6 +103,17 @@ const Shop = () => {
         }
         return allProducts.filter(p => p.collection === filter.value);
       
+      case 'category':
+        // Handle category filtering with aliases
+        const targetCategory = filter.value.toLowerCase();
+        const aliases = categoryAliases[targetCategory] || [targetCategory];
+        
+        return allProducts.filter(p => {
+          if (!p.category) return false;
+          const productCategory = p.category.toLowerCase();
+          return aliases.some(alias => productCategory.includes(alias));
+        });
+      
       default:
         return allProducts;
     }
