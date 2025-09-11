@@ -1,0 +1,1940 @@
+{
+  "scan_timestamp": "2025-09-11T21:03:27.129209",
+  "scan_statistics": {
+    "total_categories": 8,
+    "total_products": 56,
+    "total_images": 80,
+    "categories_found": [
+      "full shirts",
+      "hats",
+      "hoodies",
+      "posters",
+      "slippers",
+      "sweatshirts",
+      "teeshirt",
+      "wallet"
+    ]
+  },
+  "product_details": {
+    "full shirts": {
+      "product1": {
+        "product_name": "product1",
+        "product_type": "shirt",
+        "folder_path": "full shirts\\product1",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\full shirts\\product1\\front\\WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\full shirts\\product1\\front\\WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\full shirts\\product1\\front\\WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+        "back_image": null,
+        "variant_images": []
+      },
+      "product2": {
+        "product_name": "product2",
+        "product_type": "shirt",
+        "folder_path": "full shirts\\product2",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\full shirts\\product2\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\full shirts\\product2\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\full shirts\\product2\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+        "back_image": null,
+        "variant_images": []
+      },
+      "product3": {
+        "product_name": "product3",
+        "product_type": "shirt",
+        "folder_path": "full shirts\\product3",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\full shirts\\product3\\front\\WhatsApp Image 2025-08-31 at 9.09.11 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.09.11 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\full shirts\\product3\\front\\WhatsApp Image 2025-08-31 at 9.09.11 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.09.11 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\full shirts\\product3\\front\\WhatsApp Image 2025-08-31 at 9.09.11 AM.jpeg",
+        "back_image": null,
+        "variant_images": []
+      }
+    },
+    "hats": {
+      "product1": {
+        "product_name": "product1",
+        "product_type": "hat",
+        "folder_path": "hats\\product1",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hats\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            },
+            {
+              "path": "PRODUCTS\\hats\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.48 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.55.48 AM (2).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hats\\product1\\front\\WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hats\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hats\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.48 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.55.48 AM (2).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hats\\product1\\front\\WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hats\\product1\\front\\WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+        "back_image": "PRODUCTS\\hats\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg",
+        "variant_images": [
+          "PRODUCTS\\hats\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.48 AM (2).jpeg"
+        ]
+      },
+      "product2": {
+        "product_name": "product2",
+        "product_type": "hat",
+        "folder_path": "hats\\product2",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hats\\product2\\back\\WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hats\\product2\\front\\WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hats\\product2\\back\\WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hats\\product2\\front\\WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hats\\product2\\front\\WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
+        "back_image": "PRODUCTS\\hats\\product2\\back\\WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg",
+        "variant_images": []
+      }
+    },
+    "hoodies": {
+      "product1": {
+        "product_name": "product1",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product1",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product1\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product1\\front\\WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product1\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product1\\front\\WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product1\\front\\WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product1\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg",
+        "variant_images": []
+      },
+      "product10": {
+        "product_name": "product10",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product10",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product10\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product10\\front\\WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product10\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product10\\front\\WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product10\\front\\WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product10\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg",
+        "variant_images": []
+      },
+      "Product11": {
+        "product_name": "Product11",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\Product11",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\Product11\\back\\WhatsApp Image 2025-08-31 at 9.06.42 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.42 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [],
+          "other": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\Product11\\back\\WhatsApp Image 2025-08-31 at 9.06.42 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.42 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          }
+        ],
+        "front_image": null,
+        "back_image": "PRODUCTS\\hoodies\\Product11\\back\\WhatsApp Image 2025-08-31 at 9.06.42 AM.jpeg",
+        "variant_images": []
+      },
+      "Product12": {
+        "product_name": "Product12",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\Product12",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\Product12\\back\\WhatsApp Image 2025-08-31 at 9.06.43 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.43 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [],
+          "other": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\Product12\\back\\WhatsApp Image 2025-08-31 at 9.06.43 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.43 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          }
+        ],
+        "front_image": null,
+        "back_image": "PRODUCTS\\hoodies\\Product12\\back\\WhatsApp Image 2025-08-31 at 9.06.43 AM.jpeg",
+        "variant_images": []
+      },
+      "Product13": {
+        "product_name": "Product13",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\Product13",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\Product13\\Back\\WhatsApp Image 2025-08-31 at 9.06.44 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.44 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "Back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\Product13\\front\\WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\Product13\\Back\\WhatsApp Image 2025-08-31 at 9.06.44 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.44 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "Back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\Product13\\front\\WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\Product13\\front\\WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+        "back_image": "PRODUCTS\\hoodies\\Product13\\Back\\WhatsApp Image 2025-08-31 at 9.06.44 AM.jpeg",
+        "variant_images": []
+      },
+      "product14": {
+        "product_name": "product14",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product14",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product14\\front\\WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product14\\front\\WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product14\\front\\WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+        "back_image": null,
+        "variant_images": []
+      },
+      "product15": {
+        "product_name": "product15",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product15",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product15\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product15\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product15\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
+        "back_image": null,
+        "variant_images": []
+      },
+      "product16": {
+        "product_name": "product16",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product16",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product16\\back\\WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product16\\front\\WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product16\\back\\WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product16\\front\\WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product16\\front\\WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product16\\back\\WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg",
+        "variant_images": []
+      },
+      "product17": {
+        "product_name": "product17",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product17",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product17\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product17\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product17\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+        "back_image": null,
+        "variant_images": []
+      },
+      "product18": {
+        "product_name": "product18",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product18",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product18\\back\\WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product18\\front\\WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product18\\back\\WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product18\\front\\WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product18\\front\\WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product18\\back\\WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg",
+        "variant_images": []
+      },
+      "product19": {
+        "product_name": "product19",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product19",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product19\\back\\WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product19\\front\\WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product19\\back\\WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product19\\front\\WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product19\\front\\WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product19\\back\\WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg",
+        "variant_images": []
+      },
+      "product2": {
+        "product_name": "product2",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product2",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product2\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product2\\front\\WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product2\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product2\\front\\WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product2\\front\\WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product2\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg",
+        "variant_images": []
+      },
+      "product20": {
+        "product_name": "product20",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product20",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product20\\back\\WhatsApp Image 2025-08-31 at 10.49.01 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.01 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [],
+          "other": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product20\\back\\WhatsApp Image 2025-08-31 at 10.49.01 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.01 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          }
+        ],
+        "front_image": null,
+        "back_image": "PRODUCTS\\hoodies\\product20\\back\\WhatsApp Image 2025-08-31 at 10.49.01 AM.jpeg",
+        "variant_images": []
+      },
+      "product21": {
+        "product_name": "product21",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product21",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product21\\back\\WhatsApp Image 2025-08-31 at 10.49.03 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.03 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [],
+          "other": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product21\\back\\WhatsApp Image 2025-08-31 at 10.49.03 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.03 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          }
+        ],
+        "front_image": null,
+        "back_image": "PRODUCTS\\hoodies\\product21\\back\\WhatsApp Image 2025-08-31 at 10.49.03 AM.jpeg",
+        "variant_images": []
+      },
+      "product3": {
+        "product_name": "product3",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product3",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product3\\back\\WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product3\\front\\WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product3\\back\\WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product3\\front\\WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product3\\front\\WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product3\\back\\WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg",
+        "variant_images": []
+      },
+      "product4": {
+        "product_name": "product4",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product4",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product4\\back\\WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product4\\front\\WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product4\\back\\WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product4\\front\\WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product4\\front\\WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product4\\back\\WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg",
+        "variant_images": []
+      },
+      "product5": {
+        "product_name": "product5",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product5",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product5\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product5\\front\\WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product5\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product5\\front\\WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product5\\front\\WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product5\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg",
+        "variant_images": []
+      },
+      "product6": {
+        "product_name": "product6",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product6",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product6\\back\\WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product6\\front\\WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product6\\back\\WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product6\\front\\WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product6\\front\\WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product6\\back\\WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg",
+        "variant_images": []
+      },
+      "product7": {
+        "product_name": "product7",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product7",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product7\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product7\\front\\WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product7\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product7\\front\\WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product7\\front\\WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product7\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg",
+        "variant_images": []
+      },
+      "product8": {
+        "product_name": "product8",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product8",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product8\\back\\WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product8\\front\\WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product8\\back\\WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product8\\front\\WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product8\\front\\WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product8\\back\\WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg",
+        "variant_images": []
+      },
+      "product9": {
+        "product_name": "product9",
+        "product_type": "hoodie",
+        "folder_path": "hoodies\\product9",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\hoodies\\product9\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\hoodies\\product9\\front\\WhatsApp Image 2025-08-31 at 9.18.36 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.18.36 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\hoodies\\product9\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\hoodies\\product9\\front\\WhatsApp Image 2025-08-31 at 9.18.36 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.18.36 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\hoodies\\product9\\front\\WhatsApp Image 2025-08-31 at 9.18.36 AM.jpeg",
+        "back_image": "PRODUCTS\\hoodies\\product9\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg",
+        "variant_images": []
+      }
+    },
+    "posters": {
+      "product1": {
+        "product_name": "product1",
+        "product_type": "poster",
+        "folder_path": "posters\\product1",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\posters\\product1\\WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg",
+              "view_type": "other",
+              "folder_context": "product1"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\posters\\product1\\WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg",
+            "view_type": "other",
+            "folder_context": "product1"
+          }
+        ],
+        "front_image": "PRODUCTS\\posters\\product1\\WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\posters\\product1\\WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg"
+        ]
+      },
+      "product10": {
+        "product_name": "product10",
+        "product_type": "poster",
+        "folder_path": "posters\\product10",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\posters\\product10\\WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg",
+              "view_type": "other",
+              "folder_context": "product10"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\posters\\product10\\WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg",
+            "view_type": "other",
+            "folder_context": "product10"
+          }
+        ],
+        "front_image": "PRODUCTS\\posters\\product10\\WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\posters\\product10\\WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg"
+        ]
+      },
+      "product2": {
+        "product_name": "product2",
+        "product_type": "poster",
+        "folder_path": "posters\\product2",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\posters\\product2\\WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg",
+              "view_type": "other",
+              "folder_context": "product2"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\posters\\product2\\WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg",
+            "view_type": "other",
+            "folder_context": "product2"
+          }
+        ],
+        "front_image": "PRODUCTS\\posters\\product2\\WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\posters\\product2\\WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg"
+        ]
+      },
+      "product3": {
+        "product_name": "product3",
+        "product_type": "poster",
+        "folder_path": "posters\\product3",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\posters\\product3\\WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg",
+              "view_type": "other",
+              "folder_context": "product3"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\posters\\product3\\WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg",
+            "view_type": "other",
+            "folder_context": "product3"
+          }
+        ],
+        "front_image": "PRODUCTS\\posters\\product3\\WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\posters\\product3\\WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg"
+        ]
+      },
+      "product4": {
+        "product_name": "product4",
+        "product_type": "poster",
+        "folder_path": "posters\\product4",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\posters\\product4\\WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg",
+              "view_type": "other",
+              "folder_context": "product4"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\posters\\product4\\WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg",
+            "view_type": "other",
+            "folder_context": "product4"
+          }
+        ],
+        "front_image": "PRODUCTS\\posters\\product4\\WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\posters\\product4\\WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg"
+        ]
+      },
+      "product5": {
+        "product_name": "product5",
+        "product_type": "poster",
+        "folder_path": "posters\\product5",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\posters\\product5\\WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg",
+              "view_type": "other",
+              "folder_context": "product5"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\posters\\product5\\WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg",
+            "view_type": "other",
+            "folder_context": "product5"
+          }
+        ],
+        "front_image": "PRODUCTS\\posters\\product5\\WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\posters\\product5\\WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg"
+        ]
+      },
+      "product6": {
+        "product_name": "product6",
+        "product_type": "poster",
+        "folder_path": "posters\\product6",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\posters\\product6\\WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg",
+              "view_type": "other",
+              "folder_context": "product6"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\posters\\product6\\WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg",
+            "view_type": "other",
+            "folder_context": "product6"
+          }
+        ],
+        "front_image": "PRODUCTS\\posters\\product6\\WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\posters\\product6\\WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg"
+        ]
+      },
+      "product7": {
+        "product_name": "product7",
+        "product_type": "poster",
+        "folder_path": "posters\\product7",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\posters\\product7\\WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg",
+              "view_type": "other",
+              "folder_context": "product7"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\posters\\product7\\WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg",
+            "view_type": "other",
+            "folder_context": "product7"
+          }
+        ],
+        "front_image": "PRODUCTS\\posters\\product7\\WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\posters\\product7\\WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg"
+        ]
+      },
+      "product8": {
+        "product_name": "product8",
+        "product_type": "poster",
+        "folder_path": "posters\\product8",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\posters\\product8\\WhatsApp Image 2025-08-31 at 9.24.20 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.24.20 AM (1).jpeg",
+              "view_type": "other",
+              "folder_context": "product8"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\posters\\product8\\WhatsApp Image 2025-08-31 at 9.24.20 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.24.20 AM (1).jpeg",
+            "view_type": "other",
+            "folder_context": "product8"
+          }
+        ],
+        "front_image": "PRODUCTS\\posters\\product8\\WhatsApp Image 2025-08-31 at 9.24.20 AM (1).jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\posters\\product8\\WhatsApp Image 2025-08-31 at 9.24.20 AM (1).jpeg"
+        ]
+      },
+      "product9": {
+        "product_name": "product9",
+        "product_type": "poster",
+        "folder_path": "posters\\product9",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\posters\\product9\\WhatsApp Image 2025-08-31 at 9.24.21 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM.jpeg",
+              "view_type": "other",
+              "folder_context": "product9"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\posters\\product9\\WhatsApp Image 2025-08-31 at 9.24.21 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.24.21 AM.jpeg",
+            "view_type": "other",
+            "folder_context": "product9"
+          }
+        ],
+        "front_image": "PRODUCTS\\posters\\product9\\WhatsApp Image 2025-08-31 at 9.24.21 AM.jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\posters\\product9\\WhatsApp Image 2025-08-31 at 9.24.21 AM.jpeg"
+        ]
+      }
+    },
+    "slippers": {
+      "product1": {
+        "product_name": "product1",
+        "product_type": "slipper",
+        "folder_path": "slippers\\product1",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\slippers\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.47 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.55.47 AM (2).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\slippers\\product1\\front\\WhatsApp Image 2025-08-31 at 8.55.46 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.55.46 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\slippers\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.47 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.55.47 AM (2).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\slippers\\product1\\front\\WhatsApp Image 2025-08-31 at 8.55.46 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.55.46 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\slippers\\product1\\front\\WhatsApp Image 2025-08-31 at 8.55.46 AM (1).jpeg",
+        "back_image": "PRODUCTS\\slippers\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.47 AM (2).jpeg",
+        "variant_images": []
+      },
+      "product2": {
+        "product_name": "product2",
+        "product_type": "slipper",
+        "folder_path": "slippers\\product2",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\slippers\\product2\\front\\WhatsApp Image 2025-08-31 at 8.55.46 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.55.46 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\slippers\\product2\\front\\WhatsApp Image 2025-08-31 at 8.55.46 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.55.46 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\slippers\\product2\\front\\WhatsApp Image 2025-08-31 at 8.55.46 AM.jpeg",
+        "back_image": null,
+        "variant_images": []
+      }
+    },
+    "sweatshirts": {
+      "product1": {
+        "product_name": "product1",
+        "product_type": "sweatshirt",
+        "folder_path": "Sweatshirts\\product1",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\Sweatshirts\\product1\\front\\WhatsApp Image 2025-08-31 at 9.00.54 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.00.54 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\Sweatshirts\\product1\\front\\WhatsApp Image 2025-08-31 at 9.00.54 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.00.54 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\Sweatshirts\\product1\\front\\WhatsApp Image 2025-08-31 at 9.00.54 AM.jpeg",
+        "back_image": null,
+        "variant_images": []
+      },
+      "product2": {
+        "product_name": "product2",
+        "product_type": "sweatshirt",
+        "folder_path": "Sweatshirts\\product2",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\Sweatshirts\\product2\\back\\WhatsApp Image 2025-08-31 at 9.00.55 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.00.55 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [],
+          "other": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\Sweatshirts\\product2\\back\\WhatsApp Image 2025-08-31 at 9.00.55 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.00.55 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          }
+        ],
+        "front_image": null,
+        "back_image": "PRODUCTS\\Sweatshirts\\product2\\back\\WhatsApp Image 2025-08-31 at 9.00.55 AM.jpeg",
+        "variant_images": []
+      },
+      "product4": {
+        "product_name": "product4",
+        "product_type": "sweatshirt",
+        "folder_path": "Sweatshirts\\product4",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\Sweatshirts\\product4\\front\\WhatsApp Image 2025-08-31 at 9.01.36 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.01.36 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\Sweatshirts\\product4\\front\\WhatsApp Image 2025-08-31 at 9.01.36 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.01.36 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\Sweatshirts\\product4\\front\\WhatsApp Image 2025-08-31 at 9.01.36 AM.jpeg",
+        "back_image": null,
+        "variant_images": []
+      }
+    },
+    "teeshirt": {
+      "Abstract Geometry": {
+        "product_name": "Abstract Geometry",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Abstract Geometry",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Abstract Geometry\\black\\WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg",
+              "view_type": "other",
+              "folder_context": "black"
+            },
+            {
+              "path": "PRODUCTS\\teeshirt\\Abstract Geometry\\black\\WhatsApp Image 2025-08-31 at 8.59.07 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.07 AM.jpeg",
+              "view_type": "other",
+              "folder_context": "black"
+            },
+            {
+              "path": "PRODUCTS\\teeshirt\\Abstract Geometry\\blue\\WhatsApp Image 2025-08-31 at 10.49.02 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.02 AM.jpeg",
+              "view_type": "other",
+              "folder_context": "blue"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Abstract Geometry\\black\\WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg",
+            "view_type": "other",
+            "folder_context": "black"
+          },
+          {
+            "path": "PRODUCTS\\teeshirt\\Abstract Geometry\\black\\WhatsApp Image 2025-08-31 at 8.59.07 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.07 AM.jpeg",
+            "view_type": "other",
+            "folder_context": "black"
+          },
+          {
+            "path": "PRODUCTS\\teeshirt\\Abstract Geometry\\blue\\WhatsApp Image 2025-08-31 at 10.49.02 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.02 AM.jpeg",
+            "view_type": "other",
+            "folder_context": "blue"
+          }
+        ],
+        "front_image": "PRODUCTS\\teeshirt\\Abstract Geometry\\black\\WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\teeshirt\\Abstract Geometry\\black\\WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg",
+          "PRODUCTS\\teeshirt\\Abstract Geometry\\black\\WhatsApp Image 2025-08-31 at 8.59.07 AM.jpeg",
+          "PRODUCTS\\teeshirt\\Abstract Geometry\\blue\\WhatsApp Image 2025-08-31 at 10.49.02 AM.jpeg"
+        ]
+      },
+      "City Skyline": {
+        "product_name": "City Skyline",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\City Skyline",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\teeshirt\\City Skyline\\back\\WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\teeshirt\\City Skyline\\front\\WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\City Skyline\\back\\WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\teeshirt\\City Skyline\\front\\WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\teeshirt\\City Skyline\\front\\WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg",
+        "back_image": "PRODUCTS\\teeshirt\\City Skyline\\back\\WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg",
+        "variant_images": []
+      },
+      "Friend Back Photos": {
+        "product_name": "Friend Back Photos",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Friend Back Photos",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Friend Back Photos\\Red\\WhatsApp Image 2025-08-31 at 10.48.57 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.48.57 AM (1).jpeg",
+              "view_type": "back",
+              "folder_context": "Red"
+            }
+          ],
+          "front": [],
+          "other": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Friend Back Photos\\Red\\WhatsApp Image 2025-08-31 at 10.48.57 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.48.57 AM (1).jpeg",
+            "view_type": "back",
+            "folder_context": "Red"
+          }
+        ],
+        "front_image": null,
+        "back_image": "PRODUCTS\\teeshirt\\Friend Back Photos\\Red\\WhatsApp Image 2025-08-31 at 10.48.57 AM (1).jpeg",
+        "variant_images": []
+      },
+      "Minimalist Design": {
+        "product_name": "Minimalist Design",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Minimalist Design",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Minimalist Design\\back\\WhatsApp Image 2025-08-31 at 8.59.07 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.07 AM (1).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [],
+          "other": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Minimalist Design\\back\\WhatsApp Image 2025-08-31 at 8.59.07 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.07 AM (1).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          }
+        ],
+        "front_image": null,
+        "back_image": "PRODUCTS\\teeshirt\\Minimalist Design\\back\\WhatsApp Image 2025-08-31 at 8.59.07 AM (1).jpeg",
+        "variant_images": []
+      },
+      "Mountain Adventure": {
+        "product_name": "Mountain Adventure",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Mountain Adventure",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Mountain Adventure\\back\\WhatsApp Image 2025-08-31 at 9.18.35 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.18.35 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [],
+          "other": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Mountain Adventure\\back\\WhatsApp Image 2025-08-31 at 9.18.35 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.18.35 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          }
+        ],
+        "front_image": null,
+        "back_image": "PRODUCTS\\teeshirt\\Mountain Adventure\\back\\WhatsApp Image 2025-08-31 at 9.18.35 AM.jpeg",
+        "variant_images": []
+      },
+      "Music Festival Vibes": {
+        "product_name": "Music Festival Vibes",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Music Festival Vibes",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Music Festival Vibes\\back\\WhatsApp Image 2025-08-31 at 8.59.06 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.06 AM (1).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [],
+          "other": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Music Festival Vibes\\back\\WhatsApp Image 2025-08-31 at 8.59.06 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.06 AM (1).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          }
+        ],
+        "front_image": null,
+        "back_image": "PRODUCTS\\teeshirt\\Music Festival Vibes\\back\\WhatsApp Image 2025-08-31 at 8.59.06 AM (1).jpeg",
+        "variant_images": []
+      },
+      "Nature Photography": {
+        "product_name": "Nature Photography",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Nature Photography",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Nature Photography\\front\\WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Nature Photography\\front\\WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\teeshirt\\Nature Photography\\front\\WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg",
+        "back_image": null,
+        "variant_images": []
+      },
+      "Neon Lights": {
+        "product_name": "Neon Lights",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Neon Lights",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Neon Lights\\front\\WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Neon Lights\\front\\WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\teeshirt\\Neon Lights\\front\\WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg",
+        "back_image": null,
+        "variant_images": []
+      },
+      "Ocean Waves": {
+        "product_name": "Ocean Waves",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Ocean Waves",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Ocean Waves\\black\\WhatsApp Image 2025-08-31 at 10.49.03 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.03 AM (1).jpeg",
+              "view_type": "other",
+              "folder_context": "black"
+            },
+            {
+              "path": "PRODUCTS\\teeshirt\\Ocean Waves\\Blue\\WhatsApp Image 2025-08-31 at 10.49.04 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.04 AM.jpeg",
+              "view_type": "other",
+              "folder_context": "Blue"
+            },
+            {
+              "path": "PRODUCTS\\teeshirt\\Ocean Waves\\grey\\WhatsApp Image 2025-08-31 at 10.49.03 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 10.49.03 AM (2).jpeg",
+              "view_type": "other",
+              "folder_context": "grey"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Ocean Waves\\black\\WhatsApp Image 2025-08-31 at 10.49.03 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.03 AM (1).jpeg",
+            "view_type": "other",
+            "folder_context": "black"
+          },
+          {
+            "path": "PRODUCTS\\teeshirt\\Ocean Waves\\Blue\\WhatsApp Image 2025-08-31 at 10.49.04 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.04 AM.jpeg",
+            "view_type": "other",
+            "folder_context": "Blue"
+          },
+          {
+            "path": "PRODUCTS\\teeshirt\\Ocean Waves\\grey\\WhatsApp Image 2025-08-31 at 10.49.03 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 10.49.03 AM (2).jpeg",
+            "view_type": "other",
+            "folder_context": "grey"
+          }
+        ],
+        "front_image": "PRODUCTS\\teeshirt\\Ocean Waves\\black\\WhatsApp Image 2025-08-31 at 10.49.03 AM (1).jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\teeshirt\\Ocean Waves\\black\\WhatsApp Image 2025-08-31 at 10.49.03 AM (1).jpeg",
+          "PRODUCTS\\teeshirt\\Ocean Waves\\Blue\\WhatsApp Image 2025-08-31 at 10.49.04 AM.jpeg",
+          "PRODUCTS\\teeshirt\\Ocean Waves\\grey\\WhatsApp Image 2025-08-31 at 10.49.03 AM (2).jpeg"
+        ]
+      },
+      "Space Exploration": {
+        "product_name": "Space Exploration",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Space Exploration",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Space Exploration\\front\\WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Space Exploration\\front\\WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\teeshirt\\Space Exploration\\front\\WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+        "back_image": null,
+        "variant_images": []
+      },
+      "Tropical Paradise": {
+        "product_name": "Tropical Paradise",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Tropical Paradise",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Tropical Paradise\\back\\WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Tropical Paradise\\front\\WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ]
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Tropical Paradise\\back\\WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          },
+          {
+            "path": "PRODUCTS\\teeshirt\\Tropical Paradise\\front\\WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\teeshirt\\Tropical Paradise\\front\\WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg",
+        "back_image": "PRODUCTS\\teeshirt\\Tropical Paradise\\back\\WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg",
+        "variant_images": []
+      },
+      "Urban Street Art": {
+        "product_name": "Urban Street Art",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Urban Street Art",
+        "images_by_view": {
+          "back": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Urban Street Art\\back\\WhatsApp Image 2025-08-31 at 8.59.07 AM (2).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.59.07 AM (2).jpeg",
+              "view_type": "back",
+              "folder_context": "back"
+            }
+          ],
+          "front": [],
+          "other": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Urban Street Art\\back\\WhatsApp Image 2025-08-31 at 8.59.07 AM (2).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.59.07 AM (2).jpeg",
+            "view_type": "back",
+            "folder_context": "back"
+          }
+        ],
+        "front_image": null,
+        "back_image": "PRODUCTS\\teeshirt\\Urban Street Art\\back\\WhatsApp Image 2025-08-31 at 8.59.07 AM (2).jpeg",
+        "variant_images": []
+      },
+      "Vintage Typography": {
+        "product_name": "Vintage Typography",
+        "product_type": "tee",
+        "folder_path": "teeshirt\\Vintage Typography",
+        "images_by_view": {
+          "front": [
+            {
+              "path": "PRODUCTS\\teeshirt\\Vintage Typography\\front\\WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg",
+              "view_type": "front",
+              "folder_context": "front"
+            }
+          ],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\teeshirt\\Vintage Typography\\front\\WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg",
+            "view_type": "front",
+            "folder_context": "front"
+          }
+        ],
+        "front_image": "PRODUCTS\\teeshirt\\Vintage Typography\\front\\WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg",
+        "back_image": null,
+        "variant_images": []
+      }
+    },
+    "wallet": {
+      "product1": {
+        "product_name": "product1",
+        "product_type": "wallet",
+        "folder_path": "wallet\\product1",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\wallet\\product1\\WhatsApp Image 2025-08-31 at 8.55.48 AM.jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.55.48 AM.jpeg",
+              "view_type": "other",
+              "folder_context": "product1"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\wallet\\product1\\WhatsApp Image 2025-08-31 at 8.55.48 AM.jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.55.48 AM.jpeg",
+            "view_type": "other",
+            "folder_context": "product1"
+          }
+        ],
+        "front_image": "PRODUCTS\\wallet\\product1\\WhatsApp Image 2025-08-31 at 8.55.48 AM.jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\wallet\\product1\\WhatsApp Image 2025-08-31 at 8.55.48 AM.jpeg"
+        ]
+      },
+      "product2": {
+        "product_name": "product2",
+        "product_type": "wallet",
+        "folder_path": "wallet\\product2",
+        "images_by_view": {
+          "other": [
+            {
+              "path": "PRODUCTS\\wallet\\product2\\WhatsApp Image 2025-08-31 at 8.55.49 AM (1).jpeg",
+              "filename": "WhatsApp Image 2025-08-31 at 8.55.49 AM (1).jpeg",
+              "view_type": "other",
+              "folder_context": "product2"
+            }
+          ],
+          "front": [],
+          "back": []
+        },
+        "all_images": [
+          {
+            "path": "PRODUCTS\\wallet\\product2\\WhatsApp Image 2025-08-31 at 8.55.49 AM (1).jpeg",
+            "filename": "WhatsApp Image 2025-08-31 at 8.55.49 AM (1).jpeg",
+            "view_type": "other",
+            "folder_context": "product2"
+          }
+        ],
+        "front_image": "PRODUCTS\\wallet\\product2\\WhatsApp Image 2025-08-31 at 8.55.49 AM (1).jpeg",
+        "back_image": null,
+        "variant_images": [
+          "PRODUCTS\\wallet\\product2\\WhatsApp Image 2025-08-31 at 8.55.49 AM (1).jpeg"
+        ]
+      }
+    }
+  },
+  "validation_report": {
+    "total_products": 56,
+    "products_with_front_images": 46,
+    "products_with_back_images": 29,
+    "products_with_variants": 15,
+    "categories": [
+      "wallet",
+      "slippers",
+      "teeshirt",
+      "hoodies",
+      "full shirts",
+      "hats",
+      "posters",
+      "sweatshirts"
+    ],
+    "product_types": [
+      "wallet",
+      "poster",
+      "tee",
+      "shirt",
+      "sweatshirt",
+      "hat",
+      "hoodie",
+      "slipper"
+    ],
+    "issues": []
+  }
+}

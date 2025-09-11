@@ -1,0 +1,4285 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-11T21:03:27.119634",
+    "generator_version": "2.0.0",
+    "total_products": 56,
+    "total_categories": 8,
+    "total_images": 80,
+    "categories": [
+      "full shirts",
+      "hats",
+      "hoodies",
+      "posters",
+      "slippers",
+      "sweatshirts",
+      "teeshirt",
+      "wallet"
+    ],
+    "generation_method": "intelligent_scanning",
+    "features": [
+      "product_type_detection",
+      "front_back_grouping",
+      "nested_folder_scanning",
+      "intelligent_validation"
+    ],
+    "status": "generated"
+  },
+  "hero_section": {
+    "title": "OG Premium Collection",
+    "subtitle": "Discover unique designs across our complete product range",
+    "featured_product": {
+      "id": "full shirts_product1",
+      "title": "OG // Shirt — Design 1",
+      "product_type": "shirt",
+      "category": "full shirts",
+      "sku": "SHIRT_PRODUCT1",
+      "price": 1599,
+      "compare_at_price": 2078,
+      "description": "Elevate your wardrobe with the OG // Shirt — Design 1. Premium shirt with distinctive style.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Shirt",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\full shirts\\product1\\front\\WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1599,
+          "sku": "SHIRT_S",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1699,
+          "sku": "SHIRT_M",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1799,
+          "sku": "SHIRT_L",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1899,
+          "sku": "SHIRT_XL",
+          "inventory_quantity": 25,
+          "weight": 400,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Shirt — Design 1 Online | OG Store",
+      "seo_description": "Shop OG // Shirt — Design 1 at OG Store. Premium quality shirt with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 250,
+      "created_at": "2025-09-11T21:03:27.114957",
+      "updated_at": "2025-09-11T21:03:27.114983",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "full shirts_product1",
+      "title": "OG // Shirt — Design 1",
+      "product_type": "shirt",
+      "category": "full shirts",
+      "sku": "SHIRT_PRODUCT1",
+      "price": 1599,
+      "compare_at_price": 2078,
+      "description": "Elevate your wardrobe with the OG // Shirt — Design 1. Premium shirt with distinctive style.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Shirt",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\full shirts\\product1\\front\\WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1599,
+          "sku": "SHIRT_S",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1699,
+          "sku": "SHIRT_M",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1799,
+          "sku": "SHIRT_L",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1899,
+          "sku": "SHIRT_XL",
+          "inventory_quantity": 25,
+          "weight": 400,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Shirt — Design 1 Online | OG Store",
+      "seo_description": "Shop OG // Shirt — Design 1 at OG Store. Premium quality shirt with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 250,
+      "created_at": "2025-09-11T21:03:27.114957",
+      "updated_at": "2025-09-11T21:03:27.114983",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "full shirts_product2",
+      "title": "OG // Shirt — Design 2",
+      "product_type": "shirt",
+      "category": "full shirts",
+      "sku": "SHIRT_PRODUCT2",
+      "price": 1599,
+      "compare_at_price": 2078,
+      "description": "Elevate your wardrobe with the OG // Shirt — Design 2. Premium shirt with distinctive style.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Shirt",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\full shirts\\product2\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM.jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1599,
+          "sku": "SHIRT_S",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1699,
+          "sku": "SHIRT_M",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1799,
+          "sku": "SHIRT_L",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1899,
+          "sku": "SHIRT_XL",
+          "inventory_quantity": 25,
+          "weight": 400,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Shirt — Design 2 Online | OG Store",
+      "seo_description": "Shop OG // Shirt — Design 2 at OG Store. Premium quality shirt with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 250,
+      "created_at": "2025-09-11T21:03:27.115082",
+      "updated_at": "2025-09-11T21:03:27.115085",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "full shirts_product3",
+      "title": "OG // Shirt — Design 3",
+      "product_type": "shirt",
+      "category": "full shirts",
+      "sku": "SHIRT_PRODUCT3",
+      "price": 1599,
+      "compare_at_price": 2078,
+      "description": "Elevate your wardrobe with the OG // Shirt — Design 3. Premium shirt with distinctive style.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Shirt",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\full shirts\\product3\\front\\WhatsApp Image 2025-08-31 at 9.09.11 AM.jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1599,
+          "sku": "SHIRT_S",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1699,
+          "sku": "SHIRT_M",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1799,
+          "sku": "SHIRT_L",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1899,
+          "sku": "SHIRT_XL",
+          "inventory_quantity": 25,
+          "weight": 400,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Shirt — Design 3 Online | OG Store",
+      "seo_description": "Shop OG // Shirt — Design 3 at OG Store. Premium quality shirt with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 250,
+      "created_at": "2025-09-11T21:03:27.115161",
+      "updated_at": "2025-09-11T21:03:27.115164",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "hats_product1",
+      "title": "OG // Hat — Design 1",
+      "product_type": "hat",
+      "category": "hats",
+      "sku": "HAT_PRODUCT1",
+      "price": 999,
+      "compare_at_price": 1298,
+      "description": "Complete your look with the OG // Hat — Design 1. Stylish hat with premium construction.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hat",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hats\\product1\\front\\WhatsApp Image 2025-08-31 at 8.55.49 AM.jpeg",
+        "back": "PRODUCTS\\hats\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.48 AM (1).jpeg",
+        "variants": [
+          "PRODUCTS\\hats\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.48 AM (2).jpeg"
+        ],
+        "total_images": 3
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 999,
+          "sku": "HAT_S",
+          "inventory_quantity": 25,
+          "weight": 150,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1099,
+          "sku": "HAT_M",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1199,
+          "sku": "HAT_L",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1299,
+          "sku": "HAT_XL",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hat — Design 1 Online | OG Store",
+      "seo_description": "Shop OG // Hat — Design 1 at OG Store. Premium quality hat with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 150,
+      "created_at": "2025-09-11T21:03:27.115287",
+      "updated_at": "2025-09-11T21:03:27.115290",
+      "image_analysis": {
+        "total_images": 3,
+        "front_images": 1,
+        "back_images": 2,
+        "variant_images": 1,
+        "view_breakdown": {
+          "back": 2,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hats_product2",
+      "title": "OG // Hat — Design 2",
+      "product_type": "hat",
+      "category": "hats",
+      "sku": "HAT_PRODUCT2",
+      "price": 999,
+      "compare_at_price": 1298,
+      "description": "Complete your look with the OG // Hat — Design 2. Stylish hat with premium construction.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hat",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hats\\product2\\front\\WhatsApp Image 2025-08-31 at 8.55.50 AM (1).jpeg",
+        "back": "PRODUCTS\\hats\\product2\\back\\WhatsApp Image 2025-08-31 at 8.59.03 AM.jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 999,
+          "sku": "HAT_S",
+          "inventory_quantity": 25,
+          "weight": 150,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1099,
+          "sku": "HAT_M",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1199,
+          "sku": "HAT_L",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1299,
+          "sku": "HAT_XL",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hat — Design 2 Online | OG Store",
+      "seo_description": "Shop OG // Hat — Design 2 at OG Store. Premium quality hat with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 150,
+      "created_at": "2025-09-11T21:03:27.115653",
+      "updated_at": "2025-09-11T21:03:27.115656",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product1",
+      "title": "OG // Hoodie — Design 1",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT1",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 1. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product1\\front\\WhatsApp Image 2025-08-31 at 9.08.07 AM.jpeg",
+        "back": "PRODUCTS\\hoodies\\product1\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM (2).jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 1 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 1 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.115791",
+      "updated_at": "2025-09-11T21:03:27.115793",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product10",
+      "title": "OG // Hoodie — Design 10",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT10",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 10. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product10\\front\\WhatsApp Image 2025-08-31 at 9.18.36 AM (1).jpeg",
+        "back": "PRODUCTS\\hoodies\\product10\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM (1).jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 10 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 10 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.115877",
+      "updated_at": "2025-09-11T21:03:27.115879",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_Product11",
+      "title": "OG // Hoodie — Design 11",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT11",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 11. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": null,
+        "back": "PRODUCTS\\hoodies\\Product11\\back\\WhatsApp Image 2025-08-31 at 9.06.42 AM.jpeg",
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 11 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 11 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.115957",
+      "updated_at": "2025-09-11T21:03:27.115960",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "id": "hoodies_Product12",
+      "title": "OG // Hoodie — Design 12",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT12",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 12. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": null,
+        "back": "PRODUCTS\\hoodies\\Product12\\back\\WhatsApp Image 2025-08-31 at 9.06.43 AM.jpeg",
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 12 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 12 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116030",
+      "updated_at": "2025-09-11T21:03:27.116032",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "id": "hoodies_Product13",
+      "title": "OG // Hoodie — Design 13",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT13",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 13. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\Product13\\front\\WhatsApp Image 2025-08-31 at 9.06.45 AM.jpeg",
+        "back": "PRODUCTS\\hoodies\\Product13\\Back\\WhatsApp Image 2025-08-31 at 9.06.44 AM.jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 13 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 13 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116109",
+      "updated_at": "2025-09-11T21:03:27.116111",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product14",
+      "title": "OG // Hoodie — Design 14",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT14",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 14. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product14\\front\\WhatsApp Image 2025-08-31 at 10.49.07 AM (2).jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 14 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 14 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116172",
+      "updated_at": "2025-09-11T21:03:27.116174",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "hoodies_product15",
+      "title": "OG // Hoodie — Design 15",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT15",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 15. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product15\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM (2).jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 15 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 15 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116235",
+      "updated_at": "2025-09-11T21:03:27.116237",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "hoodies_product16",
+      "title": "OG // Hoodie — Design 16",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT16",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 16. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product16\\front\\WhatsApp Image 2025-08-31 at 10.49.04 AM (1).jpeg",
+        "back": "PRODUCTS\\hoodies\\product16\\back\\WhatsApp Image 2025-08-31 at 10.49.08 AM.jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 16 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 16 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116294",
+      "updated_at": "2025-09-11T21:03:27.116296",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product17",
+      "title": "OG // Hoodie — Design 17",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT17",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 17. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product17\\front\\WhatsApp Image 2025-08-31 at 10.49.06 AM (1).jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 17 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 17 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116351",
+      "updated_at": "2025-09-11T21:03:27.116353",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "hoodies_product18",
+      "title": "OG // Hoodie — Design 18",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT18",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 18. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product18\\front\\WhatsApp Image 2025-08-31 at 10.48.59 AM (1).jpeg",
+        "back": "PRODUCTS\\hoodies\\product18\\back\\WhatsApp Image 2025-08-31 at 10.49.05 AM.jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 18 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 18 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116409",
+      "updated_at": "2025-09-11T21:03:27.116411",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product19",
+      "title": "OG // Hoodie — Design 19",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT19",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 19. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product19\\front\\WhatsApp Image 2025-08-31 at 10.48.59 AM (2).jpeg",
+        "back": "PRODUCTS\\hoodies\\product19\\back\\WhatsApp Image 2025-08-31 at 10.49.00 AM.jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 19 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 19 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116478",
+      "updated_at": "2025-09-11T21:03:27.116480",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product2",
+      "title": "OG // Hoodie — Design 2",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT2",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 2. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product2\\front\\WhatsApp Image 2025-08-31 at 9.06.46 AM (1).jpeg",
+        "back": "PRODUCTS\\hoodies\\product2\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM (1).jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 2 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 2 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116531",
+      "updated_at": "2025-09-11T21:03:27.116533",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product20",
+      "title": "OG // Hoodie — Design 20",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT20",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 20. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": null,
+        "back": "PRODUCTS\\hoodies\\product20\\back\\WhatsApp Image 2025-08-31 at 10.49.01 AM.jpeg",
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 20 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 20 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116588",
+      "updated_at": "2025-09-11T21:03:27.116590",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "id": "hoodies_product21",
+      "title": "OG // Hoodie — Design 21",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT21",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 21. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": null,
+        "back": "PRODUCTS\\hoodies\\product21\\back\\WhatsApp Image 2025-08-31 at 10.49.03 AM.jpeg",
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 21 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 21 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116644",
+      "updated_at": "2025-09-11T21:03:27.116646",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "id": "hoodies_product3",
+      "title": "OG // Hoodie — Design 3",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT3",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 3. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product3\\front\\WhatsApp Image 2025-08-31 at 9.06.45 AM (1).jpeg",
+        "back": "PRODUCTS\\hoodies\\product3\\back\\WhatsApp Image 2025-08-31 at 9.06.45 AM (2).jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 3 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 3 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116708",
+      "updated_at": "2025-09-11T21:03:27.116710",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product4",
+      "title": "OG // Hoodie — Design 4",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT4",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 4. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product4\\front\\WhatsApp Image 2025-08-31 at 9.06.46 AM (2).jpeg",
+        "back": "PRODUCTS\\hoodies\\product4\\back\\WhatsApp Image 2025-08-31 at 9.06.50 AM.jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 4 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 4 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116776",
+      "updated_at": "2025-09-11T21:03:27.116778",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product5",
+      "title": "OG // Hoodie — Design 5",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT5",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 5. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product5\\front\\WhatsApp Image 2025-08-31 at 9.06.51 AM (1).jpeg",
+        "back": "PRODUCTS\\hoodies\\product5\\back\\WhatsApp Image 2025-08-31 at 9.06.47 AM.jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 5 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 5 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116832",
+      "updated_at": "2025-09-11T21:03:27.116835",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product6",
+      "title": "OG // Hoodie — Design 6",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT6",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 6. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product6\\front\\WhatsApp Image 2025-08-31 at 9.06.50 AM (1).jpeg",
+        "back": "PRODUCTS\\hoodies\\product6\\back\\WhatsApp Image 2025-08-31 at 9.06.49 AM.jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 6 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 6 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116887",
+      "updated_at": "2025-09-11T21:03:27.116889",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product7",
+      "title": "OG // Hoodie — Design 7",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT7",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 7. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product7\\front\\WhatsApp Image 2025-08-31 at 9.06.51 AM.jpeg",
+        "back": "PRODUCTS\\hoodies\\product7\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM.jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 7 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 7 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.116949",
+      "updated_at": "2025-09-11T21:03:27.116952",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product8",
+      "title": "OG // Hoodie — Design 8",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT8",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 8. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product8\\front\\WhatsApp Image 2025-08-31 at 9.06.49 AM (1).jpeg",
+        "back": "PRODUCTS\\hoodies\\product8\\back\\WhatsApp Image 2025-08-31 at 9.06.46 AM.jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 8 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 8 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.117009",
+      "updated_at": "2025-09-11T21:03:27.117012",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "hoodies_product9",
+      "title": "OG // Hoodie — Design 9",
+      "product_type": "hoodie",
+      "category": "hoodies",
+      "sku": "HOODIE_PRODUCT9",
+      "price": 2499,
+      "compare_at_price": 3248,
+      "description": "Stay warm and stylish with the OG // Hoodie — Design 9. Premium quality hoodie with unique design and comfortable fit.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Hoodie",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\hoodies\\product9\\front\\WhatsApp Image 2025-08-31 at 9.18.36 AM.jpeg",
+        "back": "PRODUCTS\\hoodies\\product9\\back\\WhatsApp Image 2025-08-31 at 9.06.48 AM (2).jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 2499,
+          "sku": "HOODIE_S",
+          "inventory_quantity": 25,
+          "weight": 800,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2599,
+          "sku": "HOODIE_M",
+          "inventory_quantity": 25,
+          "weight": 850,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2699,
+          "sku": "HOODIE_L",
+          "inventory_quantity": 25,
+          "weight": 900,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2799,
+          "sku": "HOODIE_XL",
+          "inventory_quantity": 25,
+          "weight": 950,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Hoodie — Design 9 Online | OG Store",
+      "seo_description": "Shop OG // Hoodie — Design 9 at OG Store. Premium quality hoodie with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 800,
+      "created_at": "2025-09-11T21:03:27.117066",
+      "updated_at": "2025-09-11T21:03:27.117068",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "posters_product1",
+      "title": "OG // Poster — Design 1",
+      "product_type": "poster",
+      "category": "posters",
+      "sku": "POSTER_PRODUCT1",
+      "price": 799,
+      "compare_at_price": 1038,
+      "description": "Transform your space with the OG // Poster — Design 1. High-quality poster with stunning artwork.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Poster",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\posters\\product1\\WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\posters\\product1\\WhatsApp Image 2025-08-31 at 9.24.21 AM (5).jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 799,
+          "sku": "POSTER_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Poster — Design 1 Online | OG Store",
+      "seo_description": "Shop OG // Poster — Design 1 at OG Store. Premium quality poster with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.117200",
+      "updated_at": "2025-09-11T21:03:27.117204",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "posters_product10",
+      "title": "OG // Poster — Design 10",
+      "product_type": "poster",
+      "category": "posters",
+      "sku": "POSTER_PRODUCT10",
+      "price": 799,
+      "compare_at_price": 1038,
+      "description": "Transform your space with the OG // Poster — Design 10. High-quality poster with stunning artwork.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Poster",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\posters\\product10\\WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\posters\\product10\\WhatsApp Image 2025-08-31 at 9.24.20 AM.jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 799,
+          "sku": "POSTER_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Poster — Design 10 Online | OG Store",
+      "seo_description": "Shop OG // Poster — Design 10 at OG Store. Premium quality poster with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.117275",
+      "updated_at": "2025-09-11T21:03:27.117278",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "posters_product2",
+      "title": "OG // Poster — Design 2",
+      "product_type": "poster",
+      "category": "posters",
+      "sku": "POSTER_PRODUCT2",
+      "price": 799,
+      "compare_at_price": 1038,
+      "description": "Transform your space with the OG // Poster — Design 2. High-quality poster with stunning artwork.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Poster",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\posters\\product2\\WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\posters\\product2\\WhatsApp Image 2025-08-31 at 9.24.21 AM (4).jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 799,
+          "sku": "POSTER_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Poster — Design 2 Online | OG Store",
+      "seo_description": "Shop OG // Poster — Design 2 at OG Store. Premium quality poster with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.117357",
+      "updated_at": "2025-09-11T21:03:27.117360",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "posters_product3",
+      "title": "OG // Poster — Design 3",
+      "product_type": "poster",
+      "category": "posters",
+      "sku": "POSTER_PRODUCT3",
+      "price": 799,
+      "compare_at_price": 1038,
+      "description": "Transform your space with the OG // Poster — Design 3. High-quality poster with stunning artwork.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Poster",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\posters\\product3\\WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\posters\\product3\\WhatsApp Image 2025-08-31 at 9.24.21 AM (3).jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 799,
+          "sku": "POSTER_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Poster — Design 3 Online | OG Store",
+      "seo_description": "Shop OG // Poster — Design 3 at OG Store. Premium quality poster with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.117419",
+      "updated_at": "2025-09-11T21:03:27.117421",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "posters_product4",
+      "title": "OG // Poster — Design 4",
+      "product_type": "poster",
+      "category": "posters",
+      "sku": "POSTER_PRODUCT4",
+      "price": 799,
+      "compare_at_price": 1038,
+      "description": "Transform your space with the OG // Poster — Design 4. High-quality poster with stunning artwork.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Poster",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\posters\\product4\\WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\posters\\product4\\WhatsApp Image 2025-08-31 at 9.24.20 AM (2).jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 799,
+          "sku": "POSTER_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Poster — Design 4 Online | OG Store",
+      "seo_description": "Shop OG // Poster — Design 4 at OG Store. Premium quality poster with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.117474",
+      "updated_at": "2025-09-11T21:03:27.117476",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "posters_product5",
+      "title": "OG // Poster — Design 5",
+      "product_type": "poster",
+      "category": "posters",
+      "sku": "POSTER_PRODUCT5",
+      "price": 799,
+      "compare_at_price": 1038,
+      "description": "Transform your space with the OG // Poster — Design 5. High-quality poster with stunning artwork.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Poster",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\posters\\product5\\WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\posters\\product5\\WhatsApp Image 2025-08-31 at 9.24.21 AM (1).jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 799,
+          "sku": "POSTER_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Poster — Design 5 Online | OG Store",
+      "seo_description": "Shop OG // Poster — Design 5 at OG Store. Premium quality poster with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.117533",
+      "updated_at": "2025-09-11T21:03:27.117535",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "posters_product6",
+      "title": "OG // Poster — Design 6",
+      "product_type": "poster",
+      "category": "posters",
+      "sku": "POSTER_PRODUCT6",
+      "price": 799,
+      "compare_at_price": 1038,
+      "description": "Transform your space with the OG // Poster — Design 6. High-quality poster with stunning artwork.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Poster",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\posters\\product6\\WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\posters\\product6\\WhatsApp Image 2025-08-31 at 9.24.21 AM (2).jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 799,
+          "sku": "POSTER_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Poster — Design 6 Online | OG Store",
+      "seo_description": "Shop OG // Poster — Design 6 at OG Store. Premium quality poster with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.117590",
+      "updated_at": "2025-09-11T21:03:27.117592",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "posters_product7",
+      "title": "OG // Poster — Design 7",
+      "product_type": "poster",
+      "category": "posters",
+      "sku": "POSTER_PRODUCT7",
+      "price": 799,
+      "compare_at_price": 1038,
+      "description": "Transform your space with the OG // Poster — Design 7. High-quality poster with stunning artwork.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Poster",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\posters\\product7\\WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\posters\\product7\\WhatsApp Image 2025-08-31 at 9.24.21 AM (6).jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 799,
+          "sku": "POSTER_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Poster — Design 7 Online | OG Store",
+      "seo_description": "Shop OG // Poster — Design 7 at OG Store. Premium quality poster with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.117642",
+      "updated_at": "2025-09-11T21:03:27.117644",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "posters_product8",
+      "title": "OG // Poster — Design 8",
+      "product_type": "poster",
+      "category": "posters",
+      "sku": "POSTER_PRODUCT8",
+      "price": 799,
+      "compare_at_price": 1038,
+      "description": "Transform your space with the OG // Poster — Design 8. High-quality poster with stunning artwork.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Poster",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\posters\\product8\\WhatsApp Image 2025-08-31 at 9.24.20 AM (1).jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\posters\\product8\\WhatsApp Image 2025-08-31 at 9.24.20 AM (1).jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 799,
+          "sku": "POSTER_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Poster — Design 8 Online | OG Store",
+      "seo_description": "Shop OG // Poster — Design 8 at OG Store. Premium quality poster with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.117693",
+      "updated_at": "2025-09-11T21:03:27.117695",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "posters_product9",
+      "title": "OG // Poster — Design 9",
+      "product_type": "poster",
+      "category": "posters",
+      "sku": "POSTER_PRODUCT9",
+      "price": 799,
+      "compare_at_price": 1038,
+      "description": "Transform your space with the OG // Poster — Design 9. High-quality poster with stunning artwork.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Poster",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\posters\\product9\\WhatsApp Image 2025-08-31 at 9.24.21 AM.jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\posters\\product9\\WhatsApp Image 2025-08-31 at 9.24.21 AM.jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 799,
+          "sku": "POSTER_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Poster — Design 9 Online | OG Store",
+      "seo_description": "Shop OG // Poster — Design 9 at OG Store. Premium quality poster with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.117745",
+      "updated_at": "2025-09-11T21:03:27.117747",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "slippers_product1",
+      "title": "OG // Slipper — Design 1",
+      "product_type": "slipper",
+      "category": "slippers",
+      "sku": "SLIPPER_PRODUCT1",
+      "price": 1199,
+      "compare_at_price": 1558,
+      "description": "Relax in comfort with the OG // Slipper — Design 1. Soft, cozy slippers for home.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Slipper",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\slippers\\product1\\front\\WhatsApp Image 2025-08-31 at 8.55.46 AM (1).jpeg",
+        "back": "PRODUCTS\\slippers\\product1\\back\\WhatsApp Image 2025-08-31 at 8.55.47 AM (2).jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1199,
+          "sku": "SLIPPER_S",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1299,
+          "sku": "SLIPPER_M",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1399,
+          "sku": "SLIPPER_L",
+          "inventory_quantity": 25,
+          "weight": 400,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1499,
+          "sku": "SLIPPER_XL",
+          "inventory_quantity": 25,
+          "weight": 450,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Slipper — Design 1 Online | OG Store",
+      "seo_description": "Shop OG // Slipper — Design 1 at OG Store. Premium quality slipper with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 300,
+      "created_at": "2025-09-11T21:03:27.117861",
+      "updated_at": "2025-09-11T21:03:27.117863",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "slippers_product2",
+      "title": "OG // Slipper — Design 2",
+      "product_type": "slipper",
+      "category": "slippers",
+      "sku": "SLIPPER_PRODUCT2",
+      "price": 1199,
+      "compare_at_price": 1558,
+      "description": "Relax in comfort with the OG // Slipper — Design 2. Soft, cozy slippers for home.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Slipper",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\slippers\\product2\\front\\WhatsApp Image 2025-08-31 at 8.55.46 AM.jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1199,
+          "sku": "SLIPPER_S",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1299,
+          "sku": "SLIPPER_M",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1399,
+          "sku": "SLIPPER_L",
+          "inventory_quantity": 25,
+          "weight": 400,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1499,
+          "sku": "SLIPPER_XL",
+          "inventory_quantity": 25,
+          "weight": 450,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Slipper — Design 2 Online | OG Store",
+      "seo_description": "Shop OG // Slipper — Design 2 at OG Store. Premium quality slipper with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 300,
+      "created_at": "2025-09-11T21:03:27.117922",
+      "updated_at": "2025-09-11T21:03:27.117924",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "sweatshirts_product1",
+      "title": "OG // Sweatshirt — Design 1",
+      "product_type": "sweatshirt",
+      "category": "sweatshirts",
+      "sku": "SWEATSHIRT_PRODUCT1",
+      "price": 1999,
+      "compare_at_price": 2598,
+      "description": "Comfort meets style in the OG // Sweatshirt — Design 1. Cozy sweatshirt perfect for any occasion.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Sweatshirt",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\Sweatshirts\\product1\\front\\WhatsApp Image 2025-08-31 at 9.00.54 AM.jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1999,
+          "sku": "SWEATSHIRT_S",
+          "inventory_quantity": 25,
+          "weight": 600,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2099,
+          "sku": "SWEATSHIRT_M",
+          "inventory_quantity": 25,
+          "weight": 650,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2199,
+          "sku": "SWEATSHIRT_L",
+          "inventory_quantity": 25,
+          "weight": 700,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2299,
+          "sku": "SWEATSHIRT_XL",
+          "inventory_quantity": 25,
+          "weight": 750,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Sweatshirt — Design 1 Online | OG Store",
+      "seo_description": "Shop OG // Sweatshirt — Design 1 at OG Store. Premium quality sweatshirt with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 600,
+      "created_at": "2025-09-11T21:03:27.118041",
+      "updated_at": "2025-09-11T21:03:27.118043",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "sweatshirts_product2",
+      "title": "OG // Sweatshirt — Design 2",
+      "product_type": "sweatshirt",
+      "category": "sweatshirts",
+      "sku": "SWEATSHIRT_PRODUCT2",
+      "price": 1999,
+      "compare_at_price": 2598,
+      "description": "Comfort meets style in the OG // Sweatshirt — Design 2. Cozy sweatshirt perfect for any occasion.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Sweatshirt",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": null,
+        "back": "PRODUCTS\\Sweatshirts\\product2\\back\\WhatsApp Image 2025-08-31 at 9.00.55 AM.jpeg",
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1999,
+          "sku": "SWEATSHIRT_S",
+          "inventory_quantity": 25,
+          "weight": 600,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2099,
+          "sku": "SWEATSHIRT_M",
+          "inventory_quantity": 25,
+          "weight": 650,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2199,
+          "sku": "SWEATSHIRT_L",
+          "inventory_quantity": 25,
+          "weight": 700,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2299,
+          "sku": "SWEATSHIRT_XL",
+          "inventory_quantity": 25,
+          "weight": 750,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Sweatshirt — Design 2 Online | OG Store",
+      "seo_description": "Shop OG // Sweatshirt — Design 2 at OG Store. Premium quality sweatshirt with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 600,
+      "created_at": "2025-09-11T21:03:27.118100",
+      "updated_at": "2025-09-11T21:03:27.118102",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "id": "sweatshirts_product4",
+      "title": "OG // Sweatshirt — Design 4",
+      "product_type": "sweatshirt",
+      "category": "sweatshirts",
+      "sku": "SWEATSHIRT_PRODUCT4",
+      "price": 1999,
+      "compare_at_price": 2598,
+      "description": "Comfort meets style in the OG // Sweatshirt — Design 4. Cozy sweatshirt perfect for any occasion.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Sweatshirt",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\Sweatshirts\\product4\\front\\WhatsApp Image 2025-08-31 at 9.01.36 AM.jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1999,
+          "sku": "SWEATSHIRT_S",
+          "inventory_quantity": 25,
+          "weight": 600,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 2099,
+          "sku": "SWEATSHIRT_M",
+          "inventory_quantity": 25,
+          "weight": 650,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 2199,
+          "sku": "SWEATSHIRT_L",
+          "inventory_quantity": 25,
+          "weight": 700,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 2299,
+          "sku": "SWEATSHIRT_XL",
+          "inventory_quantity": 25,
+          "weight": 750,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Sweatshirt — Design 4 Online | OG Store",
+      "seo_description": "Shop OG // Sweatshirt — Design 4 at OG Store. Premium quality sweatshirt with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 600,
+      "created_at": "2025-09-11T21:03:27.118158",
+      "updated_at": "2025-09-11T21:03:27.118160",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Abstract Geometry",
+      "title": "OG // Tee — Abstract Geometry",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_ABSTRACT_GEOMETRY",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Abstract Geometry. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\teeshirt\\Abstract Geometry\\black\\WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\teeshirt\\Abstract Geometry\\black\\WhatsApp Image 2025-08-31 at 10.49.01 AM (1).jpeg",
+          "PRODUCTS\\teeshirt\\Abstract Geometry\\black\\WhatsApp Image 2025-08-31 at 8.59.07 AM.jpeg",
+          "PRODUCTS\\teeshirt\\Abstract Geometry\\blue\\WhatsApp Image 2025-08-31 at 10.49.02 AM.jpeg"
+        ],
+        "total_images": 3
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Abstract Geometry Online | OG Store",
+      "seo_description": "Shop OG // Tee — Abstract Geometry at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.118271",
+      "updated_at": "2025-09-11T21:03:27.118274",
+      "image_analysis": {
+        "total_images": 3,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 3,
+        "view_breakdown": {
+          "other": 3,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "teeshirt_City Skyline",
+      "title": "OG // Tee — City Skyline",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_CITY_SKYLINE",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — City Skyline. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\teeshirt\\City Skyline\\front\\WhatsApp Image 2025-08-31 at 8.59.05 AM.jpeg",
+        "back": "PRODUCTS\\teeshirt\\City Skyline\\back\\WhatsApp Image 2025-08-31 at 8.59.05 AM (2).jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — City Skyline Online | OG Store",
+      "seo_description": "Shop OG // Tee — City Skyline at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.118362",
+      "updated_at": "2025-09-11T21:03:27.118367",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Friend Back Photos",
+      "title": "OG // Tee — Friend Back Photos",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_FRIEND_BACK_PHOTOS",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Friend Back Photos. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": null,
+        "back": "PRODUCTS\\teeshirt\\Friend Back Photos\\Red\\WhatsApp Image 2025-08-31 at 10.48.57 AM (1).jpeg",
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Friend Back Photos Online | OG Store",
+      "seo_description": "Shop OG // Tee — Friend Back Photos at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.118457",
+      "updated_at": "2025-09-11T21:03:27.118461",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Minimalist Design",
+      "title": "OG // Tee — Minimalist Design",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_MINIMALIST_DESIGN",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Minimalist Design. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": null,
+        "back": "PRODUCTS\\teeshirt\\Minimalist Design\\back\\WhatsApp Image 2025-08-31 at 8.59.07 AM (1).jpeg",
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Minimalist Design Online | OG Store",
+      "seo_description": "Shop OG // Tee — Minimalist Design at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.118565",
+      "updated_at": "2025-09-11T21:03:27.118570",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Mountain Adventure",
+      "title": "OG // Tee — Mountain Adventure",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_MOUNTAIN_ADVENTURE",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Mountain Adventure. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": null,
+        "back": "PRODUCTS\\teeshirt\\Mountain Adventure\\back\\WhatsApp Image 2025-08-31 at 9.18.35 AM.jpeg",
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Mountain Adventure Online | OG Store",
+      "seo_description": "Shop OG // Tee — Mountain Adventure at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.118667",
+      "updated_at": "2025-09-11T21:03:27.118670",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Music Festival Vibes",
+      "title": "OG // Tee — Music Festival Vibes",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_MUSIC_FESTIVAL_VIBES",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Music Festival Vibes. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": null,
+        "back": "PRODUCTS\\teeshirt\\Music Festival Vibes\\back\\WhatsApp Image 2025-08-31 at 8.59.06 AM (1).jpeg",
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Music Festival Vibes Online | OG Store",
+      "seo_description": "Shop OG // Tee — Music Festival Vibes at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.118799",
+      "updated_at": "2025-09-11T21:03:27.118804",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Nature Photography",
+      "title": "OG // Tee — Nature Photography",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_NATURE_PHOTOGRAPHY",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Nature Photography. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\teeshirt\\Nature Photography\\front\\WhatsApp Image 2025-08-31 at 8.59.05 AM (1).jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Nature Photography Online | OG Store",
+      "seo_description": "Shop OG // Tee — Nature Photography at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.118920",
+      "updated_at": "2025-09-11T21:03:27.118923",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Neon Lights",
+      "title": "OG // Tee — Neon Lights",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_NEON_LIGHTS",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Neon Lights. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\teeshirt\\Neon Lights\\front\\WhatsApp Image 2025-08-31 at 8.59.08 AM.jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Neon Lights Online | OG Store",
+      "seo_description": "Shop OG // Tee — Neon Lights at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.119005",
+      "updated_at": "2025-09-11T21:03:27.119008",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Ocean Waves",
+      "title": "OG // Tee — Ocean Waves",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_OCEAN_WAVES",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Ocean Waves. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\teeshirt\\Ocean Waves\\black\\WhatsApp Image 2025-08-31 at 10.49.03 AM (1).jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\teeshirt\\Ocean Waves\\black\\WhatsApp Image 2025-08-31 at 10.49.03 AM (1).jpeg",
+          "PRODUCTS\\teeshirt\\Ocean Waves\\Blue\\WhatsApp Image 2025-08-31 at 10.49.04 AM.jpeg",
+          "PRODUCTS\\teeshirt\\Ocean Waves\\grey\\WhatsApp Image 2025-08-31 at 10.49.03 AM (2).jpeg"
+        ],
+        "total_images": 3
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Ocean Waves Online | OG Store",
+      "seo_description": "Shop OG // Tee — Ocean Waves at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.119092",
+      "updated_at": "2025-09-11T21:03:27.119096",
+      "image_analysis": {
+        "total_images": 3,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 3,
+        "view_breakdown": {
+          "other": 3,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Space Exploration",
+      "title": "OG // Tee — Space Exploration",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_SPACE_EXPLORATION",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Space Exploration. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\teeshirt\\Space Exploration\\front\\WhatsApp Image 2025-08-31 at 8.59.04 AM.jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Space Exploration Online | OG Store",
+      "seo_description": "Shop OG // Tee — Space Exploration at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.119185",
+      "updated_at": "2025-09-11T21:03:27.119188",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Tropical Paradise",
+      "title": "OG // Tee — Tropical Paradise",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_TROPICAL_PARADISE",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Tropical Paradise. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\teeshirt\\Tropical Paradise\\front\\WhatsApp Image 2025-08-31 at 8.59.19 AM.jpeg",
+        "back": "PRODUCTS\\teeshirt\\Tropical Paradise\\back\\WhatsApp Image 2025-08-31 at 8.59.40 AM.jpeg",
+        "variants": [],
+        "total_images": 2
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Tropical Paradise Online | OG Store",
+      "seo_description": "Shop OG // Tee — Tropical Paradise at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.119266",
+      "updated_at": "2025-09-11T21:03:27.119268",
+      "image_analysis": {
+        "total_images": 2,
+        "front_images": 1,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 1
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Urban Street Art",
+      "title": "OG // Tee — Urban Street Art",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_URBAN_STREET_ART",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Urban Street Art. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": null,
+        "back": "PRODUCTS\\teeshirt\\Urban Street Art\\back\\WhatsApp Image 2025-08-31 at 8.59.07 AM (2).jpeg",
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Urban Street Art Online | OG Store",
+      "seo_description": "Shop OG // Tee — Urban Street Art at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.119326",
+      "updated_at": "2025-09-11T21:03:27.119328",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 1,
+        "variant_images": 0,
+        "view_breakdown": {
+          "back": 1,
+          "front": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "id": "teeshirt_Vintage Typography",
+      "title": "OG // Tee — Vintage Typography",
+      "product_type": "tee",
+      "category": "teeshirt",
+      "sku": "TEE_VINTAGE_TYPOGRAPHY",
+      "price": 1299,
+      "compare_at_price": 1688,
+      "description": "Express your style with the OG // Tee — Vintage Typography. Soft, comfortable tee with eye-catching design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Tee",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\teeshirt\\Vintage Typography\\front\\WhatsApp Image 2025-08-31 at 9.09.12 AM.jpeg",
+        "back": null,
+        "variants": [],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "S",
+          "price": 1299,
+          "sku": "TEE_S",
+          "inventory_quantity": 25,
+          "weight": 200,
+          "size": "S"
+        },
+        {
+          "id": 2,
+          "title": "M",
+          "price": 1399,
+          "sku": "TEE_M",
+          "inventory_quantity": 25,
+          "weight": 250,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "title": "L",
+          "price": 1499,
+          "sku": "TEE_L",
+          "inventory_quantity": 25,
+          "weight": 300,
+          "size": "L"
+        },
+        {
+          "id": 4,
+          "title": "XL",
+          "price": 1599,
+          "sku": "TEE_XL",
+          "inventory_quantity": 25,
+          "weight": 350,
+          "size": "XL"
+        }
+      ],
+      "seo_title": "Buy OG // Tee — Vintage Typography Online | OG Store",
+      "seo_description": "Shop OG // Tee — Vintage Typography at OG Store. Premium quality tee with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 200,
+      "created_at": "2025-09-11T21:03:27.119387",
+      "updated_at": "2025-09-11T21:03:27.119389",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 1,
+        "back_images": 0,
+        "variant_images": 0,
+        "view_breakdown": {
+          "front": 1,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "wallet_product1",
+      "title": "OG // Wallet — Design 1",
+      "product_type": "wallet",
+      "category": "wallet",
+      "sku": "WALLET_PRODUCT1",
+      "price": 1499,
+      "compare_at_price": 1948,
+      "description": "Organize in style with the OG // Wallet — Design 1. Premium wallet with thoughtful design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Wallet",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\wallet\\product1\\WhatsApp Image 2025-08-31 at 8.55.48 AM.jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\wallet\\product1\\WhatsApp Image 2025-08-31 at 8.55.48 AM.jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 1499,
+          "sku": "WALLET_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Wallet — Design 1 Online | OG Store",
+      "seo_description": "Shop OG // Wallet — Design 1 at OG Store. Premium quality wallet with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.119523",
+      "updated_at": "2025-09-11T21:03:27.119525",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    },
+    {
+      "id": "wallet_product2",
+      "title": "OG // Wallet — Design 2",
+      "product_type": "wallet",
+      "category": "wallet",
+      "sku": "WALLET_PRODUCT2",
+      "price": 1499,
+      "compare_at_price": 1948,
+      "description": "Organize in style with the OG // Wallet — Design 2. Premium wallet with thoughtful design.\n\n• Premium Quality Materials\n• Unique Design\n• Fast Shipping Available\n• 30-Day Return Policy\n• Customer Satisfaction Guaranteed",
+      "tags": [
+        "CAT_Wallet",
+        "OG",
+        "Premium"
+      ],
+      "vendor": "OG Brand",
+      "status": "active",
+      "published": true,
+      "images": {
+        "front": "PRODUCTS\\wallet\\product2\\WhatsApp Image 2025-08-31 at 8.55.49 AM (1).jpeg",
+        "back": null,
+        "variants": [
+          "PRODUCTS\\wallet\\product2\\WhatsApp Image 2025-08-31 at 8.55.49 AM (1).jpeg"
+        ],
+        "total_images": 1
+      },
+      "variants": [
+        {
+          "id": 1,
+          "title": "Default",
+          "price": 1499,
+          "sku": "WALLET_DEFAULT",
+          "inventory_quantity": 50,
+          "weight": 100
+        }
+      ],
+      "seo_title": "Buy OG // Wallet — Design 2 Online | OG Store",
+      "seo_description": "Shop OG // Wallet — Design 2 at OG Store. Premium quality wallet with unique design. Fast shipping and easy returns.",
+      "inventory_tracking": true,
+      "requires_shipping": true,
+      "weight": 100,
+      "created_at": "2025-09-11T21:03:27.119582",
+      "updated_at": "2025-09-11T21:03:27.119585",
+      "image_analysis": {
+        "total_images": 1,
+        "front_images": 0,
+        "back_images": 0,
+        "variant_images": 1,
+        "view_breakdown": {
+          "other": 1,
+          "front": 0,
+          "back": 0
+        }
+      }
+    }
+  ],
+  "validation": {
+    "total_products": 56,
+    "products_with_front_images": 46,
+    "products_with_back_images": 29,
+    "products_with_variants": 15,
+    "categories": [
+      "wallet",
+      "slippers",
+      "teeshirt",
+      "hoodies",
+      "full shirts",
+      "hats",
+      "posters",
+      "sweatshirts"
+    ],
+    "product_types": [
+      "wallet",
+      "poster",
+      "tee",
+      "shirt",
+      "sweatshirt",
+      "hat",
+      "hoodie",
+      "slipper"
+    ],
+    "issues": []
+  }
+}
