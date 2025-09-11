@@ -159,137 +159,17 @@ const Home = () => {
       
       <Header />
       
-      {/* Conversion Optimized Hero Section */}
-      {/* <ConversionOptimizedHero /> */}
-
-      {/* Trust Strip */}
-      {/* <TrustStrip /> */}
-      
-      {/* Bundle Suggestions */}
-      {/* <BundleSuggestions /> */}
-      
-      {/* New Teaser Section */}
-      {/* <NewTeaser /> */}
-      
-      {/* TEST RAIL - Hard coded to test if Rail component works */}
-      <Rail 
-        title="TEST RAIL — DEBUGGING" 
-        subtitle="Testing if Rail component renders at all"
-        products={products.slice(0, 4) || []} 
-        showViewAll={true}
-        viewAllLink="/shop"
-        prioritizeBackImages={true}
-      />
-      
-      {/* BEST SELLERS RAIL - TOP PRIORITY */}
-      <Rail 
-        title="BEST SELLERS — FAN FAVORITES" 
-        subtitle="Most loved by the OG army. Back views featured."
-        products={bestSellers}
-        showViewAll={true}
-        viewAllLink="/shop?filter=best-sellers"
-        prioritizeBackImages={true}
-      />
-      
-      {/* COOL SHIRTS SECTION */}
-      <Rail 
-        title="COOL SHIRTS — PREMIUM COLLECTION" 
-        subtitle="Signature shirts for the ultimate fan experience"
-        products={coolShirts}
-        showViewAll={true}
-        viewAllLink="/shop?category=shirts"
-        prioritizeBackImages={true}
-      />
-
-      {/* COOL T-SHIRTS RAIL - User requested after shirts */}
-      <Rail 
-        title="COOL T-SHIRTS — THUNDER COLLECTION" 
-        subtitle="Premium tees with scene codes and cinematic designs ₹699-₹975"
-        products={coolTshirts}
-        showViewAll={true}
-        viewAllLink="/shop?category=tees"
-        prioritizeBackImages={true}
-      />
-      
-      {/* FEATURED HOODIES - BATTLE READY */}
-      {featuredHoodies.length > 0 && (
+      {/* SIMPLE TEST - Just one Rail to debug */}
+      <div className="pt-20">
         <Rail 
-          title="BATTLE HOODIES — FRONT LINE GEAR" 
-          subtitle="Premium hoodies ₹1119-₹1599 with back designs shown first"
-          products={featuredHoodies}
-          showViewAll={true}
-          viewAllLink="/shop?category=hoodies"
-          prioritizeBackImages={true}
-        />
-      )}
-      
-      {/* Premium Product Showcase */}
-      <PremiumShowcase />
-      
-      {/* PREMIUM COLLECTION RAIL */}
-      {premiumProducts.length > 0 && (
-        <Rail 
-          title="PREMIUM COLLECTION — ELITE ARSENAL" 
-          subtitle="High-value gear for serious rebels"
-          products={premiumProducts}
-          showViewAll={true}
-          viewAllLink="/shop?filter=premium"
-        />
-      )}
-      
-      {/* Animated UGC Strip */}
-      <AnimatedUGCStrip />
-      
-      {/* VAULT SECTION */}
-      {vaultProducts.length > 0 && (
-        <>
-          <VaultSection />
-          <Rail 
-            title="VAULT EXCLUSIVE — LIMITED ACCESS" 
-            subtitle="Rare gear for the elite army ₹1499-₹1799"
-            products={vaultProducts}
-            showViewAll={true}
-            viewAllLink="/shop?filter=vault"
-            prioritizeBackImages={true}
-          />
-        </>
-      )}
-      
-      {/* Under ₹999 Section */}
-      <Under999Section products={getAffordableProducts(12)} />
-      
-      {/* Featured Poster Collection */}
-      <PosterShowcase />
-      
-      {/* REBELLION CORE RAILS */}
-      {rebelCore.length > 0 && (
-        <Rail 
-          title="REBELLION CORE — ESSENTIAL GEAR" 
-          subtitle="Core collection under ₹999. Built for rebels."
-          products={rebelCore}
-          showViewAll={true}
-          viewAllLink="/shop?filter=rebellion-core"
-        />
-      )}
-
-      {/* Emergency fallback rail if nothing else shows */}
-      {(bestSellers.length === 0 && featuredHoodies.length === 0 && premiumProducts.length === 0) && (
-        <Rail 
-          title="OG ARSENAL — ALL GEAR" 
-          subtitle="Complete collection of premium OG merchandise"
-          products={products.slice(0, 12)}
+          title="OG PRODUCTS — WORKING TEST" 
+          subtitle="Testing real products from comprehensive_products.json"
+          products={products.slice(0, 6)}
           showViewAll={true}
           viewAllLink="/shop"
           prioritizeBackImages={true}
         />
-      )}
-
-      {/* Community Modal */}
-      <PSPKCommunityModal
-        isOpen={communityModalOpen}
-        onClose={() => setCommunityModalOpen(false)}
-        onConsent={handleCommunityConsent}
-      />
+      </div>
 
       <Footer />
     </div>
