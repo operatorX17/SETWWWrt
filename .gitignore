@@ -114,3 +114,7 @@ test_result.md
 *_backup.json
 *_analysis.json
 *_report.txt
+-e 
+# Environment files
+*.env
+*.env.*
