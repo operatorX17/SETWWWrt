@@ -65,11 +65,7 @@ const Shop = () => {
     }
   };
 
-  const { products: allProducts, loading, error } = useFilteredProductsWithUnlock(
-    null, // Get all products
-    null,
-    true // Include vault products for filtering
-  );
+  const { products: allProducts, loading, error } = useFilteredProductsWithUnlock({});
 
   // Apply exclusive filtering based on active tab
   const filteredProducts = React.useMemo(() => {
