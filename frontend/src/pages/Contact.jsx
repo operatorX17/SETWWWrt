@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import FloatingNavigation from '../components/FloatingNavigation';
+import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    subject: '',
     message: ''
   });
 
@@ -22,178 +22,118 @@ const Contact = () => {
     e.preventDefault();
     // Handle form submission
     console.log('Form submitted:', formData);
-    alert('Thank you for your message. We\'ll get back to you soon!');
-    setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
   return (
     <div className="min-h-screen bg-black text-white">
       <Header />
+      <FloatingNavigation />
       
-      <div className="max-w-7xl mx-auto px-6 py-8">
-        {/* Page Header */}
-        <div className="mb-16">
-          <h1 className="text-6xl lg:text-8xl font-bold uppercase tracking-wider mb-8">Contact</h1>
-          <p className="text-xl text-gray-300 max-w-2xl">
-            Have questions about our products, need sizing advice, or want to collaborate? 
-            We'd love to hear from you.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          {/* Contact Form */}
-          <div>
-            <h2 className="text-3xl font-bold mb-8">Send us a message</h2>
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="pt-20 max-w-7xl mx-auto px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center">
+            CONTACT US
+          </h1>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Contact Form */}
+            <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+              <h2 className="text-2xl font-bold mb-6 text-red-400">Get in Touch</h2>
+              
+              <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium mb-2">
-                    Name *
-                  </label>
+                  <label className="block text-sm font-medium mb-2">Name</label>
                   <input
                     type="text"
-                    id="name"
                     name="name"
-                    required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full bg-gray-900 border border-gray-700 px-4 py-3 focus:outline-none focus:border-white transition-colors"
-                    placeholder="Your name"
+                    className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-red-500 focus:outline-none"
+                    required
                   />
                 </div>
+                
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium mb-2">
-                    Email *
-                  </label>
+                  <label className="block text-sm font-medium mb-2">Email</label>
                   <input
                     type="email"
-                    id="email"
                     name="email"
-                    required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full bg-gray-900 border border-gray-700 px-4 py-3 focus:outline-none focus:border-white transition-colors"
-                    placeholder="your.email@example.com"
+                    className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-red-500 focus:outline-none"
+                    required
                   />
                 </div>
-              </div>
-              
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium mb-2">
-                  Subject *
-                </label>
-                <select
-                  id="subject"
-                  name="subject"
-                  required
-                  value={formData.subject}
-                  onChange={handleChange}
-                  className="w-full bg-gray-900 border border-gray-700 px-4 py-3 focus:outline-none focus:border-white transition-colors"
+                
+                <div>
+                  <label className="block text-sm font-medium mb-2">Message</label>
+                  <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    rows={5}
+                    className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-red-500 focus:outline-none resize-none"
+                    required
+                  />
+                </div>
+                
+                <button
+                  type="submit"
+                  className="w-full bg-red-600 hover:bg-red-500 text-white py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2"
                 >
-                  <option value="">Select a topic</option>
-                  <option value="product-inquiry">Product Inquiry</option>
-                  <option value="sizing-help">Sizing Help</option>
-                  <option value="order-support">Order Support</option>
-                  <option value="collaboration">Collaboration</option>
-                  <option value="press">Press Inquiry</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-              
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium mb-2">
-                  Message *
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  required
-                  rows={6}
-                  value={formData.message}
-                  onChange={handleChange}
-                  className="w-full bg-gray-900 border border-gray-700 px-4 py-3 focus:outline-none focus:border-white transition-colors resize-vertical"
-                  placeholder="Tell us how we can help..."
-                />
-              </div>
-              
-              <button
-                type="submit"
-                className="bg-white text-black px-8 py-4 font-semibold uppercase tracking-wider hover:bg-gray-100 transition-colors flex items-center space-x-2"
-              >
-                <Send size={20} />
-                <span>Send Message</span>
-              </button>
-            </form>
-          </div>
-
-          {/* Contact Information */}
-          <div className="space-y-12">
-            <div>
-              <h2 className="text-3xl font-bold mb-8">Get in touch</h2>
-              <div className="space-y-8">
-                <div className="flex items-start space-x-4">
-                  <Mail size={24} className="mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold mb-2">Email</h3>
-                    <p className="text-gray-300">hello@axm.com</p>
-                    <p className="text-gray-400 text-sm">We typically respond within 24 hours</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <Phone size={24} className="mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold mb-2">Phone</h3>
-                    <p className="text-gray-300">+1 (555) 123-4567</p>
-                    <p className="text-gray-400 text-sm">Mon-Fri, 9AM-6PM EST</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <MapPin size={24} className="mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold mb-2">Studio</h3>
-                    <div className="text-gray-300 space-y-1">
-                      <p>123 Design District</p>
-                      <p>New York, NY 10013</p>
-                      <p>United States</p>
-                    </div>
-                    <p className="text-gray-400 text-sm mt-2">By appointment only</p>
-                  </div>
-                </div>
-              </div>
+                  <Send size={20} />
+                  Send Message
+                </button>
+              </form>
             </div>
 
-            {/* FAQ Section */}
-            <div>
-              <h3 className="text-2xl font-bold mb-6">Frequently Asked</h3>
-              <div className="space-y-6">
-                <div>
-                  <h4 className="font-semibold mb-2">What's your return policy?</h4>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    We offer free returns within 30 days of purchase. Items must be unworn with tags attached.
-                  </p>
-                </div>
+            {/* Contact Info */}
+            <div className="space-y-6">
+              <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <h2 className="text-2xl font-bold mb-6 text-red-400">Store Information</h2>
                 
-                <div>
-                  <h4 className="font-semibold mb-2">How do I find my size?</h4>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    Check our detailed size guide on each product page. If you're between sizes, we recommend sizing up.
-                  </p>
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3">
+                    <Mail className="text-red-400" size={20} />
+                    <div>
+                      <p className="font-medium">Email</p>
+                      <p className="text-gray-400">support@ogstore.com</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center gap-3">
+                    <Phone className="text-red-400" size={20} />
+                    <div>
+                      <p className="font-medium">Phone</p>
+                      <p className="text-gray-400">+91 99999 99999</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center gap-3">
+                    <MapPin className="text-red-400" size={20} />
+                    <div>
+                      <p className="font-medium">Location</p>
+                      <p className="text-gray-400">Hyderabad, India</p>
+                    </div>
+                  </div>
                 </div>
-                
-                <div>
-                  <h4 className="font-semibold mb-2">Do you ship internationally?</h4>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    Yes, we ship worldwide. International shipping rates and delivery times vary by location.
-                  </p>
-                </div>
+              </div>
+
+              <div className="bg-gradient-to-r from-red-900/20 to-black p-6 rounded-lg border border-red-500/20">
+                <h3 className="text-xl font-bold mb-3">Customer Support</h3>
+                <p className="text-gray-300 mb-4">
+                  Our team is here to help with any questions about orders, 
+                  products, or general inquiries.
+                </p>
+                <p className="text-sm text-gray-400">
+                  Response time: 24-48 hours
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
+      
       <Footer />
     </div>
   );

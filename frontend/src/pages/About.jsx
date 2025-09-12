@@ -1,129 +1,81 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import FloatingNavigation from '../components/FloatingNavigation';
 
 const About = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       <Header />
+      <FloatingNavigation />
       
-      {/* Hero Section */}
-      <div className="relative py-20 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-6xl lg:text-8xl font-bold uppercase tracking-wider mb-8">
-            About AXM
+      <div className="pt-20 max-w-7xl mx-auto px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center">
+            ABOUT OG
           </h1>
-          <p className="text-xl text-gray-300 leading-relaxed">
-            We create garments that bridge the gap between technical performance and considered design, 
-            crafting pieces that adapt to the rhythms of modern life.
-          </p>
-        </div>
-      </div>
+          
+          <div className="prose prose-invert max-w-none">
+            <div className="text-center mb-12">
+              <p className="text-xl text-gray-300 leading-relaxed">
+                Official merchandise store for Power Star Pawan Kalyan's OG. 
+                Premium quality apparel and accessories for true fans.
+              </p>
+            </div>
 
-      {/* Story Section */}
-      <div className="py-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-6">
-              <h2 className="text-4xl font-bold uppercase tracking-wider">Our Story</h2>
-              <div className="space-y-4 text-gray-300 leading-relaxed">
-                <p>
-                  Founded in the intersection of urban culture and technical innovation, AXM emerged from a simple belief: 
-                  that clothing should enhance rather than restrict movement through modern life.
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <h2 className="text-2xl font-bold mb-4 text-red-400">Our Mission</h2>
+                <p className="text-gray-300 leading-relaxed">
+                  To provide premium quality merchandise that captures the essence 
+                  of OG and allows fans to showcase their passion with pride.
                 </p>
-                <p>
-                  Our approach centers on understanding the body in motion, the demands of changing environments, 
-                  and the need for garments that perform as beautifully as they appear.
-                </p>
-                <p>
-                  Every piece in our collection represents months of development, testing, and refinement, 
-                  ensuring that form and function exist in perfect harmony.
+              </div>
+              
+              <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <h2 className="text-2xl font-bold mb-4 text-red-400">Quality Promise</h2>
+                <p className="text-gray-300 leading-relaxed">
+                  Every product is carefully crafted using premium materials 
+                  and designed to last, just like the legacy of Power Star.
                 </p>
               </div>
             </div>
-            <div className="relative">
-              <img
-                src="https://framerusercontent.com/images/aHmupIkpNbiTWcrio0jHVxTg4OU.png"
-                alt="About AXM"
-                className="w-full h-[500px] object-cover"
-              />
+
+            <div className="bg-gradient-to-r from-red-900/20 to-black p-8 rounded-lg border border-red-500/20 mb-12">
+              <h2 className="text-3xl font-bold mb-4 text-center">Why Choose OG Store?</h2>
+              <div className="grid md:grid-cols-3 gap-6 text-center">
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-red-400">Premium Quality</h3>
+                  <p className="text-gray-300">High-grade materials and superior craftsmanship</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-red-400">Authentic Designs</h3>
+                  <p className="text-gray-300">Official designs inspired by the OG universe</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-red-400">Fast Delivery</h3>
+                  <p className="text-gray-300">Quick shipping across India with tracking</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <h2 className="text-3xl font-bold mb-6">Join the Arsenal</h2>
+              <p className="text-gray-300 mb-8 leading-relaxed">
+                Be part of the OG community and wear your fandom with pride. 
+                Every purchase supports the official merchandise program.
+              </p>
+              <a 
+                href="/shop" 
+                className="inline-block bg-red-600 hover:bg-red-500 text-white px-8 py-4 rounded-lg font-semibold transition-colors"
+              >
+                Shop Now
+              </a>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Values Section */}
-      <div className="py-20 px-6 bg-gray-900">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold uppercase tracking-wider text-center mb-16">Our Values</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <div className="text-center space-y-4">
-              <h3 className="text-2xl font-bold">Performance</h3>
-              <p className="text-gray-300 leading-relaxed">
-                Every garment is tested in real-world conditions, ensuring durability and functionality 
-                that matches our aesthetic standards.
-              </p>
-            </div>
-            <div className="text-center space-y-4">
-              <h3 className="text-2xl font-bold">Innovation</h3>
-              <p className="text-gray-300 leading-relaxed">
-                We continuously explore new materials, construction techniques, and design approaches 
-                to push the boundaries of what clothing can achieve.
-              </p>
-            </div>
-            <div className="text-center space-y-4">
-              <h3 className="text-2xl font-bold">Sustainability</h3>
-              <p className="text-gray-300 leading-relaxed">
-                Our commitment extends beyond aesthetics to responsible production practices and 
-                materials that minimize environmental impact.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Team Section */}
-      <div className="py-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold uppercase tracking-wider text-center mb-16">The Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-            <div className="text-center">
-              <div className="w-48 h-48 bg-gray-800 mx-auto mb-6 overflow-hidden">
-                <img
-                  src="https://framerusercontent.com/images/NDxBZFmSebczlFkVRMrK6Lov0.jpg"
-                  alt="Team Member"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Sarah Chen</h3>
-              <p className="text-gray-400">Creative Director</p>
-            </div>
-            <div className="text-center">
-              <div className="w-48 h-48 bg-gray-800 mx-auto mb-6 overflow-hidden">
-                <img
-                  src="https://framerusercontent.com/images/8S1rOEsmTsaGaTyBNNA49FVxa0.jpg"
-                  alt="Team Member"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Marcus Johnson</h3>
-              <p className="text-gray-400">Technical Designer</p>
-            </div>
-            <div className="text-center">
-              <div className="w-48 h-48 bg-gray-800 mx-auto mb-6 overflow-hidden">
-                <img
-                  src="https://framerusercontent.com/images/EoPd16HE0a7g0agWBcu09WbDczo.jpg"
-                  alt="Team Member"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Elena Rodriguez</h3>
-              <p className="text-gray-400">Sustainability Lead</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      
       <Footer />
     </div>
   );
