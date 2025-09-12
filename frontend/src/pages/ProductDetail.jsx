@@ -159,6 +159,7 @@ const ProductDetail = () => {
 
   return (
     <div className="min-h-screen bg-black text-white">
+      {/* Header - Always show on product pages */}
       <Header />
       <FloatingNavigation />
       
