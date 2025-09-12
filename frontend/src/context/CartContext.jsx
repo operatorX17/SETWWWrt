@@ -11,7 +11,7 @@ const cartReducer = (state, action) => {
     case 'ADD_ITEM':
       const existingItemIndex = state.items.findIndex(
         item => item.id === action.payload.id && 
-               item.selectedVariant?.size === action.payload.selectedVariant?.size
+               item.selectedSize === action.payload.selectedSize
       );
       
       let newItems;
