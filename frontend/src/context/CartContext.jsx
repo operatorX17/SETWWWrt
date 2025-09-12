@@ -119,13 +119,14 @@ export const CartProvider = ({ children }) => {
 
   const addToCart = (product, selectedVariant, quantity = 1) => {
     const cartItem = {
-      id: `${product.id}-${selectedVariant?.size || 'default'}`,
+      id: product.id,
       productId: product.id,
-      name: product.name,
-      price: product.price,
+      title: product.title, // Use title instead of name
+      price: parseInt(product.price), // Ensure price is a number
       images: product.images,
-      selectedVariant,
-      quantity
+      selectedSize: selectedVariant?.size || selectedVariant || 'M', // Handle different parameter formats
+      selectedColor: product.selectedColor || product.defaultColor || 'Default',
+      quantity: quantity
     };
     
     dispatch({ type: 'ADD_ITEM', payload: cartItem });
