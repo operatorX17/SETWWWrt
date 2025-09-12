@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart Test</title>
+</head>
+<body>
+    <h1>Cart Test</h1>
+    <button onclick="testCart()">Test Add to Cart</button>
+    <button onclick="checkCart()">Check Cart</button>
+    <div id="result"></div>
+
+    <script>
+        function testCart() {
+            const testItem = {
+                id: 'test-product',
+                title: 'Test Product',
+                price: 999,
+                selectedSize: 'M',
+                quantity: 1
+            };
+            
+            const cart = JSON.parse(localStorage.getItem('og-cart') || '{"items": [], "total": 0}');
+            cart.items.push(testItem);
+            cart.total = cart.items.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            
+            localStorage.setItem('og-cart', JSON.stringify(cart));
+            document.getElementById('result').innerHTML = 'Item added to cart!';
+        }
+        
+        function checkCart() {
+            const cart = JSON.parse(localStorage.getItem('og-cart') || '{"items": [], "total": 0}');
+            document.getElementById('result').innerHTML = `Cart has ${cart.items.length} items. Total: ₹${cart.total}`;
+        }
+    </script>
+</body>
+</html>
