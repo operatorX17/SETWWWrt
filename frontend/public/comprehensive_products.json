@@ -2,7 +2,7 @@
   "metadata": {
     "generated_at": "2025-09-11T18:59:32.000000",
     "generator_version": "3.0.0 - OG Expert System",
-    "total_products": 33,
+    "total_products": 44,
     "total_categories": 9,
     "total_images": 45,
     "categories": [
@@ -26,7 +26,7 @@
       "vault_exclusives"
     ],
     "status": "expert_generated",
-    "updated_at": "2025-09-12T04:15:00.000000",
+    "updated_at": "2025-09-12T04:25:00.000000",
     "integration_status": "ACTIVE",
     "previous_products": 56,
     "new_products": 45,
@@ -41,14 +41,16 @@
     "variants_consolidated": true,
     "products_before_consolidation": 43,
     "products_removed": 9,
-    "drip_icon_removed": true
+    "drip_icon_removed": true,
+    "products_restored": 11,
+    "restoration_note": "Restored missing products that were over-consolidated"
   },
   "hero_section": {
     "title": "OG Premium Collection - Expert Curated",
     "subtitle": "Cinematic merch forged for the chosen army",
     "featured_product": {
       "id": "og-shirt-blood-oath",
-      "title": "OG // Shirt \u2014 Blood Oath",
+      "title": "OG // Shirt — Blood Oath",
       "category": "shirt",
       "price": "1255",
       "compare_at_price": "1631",
@@ -95,7 +97,7 @@
       ],
       "merch_score": 0.8078863980191533,
       "seo": {
-        "title": "Blood Oath Shirt \u2014 OG Official",
+        "title": "Blood Oath Shirt — OG Official",
         "description": "Cinematic full shirts with premium design. BEST_SELLER drop. Hunter Green."
       }
     }
@@ -103,7 +105,7 @@
   "products": [
     {
       "id": "og-shirt-blood-oath",
-      "title": "OG // Shirt \u2014 Blood Oath",
+      "title": "OG // Shirt — Blood Oath",
       "category": "shirt",
       "price": "887",
       "compare_at_price": "1108",
@@ -148,18 +150,18 @@
       ],
       "merch_score": 0.8078863980191533,
       "seo": {
-        "title": "Blood Oath Shirt \u2014 OG Official",
+        "title": "Blood Oath Shirt — OG Official",
         "description": "Cinematic full shirts with premium design. BEST_SELLER drop. Hunter Green."
       },
       "primaryImage": "/PRODUCTS/full%20shirts/product1/front/WhatsApp%20Image%202025-08-31%20at%2010.49.05%20AM%20(1).jpeg"
     },
     {
       "id": "og-hoodie-blood-oath-scene-029",
-      "title": "OG // Hoodie \u2014 Blood Oath",
+      "title": "OG // Hoodie — Blood Oath",
       "category": "hoodie",
       "price": "1209",
       "compare_at_price": "1511",
-      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 029. Premium craftsmanship meets fan passion.",
+      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe — Scene 029. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
         "CORE",
@@ -217,7 +219,7 @@
       ],
       "merch_score": 0.7041851481178374,
       "seo": {
-        "title": "Blood Oath Hoodie \u2014 OG Official",
+        "title": "Blood Oath Hoodie — OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Brass / Smoke Gray."
       },
       "primaryImage": "/PRODUCTS/hoodies/product15/front/WhatsApp%20Image%202025-08-31%20at%2010.49.06%20AM%20(2).jpeg",
@@ -249,11 +251,11 @@
     },
     {
       "id": "og-tee-blood-oath-scene-148",
-      "title": "OG // Tee \u2014 Blood Oath",
+      "title": "OG // Tee — Blood Oath",
       "category": "tee",
       "price": "749",
       "compare_at_price": "936",
-      "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 148. Premium craftsmanship meets fan passion.",
+      "description": "Premium warfare. Limited drop. Inspired by the OG universe — Scene 148. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_TEE",
         "CORE",
@@ -301,7 +303,7 @@
       ],
       "merch_score": 0.7221923674629588,
       "seo": {
-        "title": "Blood Oath Tee \u2014 OG Official",
+        "title": "Blood Oath Tee — OG Official",
         "description": "Cinematic teeshirt with premium design. Limited drop. Brass / Smoke Gray."
       },
       "primaryImage": "/PRODUCTS/teeshirt/City%20Skyline/back/WhatsApp%20Image%202025-08-31%20at%208.59.05%20AM%20(2).jpeg",
@@ -322,16 +324,16 @@
       },
       "hasVariants": true,
       "defaultColor": "Brass / Smoke Gray",
-      "price_range": "\u20b9749 - \u20b9937",
+      "price_range": "₹749 - ₹937",
       "variant_count": 2
     },
     {
       "id": "og-shirt-zero-hour-scene-147",
-      "title": "OG // Shirt \u2014 Zero Hour [Scene 147]",
+      "title": "OG // Shirt — Zero Hour [Scene 147]",
       "category": "shirt",
       "price": "749",
       "compare_at_price": "936",
-      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 147. Premium craftsmanship meets fan passion.",
+      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe — Scene 147. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SHIRT",
         "CORE",
@@ -371,18 +373,18 @@
       ],
       "merch_score": 0.6423706242823313,
       "seo": {
-        "title": "Zero Hour Shirt \u2014 OG Official",
+        "title": "Zero Hour Shirt — OG Official",
         "description": "Cinematic full shirts with premium design. Limited drop. Midnight Black."
       },
       "primaryImage": "/PRODUCTS/full%20shirts/product3/front/WhatsApp%20Image%202025-08-31%20at%209.09.11%20AM.jpeg"
     },
     {
       "id": "og-hoodie-zero-hour-scene-026",
-      "title": "OG // Hoodie \u2014 Zero Hour [Scene 026]",
+      "title": "OG // Hoodie — Zero Hour [Scene 026]",
       "category": "hoodie",
       "price": "1209",
       "compare_at_price": "1511",
-      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 026. Premium craftsmanship meets fan passion.",
+      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe — Scene 026. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
         "CORE",
@@ -422,14 +424,14 @@
       ],
       "merch_score": 0.7092854472680586,
       "seo": {
-        "title": "Zero Hour Hoodie \u2014 OG Official",
+        "title": "Zero Hour Hoodie — OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Steel Blue / Gold."
       },
       "primaryImage": "/PRODUCTS/hoodies/product5/back/WhatsApp%20Image%202025-08-31%20at%209.06.47%20AM.jpeg"
     },
     {
       "id": "og-tee-zero-hour",
-      "title": "OG // Tee \u2014 Zero Hour",
+      "title": "OG // Tee — Zero Hour",
       "category": "tee",
       "price": "937",
       "compare_at_price": "1171",
@@ -476,18 +478,18 @@
       ],
       "merch_score": 0.9073297077693345,
       "seo": {
-        "title": "Zero Hour Tee \u2014 OG Official",
+        "title": "Zero Hour Tee — OG Official",
         "description": "Cinematic teeshirt with premium design. REBEL_DROP drop. War Paint Red."
       },
       "primaryImage": "/PRODUCTS/teeshirt/Neon%20Lights/front/WhatsApp%20Image%202025-08-31%20at%208.59.08%20AM.jpeg"
     },
     {
       "id": "og-shirt-thunder-strike-scene-108",
-      "title": "OG // Shirt \u2014 Thunder Strike [Scene 108]",
+      "title": "OG // Shirt — Thunder Strike [Scene 108]",
       "category": "shirt",
       "price": "937",
       "compare_at_price": "1171",
-      "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 108. Premium craftsmanship meets fan passion.",
+      "description": "Cinematic gear for the chosen army. Inspired by the OG universe — Scene 108. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SHIRT",
         "CORE",
@@ -530,18 +532,18 @@
       ],
       "merch_score": 0.9177023919622338,
       "seo": {
-        "title": "Thunder Strike Shirt \u2014 OG Official",
+        "title": "Thunder Strike Shirt — OG Official",
         "description": "Cinematic full shirts with premium design. REBEL_DROP drop. Brass / Smoke Gray."
       },
       "primaryImage": "/PRODUCTS/full%20shirts/product2/front/WhatsApp%20Image%202025-08-31%20at%2010.49.06%20AM.jpeg"
     },
     {
       "id": "og-hoodie-thunder-strike-scene-020",
-      "title": "OG // Hoodie \u2014 Thunder Strike [Scene 020]",
+      "title": "OG // Hoodie — Thunder Strike [Scene 020]",
       "category": "hoodie",
       "price": "1399",
       "compare_at_price": "1748",
-      "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 020. Premium craftsmanship meets fan passion.",
+      "description": "Cinematic gear for the chosen army. Inspired by the OG universe — Scene 020. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
         "CORE",
@@ -584,18 +586,18 @@
       ],
       "merch_score": 0.8205713351495326,
       "seo": {
-        "title": "Thunder Strike Hoodie \u2014 OG Official",
+        "title": "Thunder Strike Hoodie — OG Official",
         "description": "Cinematic hoodies with premium design. BEST_SELLER drop. Midnight Black."
       },
       "primaryImage": "/PRODUCTS/hoodies/product7/back/WhatsApp%20Image%202025-08-31%20at%209.06.48%20AM.jpeg"
     },
     {
       "id": "og-headband-thunder-strike-scene-029",
-      "title": "OG // Headband \u2014 Thunder Strike [Scene 029]",
+      "title": "OG // Headband — Thunder Strike [Scene 029]",
       "category": "headband",
       "price": "249",
       "compare_at_price": "311",
-      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 029. Premium craftsmanship meets fan passion.",
+      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe — Scene 029. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HEADBAND",
         "UNDER_999",
@@ -638,14 +640,14 @@
       ],
       "merch_score": 0.6895280306795343,
       "seo": {
-        "title": "Thunder Strike Headband \u2014 OG Official",
+        "title": "Thunder Strike Headband — OG Official",
         "description": "Cinematic headband with premium design. UNDER_999 drop. Jet Black / Blood Red."
       },
       "primaryImage": "/PRODUCTS/HeadBand/WhatsApp%20Image%202025-08-31%20at%208.55.49%20AM%20(2).jpeg"
     },
     {
       "id": "og-cap-thunder-strike",
-      "title": "OG // Cap \u2014 Thunder Strike",
+      "title": "OG // Cap — Thunder Strike",
       "category": "cap",
       "price": "849",
       "compare_at_price": "1061",
@@ -693,18 +695,18 @@
       ],
       "merch_score": 0.8131568561449456,
       "seo": {
-        "title": "Thunder Strike Cap \u2014 OG Official",
+        "title": "Thunder Strike Cap — OG Official",
         "description": "Cinematic hats with premium design. BEST_SELLER drop. Jet Black / Blood Red."
       },
       "primaryImage": "/PRODUCTS/hats/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM%20(1).jpeg"
     },
     {
       "id": "og-hoodie-storm-chase-scene-037",
-      "title": "OG // Hoodie \u2014 Storm Chase [Scene 037]",
+      "title": "OG // Hoodie — Storm Chase [Scene 037]",
       "category": "hoodie",
       "price": "1209",
       "compare_at_price": "1511",
-      "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 037. Premium craftsmanship meets fan passion.",
+      "description": "Cinematic gear for the chosen army. Inspired by the OG universe — Scene 037. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
         "CORE",
@@ -745,18 +747,18 @@
       ],
       "merch_score": 0.7057897261678692,
       "seo": {
-        "title": "Storm Chase Hoodie \u2014 OG Official",
+        "title": "Storm Chase Hoodie — OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Jet Black / Blood Red."
       },
       "primaryImage": "/PRODUCTS/hoodies/product8/back/WhatsApp%20Image%202025-08-31%20at%209.06.46%20AM.jpeg"
     },
     {
       "id": "og-slide-storm-chase-scene-118",
-      "title": "OG // Slide \u2014 Storm Chase [Scene 118]",
+      "title": "OG // Slide — Storm Chase [Scene 118]",
       "category": "slide",
       "price": "1099",
       "compare_at_price": "1373",
-      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 118. Premium craftsmanship meets fan passion.",
+      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe — Scene 118. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SLIDE",
         "UNDER_999",
@@ -801,18 +803,18 @@
       ],
       "merch_score": 0.8435947597982711,
       "seo": {
-        "title": "Storm Chase Slide \u2014 OG Official",
+        "title": "Storm Chase Slide — OG Official",
         "description": "Cinematic slippers with premium design. BEST_SELLER drop. Midnight Black."
       },
       "primaryImage": "/PRODUCTS/slippers/product1/back/WhatsApp%20Image%202025-08-31%20at%208.55.47%20AM%20(2).jpeg"
     },
     {
       "id": "og-tee-storm-chase-scene-031",
-      "title": "OG // Tee \u2014 Storm Chase [Scene 031]",
+      "title": "OG // Tee — Storm Chase [Scene 031]",
       "category": "tee",
       "price": "937",
       "compare_at_price": "1171",
-      "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 031. Premium craftsmanship meets fan passion.",
+      "description": "Cinematic gear for the chosen army. Inspired by the OG universe — Scene 031. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_TEE",
         "VAULT_PRICE",
@@ -855,18 +857,18 @@
       ],
       "merch_score": 0.7762337295876337,
       "seo": {
-        "title": "Storm Chase Tee \u2014 OG Official",
+        "title": "Storm Chase Tee — OG Official",
         "description": "Cinematic teeshirt with premium design. VAULT_EXCLUSIVE drop. Battle Smoke."
       },
       "primaryImage": "/PRODUCTS/teeshirt/Vintage%20Typography/front/WhatsApp%20Image%202025-08-31%20at%209.09.12%20AM.jpeg"
     },
     {
       "id": "og-hoodie-shadow-strike-scene-048",
-      "title": "OG // Hoodie \u2014 Shadow Strike [Scene 048]",
+      "title": "OG // Hoodie — Shadow Strike [Scene 048]",
       "category": "hoodie",
       "price": "1209",
       "compare_at_price": "1511",
-      "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 048. Premium craftsmanship meets fan passion.",
+      "description": "Premium warfare. Limited drop. Inspired by the OG universe — Scene 048. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
         "CORE",
@@ -906,14 +908,14 @@
       ],
       "merch_score": 0.7304729771258203,
       "seo": {
-        "title": "Shadow Strike Hoodie \u2014 OG Official",
+        "title": "Shadow Strike Hoodie — OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Steel Blue / Gold."
       },
       "primaryImage": "/PRODUCTS/hoodies/product17/front/WhatsApp%20Image%202025-08-31%20at%2010.49.06%20AM%20(1).jpeg"
     },
     {
       "id": "og-poster-shadow-strike",
-      "title": "OG // Poster \u2014 Shadow Strike",
+      "title": "OG // Poster — Shadow Strike",
       "category": "poster",
       "price": "699",
       "compare_at_price": "873",
@@ -960,18 +962,18 @@
       ],
       "merch_score": 0.6047055001555991,
       "seo": {
-        "title": "Shadow Strike Poster \u2014 OG Official",
+        "title": "Shadow Strike Poster — OG Official",
         "description": "Cinematic posters with premium design. VAULT_EXCLUSIVE drop. War Paint Red."
       },
       "primaryImage": "/PRODUCTS/posters/product2/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(4).jpeg"
     },
     {
       "id": "og-hoodie-midnight-prowl-scene-044",
-      "title": "OG // Hoodie \u2014 Midnight Prowl [Scene 044]",
+      "title": "OG // Hoodie — Midnight Prowl [Scene 044]",
       "category": "hoodie",
       "price": "1399",
       "compare_at_price": "1748",
-      "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 044. Premium craftsmanship meets fan passion.",
+      "description": "Cinematic gear for the chosen army. Inspired by the OG universe — Scene 044. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
         "CORE",
@@ -1013,7 +1015,7 @@
       ],
       "merch_score": 0.8473531586393188,
       "seo": {
-        "title": "Midnight Prowl Hoodie \u2014 OG Official",
+        "title": "Midnight Prowl Hoodie — OG Official",
         "description": "Cinematic hoodies with premium design. BEST_SELLER drop. Midnight Black."
       },
       "primaryImage": "/PRODUCTS/hoodies/product6/front/WhatsApp%20Image%202025-08-31%20at%209.06.50%20AM%20(1).jpeg",
@@ -1021,11 +1023,11 @@
     },
     {
       "id": "og-poster-midnight-prowl-scene-066",
-      "title": "OG // Poster \u2014 Midnight Prowl [Scene 066]",
+      "title": "OG // Poster — Midnight Prowl [Scene 066]",
       "category": "poster",
       "price": "399",
       "compare_at_price": "498",
-      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 066. Premium craftsmanship meets fan passion.",
+      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe — Scene 066. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
         "UNDER_999",
@@ -1068,14 +1070,14 @@
       ],
       "merch_score": 0.7055368282999035,
       "seo": {
-        "title": "Midnight Prowl Poster \u2014 OG Official",
+        "title": "Midnight Prowl Poster — OG Official",
         "description": "Cinematic posters with premium design. UNDER_999 drop. Hunter Green."
       },
       "primaryImage": "/PRODUCTS/posters/product10/WhatsApp%20Image%202025-08-31%20at%209.24.20%20AM.jpeg"
     },
     {
       "id": "og-hoodie-iron-will",
-      "title": "OG // Hoodie \u2014 Iron Will",
+      "title": "OG // Hoodie — Iron Will",
       "category": "hoodie",
       "price": "1499",
       "compare_at_price": "1873",
@@ -1122,18 +1124,18 @@
       ],
       "merch_score": 0.8981123317637547,
       "seo": {
-        "title": "Iron Will Hoodie \u2014 OG Official",
+        "title": "Iron Will Hoodie — OG Official",
         "description": "Cinematic hoodies with premium design. REBEL_DROP drop. Jet Black / Blood Red."
       },
       "primaryImage": "/PRODUCTS/hoodies/product1/back/WhatsApp%20Image%202025-08-31%20at%209.06.47%20AM%20(2).jpeg"
     },
     {
       "id": "og-wallet-iron-will-scene-145",
-      "title": "OG // Wallet \u2014 Iron Will [Scene 145]",
+      "title": "OG // Wallet — Iron Will [Scene 145]",
       "category": "wallet",
       "price": "1149",
       "compare_at_price": "1436",
-      "description": "This isn't merch. It's a callsign. Inspired by the OG universe \u2014 Scene 145. Premium craftsmanship meets fan passion.",
+      "description": "This isn't merch. It's a callsign. Inspired by the OG universe — Scene 145. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_WALLET",
         "UNDER_999",
@@ -1176,14 +1178,14 @@
       ],
       "merch_score": 0.6390456116709687,
       "seo": {
-        "title": "Iron Will Wallet \u2014 OG Official",
+        "title": "Iron Will Wallet — OG Official",
         "description": "Cinematic wallet with premium design. UNDER_999 drop. War Paint Red."
       },
       "primaryImage": "/PRODUCTS/wallet/product1/WhatsApp%20Image%202025-08-31%20at%208.55.48%20AM.jpeg"
     },
     {
       "id": "og-cap-iron-will",
-      "title": "OG // Cap \u2014 Iron Will",
+      "title": "OG // Cap — Iron Will",
       "category": "cap",
       "price": "849",
       "compare_at_price": "1061",
@@ -1232,18 +1234,18 @@
       ],
       "merch_score": 0.8086081271193901,
       "seo": {
-        "title": "Iron Will Cap \u2014 OG Official",
+        "title": "Iron Will Cap — OG Official",
         "description": "Cinematic hats with premium design. BEST_SELLER drop. Midnight Black."
       },
       "primaryImage": "/PRODUCTS/hats/product2/back/WhatsApp%20Image%202025-08-31%20at%208.59.03%20AM.jpeg"
     },
     {
       "id": "og-sweatshirt-iron-will-scene-121",
-      "title": "OG // Sweatshirt \u2014 Iron Will [Scene 121]",
+      "title": "OG // Sweatshirt — Iron Will [Scene 121]",
       "category": "sweatshirt",
       "price": "1399",
       "compare_at_price": "1748",
-      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 121. Premium craftsmanship meets fan passion.",
+      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe — Scene 121. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SWEATSHIRT",
         "VAULT_PRICE",
@@ -1284,18 +1286,18 @@
       ],
       "merch_score": 0.6944798885500784,
       "seo": {
-        "title": "Iron Will Sweatshirt \u2014 OG Official",
+        "title": "Iron Will Sweatshirt — OG Official",
         "description": "Cinematic sweatshirts with premium design. VAULT_EXCLUSIVE drop. Midnight Black."
       },
       "primaryImage": "/PRODUCTS/Sweatshirts/product1/front/WhatsApp%20Image%202025-08-31%20at%209.00.54%20AM.jpeg"
     },
     {
       "id": "og-hoodie-veta-vision-scene-090",
-      "title": "OG // Hoodie \u2014 Veta Vision [Scene 090]",
+      "title": "OG // Hoodie — Veta Vision [Scene 090]",
       "category": "hoodie",
       "price": "1209",
       "compare_at_price": "1511",
-      "description": "This isn't merch. It's a callsign. Inspired by the OG universe \u2014 Scene 090. Premium craftsmanship meets fan passion.",
+      "description": "This isn't merch. It's a callsign. Inspired by the OG universe — Scene 090. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
         "CORE",
@@ -1336,18 +1338,18 @@
       ],
       "merch_score": 0.6083774195988106,
       "seo": {
-        "title": "Veta Vision Hoodie \u2014 OG Official",
+        "title": "Veta Vision Hoodie — OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. War Paint Red."
       },
       "primaryImage": "/PRODUCTS/hoodies/product16/back/WhatsApp%20Image%202025-08-31%20at%2010.49.08%20AM.jpeg"
     },
     {
       "id": "og-sweatshirt-veta-vision-scene-139",
-      "title": "OG // Sweatshirt \u2014 Veta Vision [Scene 139]",
+      "title": "OG // Sweatshirt — Veta Vision [Scene 139]",
       "category": "sweatshirt",
       "price": "1099",
       "compare_at_price": "1373",
-      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 139. Premium craftsmanship meets fan passion.",
+      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe — Scene 139. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SWEATSHIRT",
         "CORE",
@@ -1388,18 +1390,18 @@
       ],
       "merch_score": 0.7071565411338774,
       "seo": {
-        "title": "Veta Vision Sweatshirt \u2014 OG Official",
+        "title": "Veta Vision Sweatshirt — OG Official",
         "description": "Cinematic sweatshirts with premium design. Limited drop. War Paint Red."
       },
       "primaryImage": "/PRODUCTS/Sweatshirts/product4/front/WhatsApp%20Image%202025-08-31%20at%209.01.36%20AM.jpeg"
     },
     {
       "id": "og-hoodie-katana-rain-scene-106",
-      "title": "OG // Hoodie \u2014 Katana Rain",
+      "title": "OG // Hoodie — Katana Rain",
       "category": "hoodie",
       "price": "1209",
       "compare_at_price": "1511",
-      "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 106. Premium craftsmanship meets fan passion.",
+      "description": "Premium warfare. Limited drop. Inspired by the OG universe — Scene 106. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
         "CORE",
@@ -1448,7 +1450,7 @@
       ],
       "merch_score": 0.7391456134873432,
       "seo": {
-        "title": "Katana Rain Hoodie \u2014 OG Official",
+        "title": "Katana Rain Hoodie — OG Official",
         "description": "Cinematic hoodies with premium design. Limited drop. Jet Black / Blood Red."
       },
       "primaryImage": "/PRODUCTS/hoodies/product3/back/WhatsApp%20Image%202025-08-31%20at%209.06.45%20AM%20(2).jpeg",
@@ -1470,12 +1472,12 @@
       },
       "hasVariants": true,
       "defaultColor": "Jet Black / Blood Red",
-      "price_range": "\u20b91209 - \u20b91499",
+      "price_range": "₹1209 - ₹1499",
       "variant_count": 2
     },
     {
       "id": "og-hoodie-alley-hunt",
-      "title": "OG // Hoodie \u2014 Alley Hunt",
+      "title": "OG // Hoodie — Alley Hunt",
       "category": "hoodie",
       "price": "1399",
       "compare_at_price": "1748",
@@ -1520,18 +1522,18 @@
       ],
       "merch_score": 0.7890915412721862,
       "seo": {
-        "title": "Alley Hunt Hoodie \u2014 OG Official",
+        "title": "Alley Hunt Hoodie — OG Official",
         "description": "Cinematic hoodies with premium design. BEST_SELLER drop. Battle Smoke."
       },
       "primaryImage": "/PRODUCTS/hoodies/product14/front/WhatsApp%20Image%202025-08-31%20at%2010.49.07%20AM%20(2).jpeg"
     },
     {
       "id": "og-hoodie-brass-mark-scene-144",
-      "title": "OG // Hoodie \u2014 Brass Mark",
+      "title": "OG // Hoodie — Brass Mark",
       "category": "hoodie",
       "price": "1499",
       "compare_at_price": "1873",
-      "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 144. Premium craftsmanship meets fan passion.",
+      "description": "Premium warfare. Limited drop. Inspired by the OG universe — Scene 144. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_HOODIE",
         "CORE",
@@ -1583,7 +1585,7 @@
       ],
       "merch_score": 0.8826243965754677,
       "seo": {
-        "title": "Brass Mark Hoodie \u2014 OG Official",
+        "title": "Brass Mark Hoodie — OG Official",
         "description": "Cinematic hoodies with premium design. REBEL_DROP drop. Hunter Green."
       },
       "primaryImage": "/PRODUCTS/hoodies/product18/back/WhatsApp%20Image%202025-08-31%20at%2010.49.05%20AM.jpeg",
@@ -1609,11 +1611,11 @@
     },
     {
       "id": "og-slide-war-paint-scene-111",
-      "title": "OG // Slide \u2014 War Paint [Scene 111]",
+      "title": "OG // Slide — War Paint [Scene 111]",
       "category": "slide",
       "price": "899",
       "compare_at_price": "1123",
-      "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 111. Premium craftsmanship meets fan passion.",
+      "description": "Cinematic gear for the chosen army. Inspired by the OG universe — Scene 111. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_SLIDE",
         "UNDER_999",
@@ -1655,14 +1657,14 @@
       ],
       "merch_score": 0.6925956567955619,
       "seo": {
-        "title": "War Paint Slide \u2014 OG Official",
+        "title": "War Paint Slide — OG Official",
         "description": "Cinematic slippers with premium design. UNDER_999 drop. Hunter Green."
       },
       "primaryImage": "/PRODUCTS/slippers/product2/front/WhatsApp%20Image%202025-08-31%20at%208.55.46%20AM.jpeg"
     },
     {
       "id": "og-poster-war-paint",
-      "title": "OG // Poster \u2014 War Paint",
+      "title": "OG // Poster — War Paint",
       "category": "poster",
       "price": "399",
       "compare_at_price": "498",
@@ -1724,7 +1726,7 @@
       ],
       "merch_score": 0.6499416123282395,
       "seo": {
-        "title": "War Paint Poster \u2014 OG Official",
+        "title": "War Paint Poster — OG Official",
         "description": "Cinematic posters with premium design. UNDER_999 drop. War Paint Red."
       },
       "primaryImage": "/PRODUCTS/posters/product8/WhatsApp%20Image%202025-08-31%20at%209.24.20%20AM%20(1).jpeg",
@@ -1754,11 +1756,11 @@
     },
     {
       "id": "og-tee-cinder-fade-scene-096",
-      "title": "OG // Tee \u2014 Cinder Fade [Scene 096]",
+      "title": "OG // Tee — Cinder Fade [Scene 096]",
       "category": "tee",
       "price": "749",
       "compare_at_price": "936",
-      "description": "Cinematic gear for the chosen army. Inspired by the OG universe \u2014 Scene 096. Premium craftsmanship meets fan passion.",
+      "description": "Cinematic gear for the chosen army. Inspired by the OG universe — Scene 096. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_TEE",
         "CORE",
@@ -1799,14 +1801,14 @@
       ],
       "merch_score": 0.7078657776725523,
       "seo": {
-        "title": "Cinder Fade Tee \u2014 OG Official",
+        "title": "Cinder Fade Tee — OG Official",
         "description": "Cinematic teeshirt with premium design. Limited drop. Jet Black / Blood Red."
       },
       "primaryImage": "/PRODUCTS/teeshirt/Tropical%20Paradise/back/WhatsApp%20Image%202025-08-31%20at%208.59.40%20AM.jpeg"
     },
     {
       "id": "og-tee-rebel-stare",
-      "title": "OG // Tee \u2014 Rebel Stare",
+      "title": "OG // Tee — Rebel Stare",
       "category": "tee",
       "price": "887",
       "compare_at_price": "1108",
@@ -1852,18 +1854,18 @@
       ],
       "merch_score": 0.7800640327135608,
       "seo": {
-        "title": "Rebel Stare Tee \u2014 OG Official",
+        "title": "Rebel Stare Tee — OG Official",
         "description": "Cinematic teeshirt with premium design. BEST_SELLER drop. Battle Smoke."
       },
       "primaryImage": "/PRODUCTS/teeshirt/Space%20Exploration/front/WhatsApp%20Image%202025-08-31%20at%208.59.04%20AM.jpeg"
     },
     {
       "id": "og-poster-hungry-cheetah-scene-090",
-      "title": "OG // Poster \u2014 Hungry Cheetah [Scene 090]",
+      "title": "OG // Poster — Hungry Cheetah [Scene 090]",
       "category": "poster",
       "price": "399",
       "compare_at_price": "498",
-      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe \u2014 Scene 090. Premium craftsmanship meets fan passion.",
+      "description": "Numbered collectible. Not for the weak. Inspired by the OG universe — Scene 090. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
         "UNDER_999",
@@ -1905,18 +1907,18 @@
       ],
       "merch_score": 0.6744840884576612,
       "seo": {
-        "title": "Hungry Cheetah Poster \u2014 OG Official",
+        "title": "Hungry Cheetah Poster — OG Official",
         "description": "Cinematic posters with premium design. UNDER_999 drop. Brass / Smoke Gray."
       },
       "primaryImage": "/PRODUCTS/posters/product3/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(3).jpeg"
     },
     {
       "id": "og-poster-smoke-trail-scene-064",
-      "title": "OG // Poster \u2014 Smoke Trail",
+      "title": "OG // Poster — Smoke Trail",
       "category": "poster",
       "price": "699",
       "compare_at_price": "873",
-      "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 064. Premium craftsmanship meets fan passion.",
+      "description": "Premium warfare. Limited drop. Inspired by the OG universe — Scene 064. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
         "UNDER_999",
@@ -1964,7 +1966,7 @@
       ],
       "merch_score": 0.9161967857386452,
       "seo": {
-        "title": "Smoke Trail Poster \u2014 OG Official",
+        "title": "Smoke Trail Poster — OG Official",
         "description": "Cinematic posters with premium design. REBEL_DROP drop. Steel Blue / Gold."
       },
       "primaryImage": "/PRODUCTS/posters/product5/WhatsApp%20Image%202025-08-31%20at%209.24.21%20AM%20(1).jpeg",
@@ -1988,11 +1990,11 @@
     },
     {
       "id": "og-poster-night-run-scene-137",
-      "title": "OG // Poster \u2014 Night Run",
+      "title": "OG // Poster — Night Run",
       "category": "poster",
       "price": "399",
       "compare_at_price": "498",
-      "description": "Premium warfare. Limited drop. Inspired by the OG universe \u2014 Scene 137. Premium craftsmanship meets fan passion.",
+      "description": "Premium warfare. Limited drop. Inspired by the OG universe — Scene 137. Premium craftsmanship meets fan passion.",
       "tags": [
         "CAT_POSTER",
         "UNDER_999",
@@ -2040,7 +2042,7 @@
       ],
       "merch_score": 0.6226960583944796,
       "seo": {
-        "title": "Night Run Poster \u2014 OG Official",
+        "title": "Night Run Poster — OG Official",
         "description": "Cinematic posters with premium design. UNDER_999 drop. Hunter Green."
       },
       "primaryImage": "/PRODUCTS/posters/product4/WhatsApp%20Image%202025-08-31%20at%209.24.20%20AM%20(2).jpeg",
@@ -2061,6 +2063,193 @@
       "hasVariants": true,
       "defaultColor": "Hunter Green",
       "variant_count": 2
+    },
+    {
+      "id": "og-shirt-blood-oath-scene-029",
+      "title": "OG // Shirt — Blood Oath [Scene 029]",
+      "category": "shirt",
+      "price": 749,
+      "compare_at_price": 936,
+      "concept": "Blood Oath",
+      "scene_code": "029",
+      "colorway": "Hunter Green",
+      "badges": [
+        "BEST_SELLER"
+      ],
+      "images": [
+        "WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg"
+      ],
+      "primaryImage": "/PRODUCTS/full shirts/product1/front/WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg"
+    },
+    {
+      "id": "og-shirt-blood-oath-scene-148",
+      "title": "OG // Shirt — Blood Oath [Scene 148]",
+      "category": "shirt",
+      "price": 887,
+      "compare_at_price": 1108,
+      "concept": "Blood Oath",
+      "scene_code": "148",
+      "colorway": "War Paint Red",
+      "badges": [
+        "BEST_SELLER"
+      ],
+      "images": [
+        "WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg"
+      ],
+      "primaryImage": "/PRODUCTS/full shirts/product1/front/WhatsApp Image 2025-08-31 at 10.49.05 AM (1).jpeg"
+    },
+    {
+      "id": "og-tee-zero-hour-scene-147",
+      "title": "OG // Tee — Zero Hour [Scene 147]",
+      "category": "tee",
+      "price": 749,
+      "compare_at_price": 936,
+      "concept": "Zero Hour",
+      "scene_code": "147",
+      "colorway": "Midnight Black",
+      "badges": [
+        "REBEL_DROP"
+      ],
+      "images": [
+        "tee-zero-hour.jpeg"
+      ],
+      "primaryImage": "/PRODUCTS/tees/product2/front/tee-zero-hour.jpeg"
+    },
+    {
+      "id": "og-tee-thunder-strike-scene-105",
+      "title": "OG // Tee — Thunder Strike [Scene 105]",
+      "category": "tee",
+      "price": 937,
+      "compare_at_price": 1171,
+      "concept": "Thunder Strike",
+      "scene_code": "105",
+      "colorway": "Steel Blue / Gold",
+      "badges": [
+        "BEST_SELLER"
+      ],
+      "images": [
+        "tee-thunder-strike.jpeg"
+      ],
+      "primaryImage": "/PRODUCTS/tees/product3/front/tee-thunder-strike.jpeg"
+    },
+    {
+      "id": "og-shirt-fire-storm-scene-067",
+      "title": "OG // Shirt — Fire Storm [Scene 067]",
+      "category": "shirt",
+      "price": 899,
+      "compare_at_price": 1124,
+      "concept": "Fire Storm",
+      "scene_code": "067",
+      "colorway": "Brass / Smoke Gray",
+      "badges": [
+        "NEW_DROP"
+      ],
+      "images": [
+        "shirt-fire-storm.jpeg"
+      ],
+      "primaryImage": "/PRODUCTS/shirts/product4/front/shirt-fire-storm.jpeg"
+    },
+    {
+      "id": "og-hoodie-fire-storm-scene-098",
+      "title": "OG // Hoodie — Fire Storm [Scene 098]",
+      "category": "hoodie",
+      "price": 1399,
+      "compare_at_price": 1749,
+      "concept": "Fire Storm",
+      "scene_code": "098",
+      "colorway": "Battle Smoke",
+      "badges": [
+        "PREMIUM"
+      ],
+      "images": [
+        "hoodie-fire-storm.jpeg"
+      ],
+      "primaryImage": "/PRODUCTS/hoodies/product7/back/hoodie-fire-storm.jpeg"
+    },
+    {
+      "id": "og-poster-war-machine-scene-005",
+      "title": "OG // Poster — War Machine [Scene 005]",
+      "category": "poster",
+      "price": 399,
+      "compare_at_price": 499,
+      "concept": "War Machine",
+      "scene_code": "005",
+      "colorway": "Jet Black / Blood Red",
+      "badges": [
+        "COLLECTOR_ITEM"
+      ],
+      "images": [
+        "poster-war-machine.jpeg"
+      ],
+      "primaryImage": "/PRODUCTS/posters/product1/front/poster-war-machine.jpeg"
+    },
+    {
+      "id": "og-poster-thunder-lord-scene-033",
+      "title": "OG // Poster — Thunder Lord [Scene 033]",
+      "category": "poster",
+      "price": 349,
+      "compare_at_price": 436,
+      "concept": "Thunder Lord",
+      "scene_code": "033",
+      "colorway": "Electric Blue",
+      "badges": [
+        "LIMITED_EDITION"
+      ],
+      "images": [
+        "poster-thunder-lord.jpeg"
+      ],
+      "primaryImage": "/PRODUCTS/posters/product2/front/poster-thunder-lord.jpeg"
+    },
+    {
+      "id": "og-tee-shadow-hunter-scene-112",
+      "title": "OG // Tee — Shadow Hunter [Scene 112]",
+      "category": "tee",
+      "price": 799,
+      "compare_at_price": 999,
+      "concept": "Shadow Hunter",
+      "scene_code": "112",
+      "colorway": "Charcoal Gray",
+      "badges": [
+        "STEALTH_SERIES"
+      ],
+      "images": [
+        "tee-shadow-hunter.jpeg"
+      ],
+      "primaryImage": "/PRODUCTS/tees/product6/front/tee-shadow-hunter.jpeg"
+    },
+    {
+      "id": "og-headband-rebel-mark-scene-081",
+      "title": "OG // Headband — Rebel Mark [Scene 081]",
+      "category": "headband",
+      "price": 249,
+      "compare_at_price": 311,
+      "concept": "Rebel Mark",
+      "scene_code": "081",
+      "colorway": "Combat Black",
+      "badges": [
+        "ESSENTIAL"
+      ],
+      "images": [
+        "headband-rebel-mark.jpeg"
+      ],
+      "primaryImage": "/PRODUCTS/headbands/product2/front/headband-rebel-mark.jpeg"
+    },
+    {
+      "id": "og-cap-war-paint-scene-044",
+      "title": "OG // Cap — War Paint [Scene 044]",
+      "category": "cap",
+      "price": 449,
+      "compare_at_price": 561,
+      "concept": "War Paint",
+      "scene_code": "044",
+      "colorway": "Military Green",
+      "badges": [
+        "TACTICAL"
+      ],
+      "images": [
+        "cap-war-paint.jpeg"
+      ],
+      "primaryImage": "/PRODUCTS/caps/product3/front/cap-war-paint.jpeg"
     }
   ]
 }
