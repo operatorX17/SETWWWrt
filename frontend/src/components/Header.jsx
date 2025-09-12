@@ -30,12 +30,12 @@ const Header = () => {
     initializeCustomer();
   }, []);
 
-  // Scroll detection for navigation visibility - ALWAYS SHOW EXCEPT HOME
+  // Scroll detection for navigation visibility - ALWAYS SHOW EXCEPT HOME, MORE CONSISTENT
   useEffect(() => {
     const isHomePage = location.pathname === '/';
     
     if (!isHomePage) {
-      // Always show header on non-home pages
+      // Always show header on non-home pages - CONSTANT VISIBILITY
       setIsVisible(true);
       return;
     }
@@ -47,13 +47,7 @@ const Header = () => {
       
       // Only show header after scrolling past the hero video section on home page
       if (currentScrollY > heroVideoHeight - 100) {
-        // Show header when scrolling up or when past hero video
-        if (currentScrollY < lastScrollY) {
-          setIsVisible(true);
-        } else {
-          // Hide header when scrolling down (but only after hero video)
-          setIsVisible(false);
-        }
+        setIsVisible(true); // Always show once visible on home page
       } else {
         // Hide header completely when in hero video section on home page
         setIsVisible(false);
