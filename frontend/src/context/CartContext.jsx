@@ -32,7 +32,12 @@ const cartReducer = (state, action) => {
       };
     
     case 'REMOVE_ITEM':
-      const filteredItems = state.items.filter(item => item.id !== action.payload);
+      const filteredItems = state.items.filter(item => {
+        if (typeof action.payload === 'object') {
+          return !(item.id === action.payload.id && item.selectedSize === action.payload.selectedSize);
+        }
+        return item.id !== action.payload;
+      });
       return {
         ...state,
         items: filteredItems,
@@ -41,14 +46,22 @@ const cartReducer = (state, action) => {
     
     case 'UPDATE_QUANTITY':
       if (action.payload.quantity === 0) {
-        return cartReducer(state, { type: 'REMOVE_ITEM', payload: action.payload.id });
+        return cartReducer(state, { 
+          type: 'REMOVE_ITEM', 
+          payload: { id: action.payload.id, selectedSize: action.payload.selectedSize } 
+        });
       }
       
-      const updatedItems = state.items.map(item =>
-        item.id === action.payload.id
+      const updatedItems = state.items.map(item => {
+        const matchesId = item.id === action.payload.id;
+        const matchesSize = action.payload.selectedSize ? 
+          item.selectedSize === action.payload.selectedSize : true;
+        
+        return (matchesId && matchesSize)
           ? { ...item, quantity: action.payload.quantity }
-          : item
-      );
+          : item;
+      });
+      
       return {
         ...state,
         items: updatedItems,
