@@ -189,7 +189,7 @@ const ProductDetail = () => {
       <Header />
       <FloatingNavigation />
       
-      <main className="pt-32 pb-8">
+      <main style={{ paddingTop: '80px' }} className="pb-8">
         <div className="max-w-7xl mx-auto px-4">
           {/* Back Button */}
           <button 
