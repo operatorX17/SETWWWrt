@@ -7,25 +7,9 @@ const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const { itemCount } = useCart();
-  const { items: wishlistItems } = useWishlist();
-  const { theme } = useTheme();
-  const { user, logout } = useAuth();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const { currentTier, totalPurchases } = useTier();
-
-  // Check if current theme is OG
-  const isOGTheme = theme?.name === 'og' || theme?.slug === 'og' || theme === 'og';
-
-  const getTierDisplay = () => {
-    return {
-      name: currentTier?.name || 'SOLDIER',
-      color: currentTier?.color || '#ff0000',
-      next: currentTier?.next || 'LIEUTENANT',
-      progress: Math.min((totalPurchases / (currentTier?.threshold || 10000)) * 100, 100)
-    };
-  };
 
   // Scroll detection for navigation visibility - ALWAYS SHOW EXCEPT HOME, MORE CONSISTENT
   useEffect(() => {
@@ -60,32 +44,22 @@ const Header = () => {
   }, [lastScrollY, location.pathname]);
 
   const handleAuthAction = () => {
-    if (user) {
-      logout();
-    } else {
-      navigate('/auth');
-    }
+    navigate('/profile');
   };
-
-  const tierDisplay = getTierDisplay();
 
   return (
     <div className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${
       isVisible ? 'translate-y-0' : '-translate-y-full'
     }`} style={{ height: '80px' }}>
-      {/* Dynamic Banner - UPDATED WITH DELIVERY PROMISE */}
+      {/* Dynamic Banner */}
       <div className="bg-[var(--color-accent)] text-[var(--color-bg)] text-center py-2 text-sm font-medium tracking-wider">
-        {isOGTheme ? (
-          <div className="flex items-center justify-center space-x-4">
-            <span>🚀 FREE 3-DAY EXPRESS DELIVERY</span>
-            <span className="hidden md:inline">•</span>
-            <span className="hidden md:inline">🔥 FLASH SALE ENDS SOON</span>
-            <span className="hidden md:inline">•</span>
-            <span className="hidden md:inline">⚡ EVERY FAN IS A SOLDIER</span>
-          </div>
-        ) : (
-          'FREE STANDARD SHIPPING ON ALL ORDERS'
-        )}
+        <div className="flex items-center justify-center space-x-4">
+          <span>🚀 FREE 3-DAY EXPRESS DELIVERY</span>
+          <span className="hidden md:inline">•</span>
+          <span className="hidden md:inline">🔥 FLASH SALE ENDS SOON</span>
+          <span className="hidden md:inline">•</span>
+          <span className="hidden md:inline">⚡ EVERY FAN IS A SOLDIER</span>
+        </div>
       </div>
       
       {/* Main Header */}
@@ -125,26 +99,12 @@ const Header = () => {
 
           {/* Right Side Actions */}
           <div className="flex items-center space-x-4">
-            {/* Tier Display - UPDATED */}
-            <div className="hidden md:flex items-center space-x-2 bg-gradient-to-r from-gray-800 to-gray-700 rounded-full px-3 py-1 border border-gray-600">
-              <div 
-                className="w-2 h-2 rounded-full"
-                style={{ backgroundColor: tierDisplay.color }}
-              />
-              <span className="text-xs font-bold text-white">{tierDisplay.name}</span>
-            </div>
-
             {/* Wishlist */}
             <Link 
               to="/wishlist" 
               className="relative text-[var(--color-text)] hover:text-[var(--color-accent)] transition-colors"
             >
               <Heart size={20} />
-              {wishlistItems.length > 0 && (
-                <span className="absolute -top-2 -right-2 bg-[var(--color-red)] text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
-                  {wishlistItems.length}
-                </span>
-              )}
             </Link>
 
             {/* Cart */}
