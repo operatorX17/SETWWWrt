@@ -1,14 +1,21 @@
 import React, { createContext, useContext, useReducer, useEffect } from 'react';
-import { usePurchase } from './PurchaseContext';
 
 const CartContext = createContext();
 
 const cartReducer = (state, action) => {
   switch (action.type) {
+    case 'LOAD_FROM_STORAGE':
+      return {
+        ...state,
+        items: action.payload.items || [],
+        total: action.payload.total || 0
+      };
+    
     case 'SET_LOADING':
       return { ...state, loading: action.payload };
     
     case 'ADD_ITEM':
+      console.log('Cart: Adding item:', action.payload);
       const existingItemIndex = state.items.findIndex(
         item => item.id === action.payload.id && 
                item.selectedSize === action.payload.selectedSize
@@ -22,22 +29,29 @@ const cartReducer = (state, action) => {
           quantity: newItems[existingItemIndex].quantity + action.payload.quantity
         };
       } else {
-        newItems = state.items.concat(action.payload);
+        newItems = [...state.items, action.payload];
       }
+      
+      const newTotal = newItems.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+      
+      console.log('Cart: New items:', newItems);
+      console.log('Cart: New total:', newTotal);
       
       return {
         ...state,
         items: newItems,
-        total: newItems.reduce((sum, item) => sum + (item.price * item.quantity), 0)
+        total: newTotal
       };
     
     case 'REMOVE_ITEM':
+      console.log('Cart: Removing item:', action.payload);
       const filteredItems = state.items.filter(item => {
         if (typeof action.payload === 'object') {
           return !(item.id === action.payload.id && item.selectedSize === action.payload.selectedSize);
         }
         return item.id !== action.payload;
       });
+      
       return {
         ...state,
         items: filteredItems,
@@ -45,6 +59,8 @@ const cartReducer = (state, action) => {
       };
     
     case 'UPDATE_QUANTITY':
+      console.log('Cart: Updating quantity:', action.payload);
+      
       if (action.payload.quantity === 0) {
         return cartReducer(state, { 
           type: 'REMOVE_ITEM', 
@@ -88,66 +104,65 @@ const initialState = {
 
 export const CartProvider = ({ children }) => {
   const [state, dispatch] = useReducer(cartReducer, initialState);
-  const { recordPurchase } = usePurchase();
 
-  // Load cart from localStorage
+  // Load cart from localStorage on mount
   useEffect(() => {
     try {
       const savedCart = localStorage.getItem('og-cart');
       if (savedCart) {
         const parsedCart = JSON.parse(savedCart);
-        parsedCart.items.forEach(item => {
-          dispatch({ type: 'ADD_ITEM', payload: item });
-        });
+        console.log('Cart: Loading from storage:', parsedCart);
+        dispatch({ type: 'LOAD_FROM_STORAGE', payload: parsedCart });
       }
     } catch (error) {
-      console.warn('Failed to load cart from localStorage:', error);
+      console.error('Failed to load cart from localStorage:', error);
     }
   }, []);
 
-  // Save cart to localStorage
+  // Save cart to localStorage whenever it changes
   useEffect(() => {
     try {
-      localStorage.setItem('og-cart', JSON.stringify({
+      const cartData = {
         items: state.items,
         total: state.total
-      }));
+      };
+      console.log('Cart: Saving to storage:', cartData);
+      localStorage.setItem('og-cart', JSON.stringify(cartData));
     } catch (error) {
-      console.warn('Failed to save cart to localStorage:', error);
+      console.error('Failed to save cart to localStorage:', error);
     }
   }, [state.items, state.total]);
 
-  const addToCart = (product, selectedVariant = null, quantity = 1) => {
+  const addToCart = (product, selectedSize = 'M', quantity = 1) => {
+    console.log('Cart: addToCart called with:', { product: product?.title, selectedSize, quantity });
+    
     // Handle different call formats
     let cartItem;
     
-    if (selectedVariant === null && typeof product === 'object' && product.selectedSize) {
+    if (typeof selectedSize === 'object' || (!selectedSize && product.selectedSize)) {
       // Single parameter call with product containing all info
       cartItem = {
         id: product.id,
-        productId: product.id,
         title: product.title,
-        price: parseInt(product.price),
-        images: product.images,
+        price: parseInt(product.price) || 0,
+        images: product.images || [],
         selectedSize: product.selectedSize || 'M',
         selectedColor: product.selectedColor || 'Default',
         quantity: product.quantity || 1
       };
     } else {
-      // Traditional multi-parameter call
+      // Traditional call
       cartItem = {
         id: product.id,
-        productId: product.id,
         title: product.title,
-        price: parseInt(product.price),
-        images: product.images,
-        selectedSize: selectedVariant?.size || selectedVariant || 'M',
-        selectedColor: product.selectedColor || product.defaultColor || 'Default',
+        price: parseInt(product.price) || 0,
+        images: product.images || [],
+        selectedSize: selectedSize || 'M',
+        selectedColor: product.selectedColor || 'Default',
         quantity: quantity
       };
     }
     
-    console.log('Adding to cart:', cartItem); // Debug log
     dispatch({ type: 'ADD_ITEM', payload: cartItem });
   };
 
@@ -158,40 +173,21 @@ export const CartProvider = ({ children }) => {
     });
   };
 
-  const updateQuantity = (itemId, selectedSize, quantity) => {
+  const updateQuantity = (itemId, selectedSizeOrQuantity, quantity) => {
+    console.log('Cart: updateQuantity called with:', { itemId, selectedSizeOrQuantity, quantity });
+    
     // Handle both 2-parameter and 3-parameter calls
-    if (typeof selectedSize === 'number') {
+    if (typeof selectedSizeOrQuantity === 'number' && !quantity) {
       // 2-parameter call: updateQuantity(itemId, quantity)
-      dispatch({ type: 'UPDATE_QUANTITY', payload: { id: itemId, quantity: selectedSize } });
+      dispatch({ type: 'UPDATE_QUANTITY', payload: { id: itemId, quantity: selectedSizeOrQuantity } });
     } else {
       // 3-parameter call: updateQuantity(itemId, selectedSize, quantity)
-      dispatch({ type: 'UPDATE_QUANTITY', payload: { id: itemId, selectedSize, quantity } });
+      dispatch({ type: 'UPDATE_QUANTITY', payload: { id: itemId, selectedSize: selectedSizeOrQuantity, quantity } });
     }
   };
 
   const clearCart = () => {
     dispatch({ type: 'CLEAR_CART' });
-  };
-
-  // FIXED: Direct checkout with UPI/WhatsApp
-  const proceedToCheckout = () => {
-    const orderText = state.items.map(item => 
-      `${item.name} (${item.selectedVariant?.size || 'Default'}) - Qty: ${item.quantity} - ₹${item.price * item.quantity}`
-    ).join('\n');
-    
-    const total = state.total + (state.total * 0.18); // Add 18% GST
-    const whatsappUrl = `https://wa.me/919876543210?text=🔥 NEW OG ORDER 🔥%0A%0A${encodeURIComponent(orderText)}%0A%0ATotal: ₹${total.toFixed(2)}%0A%0APlease confirm my order!`;
-    
-    // Record the purchase to unlock vault products
-    recordPurchase({
-      items: state.items,
-      total: total
-    });
-    
-    // Clear cart after purchase
-    dispatch({ type: 'CLEAR_CART' });
-    
-    window.open(whatsappUrl, '_blank');
   };
 
   const value = {
@@ -202,8 +198,7 @@ export const CartProvider = ({ children }) => {
     addToCart,
     removeFromCart,
     updateQuantity,
-    clearCart,
-    proceedToCheckout
+    clearCart
   };
 
   return (
