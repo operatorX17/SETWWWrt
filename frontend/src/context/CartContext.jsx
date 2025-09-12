@@ -117,18 +117,37 @@ export const CartProvider = ({ children }) => {
     }
   }, [state.items, state.total]);
 
-  const addToCart = (product, selectedVariant, quantity = 1) => {
-    const cartItem = {
-      id: product.id,
-      productId: product.id,
-      title: product.title, // Use title instead of name
-      price: parseInt(product.price), // Ensure price is a number
-      images: product.images,
-      selectedSize: selectedVariant?.size || selectedVariant || 'M', // Handle different parameter formats
-      selectedColor: product.selectedColor || product.defaultColor || 'Default',
-      quantity: quantity
-    };
+  const addToCart = (product, selectedVariant = null, quantity = 1) => {
+    // Handle different call formats
+    let cartItem;
     
+    if (selectedVariant === null && typeof product === 'object' && product.selectedSize) {
+      // Single parameter call with product containing all info
+      cartItem = {
+        id: product.id,
+        productId: product.id,
+        title: product.title,
+        price: parseInt(product.price),
+        images: product.images,
+        selectedSize: product.selectedSize || 'M',
+        selectedColor: product.selectedColor || 'Default',
+        quantity: product.quantity || 1
+      };
+    } else {
+      // Traditional multi-parameter call
+      cartItem = {
+        id: product.id,
+        productId: product.id,
+        title: product.title,
+        price: parseInt(product.price),
+        images: product.images,
+        selectedSize: selectedVariant?.size || selectedVariant || 'M',
+        selectedColor: product.selectedColor || product.defaultColor || 'Default',
+        quantity: quantity
+      };
+    }
+    
+    console.log('Adding to cart:', cartItem); // Debug log
     dispatch({ type: 'ADD_ITEM', payload: cartItem });
   };
 
