@@ -147,7 +147,7 @@ const Shop = () => {
       <FloatingNavigation />
       
       {/* Fixed spacing for header */}
-      <div className="pt-20">
+      <div style={{ paddingTop: '80px' }}>
         {/* Page Title - Fixed spacing */}
         <div className="bg-gradient-to-r from-orange-900 via-black to-orange-900 text-white py-12 mb-8">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
