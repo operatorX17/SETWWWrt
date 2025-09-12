@@ -30,13 +30,22 @@ const Header = () => {
     initializeCustomer();
   }, []);
 
-  // Scroll detection for navigation visibility - UPDATED TO SHOW AFTER HERO VIDEO
+  // Scroll detection for navigation visibility - ALWAYS SHOW EXCEPT HOME
   useEffect(() => {
+    const isHomePage = location.pathname === '/';
+    
+    if (!isHomePage) {
+      // Always show header on non-home pages
+      setIsVisible(true);
+      return;
+    }
+    
+    // Home page logic - hide until after hero video
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       const heroVideoHeight = window.innerHeight; // Full viewport height for hero video
       
-      // Only show header after scrolling past the hero video section
+      // Only show header after scrolling past the hero video section on home page
       if (currentScrollY > heroVideoHeight - 100) {
         // Show header when scrolling up or when past hero video
         if (currentScrollY < lastScrollY) {
@@ -46,16 +55,18 @@ const Header = () => {
           setIsVisible(false);
         }
       } else {
-        // Hide header completely when in hero video section
+        // Hide header completely when in hero video section on home page
         setIsVisible(false);
       }
       
       setLastScrollY(currentScrollY);
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [lastScrollY]);
+    if (isHomePage) {
+      window.addEventListener('scroll', handleScroll, { passive: true });
+      return () => window.removeEventListener('scroll', handleScroll);
+    }
+  }, [lastScrollY, location.pathname]);
 
   const handleCustomerClick = () => {
     if (customer) {
