@@ -29,8 +29,8 @@ const Contact = () => {
       <Header />
       <FloatingNavigation />
       
-      {/* FIXED: Proper top padding to prevent header overlap */}
-      <div className="pt-32 max-w-7xl mx-auto px-4 py-8">
+      {/* FIXED: Exact header height spacing (80px) */}
+      <div style={{ paddingTop: '80px' }} className="max-w-7xl mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center">
             CONTACT US

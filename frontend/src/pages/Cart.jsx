@@ -16,8 +16,8 @@ const Cart = () => {
         <Header />
         <FloatingNavigation />
         
-        {/* FIXED: Proper top padding to prevent header overlap */}
-        <div className="pt-32 flex items-center justify-center min-h-[60vh]">
+        {/* FIXED: Exact header height spacing (80px) */}
+        <div style={{ paddingTop: '80px' }} className="flex items-center justify-center min-h-[60vh]">
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-4">Your Arsenal is Empty</h2>
             <p className="text-gray-400 mb-8">Add some gear to your collection</p>
@@ -40,8 +40,8 @@ const Cart = () => {
       <Header />
       <FloatingNavigation />
       
-      {/* FIXED: Proper top padding to prevent header overlap */}
-      <div className="pt-32 max-w-7xl mx-auto px-4 py-8">
+      {/* FIXED: Exact header height spacing (80px) */}
+      <div style={{ paddingTop: '80px' }} className="max-w-7xl mx-auto px-4 py-8">
         <div className="flex items-center justify-between mb-8">
           <h1 className="text-3xl font-bold">Your Arsenal</h1>
           <Link 
