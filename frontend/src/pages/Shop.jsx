@@ -189,24 +189,25 @@ const Shop = () => {
           </div>
         </div>
 
-        {/* Products Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {filteredProducts.map((product, index) => (
-            <PremiumProductCard key={`${product.id || product.handle || 'product'}-${index}`} product={product} />
-          ))}
-        </div>
-
-        {filteredProducts.length === 0 && (
-          <div className="text-center py-16">
-            <h3 className="text-2xl font-bold mb-4 text-white">No Products Found</h3>
-            <button
-              onClick={() => handleTabClick('all')}
-              className="text-white hover:text-gray-300 underline"
-            >
-              View all products
-            </button>
+          {/* Products Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            {filteredProducts.map((product, index) => (
+              <PremiumProductCard key={`${product.id || product.handle || 'product'}-${index}`} product={product} />
+            ))}
           </div>
-        )}
+
+          {filteredProducts.length === 0 && (
+            <div className="text-center py-16">
+              <h3 className="text-2xl font-bold mb-4 text-white">No Products Found</h3>
+              <button
+                onClick={() => handleTabClick('all')}
+                className="text-white hover:text-gray-300 underline"
+              >
+                View All Products
+              </button>
+            </div>
+          )}
+        </div>
       </div>
 
       <Footer />
