@@ -64,8 +64,12 @@ const Rail = ({ title, products, showViewAll = false, viewAllLink = "", animated
                     {(() => {
                       let imageToShow = product.images?.[0] || '/placeholder-product.jpg';
                       
-                      // If prioritizeBackImages is true, use back image first
-                      if (prioritizeBackImages && product.backImage) {
+                      // Special handling for products that should show front first
+                      if (product.showFrontFirst) {
+                        // For products like Midnight Prowl, always show front first
+                        imageToShow = product.primaryImage || product.images?.[0] || '/placeholder-product.jpg';
+                      } else if (prioritizeBackImages && product.backImage) {
+                        // For other products, prioritize back images if setting is enabled
                         imageToShow = product.backImage;
                       } else if (prioritizeBackImages && product.showBackFirst && product.images?.[0]) {
                         imageToShow = product.images[0];
