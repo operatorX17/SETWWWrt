@@ -53,7 +53,13 @@ const PremiumRecommendations = ({ products, currentProductId }) => {
                 <Link to={`/product/${product.id}`} className="block relative">
                   <div className="aspect-square overflow-hidden bg-gray-800">
                     <img 
-                      src={product.images?.[0] || '/placeholder-product.jpg'} 
+                      src={(() => {
+                        // Special handling for products that should show front first
+                        if (product.showFrontFirst) {
+                          return product.primaryImage || product.images?.[0] || '/placeholder-product.jpg';
+                        }
+                        return product.images?.[0] || '/placeholder-product.jpg';
+                      })()} 
                       alt={product.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       onError={(e) => {
