@@ -76,13 +76,33 @@ const Home = () => {
     !p.title.includes('Cinder Fade') && !p.title.includes('Smoke Trail')
   );
 
-  // Prioritize TEES first, then good design hoodies
+  // Prioritize TEES first, then specific signature hoodies
   const tees = safeProducts.filter(p => p.category === 'tee').slice(0, 8);
-  const hoodies = safeProducts.filter(p => 
-    p.category === 'hoodie' && 
-    !p.title.includes('Cinder Fade') && 
-    !p.title.includes('Smoke Trail')
-  ).slice(0, 6);
+  
+  // Prioritized signature hoodies - SPECIFIC ORDER
+  const priorityHoodieIds = [
+    'og-hoodie-brass-mark',
+    'og-hoodie-iron-will', 
+    'og-hoodie-storm-chase-scene-037',
+    'og-hoodie-midnight-prowl-scene-044'
+  ];
+  
+  const priorityHoodies = priorityHoodieIds
+    .map(id => safeProducts.find(p => p.id === id || p.id.includes(id.replace(/-scene-\d+/, ''))))
+    .filter(Boolean);
+  
+  // Add other good hoodies if we need more
+  const otherHoodies = safeProducts
+    .filter(p => 
+      p.category === 'hoodie' && 
+      !p.title.includes('Cinder Fade') && 
+      !p.title.includes('Smoke Trail') &&
+      !priorityHoodies.some(priority => priority.id === p.id)
+    )
+    .slice(0, 2);
+  
+  const hoodies = [...priorityHoodies, ...otherHoodies].slice(0, 6);
+  
   const premiumProducts = safeProducts.filter(p => p.price >= 1000).slice(0, 6);
   const affordableProducts = safeProducts.filter(p => p.price < 999).slice(0, 8);
 
