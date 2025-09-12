@@ -68,26 +68,41 @@ const ProductDetail = () => {
     
     let images = [];
     
-    // Handle array format
-    if (Array.isArray(product.images)) {
-      images = product.images.filter(img => img && img.trim() !== '');
-    }
-    
-    // Handle object format
-    if (product.images && typeof product.images === 'object' && !Array.isArray(product.images)) {
-      if (product.images.back) images.push(product.images.back);
-      if (product.images.front) images.push(product.images.front);
-    }
-    
-    // Fallback to primaryImage
-    if (images.length === 0 && product.primaryImage) {
-      images = [product.primaryImage];
-    }
-    
-    // Fallback to backImage/frontImage
-    if (images.length === 0) {
-      if (product.backImage) images.push(product.backImage);
-      if (product.frontImage) images.push(product.frontImage);
+    // Special handling for products that should show front first (like Midnight Prowl)
+    if (product.showFrontFirst) {
+      // Prioritize front image for specific products
+      if (product.primaryImage) images.push(product.primaryImage);
+      
+      // Add any other images
+      if (Array.isArray(product.images)) {
+        product.images.forEach(img => {
+          if (img && img.trim() !== '' && !images.includes(img)) {
+            images.push(img);
+          }
+        });
+      }
+    } else {
+      // Handle array format
+      if (Array.isArray(product.images)) {
+        images = product.images.filter(img => img && img.trim() !== '');
+      }
+      
+      // Handle object format
+      if (product.images && typeof product.images === 'object' && !Array.isArray(product.images)) {
+        if (product.images.back) images.push(product.images.back);
+        if (product.images.front) images.push(product.images.front);
+      }
+      
+      // Fallback to primaryImage
+      if (images.length === 0 && product.primaryImage) {
+        images = [product.primaryImage];
+      }
+      
+      // Fallback to backImage/frontImage
+      if (images.length === 0) {
+        if (product.backImage) images.push(product.backImage);
+        if (product.frontImage) images.push(product.frontImage);
+      }
     }
     
     return images.length > 0 ? images : ['/placeholder-product.jpg'];
