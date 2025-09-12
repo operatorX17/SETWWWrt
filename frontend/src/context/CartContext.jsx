@@ -131,12 +131,22 @@ export const CartProvider = ({ children }) => {
     dispatch({ type: 'ADD_ITEM', payload: cartItem });
   };
 
-  const removeFromCart = (itemId) => {
-    dispatch({ type: 'REMOVE_ITEM', payload: itemId });
+  const removeFromCart = (itemId, selectedSize) => {
+    dispatch({ 
+      type: 'REMOVE_ITEM', 
+      payload: selectedSize ? { id: itemId, selectedSize } : itemId 
+    });
   };
 
-  const updateQuantity = (itemId, quantity) => {
-    dispatch({ type: 'UPDATE_QUANTITY', payload: { id: itemId, quantity } });
+  const updateQuantity = (itemId, selectedSize, quantity) => {
+    // Handle both 2-parameter and 3-parameter calls
+    if (typeof selectedSize === 'number') {
+      // 2-parameter call: updateQuantity(itemId, quantity)
+      dispatch({ type: 'UPDATE_QUANTITY', payload: { id: itemId, quantity: selectedSize } });
+    } else {
+      // 3-parameter call: updateQuantity(itemId, selectedSize, quantity)
+      dispatch({ type: 'UPDATE_QUANTITY', payload: { id: itemId, selectedSize, quantity } });
+    }
   };
 
   const clearCart = () => {
