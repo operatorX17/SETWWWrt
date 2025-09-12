@@ -5,10 +5,11 @@ import { useCart } from '../context/CartContext';
 import { formatPrice } from '../lib/price';
 import { initiateUPIPayment } from '../lib/upi';
 import { sendOrderToWhatsApp } from '../lib/wa';
-import { ShoppingCart, ArrowLeft, Heart, Share, Star, Truck, Shield, RefreshCw, Clock, Package, Users } from 'lucide-react';
+import { ShoppingCart, ArrowLeft, Heart, Share, Star, Truck, Shield, RefreshCw, Clock, Package, Users, Palette } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PremiumRecommendations from '../components/PremiumRecommendations';
+import VariantSelector from '../components/VariantSelector';
 import SizeChips from '../components/SizeChips';
 import Scarcity from '../components/Scarcity';
 import TrustChips from '../components/TrustChips';
@@ -31,6 +32,7 @@ const ProductDetail = () => {
   
   const [selectedImage, setSelectedImage] = useState(0);
   const [selectedSize, setSelectedSize] = useState('M');
+  const [selectedColor, setSelectedColor] = useState('');
   const [bundleItems, setBundleItems] = useState([]);
   const [codEnabled, setCodEnabled] = useState(false);
   const [cartSidebarOpen, setCartSidebarOpen] = useState(false);
@@ -42,11 +44,24 @@ const ProductDetail = () => {
       setSelectedSize('M');
       setImageError(false);
       
+      // Set default color for variants
+      if (product.hasVariants) {
+        setSelectedColor(product.defaultColor || product.variants[0]?.color || '');
+      }
+      
       if (product.bundle) {
         setBundleItems(product.bundle.map(item => ({ ...item, selected: false })));
       }
     }
   }, [product]);
+
+  // Get current variant based on selected color
+  const getCurrentVariant = () => {
+    if (!product?.hasVariants) return product;
+    return product.variants.find(v => v.color === selectedColor) || product.variants[0];
+  };
+
+  const currentVariant = getCurrentVariant();
 
   // Generate scarcity data
   const getProductScarcity = () => {
@@ -62,46 +77,40 @@ const ProductDetail = () => {
 
   const scarcity = getProductScarcity();
 
-  // Enhanced image handling with fallbacks
+  // Enhanced image handling with fallbacks and variants
   const getProductImages = () => {
     if (!product) return ['/placeholder-product.jpg'];
     
     let images = [];
     
-    // Special handling for products that should show front first (like Midnight Prowl)
-    if (product.showFrontFirst) {
-      // Prioritize front image for specific products
-      if (product.primaryImage) images.push(product.primaryImage);
-      
-      // Add any other images
-      if (Array.isArray(product.images)) {
-        product.images.forEach(img => {
-          if (img && img.trim() !== '' && !images.includes(img)) {
-            images.push(img);
-          }
-        });
+    // For products with variants, use selected color images
+    if (product.hasVariants && selectedColor && product.images_by_color) {
+      const colorImages = product.images_by_color[selectedColor];
+      if (colorImages && colorImages.images) {
+        images = Array.isArray(colorImages.images) ? colorImages.images : [colorImages.images];
+        if (colorImages.primaryImage && !images.includes(colorImages.primaryImage)) {
+          images.unshift(colorImages.primaryImage);
+        }
       }
-    } else {
-      // Handle array format
+    }
+    
+    // Fallback to current variant images
+    if (images.length === 0 && currentVariant) {
+      if (currentVariant.images) {
+        images = Array.isArray(currentVariant.images) ? currentVariant.images : [currentVariant.images];
+      }
+      if (currentVariant.primaryImage && !images.includes(currentVariant.primaryImage)) {
+        images.unshift(currentVariant.primaryImage);
+      }
+    }
+    
+    // Final fallback to product images
+    if (images.length === 0) {
       if (Array.isArray(product.images)) {
         images = product.images.filter(img => img && img.trim() !== '');
       }
-      
-      // Handle object format
-      if (product.images && typeof product.images === 'object' && !Array.isArray(product.images)) {
-        if (product.images.back) images.push(product.images.back);
-        if (product.images.front) images.push(product.images.front);
-      }
-      
-      // Fallback to primaryImage
-      if (images.length === 0 && product.primaryImage) {
-        images = [product.primaryImage];
-      }
-      
-      // Fallback to backImage/frontImage
-      if (images.length === 0) {
-        if (product.backImage) images.push(product.backImage);
-        if (product.frontImage) images.push(product.frontImage);
+      if (product.primaryImage && !images.includes(product.primaryImage)) {
+        images.unshift(product.primaryImage);
       }
     }
     
@@ -117,31 +126,33 @@ const ProductDetail = () => {
 
   const handleAddToCart = () => {
     if (product) {
-      const productWithSize = {
+      const productWithVariant = {
         ...product,
+        ...currentVariant,
         selectedSize,
+        selectedColor: selectedColor || 'Default',
         quantity: 1
       };
-      addToCart(productWithSize);
+      addToCart(productWithVariant);
       setCartSidebarOpen(true);
     }
   };
 
   const handleBuyNow = () => {
-    if (product) {
+    if (product && currentVariant) {
       initiateUPIPayment({
-        amount: product.price,
-        productName: product.title,
+        amount: currentVariant.price || product.price,
+        productName: `${product.title} - ${selectedColor}`,
         orderId: `ORD${Date.now()}`
       });
     }
   };
 
   const handleWhatsAppOrder = () => {
-    if (product) {
+    if (product && currentVariant) {
       sendOrderToWhatsApp({
-        productName: product.title,
-        price: product.price,
+        productName: `${product.title} - ${selectedColor}`,
+        price: currentVariant.price || product.price,
         size: selectedSize,
         image: currentImage
       });
@@ -198,7 +209,7 @@ const ProductDetail = () => {
               <div className="aspect-square lg:aspect-[4/5] mb-4 rounded-2xl overflow-hidden bg-gray-900 border border-gray-800">
                 <img 
                   src={currentImage} 
-                  alt={product.title}
+                  alt={`${product.title} - ${selectedColor}`}
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     if (!imageError) {
@@ -249,13 +260,26 @@ const ProductDetail = () => {
                       {badge}
                     </span>
                   ))}
+                  {product.hasVariants && (
+                    <span className="px-3 py-1 bg-blue-600 text-white text-xs font-bold rounded-full flex items-center gap-1">
+                      <Palette size={12} />
+                      {product.variant_count} Colors
+                    </span>
+                  )}
                 </div>
                 
                 {/* Price */}
                 <div className="flex items-baseline gap-3 mb-4">
-                  <span className="text-3xl font-bold text-red-400">₹{product.price}</span>
-                  {product.compareAtPrice && (
-                    <span className="text-xl text-gray-500 line-through">₹{product.compareAtPrice}</span>
+                  <span className="text-3xl font-bold text-red-400">
+                    ₹{currentVariant?.price || product.price}
+                  </span>
+                  {(currentVariant?.compare_at_price || product.compare_at_price) && (
+                    <span className="text-xl text-gray-500 line-through">
+                      ₹{currentVariant?.compare_at_price || product.compare_at_price}
+                    </span>
+                  )}
+                  {product.price_range && (
+                    <span className="text-sm text-gray-400">Range: {product.price_range}</span>
                   )}
                 </div>
                 
@@ -275,6 +299,17 @@ const ProductDetail = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Variant Selection */}
+              {product.hasVariants && (
+                <VariantSelector 
+                  product={product}
+                  selectedColor={selectedColor}
+                  onColorChange={setSelectedColor}
+                  selectedSize={selectedSize}
+                  onSizeChange={setSelectedSize}
+                />
+              )}
 
               {/* Size Selection */}
               <div className="mb-6">
@@ -305,6 +340,9 @@ const ProductDetail = () => {
                 >
                   <ShoppingCart size={20} />
                   Add to Cart
+                  {product.hasVariants && selectedColor && (
+                    <span className="text-sm opacity-75">({selectedColor})</span>
+                  )}
                 </button>
                 
                 <button
@@ -320,6 +358,9 @@ const ProductDetail = () => {
                 <p className="text-gray-300 leading-relaxed">
                   {product.description}
                 </p>
+                {currentVariant?.scene_code && (
+                  <p className="text-sm text-gray-400 mt-2">Scene Code: {currentVariant.scene_code}</p>
+                )}
               </div>
 
               {/* Trust Elements */}
