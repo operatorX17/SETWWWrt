@@ -146,9 +146,10 @@ const Shop = () => {
       <Header />
       <FloatingNavigation />
       
-      <div className="max-w-7xl mx-auto px-6 py-8">
-        {/* Page Title */}
-        <div className="bg-gradient-to-r from-orange-900 via-black to-orange-900 text-white py-16 -mx-6 mb-12">
+      {/* Fixed spacing for header */}
+      <div className="pt-20">
+        {/* Page Title - Fixed spacing */}
+        <div className="bg-gradient-to-r from-orange-900 via-black to-orange-900 text-white py-12 mb-8">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-6xl font-bold mb-4">
@@ -157,16 +158,17 @@ const Shop = () => {
               <p className="text-xl md:text-2xl text-orange-300 mb-2">
                 They Call Him OG - Power Star Pawan Kalyan Official Merchandise
               </p>
-              <p className="text-lg text-gray-300 mb-8">
+              <p className="text-lg text-gray-300">
                 {currentTab.description} {currentTab.priceRange && `• ${currentTab.priceRange}`}
               </p>
             </div>
           </div>
         </div>
 
-        {/* Tab Navigation */}
-        <div className="mb-8">
-          <div className="flex flex-wrap items-center gap-4 md:gap-8 border-b border-gray-800 pb-4">
+        <div className="max-w-7xl mx-auto px-6">
+          {/* Tab Navigation */}
+          <div className="mb-8">
+            <div className="flex flex-wrap items-center gap-4 md:gap-8 border-b border-gray-800 pb-4">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
