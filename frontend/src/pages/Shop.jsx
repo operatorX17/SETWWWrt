@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useFilteredProductsWithUnlock } from '../hooks/useProducts';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import FloatingNavigation from '../components/FloatingNavigation';
 import PremiumProductCard from '../components/PremiumProductCard';
 
 const Shop = () => {
